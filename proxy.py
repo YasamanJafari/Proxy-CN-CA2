@@ -8,10 +8,11 @@ CONFIG_FILE_NAME = "config.json"
 LOG_FILE_NAME = "proxy.log"
 DATA_SIZE = 1024
 
-def writeLogInFile():
+def writeTimeInFile():
 	logFile = open(LOG_FILE_NAME, "a")
 	now = getCurrentTime()
-	logFile.write(now.strftime("[%d/%b/%Y:%H:%M:%S]"), end =" ")
+	parsedTime = now.strftime("[%d/%b/%Y:%H:%M:%S] ")
+	logFile.write(parsedTime)
 	logFile.close()
 
 def getCurrentTime():
@@ -55,4 +56,5 @@ def readConfig():
 
 if __name__ == "__main__":
 	parsedInfo = readConfig()
+	writeLogInFile()
 	createSocket(parsedInfo["port"])
