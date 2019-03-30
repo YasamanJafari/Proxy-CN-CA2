@@ -2,7 +2,7 @@ import asyncio
 import json
 import socket
 
-HOST = '127.0.0.1'
+HOST = "192.168.11.2"
 CONFIG_FILE_NAME = "config.json"
 
 def createSocket(portNum):
