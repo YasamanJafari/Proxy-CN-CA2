@@ -43,8 +43,25 @@ def processRequest(con, addr):
 	#recv response from server
 	#send response to client
 
-#def parseHTTP(data):
+def convertProxyHTTPtoReqHTTP(data):
+	lines = data.split("\r\n")
+	
+	startLine = lines[0]
+	# startLine = processStartLine(startLine)
+	result = [startLine]
 
+	lines = lines[1:]
+	header = True
+	for line in lines:
+		if line == "":
+			header = False
+		if header:
+			if "Proxy-Connection:" in line:
+				continue
+		result.append(line)
+	return result
+	
+#def processStartLine(startLine):
 
 def readConfig():
 	with open(CONFIG_FILE_NAME) as json_file:  
