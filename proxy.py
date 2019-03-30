@@ -1,15 +1,26 @@
+import datetime
 import json
 import socket
 import threading
 
-HOST = "192.168.11.2"
+HOST = '127.0.0.1'
 CONFIG_FILE_NAME = "config.json"
+LOG_FILE_NAME = "proxy.log"
 DATA_SIZE = 1024
+
+def writeLogInFile():
+	logFile = open(LOG_FILE_NAME, "a")
+	now = getCurrentTime()
+	logFile.write(now.strftime("[%d/%b/%Y:%H:%M:%S]"), end =" ")
+	logFile.close()
+
+def getCurrentTime():
+	return datetime.datetime.now()	
 
 def createSocket(portNum):
 	threads = []
 	with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
-		s.bind(HOST, portNum)
+		s.bind((HOST, portNum))
 		s.listen()
 		while True:
 			con, addr = s.accept()
@@ -40,7 +51,7 @@ def readConfig():
 		data = json.load(json_file)
 	return data
 
-# async def getRequesst():
+# async def getRequest():
 
 if __name__ == "__main__":
 	parsedInfo = readConfig()
