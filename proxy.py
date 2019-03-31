@@ -54,15 +54,26 @@ def processRequest(con, addr):
 	writeMsgToFile(ACCEPT_REQ_FROM_CLIENT)
 	data = ""
 	while True:
-		data += con.recv(DATA_SIZE)
+		data += con.recv(DATA_SIZE).decode()
 		if not data:
 			break
 	host, request = convertProxyHTTPtoReqHTTP(data)
 	
-	#TODO:
-	#send request to server
-	#recv response from server
-	#send response to client
+	response = sendRequest(host, request)
+	con.send(response)
+	con.close()
+	
+
+def sendRequest(host, request):
+	s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)                 
+
+	s.connect((host , 80))
+	s.sendall(request)
+	response = s.recv(4096)
+	s.close()
+
+	print(response)
+	return response
 
 def convertProxyHTTPtoReqHTTP(data):
 	lines = data.split("\r\n")
