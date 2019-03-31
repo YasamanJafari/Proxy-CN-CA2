@@ -120,7 +120,7 @@ def processStartLine(startLine):
 		path = urlParts[3]
 		host = urlParts[2]
 	
-	else if url.count("/") > 0:
+	elif url.count("/") > 0:
 		urlParts = url.split("/", 1)
 		path = urlParts[1]
 		host = urlParts[0]
