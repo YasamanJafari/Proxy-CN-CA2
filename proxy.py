@@ -4,6 +4,8 @@ import socket
 import threading
 
 isLoggingNeeded = False
+isPrivacyNeeded = False
+defaultUserAgent = ""
 logFileName = ""
 
 HOST = '127.0.0.1'
@@ -57,7 +59,7 @@ def processRequest(con, addr):
 	isFirstPacket = True
 	socket = ""
 	while True:
-		data = con.recv(DATA_SIZE).decode()
+		data = con.recv(DATA_SIZE).decode("UTF-8")
 		if not data:
 			break
 		if isFirstPacket:
@@ -66,9 +68,9 @@ def processRequest(con, addr):
 		
 		socket = sendRequest(host, request, con)
 
-	if data:
-		socket.close()
-		con.close()
+	# if data:
+	# 	socket.close()
+	# con.close()
 
 def sendRequest(host, request, con):
 	print("SEND REQUEST BEGIN")
@@ -98,11 +100,14 @@ def convertProxyHTTPtoReqHTTP(data):
 		if header:
 			if "Proxy-Connection:" in line:
 				continue
+			if "User-Agent:" in line:
+				line = "User-Agent: " + defaultUserAgent 
 		result.append(line + "\r\n")
 	
 	request = ""
 	for line in result:
 		request += line
+	print(request)
 	return host, request
 	
 def processStartLine(startLine):
@@ -141,4 +146,7 @@ if __name__ == "__main__":
 	isLoggingNeeded = parsedInfo["logging"]["enable"]
 	if(isLoggingNeeded):
 		logFileName = parsedInfo["logging"]["logFile"]
+	isPrivacyNeeded = parsedInfo["privacy"]["enable"]
+	if(isPrivacyNeeded):
+		defaultUserAgent = parsedInfo["privacy"]["userAgent"]	
 	createSocket(parsedInfo["port"])
