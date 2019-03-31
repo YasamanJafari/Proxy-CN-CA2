@@ -85,6 +85,15 @@ def sendRequest(host, request, con):
 		if not response:
 			return s
 
+def getRequestHeader(request):
+	parts = request.split("\r\n", 1)
+	
+	newParts = parts[1].split("\r\n\r\n", 1)
+
+	header = newParts[0]
+	
+	return header + "\r\n"
+
 def convertProxyHTTPtoReqHTTP(data):
 	lines = data.split("\r\n")
 	
