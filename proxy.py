@@ -53,11 +53,10 @@ def processRequest(con, addr):
 	writeMsgToFile(ACCEPT_REQ_FROM_CLIENT)
 	data = ""
 	while True:
-		print(data)
-		data += con.recv(DATA_SIZE).decode()
+		data += con.recv(DATA_SIZE)
 		if not data:
 			break
-	# parsedData = parseHTTP(data)
+	request = convertProxyHTTPtoReqHTTP(data)
 	#TODO: 
 	#send request to server
 	#recv response from server
@@ -67,7 +66,7 @@ def convertProxyHTTPtoReqHTTP(data):
 	lines = data.split("\r\n")
 	
 	startLine = lines[0]
-	# startLine = processStartLine(startLine)
+	startLine = processStartLine(startLine)
 	result = [startLine]
 
 	lines = lines[1:]
@@ -81,7 +80,15 @@ def convertProxyHTTPtoReqHTTP(data):
 		result.append(line)
 	return result
 	
-#def processStartLine(startLine):
+def processStartLine(startLine):
+	parts = startLine.split("//")
+	url, http = parts[1].split(" ")
+	
+	urlParts = url.split("/", 1)
+	url = "/" + urlParts[1]
+	
+	result = parts[0] + url + " HTTP/1.0"
+	return result
 
 def readConfig():
 	with open(CONFIG_FILE_NAME) as json_file:  
