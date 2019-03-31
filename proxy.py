@@ -58,7 +58,8 @@ def processRequest(con, addr):
 	writeMsgToFile(ACCEPT_REQ_FROM_CLIENT)
 	data = ""
 	while True:
-		data += con.recv(DATA_SIZE)
+		print(data)
+		data += con.recv(DATA_SIZE).decode()
 		if not data:
 			break
 	# parsedData = parseHTTP(data)
@@ -74,6 +75,7 @@ def convertProxyHTTPtoReqHTTP(data):
 	# startLine = processStartLine(startLine)
 	result = [startLine]
 
+	print(lines)
 	lines = lines[1:]
 	header = True
 	for line in lines:
