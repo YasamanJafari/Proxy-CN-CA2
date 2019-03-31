@@ -37,6 +37,7 @@ def createSocket(portNum):
 	writeMsgToFile(SOCKET_CREATION_MSG)
 	threads = []
 	with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+		s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
 		writeMsgToFile(BIND_PORT_MSG + str(portNum) + "...")
 		s.bind((HOST, portNum))
 		writeMsgToFile(LISTEN_FOR_REQ_MSG)
@@ -57,17 +58,22 @@ def processRequest(con, addr):
 		data += con.recv(DATA_SIZE).decode()
 		if not data:
 			break
+
+	print("HELLLLO")
 	host, request = convertProxyHTTPtoReqHTTP(data)
-	
+	print("HOST REQ")
+	print(request)
+
 	response = sendRequest(host, request)
 	con.send(response)
 	con.close()
 	
 
 def sendRequest(host, request):
+	print("SEND REQUEST BEGIN")
 	s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)                 
 
-	s.connect((host , 80))
+	s.connect((host, 80))
 	s.sendall(request)
 	response = s.recv(4096)
 	s.close()
@@ -90,7 +96,7 @@ def convertProxyHTTPtoReqHTTP(data):
 		if header:
 			if "Proxy-Connection:" in line:
 				continue
-		result.append(line)
+		result.append(line + "\r\n")
 	return host, result
 	
 def processStartLine(startLine):
