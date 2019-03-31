@@ -17,7 +17,7 @@ LISTEN_FOR_REQ_MSG = "Listening for incoming requests..."
 ACCEPT_REQ_FROM_CLIENT = "Accepted a request from client!"
 LINE_DELIMETER = "\n"
 
-DATA_SIZE = 10000
+DATA_SIZE = 8192
 
 def getCurrentTime():
 	now = datetime.datetime.now()
@@ -57,7 +57,7 @@ def processRequest(con, addr):
 	isFirstPacket = True
 	socket = ""
 	while True:
-		data = con.recv(DATA_SIZE).decode('utf8', 'ignore')
+		data = con.recv(DATA_SIZE).decode()
 		if not data:
 			break
 		if isFirstPacket:
@@ -66,8 +66,9 @@ def processRequest(con, addr):
 		
 		socket = sendRequest(host, request, con)
 
-	socket.close()
-	con.close()
+	if data:
+		socket.close()
+		con.close()
 
 def sendRequest(host, request, con):
 	print("SEND REQUEST BEGIN")
