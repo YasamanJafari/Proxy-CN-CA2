@@ -55,10 +55,14 @@ def processRequest(con, addr):
 	writeMsgToFile(ACCEPT_REQ_FROM_CLIENT)
 	data = ""
 	while True:
-		newData = con.recv(DATA_SIZE).decode()
-		if not newData:
+		try:
+			con.settimeout(1.0)
+			newData = con.recv(DATA_SIZE).decode()
+			print("$", newData, "$$")
+		except OSError:
+			data += newData
 			break
-		data += newData
+		
 
 	print("HELLLLO")
 	host, request = convertProxyHTTPtoReqHTTP(data)
@@ -74,7 +78,7 @@ def sendRequest(host, request):
 	print("SEND REQUEST BEGIN")
 	s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)                 
 
-	s.connect((host, 80))
+	s.connect((socket.gethostbyname(host), 80))
 	s.sendall(request)
 	response = s.recv(4096)
 	s.close()
@@ -98,12 +102,18 @@ def convertProxyHTTPtoReqHTTP(data):
 			if "Proxy-Connection:" in line:
 				continue
 		result.append(line + "\r\n")
-	return host, result
+	
+	request = ""
+	for line in result:
+		request += line
+	return host, request
 	
 def processStartLine(startLine):
 	print("STARTLINE", startLine)
-	reqType, url, = startLine.split(" ")
+	parts= startLine.split(" ")
+	reqType = parts[0]
 	
+	url = parts[1]
 	urlParts = url.split("/", 3)
 	url = "/" + urlParts[3]
 	
