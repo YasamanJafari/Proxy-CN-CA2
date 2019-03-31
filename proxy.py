@@ -55,7 +55,7 @@ def processRequest(con, addr):
 	writeMsgToFile(ACCEPT_REQ_FROM_CLIENT)
 	data = ""
 	while not data:
-		data = con.recv(DATA_SIZE).decode()
+		data = con.recv(DATA_SIZE).decode('UTF-8')
 		print("$", data, "$$")
 	if not data:
 		print("NO DATA")
