@@ -20,16 +20,17 @@ LINE_DELIMETER = "\n"
 DATA_SIZE = 1024
 
 def getCurrentTime():
-	now = getCurrentTime()
+	now = datetime.datetime.now()
 	parsedTime = now.strftime("[%d/%b/%Y:%H:%M:%S] ")
 	return parsedTime
 
 def writeMsgToFile(message):
 	if(not isLoggingNeeded):
 		return
-	now = getCurrentTime
+	now = getCurrentTime()
 	logFile = open(logFileName, "a")
-	logFile.write(now + message + LINE_DELIMETER)
+	logFile.write(now)
+	logFile.write(message + LINE_DELIMETER)
 	logFile.close()
 
 def createSocket(portNum):
