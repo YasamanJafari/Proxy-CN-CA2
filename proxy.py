@@ -54,20 +54,18 @@ def createSocket(portNum):
 def processRequest(con, addr):
 	writeMsgToFile(ACCEPT_REQ_FROM_CLIENT)
 	data = ""
-	while True:
-		try:
-			con.settimeout(1.0)
-			newData = con.recv(DATA_SIZE).decode()
-			print("$", newData, "$$")
-		except OSError:
-			data += newData
-			break
-		
+	while not data:
+		data = con.recv(DATA_SIZE).decode()
+		print("$", data, "$$")
+	if not data:
+		print("NO DATA")
+		return
 
 	print("HELLLLO")
 	host, request = convertProxyHTTPtoReqHTTP(data)
 	print("HOST REQ")
 	print(request)
+	print(host)
 
 	response = sendRequest(host, request)
 	con.send(response)
@@ -77,9 +75,10 @@ def processRequest(con, addr):
 def sendRequest(host, request):
 	print("SEND REQUEST BEGIN")
 	s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)                 
-
+	
+	print(host)
 	s.connect((socket.gethostbyname(host), 80))
-	s.sendall(request)
+	s.sendall(request.encode())
 	response = s.recv(4096)
 	s.close()
 
@@ -117,8 +116,8 @@ def processStartLine(startLine):
 	urlParts = url.split("/", 3)
 	url = "/" + urlParts[3]
 	
-	result = reqType + url + " HTTP/1.0"
-	return urlParts[0], result
+	result = reqType + " " + url + " HTTP/1.0" + "\r\n"
+	return urlParts[2], result
 
 def readConfig():
 	with open(CONFIG_FILE_NAME) as json_file:  
