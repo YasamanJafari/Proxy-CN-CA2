@@ -19,23 +19,18 @@ LINE_DELIMETER = "\n"
 
 DATA_SIZE = 1024
 
-def writeTimeInFile():
-	logFile = open(logFileName, "a")
+def getCurrentTime():
 	now = getCurrentTime()
 	parsedTime = now.strftime("[%d/%b/%Y:%H:%M:%S] ")
-	logFile.write(parsedTime)
-	logFile.close()
+	return parsedTime
 
 def writeMsgToFile(message):
 	if(not isLoggingNeeded):
 		return
-	writeTimeInFile()
+	now = getCurrentTime
 	logFile = open(logFileName, "a")
-	logFile.write(message + LINE_DELIMETER)
+	logFile.write(now + message + LINE_DELIMETER)
 	logFile.close()
-
-def getCurrentTime():
-	return datetime.datetime.now()	
 
 def createSocket(portNum):
 	writeMsgToFile(SOCKET_CREATION_MSG)
@@ -100,8 +95,6 @@ def readConfig():
 	with open(CONFIG_FILE_NAME) as json_file:  
 		data = json.load(json_file)
 	return data
-
-# async def getRequest():
 
 if __name__ == "__main__":
 	writeMsgToFile(PROXY_LAUNCH_MSG)
