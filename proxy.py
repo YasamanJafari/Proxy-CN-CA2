@@ -113,13 +113,23 @@ def processStartLine(startLine):
 	reqType = parts[0]
 	
 	url = parts[1]
-	host = url
-	if url.count() > 2:
+	host = ""
+	path = ""
+	if url.count("//") == 1:
 		urlParts = url.split("/", 3)
-		url = "/" + urlParts[3]
+		path = urlParts[3]
 		host = urlParts[2]
 	
-	result = reqType + " " + url + " HTTP/1.0" + "\r\n"
+	else if url.count("/") > 0:
+		urlParts = url.split("/", 1)
+		path = urlParts[1]
+		host = urlParts[0]
+	
+	else:
+		host = url
+		path = ""
+	
+	result = reqType + " /" + path + " HTTP/1.0" + "\r\n"
 	return host, result
 
 def readConfig():
