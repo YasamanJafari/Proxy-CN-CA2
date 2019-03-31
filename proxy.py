@@ -55,9 +55,10 @@ def processRequest(con, addr):
 	writeMsgToFile(ACCEPT_REQ_FROM_CLIENT)
 	data = ""
 	while True:
-		data += con.recv(DATA_SIZE).decode()
-		if not data:
+		newData = con.recv(DATA_SIZE).decode()
+		if not newData:
 			break
+		data += newData
 
 	print("HELLLLO")
 	host, request = convertProxyHTTPtoReqHTTP(data)
@@ -100,13 +101,13 @@ def convertProxyHTTPtoReqHTTP(data):
 	return host, result
 	
 def processStartLine(startLine):
-	parts = startLine.split("//")
-	url, http = parts[1].split(" ")
+	print("STARTLINE", startLine)
+	reqType, url, = startLine.split(" ")
 	
-	urlParts = url.split("/", 1)
-	url = "/" + urlParts[1]
+	urlParts = url.split("/", 3)
+	url = "/" + urlParts[3]
 	
-	result = parts[0] + url + " HTTP/1.0"
+	result = reqType + url + " HTTP/1.0"
 	return urlParts[0], result
 
 def readConfig():
