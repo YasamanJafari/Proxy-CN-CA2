@@ -17,7 +17,7 @@ LISTEN_FOR_REQ_MSG = "Listening for incoming requests..."
 ACCEPT_REQ_FROM_CLIENT = "Accepted a request from client!"
 LINE_DELIMETER = "\n"
 
-DATA_SIZE = 1024
+DATA_SIZE = 1000000000
 
 def getCurrentTime():
 	now = datetime.datetime.now()
@@ -54,36 +54,48 @@ def createSocket(portNum):
 def processRequest(con, addr):
 	writeMsgToFile(ACCEPT_REQ_FROM_CLIENT)
 	data = ""
-	while not data:
+	isFirstPacket = True
+	while True:
 		data = con.recv(DATA_SIZE).decode('UTF-8')
-		print("$", data, "$$")
-	if not data:
-		print("NO DATA")
-		return
+		if not data:
+			break
+		if isFirstPacket:
+			isFirstPacket = False
+			host, request = convertProxyHTTPtoReqHTTP(data)
+		
+		sendRequest(host, request, con)
+	
+	con.close
+	# while not data:
+	# 	data = con.recv(DATA_SIZE).decode('UTF-8')
+	# 	print("$", data, "$$")
+	# if not data:
+	# 	print("NO DATA")
+	# 	return
 
-	print("HELLLLO")
-	host, request = convertProxyHTTPtoReqHTTP(data)
-	print("HOST REQ")
-	print(request)
-	print(host)
+	# print("HELLLLO")
+	# host, request = convertProxyHTTPtoReqHTTP(data)
+	# print("HOST REQ")
+	# print(request)
+	# print(host)
 
-	response = sendRequest(host, request)
-	con.send(response)
-	con.close()
+	# sendRequest(host, request, con)
+	# con.close()
 	
 
-def sendRequest(host, request):
+def sendRequest(host, request, con):
 	print("SEND REQUEST BEGIN")
 	s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)                 
 	
 	print(host)
 	s.connect((socket.gethostbyname(host), 80))
 	s.sendall(request.encode())
-	response = s.recv(4096)
-	s.close()
-
-	print(response)
-	return response
+	while True:
+		response = s.recv(DATA_SIZE)
+		con.send(response)
+		if not response:
+			s.close
+			return
 
 def convertProxyHTTPtoReqHTTP(data):
 	lines = data.split("\r\n")
