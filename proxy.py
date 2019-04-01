@@ -7,6 +7,7 @@ isLoggingNeeded = False
 isPrivacyNeeded = False
 defaultUserAgent = ""
 logFileName = ""
+portNum = ""
 
 HOST = '127.0.0.1'
 
@@ -16,7 +17,9 @@ PROXY_LAUNCH_MSG = "Proxy launched"
 SOCKET_CREATION_MSG = "Creating server socket..."
 BIND_PORT_MSG = "Binding socket to port "
 LISTEN_FOR_REQ_MSG = "Listening for incoming requests..."
-ACCEPT_REQ_FROM_CLIENT = "Accepted a request from client!"
+ACCEPT_REQ_FROM_CLIENT_MSG = "Accepted a request from client!"
+CLIENT_REQ_MSG = "Client sent request to proxy with headers:"
+BORDER = "\n----------------------------------------------------------------------\n"
 LINE_DELIMETER = "\n"
 
 DATA_SIZE = 8192
@@ -35,7 +38,7 @@ def writeMsgToFile(message):
 	logFile.write(message + LINE_DELIMETER)
 	logFile.close()
 
-def createSocket(portNum):
+def createSocket():
 	writeMsgToFile(SOCKET_CREATION_MSG)
 	threads = []
 	with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
@@ -54,7 +57,7 @@ def createSocket(portNum):
 			thread.join()
 
 def processRequest(con, addr):
-	writeMsgToFile(ACCEPT_REQ_FROM_CLIENT)
+	writeMsgToFile(ACCEPT_REQ_FROM_CLIENT_MSG)
 	data = ""
 	isFirstPacket = True
 	socket = ""
@@ -68,12 +71,12 @@ def processRequest(con, addr):
 		
 		socket = sendRequest(host, request, con)
 
-	# if data:
-	# 	socket.close()
-	# con.close()
+	if data:
+		socket.close()
+	con.close()
 
 def sendRequest(host, request, con):
-	print("SEND REQUEST BEGIN")
+	writeMsgToFile("connect to [" + host + "] from " + HOST + " " + portNum)
 	s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)                 
 	
 	print(host)
@@ -87,14 +90,13 @@ def sendRequest(host, request, con):
 
 def getRequestHeader(request):
 	parts = request.split("\r\n", 1)
-	
 	newParts = parts[1].split("\r\n\r\n", 1)
-
 	header = newParts[0]
-	
 	return header + "\r\n"
 
 def convertProxyHTTPtoReqHTTP(data):
+	writeMsgToFile(CLIENT_REQ_MSG)
+	writeMsgToFile(BORDER + getRequestHeader(data) + BORDER)
 	lines = data.split("\r\n")
 	
 	startLine = lines[0]
@@ -157,5 +159,6 @@ if __name__ == "__main__":
 		logFileName = parsedInfo["logging"]["logFile"]
 	isPrivacyNeeded = parsedInfo["privacy"]["enable"]
 	if(isPrivacyNeeded):
-		defaultUserAgent = parsedInfo["privacy"]["userAgent"]	
-	createSocket(parsedInfo["port"])
+		defaultUserAgent = parsedInfo["privacy"]["userAgent"]
+	portNum = parsedInfo["port"]	
+	createSocket()
