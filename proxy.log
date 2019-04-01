@@ -3044,3 +3044,3285 @@
 [31/Mar/2019:20:02:52] Accepted a request from client!
 [31/Mar/2019:20:02:52] Accepted a request from client!
 [31/Mar/2019:20:02:53] Accepted a request from client!
+[01/Apr/2019:14:43:30] Creating server socket...
+[01/Apr/2019:14:43:30] Binding socket to port 8080...
+[01/Apr/2019:14:43:30] Listening for incoming requests...
+[01/Apr/2019:14:43:46] Accepted a request from client!
+[01/Apr/2019:14:43:46] Accepted a request from client!
+[01/Apr/2019:14:43:46] Client sent request to proxy with headers:
+[01/Apr/2019:14:43:46] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:44:11] Creating server socket...
+[01/Apr/2019:14:44:11] Binding socket to port 8080...
+[01/Apr/2019:14:44:11] Listening for incoming requests...
+[01/Apr/2019:14:44:21] Accepted a request from client!
+[01/Apr/2019:14:44:21] Client sent request to proxy with headers:
+[01/Apr/2019:14:44:21] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:44:28] Accepted a request from client!
+[01/Apr/2019:14:44:28] Accepted a request from client!
+[01/Apr/2019:14:44:28] Client sent request to proxy with headers:
+[01/Apr/2019:14:44:28] Client sent request to proxy with headers:
+[01/Apr/2019:14:44:28] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:44:28] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:44:28] Accepted a request from client!
+[01/Apr/2019:14:44:28] Accepted a request from client!
+[01/Apr/2019:14:44:28] Client sent request to proxy with headers:
+[01/Apr/2019:14:44:28] Client sent request to proxy with headers:
+[01/Apr/2019:14:44:28] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:44:28] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:44:28] Accepted a request from client!
+[01/Apr/2019:14:44:28] Accepted a request from client!
+[01/Apr/2019:14:44:28] Client sent request to proxy with headers:
+[01/Apr/2019:14:44:28] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:44:28] Client sent request to proxy with headers:
+[01/Apr/2019:14:44:28] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:44:28] Accepted a request from client!
+[01/Apr/2019:14:44:28] Accepted a request from client!
+[01/Apr/2019:14:44:28] Client sent request to proxy with headers:
+[01/Apr/2019:14:44:28] Client sent request to proxy with headers:
+[01/Apr/2019:14:44:28] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:44:28] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:44:28] Accepted a request from client!
+[01/Apr/2019:14:44:28] Accepted a request from client!
+[01/Apr/2019:14:44:28] Client sent request to proxy with headers:
+[01/Apr/2019:14:44:28] Client sent request to proxy with headers:
+[01/Apr/2019:14:44:28] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:44:28] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:44:28] Accepted a request from client!
+[01/Apr/2019:14:44:28] Client sent request to proxy with headers:
+[01/Apr/2019:14:44:28] Accepted a request from client!
+[01/Apr/2019:14:44:28] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:44:28] Client sent request to proxy with headers:
+[01/Apr/2019:14:44:28] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:44:28] Accepted a request from client!
+[01/Apr/2019:14:44:28] Client sent request to proxy with headers:
+[01/Apr/2019:14:44:28] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:44:28] Accepted a request from client!
+[01/Apr/2019:14:44:28] Client sent request to proxy with headers:
+[01/Apr/2019:14:44:28] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:44:28] Accepted a request from client!
+[01/Apr/2019:14:44:28] Client sent request to proxy with headers:
+[01/Apr/2019:14:44:28] Accepted a request from client!
+[01/Apr/2019:14:44:28] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:44:28] Client sent request to proxy with headers:
+[01/Apr/2019:14:44:28] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:44:28] Accepted a request from client!
+[01/Apr/2019:14:44:28] Client sent request to proxy with headers:
+[01/Apr/2019:14:44:28] Accepted a request from client!
+[01/Apr/2019:14:44:28] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:44:28] Client sent request to proxy with headers:
+[01/Apr/2019:14:44:28] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:44:28] Accepted a request from client!
+[01/Apr/2019:14:44:28] Client sent request to proxy with headers:
+[01/Apr/2019:14:44:28] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:44:28] Accepted a request from client!
+[01/Apr/2019:14:44:28] Client sent request to proxy with headers:
+[01/Apr/2019:14:44:28] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:44:28] Accepted a request from client!
+[01/Apr/2019:14:44:28] Accepted a request from client!
+[01/Apr/2019:14:44:28] Client sent request to proxy with headers:
+[01/Apr/2019:14:44:28] Client sent request to proxy with headers:
+[01/Apr/2019:14:44:28] 
+----------------------------------------------------------------------
+Host: www.sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:44:28] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:44:28] Accepted a request from client!
+[01/Apr/2019:14:44:28] Accepted a request from client!
+[01/Apr/2019:14:44:28] Client sent request to proxy with headers:
+[01/Apr/2019:14:44:28] Client sent request to proxy with headers:
+[01/Apr/2019:14:44:28] 
+----------------------------------------------------------------------
+Host: www.sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:44:28] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:44:28] Accepted a request from client!
+[01/Apr/2019:14:44:28] Accepted a request from client!
+[01/Apr/2019:14:44:28] Client sent request to proxy with headers:
+[01/Apr/2019:14:44:28] Client sent request to proxy with headers:
+[01/Apr/2019:14:44:28] 
+----------------------------------------------------------------------
+Host: www.sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:44:28] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:44:28] Accepted a request from client!
+[01/Apr/2019:14:44:28] Client sent request to proxy with headers:
+[01/Apr/2019:14:44:28] Accepted a request from client!
+[01/Apr/2019:14:44:28] Client sent request to proxy with headers:
+[01/Apr/2019:14:44:28] 
+----------------------------------------------------------------------
+Host: www.sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:44:28] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:44:28] Accepted a request from client!
+[01/Apr/2019:14:44:28] Accepted a request from client!
+[01/Apr/2019:14:44:28] Client sent request to proxy with headers:
+[01/Apr/2019:14:44:28] Client sent request to proxy with headers:
+[01/Apr/2019:14:44:28] 
+----------------------------------------------------------------------
+Host: www.sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:44:28] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:44:28] Accepted a request from client!
+[01/Apr/2019:14:44:28] Accepted a request from client!
+[01/Apr/2019:14:44:28] Client sent request to proxy with headers:
+[01/Apr/2019:14:44:28] Client sent request to proxy with headers:
+[01/Apr/2019:14:44:28] 
+----------------------------------------------------------------------
+Host: www.sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:44:28] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:44:28] Accepted a request from client!
+[01/Apr/2019:14:44:28] Client sent request to proxy with headers:
+[01/Apr/2019:14:44:28] Accepted a request from client!
+[01/Apr/2019:14:44:28] 
+----------------------------------------------------------------------
+Host: www.sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:44:28] Client sent request to proxy with headers:
+[01/Apr/2019:14:44:28] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:44:28] Accepted a request from client!
+[01/Apr/2019:14:44:28] Client sent request to proxy with headers:
+[01/Apr/2019:14:44:28] Accepted a request from client!
+[01/Apr/2019:14:44:28] Client sent request to proxy with headers:
+[01/Apr/2019:14:44:28] 
+----------------------------------------------------------------------
+Host: www.sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:44:28] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:44:28] Accepted a request from client!
+[01/Apr/2019:14:44:28] Client sent request to proxy with headers:
+[01/Apr/2019:14:44:28] Accepted a request from client!
+[01/Apr/2019:14:44:28] 
+----------------------------------------------------------------------
+Host: www.sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:44:28] Client sent request to proxy with headers:
+[01/Apr/2019:14:44:28] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:44:28] Accepted a request from client!
+[01/Apr/2019:14:44:28] Client sent request to proxy with headers:
+[01/Apr/2019:14:44:28] 
+----------------------------------------------------------------------
+Host: www.sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:46:22] Creating server socket...
+[01/Apr/2019:14:46:22] Binding socket to port 8080...
+[01/Apr/2019:14:46:22] Listening for incoming requests...
+[01/Apr/2019:14:46:24] Accepted a request from client!
+[01/Apr/2019:14:46:24] Client sent request to proxy with headers:
+[01/Apr/2019:14:46:24] 
+----------------------------------------------------------------------
+Host: www.sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:46:24] connect to [www.sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:46:28] Accepted a request from client!
+[01/Apr/2019:14:46:28] Accepted a request from client!
+[01/Apr/2019:14:46:30] connect to [www.sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:46:30] Accepted a request from client!
+[01/Apr/2019:14:46:30] Client sent request to proxy with headers:
+[01/Apr/2019:14:46:30] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:46:30] Accepted a request from client!
+[01/Apr/2019:14:46:30] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:46:32] Accepted a request from client!
+[01/Apr/2019:14:46:32] Accepted a request from client!
+[01/Apr/2019:14:46:32] Accepted a request from client!
+[01/Apr/2019:14:46:32] Accepted a request from client!
+[01/Apr/2019:14:46:32] Accepted a request from client!
+[01/Apr/2019:14:46:32] Client sent request to proxy with headers:
+[01/Apr/2019:14:46:32] Client sent request to proxy with headers:
+[01/Apr/2019:14:46:32] Client sent request to proxy with headers:
+[01/Apr/2019:14:46:32] Accepted a request from client!
+[01/Apr/2019:14:46:32] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjFwb3dUY29nUlBxS2RWS3BHYW15VUtrRW91b085MHBJelJpbklyMklKMjQ9IiwidmFsdWUiOiJaelVvXC9rVkRtQTc0NDRYOGlBeHdHWm9IUEUzV05HeFVaWEd3Q0VsUnNkM1RIVHVcLzhHbDBZUHRkMURuendCQ0QwalkzcXNxWFJLR2c0dXFzKzFIMm5RPT0iLCJtYWMiOiJmMTk5N2VhY2U3NzZmZjdlZGEzZDdiMTgyOTNlNmU0YzI5NWJjNGNkODRlNmI2NmY2N2Y0YmJhZjc1YjQ1MzYyIn0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:46:32] Client sent request to proxy with headers:
+[01/Apr/2019:14:46:32] Client sent request to proxy with headers:
+[01/Apr/2019:14:46:32] Accepted a request from client!
+[01/Apr/2019:14:46:32] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjFwb3dUY29nUlBxS2RWS3BHYW15VUtrRW91b085MHBJelJpbklyMklKMjQ9IiwidmFsdWUiOiJaelVvXC9rVkRtQTc0NDRYOGlBeHdHWm9IUEUzV05HeFVaWEd3Q0VsUnNkM1RIVHVcLzhHbDBZUHRkMURuendCQ0QwalkzcXNxWFJLR2c0dXFzKzFIMm5RPT0iLCJtYWMiOiJmMTk5N2VhY2U3NzZmZjdlZGEzZDdiMTgyOTNlNmU0YzI5NWJjNGNkODRlNmI2NmY2N2Y0YmJhZjc1YjQ1MzYyIn0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:46:32] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjFwb3dUY29nUlBxS2RWS3BHYW15VUtrRW91b085MHBJelJpbklyMklKMjQ9IiwidmFsdWUiOiJaelVvXC9rVkRtQTc0NDRYOGlBeHdHWm9IUEUzV05HeFVaWEd3Q0VsUnNkM1RIVHVcLzhHbDBZUHRkMURuendCQ0QwalkzcXNxWFJLR2c0dXFzKzFIMm5RPT0iLCJtYWMiOiJmMTk5N2VhY2U3NzZmZjdlZGEzZDdiMTgyOTNlNmU0YzI5NWJjNGNkODRlNmI2NmY2N2Y0YmJhZjc1YjQ1MzYyIn0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:46:32] Accepted a request from client!
+[01/Apr/2019:14:46:32] Client sent request to proxy with headers:
+[01/Apr/2019:14:46:32] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjFwb3dUY29nUlBxS2RWS3BHYW15VUtrRW91b085MHBJelJpbklyMklKMjQ9IiwidmFsdWUiOiJaelVvXC9rVkRtQTc0NDRYOGlBeHdHWm9IUEUzV05HeFVaWEd3Q0VsUnNkM1RIVHVcLzhHbDBZUHRkMURuendCQ0QwalkzcXNxWFJLR2c0dXFzKzFIMm5RPT0iLCJtYWMiOiJmMTk5N2VhY2U3NzZmZjdlZGEzZDdiMTgyOTNlNmU0YzI5NWJjNGNkODRlNmI2NmY2N2Y0YmJhZjc1YjQ1MzYyIn0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:46:32] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjFwb3dUY29nUlBxS2RWS3BHYW15VUtrRW91b085MHBJelJpbklyMklKMjQ9IiwidmFsdWUiOiJaelVvXC9rVkRtQTc0NDRYOGlBeHdHWm9IUEUzV05HeFVaWEd3Q0VsUnNkM1RIVHVcLzhHbDBZUHRkMURuendCQ0QwalkzcXNxWFJLR2c0dXFzKzFIMm5RPT0iLCJtYWMiOiJmMTk5N2VhY2U3NzZmZjdlZGEzZDdiMTgyOTNlNmU0YzI5NWJjNGNkODRlNmI2NmY2N2Y0YmJhZjc1YjQ1MzYyIn0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:46:32] Accepted a request from client!
+[01/Apr/2019:14:46:32] Client sent request to proxy with headers:
+[01/Apr/2019:14:46:32] Client sent request to proxy with headers:
+[01/Apr/2019:14:46:32] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjFwb3dUY29nUlBxS2RWS3BHYW15VUtrRW91b085MHBJelJpbklyMklKMjQ9IiwidmFsdWUiOiJaelVvXC9rVkRtQTc0NDRYOGlBeHdHWm9IUEUzV05HeFVaWEd3Q0VsUnNkM1RIVHVcLzhHbDBZUHRkMURuendCQ0QwalkzcXNxWFJLR2c0dXFzKzFIMm5RPT0iLCJtYWMiOiJmMTk5N2VhY2U3NzZmZjdlZGEzZDdiMTgyOTNlNmU0YzI5NWJjNGNkODRlNmI2NmY2N2Y0YmJhZjc1YjQ1MzYyIn0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:46:32] Accepted a request from client!
+[01/Apr/2019:14:46:32] Client sent request to proxy with headers:
+[01/Apr/2019:14:46:32] Accepted a request from client!
+[01/Apr/2019:14:46:32] Accepted a request from client!
+[01/Apr/2019:14:46:32] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:46:32] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjFwb3dUY29nUlBxS2RWS3BHYW15VUtrRW91b085MHBJelJpbklyMklKMjQ9IiwidmFsdWUiOiJaelVvXC9rVkRtQTc0NDRYOGlBeHdHWm9IUEUzV05HeFVaWEd3Q0VsUnNkM1RIVHVcLzhHbDBZUHRkMURuendCQ0QwalkzcXNxWFJLR2c0dXFzKzFIMm5RPT0iLCJtYWMiOiJmMTk5N2VhY2U3NzZmZjdlZGEzZDdiMTgyOTNlNmU0YzI5NWJjNGNkODRlNmI2NmY2N2Y0YmJhZjc1YjQ1MzYyIn0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:46:32] Client sent request to proxy with headers:
+[01/Apr/2019:14:46:32] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjFwb3dUY29nUlBxS2RWS3BHYW15VUtrRW91b085MHBJelJpbklyMklKMjQ9IiwidmFsdWUiOiJaelVvXC9rVkRtQTc0NDRYOGlBeHdHWm9IUEUzV05HeFVaWEd3Q0VsUnNkM1RIVHVcLzhHbDBZUHRkMURuendCQ0QwalkzcXNxWFJLR2c0dXFzKzFIMm5RPT0iLCJtYWMiOiJmMTk5N2VhY2U3NzZmZjdlZGEzZDdiMTgyOTNlNmU0YzI5NWJjNGNkODRlNmI2NmY2N2Y0YmJhZjc1YjQ1MzYyIn0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:46:32] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjFwb3dUY29nUlBxS2RWS3BHYW15VUtrRW91b085MHBJelJpbklyMklKMjQ9IiwidmFsdWUiOiJaelVvXC9rVkRtQTc0NDRYOGlBeHdHWm9IUEUzV05HeFVaWEd3Q0VsUnNkM1RIVHVcLzhHbDBZUHRkMURuendCQ0QwalkzcXNxWFJLR2c0dXFzKzFIMm5RPT0iLCJtYWMiOiJmMTk5N2VhY2U3NzZmZjdlZGEzZDdiMTgyOTNlNmU0YzI5NWJjNGNkODRlNmI2NmY2N2Y0YmJhZjc1YjQ1MzYyIn0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:46:32] Accepted a request from client!
+[01/Apr/2019:14:46:32] Client sent request to proxy with headers:
+[01/Apr/2019:14:46:32] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjFwb3dUY29nUlBxS2RWS3BHYW15VUtrRW91b085MHBJelJpbklyMklKMjQ9IiwidmFsdWUiOiJaelVvXC9rVkRtQTc0NDRYOGlBeHdHWm9IUEUzV05HeFVaWEd3Q0VsUnNkM1RIVHVcLzhHbDBZUHRkMURuendCQ0QwalkzcXNxWFJLR2c0dXFzKzFIMm5RPT0iLCJtYWMiOiJmMTk5N2VhY2U3NzZmZjdlZGEzZDdiMTgyOTNlNmU0YzI5NWJjNGNkODRlNmI2NmY2N2Y0YmJhZjc1YjQ1MzYyIn0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:46:32] Accepted a request from client!
+[01/Apr/2019:14:46:32] Client sent request to proxy with headers:
+[01/Apr/2019:14:46:32] Client sent request to proxy with headers:
+[01/Apr/2019:14:46:32] Accepted a request from client!
+[01/Apr/2019:14:46:32] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjFwb3dUY29nUlBxS2RWS3BHYW15VUtrRW91b085MHBJelJpbklyMklKMjQ9IiwidmFsdWUiOiJaelVvXC9rVkRtQTc0NDRYOGlBeHdHWm9IUEUzV05HeFVaWEd3Q0VsUnNkM1RIVHVcLzhHbDBZUHRkMURuendCQ0QwalkzcXNxWFJLR2c0dXFzKzFIMm5RPT0iLCJtYWMiOiJmMTk5N2VhY2U3NzZmZjdlZGEzZDdiMTgyOTNlNmU0YzI5NWJjNGNkODRlNmI2NmY2N2Y0YmJhZjc1YjQ1MzYyIn0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:46:32] Accepted a request from client!
+[01/Apr/2019:14:46:32] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjFwb3dUY29nUlBxS2RWS3BHYW15VUtrRW91b085MHBJelJpbklyMklKMjQ9IiwidmFsdWUiOiJaelVvXC9rVkRtQTc0NDRYOGlBeHdHWm9IUEUzV05HeFVaWEd3Q0VsUnNkM1RIVHVcLzhHbDBZUHRkMURuendCQ0QwalkzcXNxWFJLR2c0dXFzKzFIMm5RPT0iLCJtYWMiOiJmMTk5N2VhY2U3NzZmZjdlZGEzZDdiMTgyOTNlNmU0YzI5NWJjNGNkODRlNmI2NmY2N2Y0YmJhZjc1YjQ1MzYyIn0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:46:32] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjFwb3dUY29nUlBxS2RWS3BHYW15VUtrRW91b085MHBJelJpbklyMklKMjQ9IiwidmFsdWUiOiJaelVvXC9rVkRtQTc0NDRYOGlBeHdHWm9IUEUzV05HeFVaWEd3Q0VsUnNkM1RIVHVcLzhHbDBZUHRkMURuendCQ0QwalkzcXNxWFJLR2c0dXFzKzFIMm5RPT0iLCJtYWMiOiJmMTk5N2VhY2U3NzZmZjdlZGEzZDdiMTgyOTNlNmU0YzI5NWJjNGNkODRlNmI2NmY2N2Y0YmJhZjc1YjQ1MzYyIn0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:46:32] Accepted a request from client!
+[01/Apr/2019:14:46:32] Client sent request to proxy with headers:
+[01/Apr/2019:14:46:32] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:46:32] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjFwb3dUY29nUlBxS2RWS3BHYW15VUtrRW91b085MHBJelJpbklyMklKMjQ9IiwidmFsdWUiOiJaelVvXC9rVkRtQTc0NDRYOGlBeHdHWm9IUEUzV05HeFVaWEd3Q0VsUnNkM1RIVHVcLzhHbDBZUHRkMURuendCQ0QwalkzcXNxWFJLR2c0dXFzKzFIMm5RPT0iLCJtYWMiOiJmMTk5N2VhY2U3NzZmZjdlZGEzZDdiMTgyOTNlNmU0YzI5NWJjNGNkODRlNmI2NmY2N2Y0YmJhZjc1YjQ1MzYyIn0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:46:32] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:46:32] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:46:32] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:46:32] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:46:32] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:46:32] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:46:32] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:46:32] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:46:32] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:46:32] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:46:32] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:46:32] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:46:37] Client sent request to proxy with headers:
+[01/Apr/2019:14:46:37] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/black_theme/min/css/styles.css
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjFwb3dUY29nUlBxS2RWS3BHYW15VUtrRW91b085MHBJelJpbklyMklKMjQ9IiwidmFsdWUiOiJaelVvXC9rVkRtQTc0NDRYOGlBeHdHWm9IUEUzV05HeFVaWEd3Q0VsUnNkM1RIVHVcLzhHbDBZUHRkMURuendCQ0QwalkzcXNxWFJLR2c0dXFzKzFIMm5RPT0iLCJtYWMiOiJmMTk5N2VhY2U3NzZmZjdlZGEzZDdiMTgyOTNlNmU0YzI5NWJjNGNkODRlNmI2NmY2N2Y0YmJhZjc1YjQ1MzYyIn0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:46:37] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:46:37] Client sent request to proxy with headers:
+[01/Apr/2019:14:46:37] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjFwb3dUY29nUlBxS2RWS3BHYW15VUtrRW91b085MHBJelJpbklyMklKMjQ9IiwidmFsdWUiOiJaelVvXC9rVkRtQTc0NDRYOGlBeHdHWm9IUEUzV05HeFVaWEd3Q0VsUnNkM1RIVHVcLzhHbDBZUHRkMURuendCQ0QwalkzcXNxWFJLR2c0dXFzKzFIMm5RPT0iLCJtYWMiOiJmMTk5N2VhY2U3NzZmZjdlZGEzZDdiMTgyOTNlNmU0YzI5NWJjNGNkODRlNmI2NmY2N2Y0YmJhZjc1YjQ1MzYyIn0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:46:37] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:46:37] Client sent request to proxy with headers:
+[01/Apr/2019:14:46:37] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjFwb3dUY29nUlBxS2RWS3BHYW15VUtrRW91b085MHBJelJpbklyMklKMjQ9IiwidmFsdWUiOiJaelVvXC9rVkRtQTc0NDRYOGlBeHdHWm9IUEUzV05HeFVaWEd3Q0VsUnNkM1RIVHVcLzhHbDBZUHRkMURuendCQ0QwalkzcXNxWFJLR2c0dXFzKzFIMm5RPT0iLCJtYWMiOiJmMTk5N2VhY2U3NzZmZjdlZGEzZDdiMTgyOTNlNmU0YzI5NWJjNGNkODRlNmI2NmY2N2Y0YmJhZjc1YjQ1MzYyIn0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:46:37] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:46:37] Accepted a request from client!
+[01/Apr/2019:14:46:37] Client sent request to proxy with headers:
+[01/Apr/2019:14:46:37] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjFwb3dUY29nUlBxS2RWS3BHYW15VUtrRW91b085MHBJelJpbklyMklKMjQ9IiwidmFsdWUiOiJaelVvXC9rVkRtQTc0NDRYOGlBeHdHWm9IUEUzV05HeFVaWEd3Q0VsUnNkM1RIVHVcLzhHbDBZUHRkMURuendCQ0QwalkzcXNxWFJLR2c0dXFzKzFIMm5RPT0iLCJtYWMiOiJmMTk5N2VhY2U3NzZmZjdlZGEzZDdiMTgyOTNlNmU0YzI5NWJjNGNkODRlNmI2NmY2N2Y0YmJhZjc1YjQ1MzYyIn0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:46:37] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:46:37] Accepted a request from client!
+[01/Apr/2019:14:46:37] Client sent request to proxy with headers:
+[01/Apr/2019:14:46:37] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjFwb3dUY29nUlBxS2RWS3BHYW15VUtrRW91b085MHBJelJpbklyMklKMjQ9IiwidmFsdWUiOiJaelVvXC9rVkRtQTc0NDRYOGlBeHdHWm9IUEUzV05HeFVaWEd3Q0VsUnNkM1RIVHVcLzhHbDBZUHRkMURuendCQ0QwalkzcXNxWFJLR2c0dXFzKzFIMm5RPT0iLCJtYWMiOiJmMTk5N2VhY2U3NzZmZjdlZGEzZDdiMTgyOTNlNmU0YzI5NWJjNGNkODRlNmI2NmY2N2Y0YmJhZjc1YjQ1MzYyIn0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:46:37] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:46:37] Accepted a request from client!
+[01/Apr/2019:14:46:37] Client sent request to proxy with headers:
+[01/Apr/2019:14:46:37] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjFwb3dUY29nUlBxS2RWS3BHYW15VUtrRW91b085MHBJelJpbklyMklKMjQ9IiwidmFsdWUiOiJaelVvXC9rVkRtQTc0NDRYOGlBeHdHWm9IUEUzV05HeFVaWEd3Q0VsUnNkM1RIVHVcLzhHbDBZUHRkMURuendCQ0QwalkzcXNxWFJLR2c0dXFzKzFIMm5RPT0iLCJtYWMiOiJmMTk5N2VhY2U3NzZmZjdlZGEzZDdiMTgyOTNlNmU0YzI5NWJjNGNkODRlNmI2NmY2N2Y0YmJhZjc1YjQ1MzYyIn0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:46:37] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:46:37] Accepted a request from client!
+[01/Apr/2019:14:46:37] Client sent request to proxy with headers:
+[01/Apr/2019:14:46:37] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjFwb3dUY29nUlBxS2RWS3BHYW15VUtrRW91b085MHBJelJpbklyMklKMjQ9IiwidmFsdWUiOiJaelVvXC9rVkRtQTc0NDRYOGlBeHdHWm9IUEUzV05HeFVaWEd3Q0VsUnNkM1RIVHVcLzhHbDBZUHRkMURuendCQ0QwalkzcXNxWFJLR2c0dXFzKzFIMm5RPT0iLCJtYWMiOiJmMTk5N2VhY2U3NzZmZjdlZGEzZDdiMTgyOTNlNmU0YzI5NWJjNGNkODRlNmI2NmY2N2Y0YmJhZjc1YjQ1MzYyIn0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:46:37] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:46:37] Accepted a request from client!
+[01/Apr/2019:14:46:37] Accepted a request from client!
+[01/Apr/2019:14:46:37] Client sent request to proxy with headers:
+[01/Apr/2019:14:46:37] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjFwb3dUY29nUlBxS2RWS3BHYW15VUtrRW91b085MHBJelJpbklyMklKMjQ9IiwidmFsdWUiOiJaelVvXC9rVkRtQTc0NDRYOGlBeHdHWm9IUEUzV05HeFVaWEd3Q0VsUnNkM1RIVHVcLzhHbDBZUHRkMURuendCQ0QwalkzcXNxWFJLR2c0dXFzKzFIMm5RPT0iLCJtYWMiOiJmMTk5N2VhY2U3NzZmZjdlZGEzZDdiMTgyOTNlNmU0YzI5NWJjNGNkODRlNmI2NmY2N2Y0YmJhZjc1YjQ1MzYyIn0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:46:37] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:46:37] Client sent request to proxy with headers:
+[01/Apr/2019:14:46:37] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjFwb3dUY29nUlBxS2RWS3BHYW15VUtrRW91b085MHBJelJpbklyMklKMjQ9IiwidmFsdWUiOiJaelVvXC9rVkRtQTc0NDRYOGlBeHdHWm9IUEUzV05HeFVaWEd3Q0VsUnNkM1RIVHVcLzhHbDBZUHRkMURuendCQ0QwalkzcXNxWFJLR2c0dXFzKzFIMm5RPT0iLCJtYWMiOiJmMTk5N2VhY2U3NzZmZjdlZGEzZDdiMTgyOTNlNmU0YzI5NWJjNGNkODRlNmI2NmY2N2Y0YmJhZjc1YjQ1MzYyIn0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:46:37] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:46:37] Accepted a request from client!
+[01/Apr/2019:14:46:37] Accepted a request from client!
+[01/Apr/2019:14:46:37] Client sent request to proxy with headers:
+[01/Apr/2019:14:46:37] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: application/font-woff2;q=1.0,application/font-woff;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: identity
+Referer: http://sib.ir/black_theme/min/css/styles.css
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjFwb3dUY29nUlBxS2RWS3BHYW15VUtrRW91b085MHBJelJpbklyMklKMjQ9IiwidmFsdWUiOiJaelVvXC9rVkRtQTc0NDRYOGlBeHdHWm9IUEUzV05HeFVaWEd3Q0VsUnNkM1RIVHVcLzhHbDBZUHRkMURuendCQ0QwalkzcXNxWFJLR2c0dXFzKzFIMm5RPT0iLCJtYWMiOiJmMTk5N2VhY2U3NzZmZjdlZGEzZDdiMTgyOTNlNmU0YzI5NWJjNGNkODRlNmI2NmY2N2Y0YmJhZjc1YjQ1MzYyIn0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:46:37] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:46:37] Client sent request to proxy with headers:
+[01/Apr/2019:14:46:37] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjFwb3dUY29nUlBxS2RWS3BHYW15VUtrRW91b085MHBJelJpbklyMklKMjQ9IiwidmFsdWUiOiJaelVvXC9rVkRtQTc0NDRYOGlBeHdHWm9IUEUzV05HeFVaWEd3Q0VsUnNkM1RIVHVcLzhHbDBZUHRkMURuendCQ0QwalkzcXNxWFJLR2c0dXFzKzFIMm5RPT0iLCJtYWMiOiJmMTk5N2VhY2U3NzZmZjdlZGEzZDdiMTgyOTNlNmU0YzI5NWJjNGNkODRlNmI2NmY2N2Y0YmJhZjc1YjQ1MzYyIn0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:46:37] Accepted a request from client!
+[01/Apr/2019:14:46:37] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:46:37] Accepted a request from client!
+[01/Apr/2019:14:46:37] Client sent request to proxy with headers:
+[01/Apr/2019:14:46:37] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/black_theme/min/css/styles.css
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjFwb3dUY29nUlBxS2RWS3BHYW15VUtrRW91b085MHBJelJpbklyMklKMjQ9IiwidmFsdWUiOiJaelVvXC9rVkRtQTc0NDRYOGlBeHdHWm9IUEUzV05HeFVaWEd3Q0VsUnNkM1RIVHVcLzhHbDBZUHRkMURuendCQ0QwalkzcXNxWFJLR2c0dXFzKzFIMm5RPT0iLCJtYWMiOiJmMTk5N2VhY2U3NzZmZjdlZGEzZDdiMTgyOTNlNmU0YzI5NWJjNGNkODRlNmI2NmY2N2Y0YmJhZjc1YjQ1MzYyIn0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:46:37] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:46:37] Client sent request to proxy with headers:
+[01/Apr/2019:14:46:37] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/black_theme/min/css/styles.css
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjFwb3dUY29nUlBxS2RWS3BHYW15VUtrRW91b085MHBJelJpbklyMklKMjQ9IiwidmFsdWUiOiJaelVvXC9rVkRtQTc0NDRYOGlBeHdHWm9IUEUzV05HeFVaWEd3Q0VsUnNkM1RIVHVcLzhHbDBZUHRkMURuendCQ0QwalkzcXNxWFJLR2c0dXFzKzFIMm5RPT0iLCJtYWMiOiJmMTk5N2VhY2U3NzZmZjdlZGEzZDdiMTgyOTNlNmU0YzI5NWJjNGNkODRlNmI2NmY2N2Y0YmJhZjc1YjQ1MzYyIn0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:46:37] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:46:37] Accepted a request from client!
+[01/Apr/2019:14:46:37] Client sent request to proxy with headers:
+[01/Apr/2019:14:46:37] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/black_theme/min/css/styles.css
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjFwb3dUY29nUlBxS2RWS3BHYW15VUtrRW91b085MHBJelJpbklyMklKMjQ9IiwidmFsdWUiOiJaelVvXC9rVkRtQTc0NDRYOGlBeHdHWm9IUEUzV05HeFVaWEd3Q0VsUnNkM1RIVHVcLzhHbDBZUHRkMURuendCQ0QwalkzcXNxWFJLR2c0dXFzKzFIMm5RPT0iLCJtYWMiOiJmMTk5N2VhY2U3NzZmZjdlZGEzZDdiMTgyOTNlNmU0YzI5NWJjNGNkODRlNmI2NmY2N2Y0YmJhZjc1YjQ1MzYyIn0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:46:37] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:46:37] Accepted a request from client!
+[01/Apr/2019:14:46:37] Client sent request to proxy with headers:
+[01/Apr/2019:14:46:37] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/black_theme/min/css/styles.css
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjFwb3dUY29nUlBxS2RWS3BHYW15VUtrRW91b085MHBJelJpbklyMklKMjQ9IiwidmFsdWUiOiJaelVvXC9rVkRtQTc0NDRYOGlBeHdHWm9IUEUzV05HeFVaWEd3Q0VsUnNkM1RIVHVcLzhHbDBZUHRkMURuendCQ0QwalkzcXNxWFJLR2c0dXFzKzFIMm5RPT0iLCJtYWMiOiJmMTk5N2VhY2U3NzZmZjdlZGEzZDdiMTgyOTNlNmU0YzI5NWJjNGNkODRlNmI2NmY2N2Y0YmJhZjc1YjQ1MzYyIn0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:46:37] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:46:37] Accepted a request from client!
+[01/Apr/2019:14:46:37] Client sent request to proxy with headers:
+[01/Apr/2019:14:46:37] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/black_theme/min/css/styles.css
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjFwb3dUY29nUlBxS2RWS3BHYW15VUtrRW91b085MHBJelJpbklyMklKMjQ9IiwidmFsdWUiOiJaelVvXC9rVkRtQTc0NDRYOGlBeHdHWm9IUEUzV05HeFVaWEd3Q0VsUnNkM1RIVHVcLzhHbDBZUHRkMURuendCQ0QwalkzcXNxWFJLR2c0dXFzKzFIMm5RPT0iLCJtYWMiOiJmMTk5N2VhY2U3NzZmZjdlZGEzZDdiMTgyOTNlNmU0YzI5NWJjNGNkODRlNmI2NmY2N2Y0YmJhZjc1YjQ1MzYyIn0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:46:37] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:46:37] Accepted a request from client!
+[01/Apr/2019:14:46:37] Client sent request to proxy with headers:
+[01/Apr/2019:14:46:37] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/black_theme/min/css/styles.css
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjFwb3dUY29nUlBxS2RWS3BHYW15VUtrRW91b085MHBJelJpbklyMklKMjQ9IiwidmFsdWUiOiJaelVvXC9rVkRtQTc0NDRYOGlBeHdHWm9IUEUzV05HeFVaWEd3Q0VsUnNkM1RIVHVcLzhHbDBZUHRkMURuendCQ0QwalkzcXNxWFJLR2c0dXFzKzFIMm5RPT0iLCJtYWMiOiJmMTk5N2VhY2U3NzZmZjdlZGEzZDdiMTgyOTNlNmU0YzI5NWJjNGNkODRlNmI2NmY2N2Y0YmJhZjc1YjQ1MzYyIn0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:46:37] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:46:37] Accepted a request from client!
+[01/Apr/2019:14:46:37] Client sent request to proxy with headers:
+[01/Apr/2019:14:46:37] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjFwb3dUY29nUlBxS2RWS3BHYW15VUtrRW91b085MHBJelJpbklyMklKMjQ9IiwidmFsdWUiOiJaelVvXC9rVkRtQTc0NDRYOGlBeHdHWm9IUEUzV05HeFVaWEd3Q0VsUnNkM1RIVHVcLzhHbDBZUHRkMURuendCQ0QwalkzcXNxWFJLR2c0dXFzKzFIMm5RPT0iLCJtYWMiOiJmMTk5N2VhY2U3NzZmZjdlZGEzZDdiMTgyOTNlNmU0YzI5NWJjNGNkODRlNmI2NmY2N2Y0YmJhZjc1YjQ1MzYyIn0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:46:37] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:46:37] Accepted a request from client!
+[01/Apr/2019:14:46:37] Client sent request to proxy with headers:
+[01/Apr/2019:14:46:37] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjFwb3dUY29nUlBxS2RWS3BHYW15VUtrRW91b085MHBJelJpbklyMklKMjQ9IiwidmFsdWUiOiJaelVvXC9rVkRtQTc0NDRYOGlBeHdHWm9IUEUzV05HeFVaWEd3Q0VsUnNkM1RIVHVcLzhHbDBZUHRkMURuendCQ0QwalkzcXNxWFJLR2c0dXFzKzFIMm5RPT0iLCJtYWMiOiJmMTk5N2VhY2U3NzZmZjdlZGEzZDdiMTgyOTNlNmU0YzI5NWJjNGNkODRlNmI2NmY2N2Y0YmJhZjc1YjQ1MzYyIn0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:46:37] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:46:37] Accepted a request from client!
+[01/Apr/2019:14:46:37] Client sent request to proxy with headers:
+[01/Apr/2019:14:46:37] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjFwb3dUY29nUlBxS2RWS3BHYW15VUtrRW91b085MHBJelJpbklyMklKMjQ9IiwidmFsdWUiOiJaelVvXC9rVkRtQTc0NDRYOGlBeHdHWm9IUEUzV05HeFVaWEd3Q0VsUnNkM1RIVHVcLzhHbDBZUHRkMURuendCQ0QwalkzcXNxWFJLR2c0dXFzKzFIMm5RPT0iLCJtYWMiOiJmMTk5N2VhY2U3NzZmZjdlZGEzZDdiMTgyOTNlNmU0YzI5NWJjNGNkODRlNmI2NmY2N2Y0YmJhZjc1YjQ1MzYyIn0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:46:37] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:46:37] Accepted a request from client!
+[01/Apr/2019:14:46:37] Client sent request to proxy with headers:
+[01/Apr/2019:14:46:37] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/black_theme/min/css/styles.css
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjFwb3dUY29nUlBxS2RWS3BHYW15VUtrRW91b085MHBJelJpbklyMklKMjQ9IiwidmFsdWUiOiJaelVvXC9rVkRtQTc0NDRYOGlBeHdHWm9IUEUzV05HeFVaWEd3Q0VsUnNkM1RIVHVcLzhHbDBZUHRkMURuendCQ0QwalkzcXNxWFJLR2c0dXFzKzFIMm5RPT0iLCJtYWMiOiJmMTk5N2VhY2U3NzZmZjdlZGEzZDdiMTgyOTNlNmU0YzI5NWJjNGNkODRlNmI2NmY2N2Y0YmJhZjc1YjQ1MzYyIn0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:46:37] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:46:37] Accepted a request from client!
+[01/Apr/2019:14:46:37] Client sent request to proxy with headers:
+[01/Apr/2019:14:46:37] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/black_theme/min/css/styles.css
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjFwb3dUY29nUlBxS2RWS3BHYW15VUtrRW91b085MHBJelJpbklyMklKMjQ9IiwidmFsdWUiOiJaelVvXC9rVkRtQTc0NDRYOGlBeHdHWm9IUEUzV05HeFVaWEd3Q0VsUnNkM1RIVHVcLzhHbDBZUHRkMURuendCQ0QwalkzcXNxWFJLR2c0dXFzKzFIMm5RPT0iLCJtYWMiOiJmMTk5N2VhY2U3NzZmZjdlZGEzZDdiMTgyOTNlNmU0YzI5NWJjNGNkODRlNmI2NmY2N2Y0YmJhZjc1YjQ1MzYyIn0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:46:37] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:46:37] Accepted a request from client!
+[01/Apr/2019:14:46:37] Client sent request to proxy with headers:
+[01/Apr/2019:14:46:37] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/black_theme/min/css/styles.css
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjFwb3dUY29nUlBxS2RWS3BHYW15VUtrRW91b085MHBJelJpbklyMklKMjQ9IiwidmFsdWUiOiJaelVvXC9rVkRtQTc0NDRYOGlBeHdHWm9IUEUzV05HeFVaWEd3Q0VsUnNkM1RIVHVcLzhHbDBZUHRkMURuendCQ0QwalkzcXNxWFJLR2c0dXFzKzFIMm5RPT0iLCJtYWMiOiJmMTk5N2VhY2U3NzZmZjdlZGEzZDdiMTgyOTNlNmU0YzI5NWJjNGNkODRlNmI2NmY2N2Y0YmJhZjc1YjQ1MzYyIn0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:46:37] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:46:37] Accepted a request from client!
+[01/Apr/2019:14:46:37] Client sent request to proxy with headers:
+[01/Apr/2019:14:46:37] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/black_theme/min/css/styles.css
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjFwb3dUY29nUlBxS2RWS3BHYW15VUtrRW91b085MHBJelJpbklyMklKMjQ9IiwidmFsdWUiOiJaelVvXC9rVkRtQTc0NDRYOGlBeHdHWm9IUEUzV05HeFVaWEd3Q0VsUnNkM1RIVHVcLzhHbDBZUHRkMURuendCQ0QwalkzcXNxWFJLR2c0dXFzKzFIMm5RPT0iLCJtYWMiOiJmMTk5N2VhY2U3NzZmZjdlZGEzZDdiMTgyOTNlNmU0YzI5NWJjNGNkODRlNmI2NmY2N2Y0YmJhZjc1YjQ1MzYyIn0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:46:37] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:46:37] Accepted a request from client!
+[01/Apr/2019:14:46:37] Client sent request to proxy with headers:
+[01/Apr/2019:14:46:37] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjFwb3dUY29nUlBxS2RWS3BHYW15VUtrRW91b085MHBJelJpbklyMklKMjQ9IiwidmFsdWUiOiJaelVvXC9rVkRtQTc0NDRYOGlBeHdHWm9IUEUzV05HeFVaWEd3Q0VsUnNkM1RIVHVcLzhHbDBZUHRkMURuendCQ0QwalkzcXNxWFJLR2c0dXFzKzFIMm5RPT0iLCJtYWMiOiJmMTk5N2VhY2U3NzZmZjdlZGEzZDdiMTgyOTNlNmU0YzI5NWJjNGNkODRlNmI2NmY2N2Y0YmJhZjc1YjQ1MzYyIn0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:46:37] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:46:37] Accepted a request from client!
+[01/Apr/2019:14:46:37] Client sent request to proxy with headers:
+[01/Apr/2019:14:46:37] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjFwb3dUY29nUlBxS2RWS3BHYW15VUtrRW91b085MHBJelJpbklyMklKMjQ9IiwidmFsdWUiOiJaelVvXC9rVkRtQTc0NDRYOGlBeHdHWm9IUEUzV05HeFVaWEd3Q0VsUnNkM1RIVHVcLzhHbDBZUHRkMURuendCQ0QwalkzcXNxWFJLR2c0dXFzKzFIMm5RPT0iLCJtYWMiOiJmMTk5N2VhY2U3NzZmZjdlZGEzZDdiMTgyOTNlNmU0YzI5NWJjNGNkODRlNmI2NmY2N2Y0YmJhZjc1YjQ1MzYyIn0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:46:37] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:46:37] Accepted a request from client!
+[01/Apr/2019:14:46:37] Client sent request to proxy with headers:
+[01/Apr/2019:14:46:37] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjFwb3dUY29nUlBxS2RWS3BHYW15VUtrRW91b085MHBJelJpbklyMklKMjQ9IiwidmFsdWUiOiJaelVvXC9rVkRtQTc0NDRYOGlBeHdHWm9IUEUzV05HeFVaWEd3Q0VsUnNkM1RIVHVcLzhHbDBZUHRkMURuendCQ0QwalkzcXNxWFJLR2c0dXFzKzFIMm5RPT0iLCJtYWMiOiJmMTk5N2VhY2U3NzZmZjdlZGEzZDdiMTgyOTNlNmU0YzI5NWJjNGNkODRlNmI2NmY2N2Y0YmJhZjc1YjQ1MzYyIn0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:46:37] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:46:37] Accepted a request from client!
+[01/Apr/2019:14:46:37] Client sent request to proxy with headers:
+[01/Apr/2019:14:46:37] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjFwb3dUY29nUlBxS2RWS3BHYW15VUtrRW91b085MHBJelJpbklyMklKMjQ9IiwidmFsdWUiOiJaelVvXC9rVkRtQTc0NDRYOGlBeHdHWm9IUEUzV05HeFVaWEd3Q0VsUnNkM1RIVHVcLzhHbDBZUHRkMURuendCQ0QwalkzcXNxWFJLR2c0dXFzKzFIMm5RPT0iLCJtYWMiOiJmMTk5N2VhY2U3NzZmZjdlZGEzZDdiMTgyOTNlNmU0YzI5NWJjNGNkODRlNmI2NmY2N2Y0YmJhZjc1YjQ1MzYyIn0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:46:37] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:46:37] Accepted a request from client!
+[01/Apr/2019:14:46:37] Client sent request to proxy with headers:
+[01/Apr/2019:14:46:37] 
+----------------------------------------------------------------------
+Host: trustseal.enamad.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:46:37] connect to [trustseal.enamad.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:46:37] Accepted a request from client!
+[01/Apr/2019:14:46:37] Client sent request to proxy with headers:
+[01/Apr/2019:14:46:37] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjFwb3dUY29nUlBxS2RWS3BHYW15VUtrRW91b085MHBJelJpbklyMklKMjQ9IiwidmFsdWUiOiJaelVvXC9rVkRtQTc0NDRYOGlBeHdHWm9IUEUzV05HeFVaWEd3Q0VsUnNkM1RIVHVcLzhHbDBZUHRkMURuendCQ0QwalkzcXNxWFJLR2c0dXFzKzFIMm5RPT0iLCJtYWMiOiJmMTk5N2VhY2U3NzZmZjdlZGEzZDdiMTgyOTNlNmU0YzI5NWJjNGNkODRlNmI2NmY2N2Y0YmJhZjc1YjQ1MzYyIn0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:46:37] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:46:37] Accepted a request from client!
+[01/Apr/2019:14:46:37] Client sent request to proxy with headers:
+[01/Apr/2019:14:46:37] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjFwb3dUY29nUlBxS2RWS3BHYW15VUtrRW91b085MHBJelJpbklyMklKMjQ9IiwidmFsdWUiOiJaelVvXC9rVkRtQTc0NDRYOGlBeHdHWm9IUEUzV05HeFVaWEd3Q0VsUnNkM1RIVHVcLzhHbDBZUHRkMURuendCQ0QwalkzcXNxWFJLR2c0dXFzKzFIMm5RPT0iLCJtYWMiOiJmMTk5N2VhY2U3NzZmZjdlZGEzZDdiMTgyOTNlNmU0YzI5NWJjNGNkODRlNmI2NmY2N2Y0YmJhZjc1YjQ1MzYyIn0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:46:37] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:46:37] Accepted a request from client!
+[01/Apr/2019:14:46:37] Client sent request to proxy with headers:
+[01/Apr/2019:14:46:37] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjFwb3dUY29nUlBxS2RWS3BHYW15VUtrRW91b085MHBJelJpbklyMklKMjQ9IiwidmFsdWUiOiJaelVvXC9rVkRtQTc0NDRYOGlBeHdHWm9IUEUzV05HeFVaWEd3Q0VsUnNkM1RIVHVcLzhHbDBZUHRkMURuendCQ0QwalkzcXNxWFJLR2c0dXFzKzFIMm5RPT0iLCJtYWMiOiJmMTk5N2VhY2U3NzZmZjdlZGEzZDdiMTgyOTNlNmU0YzI5NWJjNGNkODRlNmI2NmY2N2Y0YmJhZjc1YjQ1MzYyIn0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:46:37] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:46:37] Accepted a request from client!
+[01/Apr/2019:14:46:37] Client sent request to proxy with headers:
+[01/Apr/2019:14:46:37] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjFwb3dUY29nUlBxS2RWS3BHYW15VUtrRW91b085MHBJelJpbklyMklKMjQ9IiwidmFsdWUiOiJaelVvXC9rVkRtQTc0NDRYOGlBeHdHWm9IUEUzV05HeFVaWEd3Q0VsUnNkM1RIVHVcLzhHbDBZUHRkMURuendCQ0QwalkzcXNxWFJLR2c0dXFzKzFIMm5RPT0iLCJtYWMiOiJmMTk5N2VhY2U3NzZmZjdlZGEzZDdiMTgyOTNlNmU0YzI5NWJjNGNkODRlNmI2NmY2N2Y0YmJhZjc1YjQ1MzYyIn0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:46:37] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:46:37] Accepted a request from client!
+[01/Apr/2019:14:46:37] Client sent request to proxy with headers:
+[01/Apr/2019:14:46:37] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjFwb3dUY29nUlBxS2RWS3BHYW15VUtrRW91b085MHBJelJpbklyMklKMjQ9IiwidmFsdWUiOiJaelVvXC9rVkRtQTc0NDRYOGlBeHdHWm9IUEUzV05HeFVaWEd3Q0VsUnNkM1RIVHVcLzhHbDBZUHRkMURuendCQ0QwalkzcXNxWFJLR2c0dXFzKzFIMm5RPT0iLCJtYWMiOiJmMTk5N2VhY2U3NzZmZjdlZGEzZDdiMTgyOTNlNmU0YzI5NWJjNGNkODRlNmI2NmY2N2Y0YmJhZjc1YjQ1MzYyIn0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:46:37] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:46:37] Accepted a request from client!
+[01/Apr/2019:14:46:37] Client sent request to proxy with headers:
+[01/Apr/2019:14:46:37] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjFwb3dUY29nUlBxS2RWS3BHYW15VUtrRW91b085MHBJelJpbklyMklKMjQ9IiwidmFsdWUiOiJaelVvXC9rVkRtQTc0NDRYOGlBeHdHWm9IUEUzV05HeFVaWEd3Q0VsUnNkM1RIVHVcLzhHbDBZUHRkMURuendCQ0QwalkzcXNxWFJLR2c0dXFzKzFIMm5RPT0iLCJtYWMiOiJmMTk5N2VhY2U3NzZmZjdlZGEzZDdiMTgyOTNlNmU0YzI5NWJjNGNkODRlNmI2NmY2N2Y0YmJhZjc1YjQ1MzYyIn0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:46:37] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:46:37] Accepted a request from client!
+[01/Apr/2019:14:46:37] Client sent request to proxy with headers:
+[01/Apr/2019:14:46:37] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjFwb3dUY29nUlBxS2RWS3BHYW15VUtrRW91b085MHBJelJpbklyMklKMjQ9IiwidmFsdWUiOiJaelVvXC9rVkRtQTc0NDRYOGlBeHdHWm9IUEUzV05HeFVaWEd3Q0VsUnNkM1RIVHVcLzhHbDBZUHRkMURuendCQ0QwalkzcXNxWFJLR2c0dXFzKzFIMm5RPT0iLCJtYWMiOiJmMTk5N2VhY2U3NzZmZjdlZGEzZDdiMTgyOTNlNmU0YzI5NWJjNGNkODRlNmI2NmY2N2Y0YmJhZjc1YjQ1MzYyIn0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:46:37] Accepted a request from client!
+[01/Apr/2019:14:46:37] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:46:37] Client sent request to proxy with headers:
+[01/Apr/2019:14:46:37] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjFwb3dUY29nUlBxS2RWS3BHYW15VUtrRW91b085MHBJelJpbklyMklKMjQ9IiwidmFsdWUiOiJaelVvXC9rVkRtQTc0NDRYOGlBeHdHWm9IUEUzV05HeFVaWEd3Q0VsUnNkM1RIVHVcLzhHbDBZUHRkMURuendCQ0QwalkzcXNxWFJLR2c0dXFzKzFIMm5RPT0iLCJtYWMiOiJmMTk5N2VhY2U3NzZmZjdlZGEzZDdiMTgyOTNlNmU0YzI5NWJjNGNkODRlNmI2NmY2N2Y0YmJhZjc1YjQ1MzYyIn0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:46:37] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:46:40] Accepted a request from client!
+[01/Apr/2019:14:46:40] Client sent request to proxy with headers:
+[01/Apr/2019:14:46:40] 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:46:40] connect to [detectportal.firefox.com] from 127.0.0.1 8080
+[01/Apr/2019:14:46:40] Accepted a request from client!
+[01/Apr/2019:14:46:43] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:46:43] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:46:43] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:46:59] Accepted a request from client!
+[01/Apr/2019:14:46:59] Accepted a request from client!
+[01/Apr/2019:14:46:59] Accepted a request from client!
+[01/Apr/2019:14:47:21] Creating server socket...
+[01/Apr/2019:14:47:21] Binding socket to port 8080...
+[01/Apr/2019:14:47:21] Listening for incoming requests...
+[01/Apr/2019:14:47:49] Creating server socket...
+[01/Apr/2019:14:47:49] Binding socket to port 8080...
+[01/Apr/2019:14:47:49] Listening for incoming requests...
+[01/Apr/2019:14:47:51] Accepted a request from client!
+[01/Apr/2019:14:47:51] Client sent request to proxy with headers:
+[01/Apr/2019:14:47:51] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:47:51] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:47:53] Accepted a request from client!
+[01/Apr/2019:14:47:53] Client sent request to proxy with headers:
+[01/Apr/2019:14:47:53] Accepted a request from client!
+[01/Apr/2019:14:47:53] Accepted a request from client!
+[01/Apr/2019:14:47:53] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjU3QXVsTnBGZ0dZWHpJWllhWnoreTZyN2ZocW9qMzZkVFVJV2VGU3lnbG89IiwidmFsdWUiOiJsNFwvelNuekVPWndjMGNnM0hWVXpxR1piRVpkQk4ydXUxS2hYVG9FQmc5MWZablwvM3VpcHU1MW1tc24wOFV3N0RYdURjK3YzVUdOQllEMUN0RzZFSlF3PT0iLCJtYWMiOiJmODc5NWJhM2RhNjFhZjM1YWQ0YmRmODE3OTk5ZDYwNjVjMDQyZTExNDNmYzY3ZjY0MDRjNzgzY2I5NTE1ZDM5In0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:47:53] Client sent request to proxy with headers:
+[01/Apr/2019:14:47:53] Client sent request to proxy with headers:
+[01/Apr/2019:14:47:53] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjU3QXVsTnBGZ0dZWHpJWllhWnoreTZyN2ZocW9qMzZkVFVJV2VGU3lnbG89IiwidmFsdWUiOiJsNFwvelNuekVPWndjMGNnM0hWVXpxR1piRVpkQk4ydXUxS2hYVG9FQmc5MWZablwvM3VpcHU1MW1tc24wOFV3N0RYdURjK3YzVUdOQllEMUN0RzZFSlF3PT0iLCJtYWMiOiJmODc5NWJhM2RhNjFhZjM1YWQ0YmRmODE3OTk5ZDYwNjVjMDQyZTExNDNmYzY3ZjY0MDRjNzgzY2I5NTE1ZDM5In0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:47:53] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:47:53] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjU3QXVsTnBGZ0dZWHpJWllhWnoreTZyN2ZocW9qMzZkVFVJV2VGU3lnbG89IiwidmFsdWUiOiJsNFwvelNuekVPWndjMGNnM0hWVXpxR1piRVpkQk4ydXUxS2hYVG9FQmc5MWZablwvM3VpcHU1MW1tc24wOFV3N0RYdURjK3YzVUdOQllEMUN0RzZFSlF3PT0iLCJtYWMiOiJmODc5NWJhM2RhNjFhZjM1YWQ0YmRmODE3OTk5ZDYwNjVjMDQyZTExNDNmYzY3ZjY0MDRjNzgzY2I5NTE1ZDM5In0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:47:53] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:47:53] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:47:53] Accepted a request from client!
+[01/Apr/2019:14:47:53] Accepted a request from client!
+[01/Apr/2019:14:47:53] Client sent request to proxy with headers:
+[01/Apr/2019:14:47:53] Accepted a request from client!
+[01/Apr/2019:14:47:53] Accepted a request from client!
+[01/Apr/2019:14:47:53] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjU3QXVsTnBGZ0dZWHpJWllhWnoreTZyN2ZocW9qMzZkVFVJV2VGU3lnbG89IiwidmFsdWUiOiJsNFwvelNuekVPWndjMGNnM0hWVXpxR1piRVpkQk4ydXUxS2hYVG9FQmc5MWZablwvM3VpcHU1MW1tc24wOFV3N0RYdURjK3YzVUdOQllEMUN0RzZFSlF3PT0iLCJtYWMiOiJmODc5NWJhM2RhNjFhZjM1YWQ0YmRmODE3OTk5ZDYwNjVjMDQyZTExNDNmYzY3ZjY0MDRjNzgzY2I5NTE1ZDM5In0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:47:53] Client sent request to proxy with headers:
+[01/Apr/2019:14:47:53] Client sent request to proxy with headers:
+[01/Apr/2019:14:47:53] Accepted a request from client!
+[01/Apr/2019:14:47:53] Accepted a request from client!
+[01/Apr/2019:14:47:53] Client sent request to proxy with headers:
+[01/Apr/2019:14:47:53] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjU3QXVsTnBGZ0dZWHpJWllhWnoreTZyN2ZocW9qMzZkVFVJV2VGU3lnbG89IiwidmFsdWUiOiJsNFwvelNuekVPWndjMGNnM0hWVXpxR1piRVpkQk4ydXUxS2hYVG9FQmc5MWZablwvM3VpcHU1MW1tc24wOFV3N0RYdURjK3YzVUdOQllEMUN0RzZFSlF3PT0iLCJtYWMiOiJmODc5NWJhM2RhNjFhZjM1YWQ0YmRmODE3OTk5ZDYwNjVjMDQyZTExNDNmYzY3ZjY0MDRjNzgzY2I5NTE1ZDM5In0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:47:53] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:47:53] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjU3QXVsTnBGZ0dZWHpJWllhWnoreTZyN2ZocW9qMzZkVFVJV2VGU3lnbG89IiwidmFsdWUiOiJsNFwvelNuekVPWndjMGNnM0hWVXpxR1piRVpkQk4ydXUxS2hYVG9FQmc5MWZablwvM3VpcHU1MW1tc24wOFV3N0RYdURjK3YzVUdOQllEMUN0RzZFSlF3PT0iLCJtYWMiOiJmODc5NWJhM2RhNjFhZjM1YWQ0YmRmODE3OTk5ZDYwNjVjMDQyZTExNDNmYzY3ZjY0MDRjNzgzY2I5NTE1ZDM5In0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:47:53] Accepted a request from client!
+[01/Apr/2019:14:47:53] Accepted a request from client!
+[01/Apr/2019:14:47:53] Client sent request to proxy with headers:
+[01/Apr/2019:14:47:53] Client sent request to proxy with headers:
+[01/Apr/2019:14:47:53] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjU3QXVsTnBGZ0dZWHpJWllhWnoreTZyN2ZocW9qMzZkVFVJV2VGU3lnbG89IiwidmFsdWUiOiJsNFwvelNuekVPWndjMGNnM0hWVXpxR1piRVpkQk4ydXUxS2hYVG9FQmc5MWZablwvM3VpcHU1MW1tc24wOFV3N0RYdURjK3YzVUdOQllEMUN0RzZFSlF3PT0iLCJtYWMiOiJmODc5NWJhM2RhNjFhZjM1YWQ0YmRmODE3OTk5ZDYwNjVjMDQyZTExNDNmYzY3ZjY0MDRjNzgzY2I5NTE1ZDM5In0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:47:53] Accepted a request from client!
+[01/Apr/2019:14:47:53] Client sent request to proxy with headers:
+[01/Apr/2019:14:47:53] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjU3QXVsTnBGZ0dZWHpJWllhWnoreTZyN2ZocW9qMzZkVFVJV2VGU3lnbG89IiwidmFsdWUiOiJsNFwvelNuekVPWndjMGNnM0hWVXpxR1piRVpkQk4ydXUxS2hYVG9FQmc5MWZablwvM3VpcHU1MW1tc24wOFV3N0RYdURjK3YzVUdOQllEMUN0RzZFSlF3PT0iLCJtYWMiOiJmODc5NWJhM2RhNjFhZjM1YWQ0YmRmODE3OTk5ZDYwNjVjMDQyZTExNDNmYzY3ZjY0MDRjNzgzY2I5NTE1ZDM5In0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:47:53] Accepted a request from client!
+[01/Apr/2019:14:47:53] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:47:53] Client sent request to proxy with headers:
+[01/Apr/2019:14:47:53] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjU3QXVsTnBGZ0dZWHpJWllhWnoreTZyN2ZocW9qMzZkVFVJV2VGU3lnbG89IiwidmFsdWUiOiJsNFwvelNuekVPWndjMGNnM0hWVXpxR1piRVpkQk4ydXUxS2hYVG9FQmc5MWZablwvM3VpcHU1MW1tc24wOFV3N0RYdURjK3YzVUdOQllEMUN0RzZFSlF3PT0iLCJtYWMiOiJmODc5NWJhM2RhNjFhZjM1YWQ0YmRmODE3OTk5ZDYwNjVjMDQyZTExNDNmYzY3ZjY0MDRjNzgzY2I5NTE1ZDM5In0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:47:53] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjU3QXVsTnBGZ0dZWHpJWllhWnoreTZyN2ZocW9qMzZkVFVJV2VGU3lnbG89IiwidmFsdWUiOiJsNFwvelNuekVPWndjMGNnM0hWVXpxR1piRVpkQk4ydXUxS2hYVG9FQmc5MWZablwvM3VpcHU1MW1tc24wOFV3N0RYdURjK3YzVUdOQllEMUN0RzZFSlF3PT0iLCJtYWMiOiJmODc5NWJhM2RhNjFhZjM1YWQ0YmRmODE3OTk5ZDYwNjVjMDQyZTExNDNmYzY3ZjY0MDRjNzgzY2I5NTE1ZDM5In0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:47:53] Client sent request to proxy with headers:
+[01/Apr/2019:14:47:53] Accepted a request from client!
+[01/Apr/2019:14:47:53] Client sent request to proxy with headers:
+[01/Apr/2019:14:47:53] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjU3QXVsTnBGZ0dZWHpJWllhWnoreTZyN2ZocW9qMzZkVFVJV2VGU3lnbG89IiwidmFsdWUiOiJsNFwvelNuekVPWndjMGNnM0hWVXpxR1piRVpkQk4ydXUxS2hYVG9FQmc5MWZablwvM3VpcHU1MW1tc24wOFV3N0RYdURjK3YzVUdOQllEMUN0RzZFSlF3PT0iLCJtYWMiOiJmODc5NWJhM2RhNjFhZjM1YWQ0YmRmODE3OTk5ZDYwNjVjMDQyZTExNDNmYzY3ZjY0MDRjNzgzY2I5NTE1ZDM5In0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:47:53] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:47:53] Accepted a request from client!
+[01/Apr/2019:14:47:53] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjU3QXVsTnBGZ0dZWHpJWllhWnoreTZyN2ZocW9qMzZkVFVJV2VGU3lnbG89IiwidmFsdWUiOiJsNFwvelNuekVPWndjMGNnM0hWVXpxR1piRVpkQk4ydXUxS2hYVG9FQmc5MWZablwvM3VpcHU1MW1tc24wOFV3N0RYdURjK3YzVUdOQllEMUN0RzZFSlF3PT0iLCJtYWMiOiJmODc5NWJhM2RhNjFhZjM1YWQ0YmRmODE3OTk5ZDYwNjVjMDQyZTExNDNmYzY3ZjY0MDRjNzgzY2I5NTE1ZDM5In0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:47:53] Accepted a request from client!
+[01/Apr/2019:14:47:53] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjU3QXVsTnBGZ0dZWHpJWllhWnoreTZyN2ZocW9qMzZkVFVJV2VGU3lnbG89IiwidmFsdWUiOiJsNFwvelNuekVPWndjMGNnM0hWVXpxR1piRVpkQk4ydXUxS2hYVG9FQmc5MWZablwvM3VpcHU1MW1tc24wOFV3N0RYdURjK3YzVUdOQllEMUN0RzZFSlF3PT0iLCJtYWMiOiJmODc5NWJhM2RhNjFhZjM1YWQ0YmRmODE3OTk5ZDYwNjVjMDQyZTExNDNmYzY3ZjY0MDRjNzgzY2I5NTE1ZDM5In0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:47:53] Accepted a request from client!
+[01/Apr/2019:14:47:53] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:47:53] Accepted a request from client!
+[01/Apr/2019:14:47:53] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:47:53] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:47:53] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:47:53] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:47:53] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:47:53] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:47:55] Accepted a request from client!
+[01/Apr/2019:14:47:56] Accepted a request from client!
+[01/Apr/2019:14:47:56] Accepted a request from client!
+[01/Apr/2019:14:47:58] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:47:58] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:47:59] Accepted a request from client!
+[01/Apr/2019:14:47:59] Accepted a request from client!
+[01/Apr/2019:14:47:59] Client sent request to proxy with headers:
+[01/Apr/2019:14:47:59] Client sent request to proxy with headers:
+[01/Apr/2019:14:47:59] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjU3QXVsTnBGZ0dZWHpJWllhWnoreTZyN2ZocW9qMzZkVFVJV2VGU3lnbG89IiwidmFsdWUiOiJsNFwvelNuekVPWndjMGNnM0hWVXpxR1piRVpkQk4ydXUxS2hYVG9FQmc5MWZablwvM3VpcHU1MW1tc24wOFV3N0RYdURjK3YzVUdOQllEMUN0RzZFSlF3PT0iLCJtYWMiOiJmODc5NWJhM2RhNjFhZjM1YWQ0YmRmODE3OTk5ZDYwNjVjMDQyZTExNDNmYzY3ZjY0MDRjNzgzY2I5NTE1ZDM5In0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:47:59] Accepted a request from client!
+[01/Apr/2019:14:47:59] Accepted a request from client!
+[01/Apr/2019:14:47:59] Accepted a request from client!
+[01/Apr/2019:14:47:59] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjU3QXVsTnBGZ0dZWHpJWllhWnoreTZyN2ZocW9qMzZkVFVJV2VGU3lnbG89IiwidmFsdWUiOiJsNFwvelNuekVPWndjMGNnM0hWVXpxR1piRVpkQk4ydXUxS2hYVG9FQmc5MWZablwvM3VpcHU1MW1tc24wOFV3N0RYdURjK3YzVUdOQllEMUN0RzZFSlF3PT0iLCJtYWMiOiJmODc5NWJhM2RhNjFhZjM1YWQ0YmRmODE3OTk5ZDYwNjVjMDQyZTExNDNmYzY3ZjY0MDRjNzgzY2I5NTE1ZDM5In0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:47:59] Accepted a request from client!
+[01/Apr/2019:14:47:59] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:47:59] Client sent request to proxy with headers:
+[01/Apr/2019:14:47:59] Accepted a request from client!
+[01/Apr/2019:14:47:59] Client sent request to proxy with headers:
+[01/Apr/2019:14:47:59] Client sent request to proxy with headers:
+[01/Apr/2019:14:47:59] Accepted a request from client!
+[01/Apr/2019:14:47:59] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjU3QXVsTnBGZ0dZWHpJWllhWnoreTZyN2ZocW9qMzZkVFVJV2VGU3lnbG89IiwidmFsdWUiOiJsNFwvelNuekVPWndjMGNnM0hWVXpxR1piRVpkQk4ydXUxS2hYVG9FQmc5MWZablwvM3VpcHU1MW1tc24wOFV3N0RYdURjK3YzVUdOQllEMUN0RzZFSlF3PT0iLCJtYWMiOiJmODc5NWJhM2RhNjFhZjM1YWQ0YmRmODE3OTk5ZDYwNjVjMDQyZTExNDNmYzY3ZjY0MDRjNzgzY2I5NTE1ZDM5In0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:47:59] Client sent request to proxy with headers:
+[01/Apr/2019:14:47:59] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjU3QXVsTnBGZ0dZWHpJWllhWnoreTZyN2ZocW9qMzZkVFVJV2VGU3lnbG89IiwidmFsdWUiOiJsNFwvelNuekVPWndjMGNnM0hWVXpxR1piRVpkQk4ydXUxS2hYVG9FQmc5MWZablwvM3VpcHU1MW1tc24wOFV3N0RYdURjK3YzVUdOQllEMUN0RzZFSlF3PT0iLCJtYWMiOiJmODc5NWJhM2RhNjFhZjM1YWQ0YmRmODE3OTk5ZDYwNjVjMDQyZTExNDNmYzY3ZjY0MDRjNzgzY2I5NTE1ZDM5In0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:47:59] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:47:59] Accepted a request from client!
+[01/Apr/2019:14:47:59] Client sent request to proxy with headers:
+[01/Apr/2019:14:47:59] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjU3QXVsTnBGZ0dZWHpJWllhWnoreTZyN2ZocW9qMzZkVFVJV2VGU3lnbG89IiwidmFsdWUiOiJsNFwvelNuekVPWndjMGNnM0hWVXpxR1piRVpkQk4ydXUxS2hYVG9FQmc5MWZablwvM3VpcHU1MW1tc24wOFV3N0RYdURjK3YzVUdOQllEMUN0RzZFSlF3PT0iLCJtYWMiOiJmODc5NWJhM2RhNjFhZjM1YWQ0YmRmODE3OTk5ZDYwNjVjMDQyZTExNDNmYzY3ZjY0MDRjNzgzY2I5NTE1ZDM5In0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:47:59] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:47:59] Accepted a request from client!
+[01/Apr/2019:14:47:59] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjU3QXVsTnBGZ0dZWHpJWllhWnoreTZyN2ZocW9qMzZkVFVJV2VGU3lnbG89IiwidmFsdWUiOiJsNFwvelNuekVPWndjMGNnM0hWVXpxR1piRVpkQk4ydXUxS2hYVG9FQmc5MWZablwvM3VpcHU1MW1tc24wOFV3N0RYdURjK3YzVUdOQllEMUN0RzZFSlF3PT0iLCJtYWMiOiJmODc5NWJhM2RhNjFhZjM1YWQ0YmRmODE3OTk5ZDYwNjVjMDQyZTExNDNmYzY3ZjY0MDRjNzgzY2I5NTE1ZDM5In0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:47:59] Client sent request to proxy with headers:
+[01/Apr/2019:14:47:59] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjU3QXVsTnBGZ0dZWHpJWllhWnoreTZyN2ZocW9qMzZkVFVJV2VGU3lnbG89IiwidmFsdWUiOiJsNFwvelNuekVPWndjMGNnM0hWVXpxR1piRVpkQk4ydXUxS2hYVG9FQmc5MWZablwvM3VpcHU1MW1tc24wOFV3N0RYdURjK3YzVUdOQllEMUN0RzZFSlF3PT0iLCJtYWMiOiJmODc5NWJhM2RhNjFhZjM1YWQ0YmRmODE3OTk5ZDYwNjVjMDQyZTExNDNmYzY3ZjY0MDRjNzgzY2I5NTE1ZDM5In0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:47:59] Accepted a request from client!
+[01/Apr/2019:14:47:59] Client sent request to proxy with headers:
+[01/Apr/2019:14:47:59] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjU3QXVsTnBGZ0dZWHpJWllhWnoreTZyN2ZocW9qMzZkVFVJV2VGU3lnbG89IiwidmFsdWUiOiJsNFwvelNuekVPWndjMGNnM0hWVXpxR1piRVpkQk4ydXUxS2hYVG9FQmc5MWZablwvM3VpcHU1MW1tc24wOFV3N0RYdURjK3YzVUdOQllEMUN0RzZFSlF3PT0iLCJtYWMiOiJmODc5NWJhM2RhNjFhZjM1YWQ0YmRmODE3OTk5ZDYwNjVjMDQyZTExNDNmYzY3ZjY0MDRjNzgzY2I5NTE1ZDM5In0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:47:59] Client sent request to proxy with headers:
+[01/Apr/2019:14:47:59] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjU3QXVsTnBGZ0dZWHpJWllhWnoreTZyN2ZocW9qMzZkVFVJV2VGU3lnbG89IiwidmFsdWUiOiJsNFwvelNuekVPWndjMGNnM0hWVXpxR1piRVpkQk4ydXUxS2hYVG9FQmc5MWZablwvM3VpcHU1MW1tc24wOFV3N0RYdURjK3YzVUdOQllEMUN0RzZFSlF3PT0iLCJtYWMiOiJmODc5NWJhM2RhNjFhZjM1YWQ0YmRmODE3OTk5ZDYwNjVjMDQyZTExNDNmYzY3ZjY0MDRjNzgzY2I5NTE1ZDM5In0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:47:59] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:47:59] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjU3QXVsTnBGZ0dZWHpJWllhWnoreTZyN2ZocW9qMzZkVFVJV2VGU3lnbG89IiwidmFsdWUiOiJsNFwvelNuekVPWndjMGNnM0hWVXpxR1piRVpkQk4ydXUxS2hYVG9FQmc5MWZablwvM3VpcHU1MW1tc24wOFV3N0RYdURjK3YzVUdOQllEMUN0RzZFSlF3PT0iLCJtYWMiOiJmODc5NWJhM2RhNjFhZjM1YWQ0YmRmODE3OTk5ZDYwNjVjMDQyZTExNDNmYzY3ZjY0MDRjNzgzY2I5NTE1ZDM5In0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:47:59] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:47:59] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:47:59] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:47:59] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:47:59] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:47:59] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:47:59] Accepted a request from client!
+[01/Apr/2019:14:47:59] Client sent request to proxy with headers:
+[01/Apr/2019:14:47:59] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjU3QXVsTnBGZ0dZWHpJWllhWnoreTZyN2ZocW9qMzZkVFVJV2VGU3lnbG89IiwidmFsdWUiOiJsNFwvelNuekVPWndjMGNnM0hWVXpxR1piRVpkQk4ydXUxS2hYVG9FQmc5MWZablwvM3VpcHU1MW1tc24wOFV3N0RYdURjK3YzVUdOQllEMUN0RzZFSlF3PT0iLCJtYWMiOiJmODc5NWJhM2RhNjFhZjM1YWQ0YmRmODE3OTk5ZDYwNjVjMDQyZTExNDNmYzY3ZjY0MDRjNzgzY2I5NTE1ZDM5In0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:47:59] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:47:59] Accepted a request from client!
+[01/Apr/2019:14:47:59] Client sent request to proxy with headers:
+[01/Apr/2019:14:47:59] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjU3QXVsTnBGZ0dZWHpJWllhWnoreTZyN2ZocW9qMzZkVFVJV2VGU3lnbG89IiwidmFsdWUiOiJsNFwvelNuekVPWndjMGNnM0hWVXpxR1piRVpkQk4ydXUxS2hYVG9FQmc5MWZablwvM3VpcHU1MW1tc24wOFV3N0RYdURjK3YzVUdOQllEMUN0RzZFSlF3PT0iLCJtYWMiOiJmODc5NWJhM2RhNjFhZjM1YWQ0YmRmODE3OTk5ZDYwNjVjMDQyZTExNDNmYzY3ZjY0MDRjNzgzY2I5NTE1ZDM5In0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:47:59] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:47:59] Accepted a request from client!
+[01/Apr/2019:14:47:59] Client sent request to proxy with headers:
+[01/Apr/2019:14:47:59] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjU3QXVsTnBGZ0dZWHpJWllhWnoreTZyN2ZocW9qMzZkVFVJV2VGU3lnbG89IiwidmFsdWUiOiJsNFwvelNuekVPWndjMGNnM0hWVXpxR1piRVpkQk4ydXUxS2hYVG9FQmc5MWZablwvM3VpcHU1MW1tc24wOFV3N0RYdURjK3YzVUdOQllEMUN0RzZFSlF3PT0iLCJtYWMiOiJmODc5NWJhM2RhNjFhZjM1YWQ0YmRmODE3OTk5ZDYwNjVjMDQyZTExNDNmYzY3ZjY0MDRjNzgzY2I5NTE1ZDM5In0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:47:59] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:48:00] Accepted a request from client!
+[01/Apr/2019:14:48:00] Client sent request to proxy with headers:
+[01/Apr/2019:14:48:00] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjU3QXVsTnBGZ0dZWHpJWllhWnoreTZyN2ZocW9qMzZkVFVJV2VGU3lnbG89IiwidmFsdWUiOiJsNFwvelNuekVPWndjMGNnM0hWVXpxR1piRVpkQk4ydXUxS2hYVG9FQmc5MWZablwvM3VpcHU1MW1tc24wOFV3N0RYdURjK3YzVUdOQllEMUN0RzZFSlF3PT0iLCJtYWMiOiJmODc5NWJhM2RhNjFhZjM1YWQ0YmRmODE3OTk5ZDYwNjVjMDQyZTExNDNmYzY3ZjY0MDRjNzgzY2I5NTE1ZDM5In0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:48:00] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:48:00] Accepted a request from client!
+[01/Apr/2019:14:48:00] Accepted a request from client!
+[01/Apr/2019:14:48:00] Accepted a request from client!
+[01/Apr/2019:14:48:00] Client sent request to proxy with headers:
+[01/Apr/2019:14:48:00] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6Ikk4WGV1WDlYR2xjOExUMkxWV1JkUjlYTDJPbnRVQVJwdkFoUkg1dUFJVzA9IiwidmFsdWUiOiJMUm5UNSs5ekdUWDBzTTlyV2JwV2xXV2Z2QnFEdzMrSXhMcDBFd1Q2anVXSHpwYzF1VVlcL0RmUGpUK0d5WnFHUklxQ0pIaHhwUGRxN05zNFN1XC9XblNRPT0iLCJtYWMiOiIzZmM2MjNjMjk1NzgwMzFkNzI5ZTE2ZThlM2FhOGE2NDgzYThmNjMyNWFkMzRiM2FkMTdiNzAzYjRmZDYwMDEwIn0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:48:00] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:48:00] Client sent request to proxy with headers:
+[01/Apr/2019:14:48:00] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjU3QXVsTnBGZ0dZWHpJWllhWnoreTZyN2ZocW9qMzZkVFVJV2VGU3lnbG89IiwidmFsdWUiOiJsNFwvelNuekVPWndjMGNnM0hWVXpxR1piRVpkQk4ydXUxS2hYVG9FQmc5MWZablwvM3VpcHU1MW1tc24wOFV3N0RYdURjK3YzVUdOQllEMUN0RzZFSlF3PT0iLCJtYWMiOiJmODc5NWJhM2RhNjFhZjM1YWQ0YmRmODE3OTk5ZDYwNjVjMDQyZTExNDNmYzY3ZjY0MDRjNzgzY2I5NTE1ZDM5In0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:48:00] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:48:00] Client sent request to proxy with headers:
+[01/Apr/2019:14:48:00] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjU3QXVsTnBGZ0dZWHpJWllhWnoreTZyN2ZocW9qMzZkVFVJV2VGU3lnbG89IiwidmFsdWUiOiJsNFwvelNuekVPWndjMGNnM0hWVXpxR1piRVpkQk4ydXUxS2hYVG9FQmc5MWZablwvM3VpcHU1MW1tc24wOFV3N0RYdURjK3YzVUdOQllEMUN0RzZFSlF3PT0iLCJtYWMiOiJmODc5NWJhM2RhNjFhZjM1YWQ0YmRmODE3OTk5ZDYwNjVjMDQyZTExNDNmYzY3ZjY0MDRjNzgzY2I5NTE1ZDM5In0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:48:00] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:48:00] Accepted a request from client!
+[01/Apr/2019:14:48:00] Client sent request to proxy with headers:
+[01/Apr/2019:14:48:00] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjU3QXVsTnBGZ0dZWHpJWllhWnoreTZyN2ZocW9qMzZkVFVJV2VGU3lnbG89IiwidmFsdWUiOiJsNFwvelNuekVPWndjMGNnM0hWVXpxR1piRVpkQk4ydXUxS2hYVG9FQmc5MWZablwvM3VpcHU1MW1tc24wOFV3N0RYdURjK3YzVUdOQllEMUN0RzZFSlF3PT0iLCJtYWMiOiJmODc5NWJhM2RhNjFhZjM1YWQ0YmRmODE3OTk5ZDYwNjVjMDQyZTExNDNmYzY3ZjY0MDRjNzgzY2I5NTE1ZDM5In0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:48:00] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:48:00] Accepted a request from client!
+[01/Apr/2019:14:48:00] Accepted a request from client!
+[01/Apr/2019:14:48:00] Client sent request to proxy with headers:
+[01/Apr/2019:14:48:00] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjU3QXVsTnBGZ0dZWHpJWllhWnoreTZyN2ZocW9qMzZkVFVJV2VGU3lnbG89IiwidmFsdWUiOiJsNFwvelNuekVPWndjMGNnM0hWVXpxR1piRVpkQk4ydXUxS2hYVG9FQmc5MWZablwvM3VpcHU1MW1tc24wOFV3N0RYdURjK3YzVUdOQllEMUN0RzZFSlF3PT0iLCJtYWMiOiJmODc5NWJhM2RhNjFhZjM1YWQ0YmRmODE3OTk5ZDYwNjVjMDQyZTExNDNmYzY3ZjY0MDRjNzgzY2I5NTE1ZDM5In0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:48:00] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:48:00] Client sent request to proxy with headers:
+[01/Apr/2019:14:48:00] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjU3QXVsTnBGZ0dZWHpJWllhWnoreTZyN2ZocW9qMzZkVFVJV2VGU3lnbG89IiwidmFsdWUiOiJsNFwvelNuekVPWndjMGNnM0hWVXpxR1piRVpkQk4ydXUxS2hYVG9FQmc5MWZablwvM3VpcHU1MW1tc24wOFV3N0RYdURjK3YzVUdOQllEMUN0RzZFSlF3PT0iLCJtYWMiOiJmODc5NWJhM2RhNjFhZjM1YWQ0YmRmODE3OTk5ZDYwNjVjMDQyZTExNDNmYzY3ZjY0MDRjNzgzY2I5NTE1ZDM5In0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:48:00] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:48:00] Accepted a request from client!
+[01/Apr/2019:14:48:00] Client sent request to proxy with headers:
+[01/Apr/2019:14:48:00] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjU3QXVsTnBGZ0dZWHpJWllhWnoreTZyN2ZocW9qMzZkVFVJV2VGU3lnbG89IiwidmFsdWUiOiJsNFwvelNuekVPWndjMGNnM0hWVXpxR1piRVpkQk4ydXUxS2hYVG9FQmc5MWZablwvM3VpcHU1MW1tc24wOFV3N0RYdURjK3YzVUdOQllEMUN0RzZFSlF3PT0iLCJtYWMiOiJmODc5NWJhM2RhNjFhZjM1YWQ0YmRmODE3OTk5ZDYwNjVjMDQyZTExNDNmYzY3ZjY0MDRjNzgzY2I5NTE1ZDM5In0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:48:00] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:48:00] Accepted a request from client!
+[01/Apr/2019:14:48:00] Client sent request to proxy with headers:
+[01/Apr/2019:14:48:00] 
+----------------------------------------------------------------------
+Host: trustseal.enamad.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:48:00] connect to [trustseal.enamad.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:48:00] Accepted a request from client!
+[01/Apr/2019:14:48:00] Client sent request to proxy with headers:
+[01/Apr/2019:14:48:00] Accepted a request from client!
+[01/Apr/2019:14:48:00] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjU3QXVsTnBGZ0dZWHpJWllhWnoreTZyN2ZocW9qMzZkVFVJV2VGU3lnbG89IiwidmFsdWUiOiJsNFwvelNuekVPWndjMGNnM0hWVXpxR1piRVpkQk4ydXUxS2hYVG9FQmc5MWZablwvM3VpcHU1MW1tc24wOFV3N0RYdURjK3YzVUdOQllEMUN0RzZFSlF3PT0iLCJtYWMiOiJmODc5NWJhM2RhNjFhZjM1YWQ0YmRmODE3OTk5ZDYwNjVjMDQyZTExNDNmYzY3ZjY0MDRjNzgzY2I5NTE1ZDM5In0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:48:00] Accepted a request from client!
+[01/Apr/2019:14:48:00] Accepted a request from client!
+[01/Apr/2019:14:48:00] Accepted a request from client!
+[01/Apr/2019:14:48:00] Client sent request to proxy with headers:
+[01/Apr/2019:14:48:00] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:48:00] Client sent request to proxy with headers:
+[01/Apr/2019:14:48:00] Accepted a request from client!
+[01/Apr/2019:14:48:00] Accepted a request from client!
+[01/Apr/2019:14:48:00] Client sent request to proxy with headers:
+[01/Apr/2019:14:48:00] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjU3QXVsTnBGZ0dZWHpJWllhWnoreTZyN2ZocW9qMzZkVFVJV2VGU3lnbG89IiwidmFsdWUiOiJsNFwvelNuekVPWndjMGNnM0hWVXpxR1piRVpkQk4ydXUxS2hYVG9FQmc5MWZablwvM3VpcHU1MW1tc24wOFV3N0RYdURjK3YzVUdOQllEMUN0RzZFSlF3PT0iLCJtYWMiOiJmODc5NWJhM2RhNjFhZjM1YWQ0YmRmODE3OTk5ZDYwNjVjMDQyZTExNDNmYzY3ZjY0MDRjNzgzY2I5NTE1ZDM5In0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:48:00] Client sent request to proxy with headers:
+[01/Apr/2019:14:48:00] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjU3QXVsTnBGZ0dZWHpJWllhWnoreTZyN2ZocW9qMzZkVFVJV2VGU3lnbG89IiwidmFsdWUiOiJsNFwvelNuekVPWndjMGNnM0hWVXpxR1piRVpkQk4ydXUxS2hYVG9FQmc5MWZablwvM3VpcHU1MW1tc24wOFV3N0RYdURjK3YzVUdOQllEMUN0RzZFSlF3PT0iLCJtYWMiOiJmODc5NWJhM2RhNjFhZjM1YWQ0YmRmODE3OTk5ZDYwNjVjMDQyZTExNDNmYzY3ZjY0MDRjNzgzY2I5NTE1ZDM5In0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:48:00] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:48:00] Accepted a request from client!
+[01/Apr/2019:14:48:00] Client sent request to proxy with headers:
+[01/Apr/2019:14:48:00] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjU3QXVsTnBGZ0dZWHpJWllhWnoreTZyN2ZocW9qMzZkVFVJV2VGU3lnbG89IiwidmFsdWUiOiJsNFwvelNuekVPWndjMGNnM0hWVXpxR1piRVpkQk4ydXUxS2hYVG9FQmc5MWZablwvM3VpcHU1MW1tc24wOFV3N0RYdURjK3YzVUdOQllEMUN0RzZFSlF3PT0iLCJtYWMiOiJmODc5NWJhM2RhNjFhZjM1YWQ0YmRmODE3OTk5ZDYwNjVjMDQyZTExNDNmYzY3ZjY0MDRjNzgzY2I5NTE1ZDM5In0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:48:00] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjU3QXVsTnBGZ0dZWHpJWllhWnoreTZyN2ZocW9qMzZkVFVJV2VGU3lnbG89IiwidmFsdWUiOiJsNFwvelNuekVPWndjMGNnM0hWVXpxR1piRVpkQk4ydXUxS2hYVG9FQmc5MWZablwvM3VpcHU1MW1tc24wOFV3N0RYdURjK3YzVUdOQllEMUN0RzZFSlF3PT0iLCJtYWMiOiJmODc5NWJhM2RhNjFhZjM1YWQ0YmRmODE3OTk5ZDYwNjVjMDQyZTExNDNmYzY3ZjY0MDRjNzgzY2I5NTE1ZDM5In0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:48:00] Accepted a request from client!
+[01/Apr/2019:14:48:00] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjU3QXVsTnBGZ0dZWHpJWllhWnoreTZyN2ZocW9qMzZkVFVJV2VGU3lnbG89IiwidmFsdWUiOiJsNFwvelNuekVPWndjMGNnM0hWVXpxR1piRVpkQk4ydXUxS2hYVG9FQmc5MWZablwvM3VpcHU1MW1tc24wOFV3N0RYdURjK3YzVUdOQllEMUN0RzZFSlF3PT0iLCJtYWMiOiJmODc5NWJhM2RhNjFhZjM1YWQ0YmRmODE3OTk5ZDYwNjVjMDQyZTExNDNmYzY3ZjY0MDRjNzgzY2I5NTE1ZDM5In0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:48:00] Accepted a request from client!
+[01/Apr/2019:14:48:00] Client sent request to proxy with headers:
+[01/Apr/2019:14:48:00] Client sent request to proxy with headers:
+[01/Apr/2019:14:48:00] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjU3QXVsTnBGZ0dZWHpJWllhWnoreTZyN2ZocW9qMzZkVFVJV2VGU3lnbG89IiwidmFsdWUiOiJsNFwvelNuekVPWndjMGNnM0hWVXpxR1piRVpkQk4ydXUxS2hYVG9FQmc5MWZablwvM3VpcHU1MW1tc24wOFV3N0RYdURjK3YzVUdOQllEMUN0RzZFSlF3PT0iLCJtYWMiOiJmODc5NWJhM2RhNjFhZjM1YWQ0YmRmODE3OTk5ZDYwNjVjMDQyZTExNDNmYzY3ZjY0MDRjNzgzY2I5NTE1ZDM5In0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:48:00] Client sent request to proxy with headers:
+[01/Apr/2019:14:48:00] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjU3QXVsTnBGZ0dZWHpJWllhWnoreTZyN2ZocW9qMzZkVFVJV2VGU3lnbG89IiwidmFsdWUiOiJsNFwvelNuekVPWndjMGNnM0hWVXpxR1piRVpkQk4ydXUxS2hYVG9FQmc5MWZablwvM3VpcHU1MW1tc24wOFV3N0RYdURjK3YzVUdOQllEMUN0RzZFSlF3PT0iLCJtYWMiOiJmODc5NWJhM2RhNjFhZjM1YWQ0YmRmODE3OTk5ZDYwNjVjMDQyZTExNDNmYzY3ZjY0MDRjNzgzY2I5NTE1ZDM5In0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:48:00] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:48:00] Client sent request to proxy with headers:
+[01/Apr/2019:14:48:00] Accepted a request from client!
+[01/Apr/2019:14:48:00] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjU3QXVsTnBGZ0dZWHpJWllhWnoreTZyN2ZocW9qMzZkVFVJV2VGU3lnbG89IiwidmFsdWUiOiJsNFwvelNuekVPWndjMGNnM0hWVXpxR1piRVpkQk4ydXUxS2hYVG9FQmc5MWZablwvM3VpcHU1MW1tc24wOFV3N0RYdURjK3YzVUdOQllEMUN0RzZFSlF3PT0iLCJtYWMiOiJmODc5NWJhM2RhNjFhZjM1YWQ0YmRmODE3OTk5ZDYwNjVjMDQyZTExNDNmYzY3ZjY0MDRjNzgzY2I5NTE1ZDM5In0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:48:00] Client sent request to proxy with headers:
+[01/Apr/2019:14:48:00] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjU3QXVsTnBGZ0dZWHpJWllhWnoreTZyN2ZocW9qMzZkVFVJV2VGU3lnbG89IiwidmFsdWUiOiJsNFwvelNuekVPWndjMGNnM0hWVXpxR1piRVpkQk4ydXUxS2hYVG9FQmc5MWZablwvM3VpcHU1MW1tc24wOFV3N0RYdURjK3YzVUdOQllEMUN0RzZFSlF3PT0iLCJtYWMiOiJmODc5NWJhM2RhNjFhZjM1YWQ0YmRmODE3OTk5ZDYwNjVjMDQyZTExNDNmYzY3ZjY0MDRjNzgzY2I5NTE1ZDM5In0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:48:00] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjU3QXVsTnBGZ0dZWHpJWllhWnoreTZyN2ZocW9qMzZkVFVJV2VGU3lnbG89IiwidmFsdWUiOiJsNFwvelNuekVPWndjMGNnM0hWVXpxR1piRVpkQk4ydXUxS2hYVG9FQmc5MWZablwvM3VpcHU1MW1tc24wOFV3N0RYdURjK3YzVUdOQllEMUN0RzZFSlF3PT0iLCJtYWMiOiJmODc5NWJhM2RhNjFhZjM1YWQ0YmRmODE3OTk5ZDYwNjVjMDQyZTExNDNmYzY3ZjY0MDRjNzgzY2I5NTE1ZDM5In0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:48:00] Accepted a request from client!
+[01/Apr/2019:14:48:00] Accepted a request from client!
+[01/Apr/2019:14:48:00] Client sent request to proxy with headers:
+[01/Apr/2019:14:48:00] Accepted a request from client!
+[01/Apr/2019:14:48:00] Client sent request to proxy with headers:
+[01/Apr/2019:14:48:00] Accepted a request from client!
+[01/Apr/2019:14:48:00] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjU3QXVsTnBGZ0dZWHpJWllhWnoreTZyN2ZocW9qMzZkVFVJV2VGU3lnbG89IiwidmFsdWUiOiJsNFwvelNuekVPWndjMGNnM0hWVXpxR1piRVpkQk4ydXUxS2hYVG9FQmc5MWZablwvM3VpcHU1MW1tc24wOFV3N0RYdURjK3YzVUdOQllEMUN0RzZFSlF3PT0iLCJtYWMiOiJmODc5NWJhM2RhNjFhZjM1YWQ0YmRmODE3OTk5ZDYwNjVjMDQyZTExNDNmYzY3ZjY0MDRjNzgzY2I5NTE1ZDM5In0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:48:00] Accepted a request from client!
+[01/Apr/2019:14:48:00] Client sent request to proxy with headers:
+[01/Apr/2019:14:48:00] Client sent request to proxy with headers:
+[01/Apr/2019:14:48:00] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjU3QXVsTnBGZ0dZWHpJWllhWnoreTZyN2ZocW9qMzZkVFVJV2VGU3lnbG89IiwidmFsdWUiOiJsNFwvelNuekVPWndjMGNnM0hWVXpxR1piRVpkQk4ydXUxS2hYVG9FQmc5MWZablwvM3VpcHU1MW1tc24wOFV3N0RYdURjK3YzVUdOQllEMUN0RzZFSlF3PT0iLCJtYWMiOiJmODc5NWJhM2RhNjFhZjM1YWQ0YmRmODE3OTk5ZDYwNjVjMDQyZTExNDNmYzY3ZjY0MDRjNzgzY2I5NTE1ZDM5In0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:48:00] Accepted a request from client!
+[01/Apr/2019:14:48:00] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjU3QXVsTnBGZ0dZWHpJWllhWnoreTZyN2ZocW9qMzZkVFVJV2VGU3lnbG89IiwidmFsdWUiOiJsNFwvelNuekVPWndjMGNnM0hWVXpxR1piRVpkQk4ydXUxS2hYVG9FQmc5MWZablwvM3VpcHU1MW1tc24wOFV3N0RYdURjK3YzVUdOQllEMUN0RzZFSlF3PT0iLCJtYWMiOiJmODc5NWJhM2RhNjFhZjM1YWQ0YmRmODE3OTk5ZDYwNjVjMDQyZTExNDNmYzY3ZjY0MDRjNzgzY2I5NTE1ZDM5In0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:48:00] Accepted a request from client!
+[01/Apr/2019:14:48:00] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjU3QXVsTnBGZ0dZWHpJWllhWnoreTZyN2ZocW9qMzZkVFVJV2VGU3lnbG89IiwidmFsdWUiOiJsNFwvelNuekVPWndjMGNnM0hWVXpxR1piRVpkQk4ydXUxS2hYVG9FQmc5MWZablwvM3VpcHU1MW1tc24wOFV3N0RYdURjK3YzVUdOQllEMUN0RzZFSlF3PT0iLCJtYWMiOiJmODc5NWJhM2RhNjFhZjM1YWQ0YmRmODE3OTk5ZDYwNjVjMDQyZTExNDNmYzY3ZjY0MDRjNzgzY2I5NTE1ZDM5In0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:48:00] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:48:00] Client sent request to proxy with headers:
+[01/Apr/2019:14:48:00] Accepted a request from client!
+[01/Apr/2019:14:48:00] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:48:00] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:48:00] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjU3QXVsTnBGZ0dZWHpJWllhWnoreTZyN2ZocW9qMzZkVFVJV2VGU3lnbG89IiwidmFsdWUiOiJsNFwvelNuekVPWndjMGNnM0hWVXpxR1piRVpkQk4ydXUxS2hYVG9FQmc5MWZablwvM3VpcHU1MW1tc24wOFV3N0RYdURjK3YzVUdOQllEMUN0RzZFSlF3PT0iLCJtYWMiOiJmODc5NWJhM2RhNjFhZjM1YWQ0YmRmODE3OTk5ZDYwNjVjMDQyZTExNDNmYzY3ZjY0MDRjNzgzY2I5NTE1ZDM5In0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:48:00] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:48:00] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:48:00] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:48:00] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:48:00] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:48:00] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:48:00] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:48:00] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:48:00] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:48:00] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:48:00] Client sent request to proxy with headers:
+[01/Apr/2019:14:48:00] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6Ikk4WGV1WDlYR2xjOExUMkxWV1JkUjlYTDJPbnRVQVJwdkFoUkg1dUFJVzA9IiwidmFsdWUiOiJMUm5UNSs5ekdUWDBzTTlyV2JwV2xXV2Z2QnFEdzMrSXhMcDBFd1Q2anVXSHpwYzF1VVlcL0RmUGpUK0d5WnFHUklxQ0pIaHhwUGRxN05zNFN1XC9XblNRPT0iLCJtYWMiOiIzZmM2MjNjMjk1NzgwMzFkNzI5ZTE2ZThlM2FhOGE2NDgzYThmNjMyNWFkMzRiM2FkMTdiNzAzYjRmZDYwMDEwIn0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:48:00] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:48:00] Client sent request to proxy with headers:
+[01/Apr/2019:14:48:00] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6Ikk4WGV1WDlYR2xjOExUMkxWV1JkUjlYTDJPbnRVQVJwdkFoUkg1dUFJVzA9IiwidmFsdWUiOiJMUm5UNSs5ekdUWDBzTTlyV2JwV2xXV2Z2QnFEdzMrSXhMcDBFd1Q2anVXSHpwYzF1VVlcL0RmUGpUK0d5WnFHUklxQ0pIaHhwUGRxN05zNFN1XC9XblNRPT0iLCJtYWMiOiIzZmM2MjNjMjk1NzgwMzFkNzI5ZTE2ZThlM2FhOGE2NDgzYThmNjMyNWFkMzRiM2FkMTdiNzAzYjRmZDYwMDEwIn0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:48:00] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:48:00] Client sent request to proxy with headers:
+[01/Apr/2019:14:48:00] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6Ikk4WGV1WDlYR2xjOExUMkxWV1JkUjlYTDJPbnRVQVJwdkFoUkg1dUFJVzA9IiwidmFsdWUiOiJMUm5UNSs5ekdUWDBzTTlyV2JwV2xXV2Z2QnFEdzMrSXhMcDBFd1Q2anVXSHpwYzF1VVlcL0RmUGpUK0d5WnFHUklxQ0pIaHhwUGRxN05zNFN1XC9XblNRPT0iLCJtYWMiOiIzZmM2MjNjMjk1NzgwMzFkNzI5ZTE2ZThlM2FhOGE2NDgzYThmNjMyNWFkMzRiM2FkMTdiNzAzYjRmZDYwMDEwIn0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:48:00] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:48:00] Accepted a request from client!
+[01/Apr/2019:14:48:00] Client sent request to proxy with headers:
+[01/Apr/2019:14:48:00] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6Ikk4WGV1WDlYR2xjOExUMkxWV1JkUjlYTDJPbnRVQVJwdkFoUkg1dUFJVzA9IiwidmFsdWUiOiJMUm5UNSs5ekdUWDBzTTlyV2JwV2xXV2Z2QnFEdzMrSXhMcDBFd1Q2anVXSHpwYzF1VVlcL0RmUGpUK0d5WnFHUklxQ0pIaHhwUGRxN05zNFN1XC9XblNRPT0iLCJtYWMiOiIzZmM2MjNjMjk1NzgwMzFkNzI5ZTE2ZThlM2FhOGE2NDgzYThmNjMyNWFkMzRiM2FkMTdiNzAzYjRmZDYwMDEwIn0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:48:00] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:48:00] Accepted a request from client!
+[01/Apr/2019:14:48:00] Client sent request to proxy with headers:
+[01/Apr/2019:14:48:00] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6Ikk4WGV1WDlYR2xjOExUMkxWV1JkUjlYTDJPbnRVQVJwdkFoUkg1dUFJVzA9IiwidmFsdWUiOiJMUm5UNSs5ekdUWDBzTTlyV2JwV2xXV2Z2QnFEdzMrSXhMcDBFd1Q2anVXSHpwYzF1VVlcL0RmUGpUK0d5WnFHUklxQ0pIaHhwUGRxN05zNFN1XC9XblNRPT0iLCJtYWMiOiIzZmM2MjNjMjk1NzgwMzFkNzI5ZTE2ZThlM2FhOGE2NDgzYThmNjMyNWFkMzRiM2FkMTdiNzAzYjRmZDYwMDEwIn0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:48:00] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:48:00] Accepted a request from client!
+[01/Apr/2019:14:48:00] Client sent request to proxy with headers:
+[01/Apr/2019:14:48:00] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6Ikk4WGV1WDlYR2xjOExUMkxWV1JkUjlYTDJPbnRVQVJwdkFoUkg1dUFJVzA9IiwidmFsdWUiOiJMUm5UNSs5ekdUWDBzTTlyV2JwV2xXV2Z2QnFEdzMrSXhMcDBFd1Q2anVXSHpwYzF1VVlcL0RmUGpUK0d5WnFHUklxQ0pIaHhwUGRxN05zNFN1XC9XblNRPT0iLCJtYWMiOiIzZmM2MjNjMjk1NzgwMzFkNzI5ZTE2ZThlM2FhOGE2NDgzYThmNjMyNWFkMzRiM2FkMTdiNzAzYjRmZDYwMDEwIn0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:48:00] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:48:00] Accepted a request from client!
+[01/Apr/2019:14:48:00] Client sent request to proxy with headers:
+[01/Apr/2019:14:48:00] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6Ikk4WGV1WDlYR2xjOExUMkxWV1JkUjlYTDJPbnRVQVJwdkFoUkg1dUFJVzA9IiwidmFsdWUiOiJMUm5UNSs5ekdUWDBzTTlyV2JwV2xXV2Z2QnFEdzMrSXhMcDBFd1Q2anVXSHpwYzF1VVlcL0RmUGpUK0d5WnFHUklxQ0pIaHhwUGRxN05zNFN1XC9XblNRPT0iLCJtYWMiOiIzZmM2MjNjMjk1NzgwMzFkNzI5ZTE2ZThlM2FhOGE2NDgzYThmNjMyNWFkMzRiM2FkMTdiNzAzYjRmZDYwMDEwIn0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:48:00] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:48:00] Accepted a request from client!
+[01/Apr/2019:14:48:00] Client sent request to proxy with headers:
+[01/Apr/2019:14:48:00] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6Ikk4WGV1WDlYR2xjOExUMkxWV1JkUjlYTDJPbnRVQVJwdkFoUkg1dUFJVzA9IiwidmFsdWUiOiJMUm5UNSs5ekdUWDBzTTlyV2JwV2xXV2Z2QnFEdzMrSXhMcDBFd1Q2anVXSHpwYzF1VVlcL0RmUGpUK0d5WnFHUklxQ0pIaHhwUGRxN05zNFN1XC9XblNRPT0iLCJtYWMiOiIzZmM2MjNjMjk1NzgwMzFkNzI5ZTE2ZThlM2FhOGE2NDgzYThmNjMyNWFkMzRiM2FkMTdiNzAzYjRmZDYwMDEwIn0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:48:00] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:48:00] Accepted a request from client!
+[01/Apr/2019:14:48:00] Client sent request to proxy with headers:
+[01/Apr/2019:14:48:00] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6Ikk4WGV1WDlYR2xjOExUMkxWV1JkUjlYTDJPbnRVQVJwdkFoUkg1dUFJVzA9IiwidmFsdWUiOiJMUm5UNSs5ekdUWDBzTTlyV2JwV2xXV2Z2QnFEdzMrSXhMcDBFd1Q2anVXSHpwYzF1VVlcL0RmUGpUK0d5WnFHUklxQ0pIaHhwUGRxN05zNFN1XC9XblNRPT0iLCJtYWMiOiIzZmM2MjNjMjk1NzgwMzFkNzI5ZTE2ZThlM2FhOGE2NDgzYThmNjMyNWFkMzRiM2FkMTdiNzAzYjRmZDYwMDEwIn0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:48:00] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:48:00] Accepted a request from client!
+[01/Apr/2019:14:48:00] Client sent request to proxy with headers:
+[01/Apr/2019:14:48:00] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6Ikk4WGV1WDlYR2xjOExUMkxWV1JkUjlYTDJPbnRVQVJwdkFoUkg1dUFJVzA9IiwidmFsdWUiOiJMUm5UNSs5ekdUWDBzTTlyV2JwV2xXV2Z2QnFEdzMrSXhMcDBFd1Q2anVXSHpwYzF1VVlcL0RmUGpUK0d5WnFHUklxQ0pIaHhwUGRxN05zNFN1XC9XblNRPT0iLCJtYWMiOiIzZmM2MjNjMjk1NzgwMzFkNzI5ZTE2ZThlM2FhOGE2NDgzYThmNjMyNWFkMzRiM2FkMTdiNzAzYjRmZDYwMDEwIn0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:48:00] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:48:00] Accepted a request from client!
+[01/Apr/2019:14:48:00] Client sent request to proxy with headers:
+[01/Apr/2019:14:48:00] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6Ikk4WGV1WDlYR2xjOExUMkxWV1JkUjlYTDJPbnRVQVJwdkFoUkg1dUFJVzA9IiwidmFsdWUiOiJMUm5UNSs5ekdUWDBzTTlyV2JwV2xXV2Z2QnFEdzMrSXhMcDBFd1Q2anVXSHpwYzF1VVlcL0RmUGpUK0d5WnFHUklxQ0pIaHhwUGRxN05zNFN1XC9XblNRPT0iLCJtYWMiOiIzZmM2MjNjMjk1NzgwMzFkNzI5ZTE2ZThlM2FhOGE2NDgzYThmNjMyNWFkMzRiM2FkMTdiNzAzYjRmZDYwMDEwIn0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:48:00] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:48:00] Accepted a request from client!
+[01/Apr/2019:14:48:00] Client sent request to proxy with headers:
+[01/Apr/2019:14:48:00] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6Ikk4WGV1WDlYR2xjOExUMkxWV1JkUjlYTDJPbnRVQVJwdkFoUkg1dUFJVzA9IiwidmFsdWUiOiJMUm5UNSs5ekdUWDBzTTlyV2JwV2xXV2Z2QnFEdzMrSXhMcDBFd1Q2anVXSHpwYzF1VVlcL0RmUGpUK0d5WnFHUklxQ0pIaHhwUGRxN05zNFN1XC9XblNRPT0iLCJtYWMiOiIzZmM2MjNjMjk1NzgwMzFkNzI5ZTE2ZThlM2FhOGE2NDgzYThmNjMyNWFkMzRiM2FkMTdiNzAzYjRmZDYwMDEwIn0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:48:00] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:48:00] Accepted a request from client!
+[01/Apr/2019:14:48:00] Client sent request to proxy with headers:
+[01/Apr/2019:14:48:00] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6Ikk4WGV1WDlYR2xjOExUMkxWV1JkUjlYTDJPbnRVQVJwdkFoUkg1dUFJVzA9IiwidmFsdWUiOiJMUm5UNSs5ekdUWDBzTTlyV2JwV2xXV2Z2QnFEdzMrSXhMcDBFd1Q2anVXSHpwYzF1VVlcL0RmUGpUK0d5WnFHUklxQ0pIaHhwUGRxN05zNFN1XC9XblNRPT0iLCJtYWMiOiIzZmM2MjNjMjk1NzgwMzFkNzI5ZTE2ZThlM2FhOGE2NDgzYThmNjMyNWFkMzRiM2FkMTdiNzAzYjRmZDYwMDEwIn0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:48:00] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:48:00] Accepted a request from client!
+[01/Apr/2019:14:48:00] Client sent request to proxy with headers:
+[01/Apr/2019:14:48:00] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6Ikk4WGV1WDlYR2xjOExUMkxWV1JkUjlYTDJPbnRVQVJwdkFoUkg1dUFJVzA9IiwidmFsdWUiOiJMUm5UNSs5ekdUWDBzTTlyV2JwV2xXV2Z2QnFEdzMrSXhMcDBFd1Q2anVXSHpwYzF1VVlcL0RmUGpUK0d5WnFHUklxQ0pIaHhwUGRxN05zNFN1XC9XblNRPT0iLCJtYWMiOiIzZmM2MjNjMjk1NzgwMzFkNzI5ZTE2ZThlM2FhOGE2NDgzYThmNjMyNWFkMzRiM2FkMTdiNzAzYjRmZDYwMDEwIn0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:48:00] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:48:00] Accepted a request from client!
+[01/Apr/2019:14:48:00] Client sent request to proxy with headers:
+[01/Apr/2019:14:48:00] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6Ikk4WGV1WDlYR2xjOExUMkxWV1JkUjlYTDJPbnRVQVJwdkFoUkg1dUFJVzA9IiwidmFsdWUiOiJMUm5UNSs5ekdUWDBzTTlyV2JwV2xXV2Z2QnFEdzMrSXhMcDBFd1Q2anVXSHpwYzF1VVlcL0RmUGpUK0d5WnFHUklxQ0pIaHhwUGRxN05zNFN1XC9XblNRPT0iLCJtYWMiOiIzZmM2MjNjMjk1NzgwMzFkNzI5ZTE2ZThlM2FhOGE2NDgzYThmNjMyNWFkMzRiM2FkMTdiNzAzYjRmZDYwMDEwIn0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:48:00] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:48:00] Accepted a request from client!
+[01/Apr/2019:14:48:00] Client sent request to proxy with headers:
+[01/Apr/2019:14:48:00] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6Ikk4WGV1WDlYR2xjOExUMkxWV1JkUjlYTDJPbnRVQVJwdkFoUkg1dUFJVzA9IiwidmFsdWUiOiJMUm5UNSs5ekdUWDBzTTlyV2JwV2xXV2Z2QnFEdzMrSXhMcDBFd1Q2anVXSHpwYzF1VVlcL0RmUGpUK0d5WnFHUklxQ0pIaHhwUGRxN05zNFN1XC9XblNRPT0iLCJtYWMiOiIzZmM2MjNjMjk1NzgwMzFkNzI5ZTE2ZThlM2FhOGE2NDgzYThmNjMyNWFkMzRiM2FkMTdiNzAzYjRmZDYwMDEwIn0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:48:00] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:48:00] Accepted a request from client!
+[01/Apr/2019:14:48:00] Client sent request to proxy with headers:
+[01/Apr/2019:14:48:00] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6Ikk4WGV1WDlYR2xjOExUMkxWV1JkUjlYTDJPbnRVQVJwdkFoUkg1dUFJVzA9IiwidmFsdWUiOiJMUm5UNSs5ekdUWDBzTTlyV2JwV2xXV2Z2QnFEdzMrSXhMcDBFd1Q2anVXSHpwYzF1VVlcL0RmUGpUK0d5WnFHUklxQ0pIaHhwUGRxN05zNFN1XC9XblNRPT0iLCJtYWMiOiIzZmM2MjNjMjk1NzgwMzFkNzI5ZTE2ZThlM2FhOGE2NDgzYThmNjMyNWFkMzRiM2FkMTdiNzAzYjRmZDYwMDEwIn0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:48:00] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:48:00] Accepted a request from client!
+[01/Apr/2019:14:48:00] Client sent request to proxy with headers:
+[01/Apr/2019:14:48:00] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6Ikk4WGV1WDlYR2xjOExUMkxWV1JkUjlYTDJPbnRVQVJwdkFoUkg1dUFJVzA9IiwidmFsdWUiOiJMUm5UNSs5ekdUWDBzTTlyV2JwV2xXV2Z2QnFEdzMrSXhMcDBFd1Q2anVXSHpwYzF1VVlcL0RmUGpUK0d5WnFHUklxQ0pIaHhwUGRxN05zNFN1XC9XblNRPT0iLCJtYWMiOiIzZmM2MjNjMjk1NzgwMzFkNzI5ZTE2ZThlM2FhOGE2NDgzYThmNjMyNWFkMzRiM2FkMTdiNzAzYjRmZDYwMDEwIn0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:48:00] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:48:00] Accepted a request from client!
+[01/Apr/2019:14:48:00] Client sent request to proxy with headers:
+[01/Apr/2019:14:48:00] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6Ikk4WGV1WDlYR2xjOExUMkxWV1JkUjlYTDJPbnRVQVJwdkFoUkg1dUFJVzA9IiwidmFsdWUiOiJMUm5UNSs5ekdUWDBzTTlyV2JwV2xXV2Z2QnFEdzMrSXhMcDBFd1Q2anVXSHpwYzF1VVlcL0RmUGpUK0d5WnFHUklxQ0pIaHhwUGRxN05zNFN1XC9XblNRPT0iLCJtYWMiOiIzZmM2MjNjMjk1NzgwMzFkNzI5ZTE2ZThlM2FhOGE2NDgzYThmNjMyNWFkMzRiM2FkMTdiNzAzYjRmZDYwMDEwIn0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:48:00] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:48:00] Accepted a request from client!
+[01/Apr/2019:14:48:00] Client sent request to proxy with headers:
+[01/Apr/2019:14:48:00] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6Ikk4WGV1WDlYR2xjOExUMkxWV1JkUjlYTDJPbnRVQVJwdkFoUkg1dUFJVzA9IiwidmFsdWUiOiJMUm5UNSs5ekdUWDBzTTlyV2JwV2xXV2Z2QnFEdzMrSXhMcDBFd1Q2anVXSHpwYzF1VVlcL0RmUGpUK0d5WnFHUklxQ0pIaHhwUGRxN05zNFN1XC9XblNRPT0iLCJtYWMiOiIzZmM2MjNjMjk1NzgwMzFkNzI5ZTE2ZThlM2FhOGE2NDgzYThmNjMyNWFkMzRiM2FkMTdiNzAzYjRmZDYwMDEwIn0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:48:00] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:48:00] Accepted a request from client!
+[01/Apr/2019:14:48:00] Client sent request to proxy with headers:
+[01/Apr/2019:14:48:00] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6Ikk4WGV1WDlYR2xjOExUMkxWV1JkUjlYTDJPbnRVQVJwdkFoUkg1dUFJVzA9IiwidmFsdWUiOiJMUm5UNSs5ekdUWDBzTTlyV2JwV2xXV2Z2QnFEdzMrSXhMcDBFd1Q2anVXSHpwYzF1VVlcL0RmUGpUK0d5WnFHUklxQ0pIaHhwUGRxN05zNFN1XC9XblNRPT0iLCJtYWMiOiIzZmM2MjNjMjk1NzgwMzFkNzI5ZTE2ZThlM2FhOGE2NDgzYThmNjMyNWFkMzRiM2FkMTdiNzAzYjRmZDYwMDEwIn0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:48:00] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:48:00] Accepted a request from client!
+[01/Apr/2019:14:48:00] Client sent request to proxy with headers:
+[01/Apr/2019:14:48:00] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjU3QXVsTnBGZ0dZWHpJWllhWnoreTZyN2ZocW9qMzZkVFVJV2VGU3lnbG89IiwidmFsdWUiOiJsNFwvelNuekVPWndjMGNnM0hWVXpxR1piRVpkQk4ydXUxS2hYVG9FQmc5MWZablwvM3VpcHU1MW1tc24wOFV3N0RYdURjK3YzVUdOQllEMUN0RzZFSlF3PT0iLCJtYWMiOiJmODc5NWJhM2RhNjFhZjM1YWQ0YmRmODE3OTk5ZDYwNjVjMDQyZTExNDNmYzY3ZjY0MDRjNzgzY2I5NTE1ZDM5In0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:48:00] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:48:00] Accepted a request from client!
+[01/Apr/2019:14:48:00] Client sent request to proxy with headers:
+[01/Apr/2019:14:48:00] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjU3QXVsTnBGZ0dZWHpJWllhWnoreTZyN2ZocW9qMzZkVFVJV2VGU3lnbG89IiwidmFsdWUiOiJsNFwvelNuekVPWndjMGNnM0hWVXpxR1piRVpkQk4ydXUxS2hYVG9FQmc5MWZablwvM3VpcHU1MW1tc24wOFV3N0RYdURjK3YzVUdOQllEMUN0RzZFSlF3PT0iLCJtYWMiOiJmODc5NWJhM2RhNjFhZjM1YWQ0YmRmODE3OTk5ZDYwNjVjMDQyZTExNDNmYzY3ZjY0MDRjNzgzY2I5NTE1ZDM5In0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:48:00] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:48:00] Accepted a request from client!
+[01/Apr/2019:14:48:00] Client sent request to proxy with headers:
+[01/Apr/2019:14:48:00] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjU3QXVsTnBGZ0dZWHpJWllhWnoreTZyN2ZocW9qMzZkVFVJV2VGU3lnbG89IiwidmFsdWUiOiJsNFwvelNuekVPWndjMGNnM0hWVXpxR1piRVpkQk4ydXUxS2hYVG9FQmc5MWZablwvM3VpcHU1MW1tc24wOFV3N0RYdURjK3YzVUdOQllEMUN0RzZFSlF3PT0iLCJtYWMiOiJmODc5NWJhM2RhNjFhZjM1YWQ0YmRmODE3OTk5ZDYwNjVjMDQyZTExNDNmYzY3ZjY0MDRjNzgzY2I5NTE1ZDM5In0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:48:00] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:48:00] Accepted a request from client!
+[01/Apr/2019:14:48:00] Client sent request to proxy with headers:
+[01/Apr/2019:14:48:00] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjU3QXVsTnBGZ0dZWHpJWllhWnoreTZyN2ZocW9qMzZkVFVJV2VGU3lnbG89IiwidmFsdWUiOiJsNFwvelNuekVPWndjMGNnM0hWVXpxR1piRVpkQk4ydXUxS2hYVG9FQmc5MWZablwvM3VpcHU1MW1tc24wOFV3N0RYdURjK3YzVUdOQllEMUN0RzZFSlF3PT0iLCJtYWMiOiJmODc5NWJhM2RhNjFhZjM1YWQ0YmRmODE3OTk5ZDYwNjVjMDQyZTExNDNmYzY3ZjY0MDRjNzgzY2I5NTE1ZDM5In0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:48:00] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:48:00] Accepted a request from client!
+[01/Apr/2019:14:48:00] Client sent request to proxy with headers:
+[01/Apr/2019:14:48:00] 
+----------------------------------------------------------------------
+Host: sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://sib.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953; laravel_session=eyJpdiI6IjU3QXVsTnBGZ0dZWHpJWllhWnoreTZyN2ZocW9qMzZkVFVJV2VGU3lnbG89IiwidmFsdWUiOiJsNFwvelNuekVPWndjMGNnM0hWVXpxR1piRVpkQk4ydXUxS2hYVG9FQmc5MWZablwvM3VpcHU1MW1tc24wOFV3N0RYdURjK3YzVUdOQllEMUN0RzZFSlF3PT0iLCJtYWMiOiJmODc5NWJhM2RhNjFhZjM1YWQ0YmRmODE3OTk5ZDYwNjVjMDQyZTExNDNmYzY3ZjY0MDRjNzgzY2I5NTE1ZDM5In0%3D
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:48:00] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:48:02] Accepted a request from client!
+[01/Apr/2019:14:48:02] Client sent request to proxy with headers:
+[01/Apr/2019:14:48:02] 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:48:02] connect to [detectportal.firefox.com] from 127.0.0.1 8080
+[01/Apr/2019:14:48:05] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:48:05] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:48:05] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:48:05] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:48:05] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:48:05] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:48:05] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:48:05] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:48:05] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:48:05] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:48:06] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:48:06] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:48:06] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:48:06] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:48:06] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:48:07] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:48:07] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:48:07] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:48:07] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:48:07] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:48:08] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:48:08] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:48:09] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:48:11] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:48:11] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:48:20] Accepted a request from client!
+[01/Apr/2019:14:48:59] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:48:59] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:49:01] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:49:01] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:49:01] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:49:01] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:49:01] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:49:03] Accepted a request from client!
+[01/Apr/2019:14:49:03] Accepted a request from client!
+[01/Apr/2019:14:49:05] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:49:05] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:49:05] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:49:05] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:49:05] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:49:06] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:49:06] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:49:06] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:49:06] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:49:06] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:49:06] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:49:06] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:49:06] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:49:07] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:49:07] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:49:07] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:49:07] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:49:08] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:49:09] connect to [sib.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:51:09] Creating server socket...
+[01/Apr/2019:14:51:09] Binding socket to port 8080...
+[01/Apr/2019:14:51:09] Listening for incoming requests...
+[01/Apr/2019:14:51:22] Creating server socket...
+[01/Apr/2019:14:51:22] Binding socket to port 8080...
+[01/Apr/2019:14:51:22] Listening for incoming requests...
+[01/Apr/2019:14:51:24] Accepted a request from client!
+[01/Apr/2019:14:51:24] Client sent request to proxy with headers:
+[01/Apr/2019:14:51:24] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:51:24] connect to [bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:51:25] Accepted a request from client!
+[01/Apr/2019:14:51:25] Accepted a request from client!
+[01/Apr/2019:14:51:25] Client sent request to proxy with headers:
+[01/Apr/2019:14:51:25] Accepted a request from client!
+[01/Apr/2019:14:51:25] Client sent request to proxy with headers:
+[01/Apr/2019:14:51:25] Accepted a request from client!
+[01/Apr/2019:14:51:25] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:51:25] Accepted a request from client!
+[01/Apr/2019:14:51:25] Accepted a request from client!
+[01/Apr/2019:14:51:25] Client sent request to proxy with headers:
+[01/Apr/2019:14:51:25] Client sent request to proxy with headers:
+[01/Apr/2019:14:51:25] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:51:25] connect to [bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:51:25] Client sent request to proxy with headers:
+[01/Apr/2019:14:51:25] Accepted a request from client!
+[01/Apr/2019:14:51:25] Client sent request to proxy with headers:
+[01/Apr/2019:14:51:25] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:51:25] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:51:25] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:51:25] connect to [bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:51:25] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:51:25] Accepted a request from client!
+[01/Apr/2019:14:51:25] Client sent request to proxy with headers:
+[01/Apr/2019:14:51:25] Accepted a request from client!
+[01/Apr/2019:14:51:25] Accepted a request from client!
+[01/Apr/2019:14:51:25] Accepted a request from client!
+[01/Apr/2019:14:51:25] Client sent request to proxy with headers:
+[01/Apr/2019:14:51:25] Client sent request to proxy with headers:
+[01/Apr/2019:14:51:25] Client sent request to proxy with headers:
+[01/Apr/2019:14:51:25] Accepted a request from client!
+[01/Apr/2019:14:51:25] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:51:25] connect to [bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:51:25] Client sent request to proxy with headers:
+[01/Apr/2019:14:51:25] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:51:25] connect to [bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:51:25] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:51:25] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:51:25] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:51:25] Accepted a request from client!
+[01/Apr/2019:14:51:25] Accepted a request from client!
+[01/Apr/2019:14:51:25] connect to [bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:51:25] connect to [bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:51:25] connect to [bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:51:25] connect to [bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:51:25] connect to [bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:51:25] connect to [bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:51:25] connect to [bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:51:25] Client sent request to proxy with headers:
+[01/Apr/2019:14:51:25] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:51:25] connect to [bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:51:25] Accepted a request from client!
+[01/Apr/2019:14:51:25] Accepted a request from client!
+[01/Apr/2019:14:51:32] Accepted a request from client!
+[01/Apr/2019:14:51:32] Accepted a request from client!
+[01/Apr/2019:14:52:25] connect to [bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:52:25] connect to [bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:52:25] connect to [bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:52:25] connect to [bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:52:25] connect to [bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:52:25] connect to [bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:52:25] connect to [bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:52:25] connect to [bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:52:25] connect to [bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:52:25] connect to [bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:52:25] connect to [bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:52:25] Accepted a request from client!
+[01/Apr/2019:14:52:25] Client sent request to proxy with headers:
+[01/Apr/2019:14:52:25] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:52:25] connect to [bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:52:25] Accepted a request from client!
+[01/Apr/2019:14:52:25] Client sent request to proxy with headers:
+[01/Apr/2019:14:52:25] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:52:25] Accepted a request from client!
+[01/Apr/2019:14:52:25] connect to [bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:52:25] Client sent request to proxy with headers:
+[01/Apr/2019:14:52:25] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:52:25] connect to [bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:52:25] Accepted a request from client!
+[01/Apr/2019:14:52:25] Client sent request to proxy with headers:
+[01/Apr/2019:14:52:25] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:52:25] connect to [bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:52:25] Accepted a request from client!
+[01/Apr/2019:14:52:25] Client sent request to proxy with headers:
+[01/Apr/2019:14:52:25] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:52:25] Accepted a request from client!
+[01/Apr/2019:14:52:25] connect to [bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:52:25] Client sent request to proxy with headers:
+[01/Apr/2019:14:52:25] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:52:25] connect to [bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:52:25] Accepted a request from client!
+[01/Apr/2019:14:52:25] Accepted a request from client!
+[01/Apr/2019:14:52:25] Accepted a request from client!
+[01/Apr/2019:14:52:25] Client sent request to proxy with headers:
+[01/Apr/2019:14:52:25] Client sent request to proxy with headers:
+[01/Apr/2019:14:52:25] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:52:25] Accepted a request from client!
+[01/Apr/2019:14:52:25] Client sent request to proxy with headers:
+[01/Apr/2019:14:52:25] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:52:25] connect to [bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:52:25] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:52:25] Client sent request to proxy with headers:
+[01/Apr/2019:14:52:25] connect to [bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:52:25] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:52:25] connect to [bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:52:25] connect to [bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:52:25] Accepted a request from client!
+[01/Apr/2019:14:52:25] Client sent request to proxy with headers:
+[01/Apr/2019:14:52:25] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:52:25] connect to [bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:52:25] Accepted a request from client!
+[01/Apr/2019:14:52:25] Client sent request to proxy with headers:
+[01/Apr/2019:14:52:25] 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:52:25] connect to [detectportal.firefox.com] from 127.0.0.1 8080
+[01/Apr/2019:14:52:26] Accepted a request from client!
+[01/Apr/2019:14:52:26] Accepted a request from client!
+[01/Apr/2019:14:52:26] Accepted a request from client!
+[01/Apr/2019:14:52:26] Accepted a request from client!
+[01/Apr/2019:14:52:27] Accepted a request from client!
+[01/Apr/2019:14:52:27] Accepted a request from client!
+[01/Apr/2019:14:52:27] Accepted a request from client!
+[01/Apr/2019:14:52:28] Accepted a request from client!
+[01/Apr/2019:14:52:28] Accepted a request from client!
+[01/Apr/2019:14:53:25] connect to [bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:53:25] connect to [bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:53:25] connect to [bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:53:25] connect to [bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:53:25] connect to [bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:53:26] Accepted a request from client!
+[01/Apr/2019:14:53:26] Accepted a request from client!
+[01/Apr/2019:14:53:40] Creating server socket...
+[01/Apr/2019:14:53:40] Binding socket to port 8080...
+[01/Apr/2019:14:53:40] Listening for incoming requests...
+[01/Apr/2019:14:53:41] Accepted a request from client!
+[01/Apr/2019:14:53:41] Accepted a request from client!
+[01/Apr/2019:14:53:41] Accepted a request from client!
+[01/Apr/2019:14:53:42] Accepted a request from client!
+[01/Apr/2019:14:53:42] Accepted a request from client!
+[01/Apr/2019:14:53:42] Accepted a request from client!
+[01/Apr/2019:14:53:43] Accepted a request from client!
