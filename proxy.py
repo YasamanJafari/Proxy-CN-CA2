@@ -62,7 +62,7 @@ def processRequest(con, addr):
 	isFirstPacket = True
 	socket = ""
 	while True:
-		data = con.recv(DATA_SIZE).decode("utf-8")
+		data = con.recv(DATA_SIZE).decode()
 		if not data:
 			break
 		if isFirstPacket:
@@ -112,7 +112,8 @@ def convertProxyHTTPtoReqHTTP(data):
 			if "Proxy-Connection:" in line:
 				continue
 			if "User-Agent:" in line:
-				line = "User-Agent: " + defaultUserAgent 
+				if isPrivacyNeeded:
+					line = "User-Agent: " + defaultUserAgent 
 		result.append(line + "\r\n")
 	
 	request = ""
