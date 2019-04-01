@@ -55,25 +55,26 @@ def createSocket():
 	    
 		for thread in threads:
 			thread.join()
+		s.close()
 
 def processRequest(con, addr):
 	writeMsgToFile(ACCEPT_REQ_FROM_CLIENT_MSG)
 	data = ""
 	isFirstPacket = True
 	socket = ""
-	while True:
-		data = con.recv(DATA_SIZE).decode()
-		if not data:
-			break
-		if isFirstPacket:
-			isFirstPacket = False
-			host, request = convertProxyHTTPtoReqHTTP(data)
-		
-		socket = sendRequest(host, request, con)
+	with con:
+		while True:
+			data = con.recv(DATA_SIZE).decode("UTF-8")
+			if not data:
+				break
+			if isFirstPacket:
+				isFirstPacket = False
+				host, request = convertProxyHTTPtoReqHTTP(data)
+			
+			socket = sendRequest(host, request, con)
 
 	if data:
 		socket.close()
-	con.close()
 
 def sendRequest(host, request, con):
 	writeMsgToFile("connect to [" + str(host) + "] from " + HOST + " " + str(portNum))
@@ -82,11 +83,12 @@ def sendRequest(host, request, con):
 	print(host)
 	s.connect((socket.gethostbyname(host), 80))
 	s.sendall(request.encode())
-	while True:
-		response = s.recv(DATA_SIZE)
-		con.send(response)
-		if not response:
-			return s
+	with con:
+		while True:
+			response = s.recv(DATA_SIZE)
+			con.send(response)
+			if not response:
+				return s
 
 def getRequestHeader(request):
 	parts = request.split("\r\n", 1)
@@ -114,6 +116,8 @@ def convertProxyHTTPtoReqHTTP(data):
 			if "User-Agent:" in line:
 				if isPrivacyNeeded:
 					line = "User-Agent: " + defaultUserAgent 
+			if "Accept-Encoding: " in line:
+				line = "Accept-Encoding: identify"
 		result.append(line + "\r\n")
 	
 	request = ""
