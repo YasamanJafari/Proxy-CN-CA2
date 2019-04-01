@@ -3044,3 +3044,2169 @@
 [31/Mar/2019:20:02:52] Accepted a request from client!
 [31/Mar/2019:20:02:52] Accepted a request from client!
 [31/Mar/2019:20:02:53] Accepted a request from client!
+[01/Apr/2019:14:31:20] Creating server socket...
+[01/Apr/2019:14:31:20] Binding socket to port 8080...
+[01/Apr/2019:14:31:20] Listening for incoming requests...
+[01/Apr/2019:14:31:38] Accepted a request from client!
+[01/Apr/2019:14:31:38] Client sent request to proxy with headers:
+[01/Apr/2019:14:31:38] 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:31:38] Accepted a request from client!
+[01/Apr/2019:14:31:38] Client sent request to proxy with headers:
+[01/Apr/2019:14:31:38] 
+----------------------------------------------------------------------
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Proxy-Connection: keep-alive
+Connection: keep-alive
+Host: push.services.mozilla.com:443
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:31:38] Accepted a request from client!
+[01/Apr/2019:14:31:38] Client sent request to proxy with headers:
+[01/Apr/2019:14:31:38] 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:31:39] Accepted a request from client!
+[01/Apr/2019:14:31:39] Accepted a request from client!
+[01/Apr/2019:14:31:39] Client sent request to proxy with headers:
+[01/Apr/2019:14:31:39] 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:31:40] Accepted a request from client!
+[01/Apr/2019:14:31:40] Accepted a request from client!
+[01/Apr/2019:14:31:40] Client sent request to proxy with headers:
+[01/Apr/2019:14:31:40] 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:31:42] Accepted a request from client!
+[01/Apr/2019:14:31:42] Accepted a request from client!
+[01/Apr/2019:14:31:42] Client sent request to proxy with headers:
+[01/Apr/2019:14:31:42] 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:31:43] Accepted a request from client!
+[01/Apr/2019:14:31:43] Client sent request to proxy with headers:
+[01/Apr/2019:14:31:43] 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:31:43] Accepted a request from client!
+[01/Apr/2019:14:31:43] Accepted a request from client!
+[01/Apr/2019:14:31:43] Client sent request to proxy with headers:
+[01/Apr/2019:14:31:43] 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:31:43] Accepted a request from client!
+[01/Apr/2019:14:31:43] Client sent request to proxy with headers:
+[01/Apr/2019:14:31:43] 
+----------------------------------------------------------------------
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Proxy-Connection: keep-alive
+Connection: keep-alive
+Host: push.services.mozilla.com:443
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:31:43] Accepted a request from client!
+[01/Apr/2019:14:31:43] Client sent request to proxy with headers:
+[01/Apr/2019:14:31:43] 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:31:45] Accepted a request from client!
+[01/Apr/2019:14:31:45] Accepted a request from client!
+[01/Apr/2019:14:31:45] Client sent request to proxy with headers:
+[01/Apr/2019:14:31:45] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.1940820072.1554031346; _gid=GA1.2.1475914652.1554031346
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:31:45] Client sent request to proxy with headers:
+[01/Apr/2019:14:31:45] 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:31:45] Accepted a request from client!
+[01/Apr/2019:14:31:45] Client sent request to proxy with headers:
+[01/Apr/2019:14:31:45] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.1940820072.1554031346; _gid=GA1.2.1475914652.1554031346
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:31:45] Accepted a request from client!
+[01/Apr/2019:14:31:45] Client sent request to proxy with headers:
+[01/Apr/2019:14:31:45] 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:31:45] Accepted a request from client!
+[01/Apr/2019:14:31:45] Client sent request to proxy with headers:
+[01/Apr/2019:14:31:45] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.1940820072.1554031346; _gid=GA1.2.1475914652.1554031346
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:31:45] Accepted a request from client!
+[01/Apr/2019:14:31:45] Client sent request to proxy with headers:
+[01/Apr/2019:14:31:45] 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:31:45] Accepted a request from client!
+[01/Apr/2019:14:31:45] Client sent request to proxy with headers:
+[01/Apr/2019:14:31:45] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.1940820072.1554031346; _gid=GA1.2.1475914652.1554031346
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:31:45] Accepted a request from client!
+[01/Apr/2019:14:31:45] Client sent request to proxy with headers:
+[01/Apr/2019:14:31:45] 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:31:45] Accepted a request from client!
+[01/Apr/2019:14:31:45] Client sent request to proxy with headers:
+[01/Apr/2019:14:31:45] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.1940820072.1554031346; _gid=GA1.2.1475914652.1554031346
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:31:45] Accepted a request from client!
+[01/Apr/2019:14:31:45] Client sent request to proxy with headers:
+[01/Apr/2019:14:31:45] Accepted a request from client!
+[01/Apr/2019:14:31:45] 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:31:45] Client sent request to proxy with headers:
+[01/Apr/2019:14:31:45] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.1940820072.1554031346; _gid=GA1.2.1475914652.1554031346
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:31:45] Accepted a request from client!
+[01/Apr/2019:14:31:45] Client sent request to proxy with headers:
+[01/Apr/2019:14:31:45] 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:31:45] Accepted a request from client!
+[01/Apr/2019:14:31:45] Client sent request to proxy with headers:
+[01/Apr/2019:14:31:45] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.1940820072.1554031346; _gid=GA1.2.1475914652.1554031346
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:31:45] Accepted a request from client!
+[01/Apr/2019:14:31:45] Client sent request to proxy with headers:
+[01/Apr/2019:14:31:45] 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:31:45] Accepted a request from client!
+[01/Apr/2019:14:31:45] Client sent request to proxy with headers:
+[01/Apr/2019:14:31:45] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.1940820072.1554031346; _gid=GA1.2.1475914652.1554031346
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:31:45] Accepted a request from client!
+[01/Apr/2019:14:31:45] Client sent request to proxy with headers:
+[01/Apr/2019:14:31:45] 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:31:45] Accepted a request from client!
+[01/Apr/2019:14:31:45] Client sent request to proxy with headers:
+[01/Apr/2019:14:31:45] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.1940820072.1554031346; _gid=GA1.2.1475914652.1554031346
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:31:45] Accepted a request from client!
+[01/Apr/2019:14:31:45] Client sent request to proxy with headers:
+[01/Apr/2019:14:31:45] 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:31:45] Accepted a request from client!
+[01/Apr/2019:14:31:45] Accepted a request from client!
+[01/Apr/2019:14:31:45] Client sent request to proxy with headers:
+[01/Apr/2019:14:31:45] Client sent request to proxy with headers:
+[01/Apr/2019:14:31:45] 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:31:45] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.1940820072.1554031346; _gid=GA1.2.1475914652.1554031346
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:31:45] Accepted a request from client!
+[01/Apr/2019:14:31:45] Accepted a request from client!
+[01/Apr/2019:14:31:45] Client sent request to proxy with headers:
+[01/Apr/2019:14:31:45] Client sent request to proxy with headers:
+[01/Apr/2019:14:31:45] 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:31:45] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.1940820072.1554031346; _gid=GA1.2.1475914652.1554031346
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:31:45] Accepted a request from client!
+[01/Apr/2019:14:31:45] Accepted a request from client!
+[01/Apr/2019:14:31:45] Client sent request to proxy with headers:
+[01/Apr/2019:14:31:45] Client sent request to proxy with headers:
+[01/Apr/2019:14:31:45] 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:31:45] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.1940820072.1554031346; _gid=GA1.2.1475914652.1554031346
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:31:45] Accepted a request from client!
+[01/Apr/2019:14:31:45] Accepted a request from client!
+[01/Apr/2019:14:31:45] Client sent request to proxy with headers:
+[01/Apr/2019:14:31:45] Client sent request to proxy with headers:
+[01/Apr/2019:14:31:45] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.1940820072.1554031346; _gid=GA1.2.1475914652.1554031346
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:31:45] 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:31:45] Accepted a request from client!
+[01/Apr/2019:14:31:45] Client sent request to proxy with headers:
+[01/Apr/2019:14:31:45] Accepted a request from client!
+[01/Apr/2019:14:31:45] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.1940820072.1554031346; _gid=GA1.2.1475914652.1554031346
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:31:45] Client sent request to proxy with headers:
+[01/Apr/2019:14:31:45] 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:31:45] Accepted a request from client!
+[01/Apr/2019:14:31:45] Accepted a request from client!
+[01/Apr/2019:14:31:45] Client sent request to proxy with headers:
+[01/Apr/2019:14:31:45] Client sent request to proxy with headers:
+[01/Apr/2019:14:31:45] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.1940820072.1554031346; _gid=GA1.2.1475914652.1554031346
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:31:45] 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:31:45] Accepted a request from client!
+[01/Apr/2019:14:31:45] Client sent request to proxy with headers:
+[01/Apr/2019:14:31:45] Accepted a request from client!
+[01/Apr/2019:14:31:45] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.1940820072.1554031346; _gid=GA1.2.1475914652.1554031346
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:31:45] Client sent request to proxy with headers:
+[01/Apr/2019:14:31:45] 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:31:45] Accepted a request from client!
+[01/Apr/2019:14:31:45] Accepted a request from client!
+[01/Apr/2019:14:31:45] Client sent request to proxy with headers:
+[01/Apr/2019:14:31:45] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.1940820072.1554031346; _gid=GA1.2.1475914652.1554031346
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:31:45] Client sent request to proxy with headers:
+[01/Apr/2019:14:31:45] 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:31:45] Accepted a request from client!
+[01/Apr/2019:14:31:45] Client sent request to proxy with headers:
+[01/Apr/2019:14:31:45] Accepted a request from client!
+[01/Apr/2019:14:31:45] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.1940820072.1554031346; _gid=GA1.2.1475914652.1554031346
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:31:45] Client sent request to proxy with headers:
+[01/Apr/2019:14:31:45] 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:31:45] Accepted a request from client!
+[01/Apr/2019:14:31:45] Client sent request to proxy with headers:
+[01/Apr/2019:14:31:45] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.1940820072.1554031346; _gid=GA1.2.1475914652.1554031346
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:31:45] Accepted a request from client!
+[01/Apr/2019:14:31:45] Client sent request to proxy with headers:
+[01/Apr/2019:14:31:45] 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:31:45] Accepted a request from client!
+[01/Apr/2019:14:31:45] Accepted a request from client!
+[01/Apr/2019:14:31:45] Client sent request to proxy with headers:
+[01/Apr/2019:14:31:45] Client sent request to proxy with headers:
+[01/Apr/2019:14:31:45] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.1940820072.1554031346; _gid=GA1.2.1475914652.1554031346
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:31:45] 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:31:48] Accepted a request from client!
+[01/Apr/2019:14:31:48] Accepted a request from client!
+[01/Apr/2019:14:31:48] Client sent request to proxy with headers:
+[01/Apr/2019:14:31:48] Client sent request to proxy with headers:
+[01/Apr/2019:14:31:48] 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:31:48] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.1940820072.1554031346; _gid=GA1.2.1475914652.1554031346
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:31:48] Accepted a request from client!
+[01/Apr/2019:14:31:48] Accepted a request from client!
+[01/Apr/2019:14:31:48] Client sent request to proxy with headers:
+[01/Apr/2019:14:31:48] 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:31:48] Client sent request to proxy with headers:
+[01/Apr/2019:14:31:48] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.1940820072.1554031346; _gid=GA1.2.1475914652.1554031346
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:31:48] Accepted a request from client!
+[01/Apr/2019:14:31:48] Client sent request to proxy with headers:
+[01/Apr/2019:14:31:48] Accepted a request from client!
+[01/Apr/2019:14:31:48] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.1940820072.1554031346; _gid=GA1.2.1475914652.1554031346
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:31:48] Client sent request to proxy with headers:
+[01/Apr/2019:14:31:48] 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:31:48] Accepted a request from client!
+[01/Apr/2019:14:31:48] Accepted a request from client!
+[01/Apr/2019:14:31:48] Client sent request to proxy with headers:
+[01/Apr/2019:14:31:48] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.1940820072.1554031346; _gid=GA1.2.1475914652.1554031346
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:31:48] Client sent request to proxy with headers:
+[01/Apr/2019:14:31:48] 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:31:48] Accepted a request from client!
+[01/Apr/2019:14:31:48] Accepted a request from client!
+[01/Apr/2019:14:31:48] Client sent request to proxy with headers:
+[01/Apr/2019:14:31:48] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.1940820072.1554031346; _gid=GA1.2.1475914652.1554031346
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:31:48] Client sent request to proxy with headers:
+[01/Apr/2019:14:31:48] 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:31:48] Accepted a request from client!
+[01/Apr/2019:14:31:48] Client sent request to proxy with headers:
+[01/Apr/2019:14:31:48] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.1940820072.1554031346; _gid=GA1.2.1475914652.1554031346
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:31:48] Accepted a request from client!
+[01/Apr/2019:14:31:48] Client sent request to proxy with headers:
+[01/Apr/2019:14:31:48] 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:31:48] Accepted a request from client!
+[01/Apr/2019:14:31:48] Accepted a request from client!
+[01/Apr/2019:14:31:48] Client sent request to proxy with headers:
+[01/Apr/2019:14:31:48] Client sent request to proxy with headers:
+[01/Apr/2019:14:31:48] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.1940820072.1554031346; _gid=GA1.2.1475914652.1554031346
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:31:48] 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:31:48] Accepted a request from client!
+[01/Apr/2019:14:31:48] Client sent request to proxy with headers:
+[01/Apr/2019:14:31:48] Accepted a request from client!
+[01/Apr/2019:14:31:48] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.1940820072.1554031346; _gid=GA1.2.1475914652.1554031346
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:31:48] Client sent request to proxy with headers:
+[01/Apr/2019:14:31:48] 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:31:48] Accepted a request from client!
+[01/Apr/2019:14:31:48] Client sent request to proxy with headers:
+[01/Apr/2019:14:31:48] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.1940820072.1554031346; _gid=GA1.2.1475914652.1554031346
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:31:48] Accepted a request from client!
+[01/Apr/2019:14:31:48] Client sent request to proxy with headers:
+[01/Apr/2019:14:31:48] 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:31:48] Accepted a request from client!
+[01/Apr/2019:14:31:48] Accepted a request from client!
+[01/Apr/2019:14:31:48] Client sent request to proxy with headers:
+[01/Apr/2019:14:31:48] Client sent request to proxy with headers:
+[01/Apr/2019:14:31:48] 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:31:48] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.1940820072.1554031346; _gid=GA1.2.1475914652.1554031346
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:31:53] Accepted a request from client!
+[01/Apr/2019:14:31:53] Client sent request to proxy with headers:
+[01/Apr/2019:14:31:53] 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:31:53] Accepted a request from client!
+[01/Apr/2019:14:31:53] Client sent request to proxy with headers:
+[01/Apr/2019:14:31:53] Accepted a request from client!
+[01/Apr/2019:14:31:53] 
+----------------------------------------------------------------------
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Proxy-Connection: keep-alive
+Connection: keep-alive
+Host: push.services.mozilla.com:443
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:31:53] Client sent request to proxy with headers:
+[01/Apr/2019:14:31:53] 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:32:12] Accepted a request from client!
+[01/Apr/2019:14:32:12] Client sent request to proxy with headers:
+[01/Apr/2019:14:32:12] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.1940820072.1554031346; _gid=GA1.2.1475914652.1554031346
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:32:13] Accepted a request from client!
+[01/Apr/2019:14:32:13] Client sent request to proxy with headers:
+[01/Apr/2019:14:32:13] Accepted a request from client!
+[01/Apr/2019:14:32:13] 
+----------------------------------------------------------------------
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Proxy-Connection: keep-alive
+Connection: keep-alive
+Host: push.services.mozilla.com:443
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:32:13] Client sent request to proxy with headers:
+[01/Apr/2019:14:32:13] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.1940820072.1554031346; _gid=GA1.2.1475914652.1554031346
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:32:38] Accepted a request from client!
+[01/Apr/2019:14:32:38] Client sent request to proxy with headers:
+[01/Apr/2019:14:32:38] Accepted a request from client!
+[01/Apr/2019:14:32:38] 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:32:38] Client sent request to proxy with headers:
+[01/Apr/2019:14:32:38] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.1940820072.1554031346; _gid=GA1.2.1475914652.1554031346
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:32:38] Accepted a request from client!
+[01/Apr/2019:14:32:38] Client sent request to proxy with headers:
+[01/Apr/2019:14:32:38] 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:32:38] Accepted a request from client!
+[01/Apr/2019:14:32:38] Accepted a request from client!
+[01/Apr/2019:14:32:38] Client sent request to proxy with headers:
+[01/Apr/2019:14:32:38] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.1940820072.1554031346; _gid=GA1.2.1475914652.1554031346
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:32:38] Client sent request to proxy with headers:
+[01/Apr/2019:14:32:38] 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:32:38] Accepted a request from client!
+[01/Apr/2019:14:32:38] Client sent request to proxy with headers:
+[01/Apr/2019:14:32:38] Accepted a request from client!
+[01/Apr/2019:14:32:38] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.1940820072.1554031346; _gid=GA1.2.1475914652.1554031346
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:32:38] Client sent request to proxy with headers:
+[01/Apr/2019:14:32:38] 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:32:38] Accepted a request from client!
+[01/Apr/2019:14:32:38] Accepted a request from client!
+[01/Apr/2019:14:32:38] Client sent request to proxy with headers:
+[01/Apr/2019:14:32:38] Client sent request to proxy with headers:
+[01/Apr/2019:14:32:38] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.1940820072.1554031346; _gid=GA1.2.1475914652.1554031346
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:32:38] 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:32:38] Accepted a request from client!
+[01/Apr/2019:14:32:38] Client sent request to proxy with headers:
+[01/Apr/2019:14:32:38] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.1940820072.1554031346; _gid=GA1.2.1475914652.1554031346
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:32:38] Accepted a request from client!
+[01/Apr/2019:14:32:38] Client sent request to proxy with headers:
+[01/Apr/2019:14:32:38] 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:32:38] Accepted a request from client!
+[01/Apr/2019:14:32:38] Accepted a request from client!
+[01/Apr/2019:14:32:38] Client sent request to proxy with headers:
+[01/Apr/2019:14:32:38] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.1940820072.1554031346; _gid=GA1.2.1475914652.1554031346
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:32:38] Client sent request to proxy with headers:
+[01/Apr/2019:14:32:38] 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:32:38] Accepted a request from client!
+[01/Apr/2019:14:32:38] Accepted a request from client!
+[01/Apr/2019:14:32:38] Client sent request to proxy with headers:
+[01/Apr/2019:14:32:38] Client sent request to proxy with headers:
+[01/Apr/2019:14:32:38] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.1940820072.1554031346; _gid=GA1.2.1475914652.1554031346
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:32:38] 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:32:38] Accepted a request from client!
+[01/Apr/2019:14:32:38] Client sent request to proxy with headers:
+[01/Apr/2019:14:32:38] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.1940820072.1554031346; _gid=GA1.2.1475914652.1554031346
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:32:38] Accepted a request from client!
+[01/Apr/2019:14:32:38] Client sent request to proxy with headers:
+[01/Apr/2019:14:32:38] 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:32:43] Accepted a request from client!
+[01/Apr/2019:14:32:43] Client sent request to proxy with headers:
+[01/Apr/2019:14:32:43] 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:32:48] Accepted a request from client!
+[01/Apr/2019:14:32:48] Client sent request to proxy with headers:
+[01/Apr/2019:14:32:48] 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:32:49] Creating server socket...
+[01/Apr/2019:14:32:49] Binding socket to port 8080...
+[01/Apr/2019:14:32:49] Listening for incoming requests...
+[01/Apr/2019:14:32:53] Accepted a request from client!
+[01/Apr/2019:14:32:53] Client sent request to proxy with headers:
+[01/Apr/2019:14:32:53] 
+----------------------------------------------------------------------
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Proxy-Connection: keep-alive
+Connection: keep-alive
+Host: push.services.mozilla.com:443
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:32:53] connect to [push.services.mozilla.com:443] from 127.0.0.1 8080
+[01/Apr/2019:14:32:54] Accepted a request from client!
+[01/Apr/2019:14:32:54] Client sent request to proxy with headers:
+[01/Apr/2019:14:32:54] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.1940820072.1554031346; _gid=GA1.2.1475914652.1554031346
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:32:54] connect to [www.bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:32:55] Accepted a request from client!
+[01/Apr/2019:14:32:55] Client sent request to proxy with headers:
+[01/Apr/2019:14:32:55] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.1940820072.1554031346; _gid=GA1.2.1475914652.1554031346
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:32:55] Accepted a request from client!
+[01/Apr/2019:14:32:55] Client sent request to proxy with headers:
+[01/Apr/2019:14:32:55] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.1940820072.1554031346; _gid=GA1.2.1475914652.1554031346
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:32:55] Accepted a request from client!
+[01/Apr/2019:14:32:55] connect to [www.bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:32:55] connect to [www.bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:32:55] Accepted a request from client!
+[01/Apr/2019:14:32:55] Client sent request to proxy with headers:
+[01/Apr/2019:14:32:55] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.1940820072.1554031346; _gid=GA1.2.1475914652.1554031346
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:32:55] Accepted a request from client!
+[01/Apr/2019:14:32:55] Client sent request to proxy with headers:
+[01/Apr/2019:14:32:55] connect to [www.bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:32:55] Client sent request to proxy with headers:
+[01/Apr/2019:14:32:55] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.1940820072.1554031346; _gid=GA1.2.1475914652.1554031346
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:32:55] connect to [www.bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:32:55] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.1940820072.1554031346; _gid=GA1.2.1475914652.1554031346
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:32:55] Accepted a request from client!
+[01/Apr/2019:14:32:55] Client sent request to proxy with headers:
+[01/Apr/2019:14:32:55] Accepted a request from client!
+[01/Apr/2019:14:32:55] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.1940820072.1554031346; _gid=GA1.2.1475914652.1554031346
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:32:55] Client sent request to proxy with headers:
+[01/Apr/2019:14:32:55] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.1940820072.1554031346; _gid=GA1.2.1475914652.1554031346
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:32:55] connect to [www.bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:32:55] connect to [www.bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:32:55] Accepted a request from client!
+[01/Apr/2019:14:32:55] connect to [www.bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:32:55] Client sent request to proxy with headers:
+[01/Apr/2019:14:32:55] Accepted a request from client!
+[01/Apr/2019:14:32:55] Accepted a request from client!
+[01/Apr/2019:14:32:55] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.1940820072.1554031346; _gid=GA1.2.1475914652.1554031346
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:32:55] Client sent request to proxy with headers:
+[01/Apr/2019:14:32:55] Accepted a request from client!
+[01/Apr/2019:14:32:55] Client sent request to proxy with headers:
+[01/Apr/2019:14:32:55] Accepted a request from client!
+[01/Apr/2019:14:32:55] Accepted a request from client!
+[01/Apr/2019:14:32:55] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.1940820072.1554031346; _gid=GA1.2.1475914652.1554031346
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:32:55] connect to [www.bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:32:55] Client sent request to proxy with headers:
+[01/Apr/2019:14:32:55] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.1940820072.1554031346; _gid=GA1.2.1475914652.1554031346
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:32:55] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.1940820072.1554031346; _gid=GA1.2.1475914652.1554031346
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:32:55] connect to [www.bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:32:55] connect to [www.bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:32:55] connect to [www.bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:33:02] Accepted a request from client!
+[01/Apr/2019:14:33:10] connect to [www.bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:33:10] connect to [www.bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:33:10] connect to [www.bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:33:10] connect to [www.bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:33:26] connect to [www.bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:33:26] connect to [www.bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:33:26] connect to [www.bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:33:26] connect to [www.bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:33:26] connect to [www.bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:33:26] connect to [www.bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:33:26] connect to [www.bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:33:26] connect to [www.bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:33:26] connect to [www.bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:33:26] connect to [www.bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:33:26] connect to [www.bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:33:26] connect to [www.bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:33:26] Accepted a request from client!
+[01/Apr/2019:14:33:26] Client sent request to proxy with headers:
+[01/Apr/2019:14:33:26] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.1940820072.1554031346; _gid=GA1.2.1475914652.1554031346
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:33:26] connect to [www.bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:33:26] Accepted a request from client!
+[01/Apr/2019:14:33:26] Accepted a request from client!
+[01/Apr/2019:14:33:26] Client sent request to proxy with headers:
+[01/Apr/2019:14:33:26] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.1940820072.1554031346; _gid=GA1.2.1475914652.1554031346
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:33:26] connect to [www.bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:33:26] Accepted a request from client!
+[01/Apr/2019:14:33:26] Client sent request to proxy with headers:
+[01/Apr/2019:14:33:26] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.1940820072.1554031346; _gid=GA1.2.1475914652.1554031346
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:33:26] connect to [www.bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:33:26] Accepted a request from client!
+[01/Apr/2019:14:33:26] Client sent request to proxy with headers:
+[01/Apr/2019:14:33:26] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.1940820072.1554031346; _gid=GA1.2.1475914652.1554031346
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:33:26] connect to [www.bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:33:26] Accepted a request from client!
+[01/Apr/2019:14:33:26] Client sent request to proxy with headers:
+[01/Apr/2019:14:33:26] Accepted a request from client!
+[01/Apr/2019:14:33:26] Client sent request to proxy with headers:
+[01/Apr/2019:14:33:26] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.1940820072.1554031346; _gid=GA1.2.1475914652.1554031346
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:33:26] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.1940820072.1554031346; _gid=GA1.2.1475914652.1554031346
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:33:26] Accepted a request from client!
+[01/Apr/2019:14:33:26] Client sent request to proxy with headers:
+[01/Apr/2019:14:33:26] Accepted a request from client!
+[01/Apr/2019:14:33:26] Accepted a request from client!
+[01/Apr/2019:14:33:26] Accepted a request from client!
+[01/Apr/2019:14:33:26] connect to [www.bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:33:26] Client sent request to proxy with headers:
+[01/Apr/2019:14:33:26] connect to [www.bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:33:26] Client sent request to proxy with headers:
+[01/Apr/2019:14:33:26] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.1940820072.1554031346; _gid=GA1.2.1475914652.1554031346
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:33:26] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.1940820072.1554031346; _gid=GA1.2.1475914652.1554031346
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:33:26] connect to [www.bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:33:26] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.1940820072.1554031346; _gid=GA1.2.1475914652.1554031346
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:33:26] connect to [www.bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:33:26] Accepted a request from client!
+[01/Apr/2019:14:33:26] Client sent request to proxy with headers:
+[01/Apr/2019:14:33:26] Client sent request to proxy with headers:
+[01/Apr/2019:14:33:26] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.1940820072.1554031346; _gid=GA1.2.1475914652.1554031346
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:33:26] connect to [www.bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:33:26] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.1940820072.1554031346; _gid=GA1.2.1475914652.1554031346
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:33:26] connect to [www.bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:33:26] connect to [www.bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:33:26] Accepted a request from client!
+[01/Apr/2019:14:33:26] Client sent request to proxy with headers:
+[01/Apr/2019:14:33:26] 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:33:26] connect to [detectportal.firefox.com] from 127.0.0.1 8080
+[01/Apr/2019:14:33:26] Accepted a request from client!
+[01/Apr/2019:14:33:27] Accepted a request from client!
+[01/Apr/2019:14:33:33] Accepted a request from client!
+[01/Apr/2019:14:33:33] Accepted a request from client!
+[01/Apr/2019:14:33:35] Creating server socket...
+[01/Apr/2019:14:33:35] Binding socket to port 8080...
+[01/Apr/2019:14:33:35] Listening for incoming requests...
+[01/Apr/2019:14:33:35] Accepted a request from client!
+[01/Apr/2019:14:33:36] Accepted a request from client!
+[01/Apr/2019:14:33:37] Accepted a request from client!
+[01/Apr/2019:14:33:37] Accepted a request from client!
+[01/Apr/2019:14:33:38] Client sent request to proxy with headers:
+[01/Apr/2019:14:33:38] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.1940820072.1554031346; _gid=GA1.2.1475914652.1554031346; _gat_gtag_UA_125043774_1=1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:33:38] Accepted a request from client!
+[01/Apr/2019:14:33:38] Client sent request to proxy with headers:
+[01/Apr/2019:14:33:38] Accepted a request from client!
+[01/Apr/2019:14:33:38] connect to [www.bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:33:38] Client sent request to proxy with headers:
+[01/Apr/2019:14:33:38] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.1940820072.1554031346; _gid=GA1.2.1475914652.1554031346; _gat_gtag_UA_125043774_1=1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:33:38] Accepted a request from client!
+[01/Apr/2019:14:33:38] Client sent request to proxy with headers:
+[01/Apr/2019:14:33:38] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.1940820072.1554031346; _gid=GA1.2.1475914652.1554031346; _gat_gtag_UA_125043774_1=1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:33:38] connect to [www.bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:33:38] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.1940820072.1554031346; _gid=GA1.2.1475914652.1554031346; _gat_gtag_UA_125043774_1=1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:33:38] Accepted a request from client!
+[01/Apr/2019:14:33:38] connect to [www.bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:33:38] Client sent request to proxy with headers:
+[01/Apr/2019:14:33:38] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.1940820072.1554031346; _gid=GA1.2.1475914652.1554031346; _gat_gtag_UA_125043774_1=1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:33:38] Accepted a request from client!
+[01/Apr/2019:14:33:38] Client sent request to proxy with headers:
+[01/Apr/2019:14:33:38] Accepted a request from client!
+[01/Apr/2019:14:33:38] Accepted a request from client!
+[01/Apr/2019:14:33:38] Accepted a request from client!
+[01/Apr/2019:14:33:38] Client sent request to proxy with headers:
+[01/Apr/2019:14:33:38] Client sent request to proxy with headers:
+[01/Apr/2019:14:33:38] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.1940820072.1554031346; _gid=GA1.2.1475914652.1554031346; _gat_gtag_UA_125043774_1=1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:33:38] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.1940820072.1554031346; _gid=GA1.2.1475914652.1554031346; _gat_gtag_UA_125043774_1=1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:33:38] Client sent request to proxy with headers:
+[01/Apr/2019:14:33:38] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.1940820072.1554031346; _gid=GA1.2.1475914652.1554031346; _gat_gtag_UA_125043774_1=1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:33:38] Accepted a request from client!
+[01/Apr/2019:14:33:38] Client sent request to proxy with headers:
+[01/Apr/2019:14:33:38] Accepted a request from client!
+[01/Apr/2019:14:33:38] Client sent request to proxy with headers:
+[01/Apr/2019:14:33:38] connect to [www.bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:33:38] 
+----------------------------------------------------------------------
+Host: maxcdn.bootstrapcdn.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/css/style.css
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:33:38] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.1940820072.1554031346; _gid=GA1.2.1475914652.1554031346; _gat_gtag_UA_125043774_1=1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:33:38] connect to [www.bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:33:38] connect to [www.bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:33:38] Accepted a request from client!
+[01/Apr/2019:14:33:38] Client sent request to proxy with headers:
+[01/Apr/2019:14:33:38] connect to [www.bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:33:38] Accepted a request from client!
+[01/Apr/2019:14:33:38] Client sent request to proxy with headers:
+[01/Apr/2019:14:33:38] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/css/style.css
+Connection: keep-alive
+Cookie: _ga=GA1.2.1940820072.1554031346; _gid=GA1.2.1475914652.1554031346; _gat_gtag_UA_125043774_1=1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:33:38] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/css/rtl.css
+Connection: keep-alive
+Cookie: _ga=GA1.2.1940820072.1554031346; _gid=GA1.2.1475914652.1554031346; _gat_gtag_UA_125043774_1=1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:33:38] 
+----------------------------------------------------------------------
+Host: maxcdn.bootstrapcdn.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:33:38] connect to [www.bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:33:38] connect to [www.bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:33:38] connect to [www.bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:33:38] connect to [maxcdn.bootstrapcdn.com] from 127.0.0.1 8080
+[01/Apr/2019:14:33:38] connect to [maxcdn.bootstrapcdn.com] from 127.0.0.1 8080
+[01/Apr/2019:14:33:38] connect to [www.bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:33:38] Accepted a request from client!
+[01/Apr/2019:14:33:38] Accepted a request from client!
+[01/Apr/2019:14:33:38] Accepted a request from client!
+[01/Apr/2019:14:33:38] Client sent request to proxy with headers:
+[01/Apr/2019:14:33:38] 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:33:38] connect to [detectportal.firefox.com] from 127.0.0.1 8080
+[01/Apr/2019:14:33:38] Client sent request to proxy with headers:
+[01/Apr/2019:14:33:38] Client sent request to proxy with headers:
+[01/Apr/2019:14:33:38] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/css/rtl.css
+Connection: keep-alive
+Cookie: _ga=GA1.2.1940820072.1554031346; _gid=GA1.2.1475914652.1554031346; _gat_gtag_UA_125043774_1=1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:33:38] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/css/rtl.css
+Connection: keep-alive
+Cookie: _ga=GA1.2.1940820072.1554031346; _gid=GA1.2.1475914652.1554031346; _gat_gtag_UA_125043774_1=1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:33:38] connect to [www.bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:33:38] connect to [www.bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:33:38] Accepted a request from client!
+[01/Apr/2019:14:33:38] Client sent request to proxy with headers:
+[01/Apr/2019:14:33:38] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/css/rtl.css
+Connection: keep-alive
+Cookie: _ga=GA1.2.1940820072.1554031346; _gid=GA1.2.1475914652.1554031346; _gat_gtag_UA_125043774_1=1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:33:38] Accepted a request from client!
+[01/Apr/2019:14:33:38] Accepted a request from client!
+[01/Apr/2019:14:33:38] Accepted a request from client!
+[01/Apr/2019:14:33:38] Client sent request to proxy with headers:
+[01/Apr/2019:14:33:38] Client sent request to proxy with headers:
+[01/Apr/2019:14:33:38] connect to [www.bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:33:38] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/css/rtl.css
+Connection: keep-alive
+Cookie: _ga=GA1.2.1940820072.1554031346; _gid=GA1.2.1475914652.1554031346; _gat_gtag_UA_125043774_1=1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:33:38] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/css/rtl.css
+Connection: keep-alive
+Cookie: _ga=GA1.2.1940820072.1554031346; _gid=GA1.2.1475914652.1554031346; _gat_gtag_UA_125043774_1=1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:33:38] connect to [www.bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:33:38] connect to [www.bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:33:38] Client sent request to proxy with headers:
+[01/Apr/2019:14:33:38] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/css/rtl.css
+Connection: keep-alive
+Cookie: _ga=GA1.2.1940820072.1554031346; _gid=GA1.2.1475914652.1554031346; _gat_gtag_UA_125043774_1=1
+
+----------------------------------------------------------------------
+
+[01/Apr/2019:14:33:38] connect to [www.bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:33:38] Accepted a request from client!
+[01/Apr/2019:14:33:53] connect to [www.bdood.ir] from 127.0.0.1 8080
+[01/Apr/2019:14:33:53] connect to [www.bdood.ir] from 127.0.0.1 8080

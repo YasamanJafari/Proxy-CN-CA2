@@ -62,7 +62,7 @@ def processRequest(con, addr):
 	isFirstPacket = True
 	socket = ""
 	while True:
-		data = con.recv(DATA_SIZE).decode("UTF-8")
+		data = con.recv(DATA_SIZE).decode("utf-8")
 		if not data:
 			break
 		if isFirstPacket:
@@ -76,7 +76,7 @@ def processRequest(con, addr):
 	con.close()
 
 def sendRequest(host, request, con):
-	writeMsgToFile("connect to [" + host + "] from " + HOST + " " + portNum)
+	writeMsgToFile("connect to [" + str(host) + "] from " + HOST + " " + str(portNum))
 	s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)                 
 	
 	print(host)
