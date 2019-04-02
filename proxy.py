@@ -9,6 +9,7 @@ isPrivacyNeeded = False
 defaultUserAgent = ""
 logFileName = ""
 portNum = ""
+restrictedHosts = {}
 
 HOST = '127.0.0.1'
 
@@ -24,7 +25,6 @@ BORDER = "\n--------------------------------------------------------------------
 LINE_DELIMETER = "\n"
 SENDER_EMAIL = "sadaf.sadeghian@ut.ac.ir"
 RECEIVER_EMAIL = "ys.jafari@ut.ac.ir"
-EMAIL_DATA = "Hi :) It's a test."
 
 DATA_SIZE = 8192
 
@@ -72,13 +72,29 @@ def processRequest(con, addr):
 				break
 			if isFirstPacket:
 				isFirstPacket = False
+				
+				isAccessRestricted = applyHostRestriction(data)
+				if isAccessRestricted:
+					break				
+				
 				host, request = convertProxyHTTPtoReqHTTP(data)
 			
 			socket = sendRequest(host, request, con)
 
-	if data:
+	if data and (not isAccessRestricted):
 		socket.close()
 	con.close()
+
+def applyHostRestriction(request):
+	host = getHost(request)
+	if host in restrictedHosts:
+		if restrictedHosts.get(host):
+			print("SENDING EMAIL")
+			sendNotificationEmail(request)
+		return True
+	else:
+		return False
+
 
 def sendRequest(host, request, con):
 	writeMsgToFile("connect to [" + str(host) + "] from " + HOST + " " + str(portNum))
@@ -93,6 +109,16 @@ def sendRequest(host, request, con):
 				con.send(response)
 			else:
 				return s
+
+def getHost(request):
+	host = ""
+	header = getRequestHeader(request)
+	lines = header.split("\r\n")
+	for line in lines:
+		if "Host: " in line:
+			parts = line.split(" ")
+			host = parts[1]
+	return host
 
 def getRequestHeader(request):
 	parts = request.split("\r\n", 1)
@@ -155,10 +181,11 @@ def processStartLine(startLine):
 	result = reqType + " /" + path + " HTTP/1.0" + "\r\n"
 	return host, result
 
-def sendEmail():
+def sendNotificationEmail(data):
 	emailSocket = socket.socket()
-	emailSocket.connect(("mail.ut.ac.ir", 25))
+	emailSocket.connect((socket.gethostbyname("mail.ut.ac.ir"), 25))
 	msg = emailSocket.recv(1024)
+	print("CONNECTED", msg)
 	emailSocket.send("HELO ut.ac.ir\r\n")
 	msg = emailSocket.recv(1024)
 	emailSocket.send("MAIL FROM: <" + SENDER_EMAIL + ">\r\n")
@@ -175,8 +202,9 @@ def sendEmail():
 	msg = emailSocket.recv(10000)	
 	emailSocket.send("DATA")	
 	msg = emailSocket.recv(10000)	
-	emailSocket.send(EMAIL_DATA + "\r\n.\r\n")
+	emailSocket.send(data + "\r\n.\r\n")
 	msg = emailSocket.recv(10000)	
+	print("EMAIL SENT")
 	emailSocket.send("QUIT\r\n")
 	msg = emailSocket.recv(10000)	
 	emailSocket.close()
@@ -198,4 +226,12 @@ if __name__ == "__main__":
 	if(isPrivacyNeeded):
 		defaultUserAgent = parsedInfo["privacy"]["userAgent"]
 	portNum = parsedInfo["port"]	
+
+	if(parsedInfo["restriction"]["enable"]):
+		for target in parsedInfo["restriction"]["targets"]:
+			if target["notify"] == "true":
+				restrictedHosts[target["URL"]] = True
+			else:
+				restrictedHosts[target["URL"]] = False
 	createSocket()
+
