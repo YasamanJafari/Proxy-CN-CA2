@@ -10,6 +10,7 @@ defaultUserAgent = ""
 logFileName = ""
 portNum = ""
 restrictedHosts = {}
+users = {}
 
 HOST = '127.0.0.1'
 
@@ -42,6 +43,15 @@ def writeMsgToFile(message):
 	logFile.write(message + LINE_DELIMETER)
 	logFile.close()
 
+def isLegitimate(addrIP):
+	if addrIP in users:
+		if users[addrIP] > 0:
+			return True
+	return False
+
+def decreaseVol(addrIP, amount):
+	users[addrIP] = users[addrIP] - amount
+
 def createSocket():
 	writeMsgToFile(SOCKET_CREATION_MSG)
 	threads = []
@@ -51,8 +61,10 @@ def createSocket():
 		s.bind((HOST, portNum))
 		writeMsgToFile(LISTEN_FOR_REQ_MSG)
 		s.listen(10)
+		
 		while True:
 			con, addr = s.accept()
+			print("*** " + str(addr) + " ***")
 			thread = threading.Thread(target = processRequest, args = (con, addr, ))
 			thread.setDaemon(True)
 			thread.start()
@@ -64,10 +76,13 @@ def processRequest(con, addr):
 	writeMsgToFile(ACCEPT_REQ_FROM_CLIENT_MSG)
 	data = ""
 	isFirstPacket = True
-	socket = ""
 	with con:
 		while True:
-			data = con.recv(DATA_SIZE).decode("UTF-8")
+			data = con.recv(DATA_SIZE)
+			decreaseVol(addr[0], len(data))
+			if not isLegitimate(addr[0]):
+				break
+			data = data.decode("utf-8", "replace")
 			if len(data) <= 0:
 				break
 			if isFirstPacket:
@@ -77,8 +92,7 @@ def processRequest(con, addr):
 				if isAccessRestricted:
 					break				
 				
-				host, request = convertProxyHTTPtoReqHTTP(data)
-			
+				host, request = convertProxyHTTPtoReqHTTP(data)			
 			socket = sendRequest(host, request, con)
 
 	if data and (not isAccessRestricted):
@@ -95,20 +109,21 @@ def applyHostRestriction(request):
 	else:
 		return False
 
-
-def sendRequest(host, request, con):
+def sendRequest(host, request, con, addr):
 	writeMsgToFile("connect to [" + str(host) + "] from " + HOST + " " + str(portNum))
 	s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)                 
 	
-	s.connect((socket.gethostbyname(host), 80))
-	s.sendall(request.encode())
-	with con:
+	with con, s:
+		s.connect((socket.gethostbyname(host), 80))
+		s.sendall(request.encode())
 		while True:
 			response = s.recv(DATA_SIZE)
 			if len(response) > 0:
+				decreaseVol(addr[0], len(response))
 				con.send(response)
 			else:
-				return s
+				break
+		s.close()
 
 def getHost(request):
 	host = ""
@@ -181,6 +196,12 @@ def processStartLine(startLine):
 	result = reqType + " /" + path + " HTTP/1.0" + "\r\n"
 	return host, result
 
+def getLegitimateUsers(usersInfo):
+	for item in usersInfo:
+		userIP = item["IP"]
+		userVolume = item["volume"]
+		users[userIP] = int(userVolume)
+
 def sendNotificationEmail(data):
 	emailSocket = socket.socket()
 	emailSocket.connect((socket.gethostbyname("mail.ut.ac.ir"), 25))
@@ -209,8 +230,6 @@ def sendNotificationEmail(data):
 	msg = emailSocket.recv(10000)	
 	emailSocket.close()
 	
-		
-
 def readConfig():
 	with open(CONFIG_FILE_NAME) as json_file:  
 		data = json.load(json_file)
@@ -233,5 +252,6 @@ if __name__ == "__main__":
 				restrictedHosts[target["URL"]] = True
 			else:
 				restrictedHosts[target["URL"]] = False
+	getLegitimateUsers(parsedInfo["accounting"]["users"])
 	createSocket()
 
