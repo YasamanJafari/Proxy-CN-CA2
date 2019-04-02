@@ -44,8 +44,9 @@ def writeMsgToFile(message):
 	logFile.close()
 
 def isLegitimate(addrIP):
-	if users[addrIP] > 0:
-		return True
+	if addrIP in users:
+		if users[addrIP] > 0:
+			return True
 	return False
 
 def decreaseVol(addrIP, amount):
@@ -63,6 +64,7 @@ def createSocket():
 		
 		while True:
 			con, addr = s.accept()
+			print("*** " + str(addr) + " ***")
 			thread = threading.Thread(target = processRequest, args = (con, addr, ))
 			thread.setDaemon(True)
 			thread.start()
