@@ -93,11 +93,9 @@ def processRequest(con, addr):
 					break				
 				
 				host, request = convertProxyHTTPtoReqHTTP(data)			
-			socket = sendRequest(host, request, con)
+			sendRequest(host, request, con, addr)
 
-	if data and (not isAccessRestricted):
-		socket.close()
-	con.close()
+		con.close()
 
 def applyHostRestriction(request):
 	host = getHost(request)
