@@ -2,6 +2,7 @@ import datetime
 import json
 import socket
 import threading
+import signal
 
 isLoggingNeeded = False
 isPrivacyNeeded = False
@@ -46,7 +47,7 @@ def createSocket():
 		writeMsgToFile(BIND_PORT_MSG + str(portNum) + "...")
 		s.bind((HOST, portNum))
 		writeMsgToFile(LISTEN_FOR_REQ_MSG)
-		s.listen()
+		s.listen(10)
 		while True:
 			con, addr = s.accept()
 			thread = threading.Thread(target = processRequest, args = (con, addr, ))
@@ -65,7 +66,7 @@ def processRequest(con, addr):
 	with con:
 		while True:
 			data = con.recv(DATA_SIZE).decode("UTF-8")
-			if not data:
+			if len(data) <= 0:
 				break
 			if isFirstPacket:
 				isFirstPacket = False
@@ -75,6 +76,7 @@ def processRequest(con, addr):
 
 	if data:
 		socket.close()
+	con.close()
 
 def sendRequest(host, request, con):
 	writeMsgToFile("connect to [" + str(host) + "] from " + HOST + " " + str(portNum))
@@ -86,8 +88,9 @@ def sendRequest(host, request, con):
 	with con:
 		while True:
 			response = s.recv(DATA_SIZE)
-			con.send(response)
-			if not response:
+			if len(response) > 0:
+				con.send(response)
+			else:
 				return s
 
 def getRequestHeader(request):
