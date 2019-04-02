@@ -23,6 +23,9 @@ ACCEPT_REQ_FROM_CLIENT_MSG = "Accepted a request from client!"
 CLIENT_REQ_MSG = "Client sent request to proxy with headers:"
 BORDER = "\n----------------------------------------------------------------------\n"
 LINE_DELIMETER = "\n"
+SENDER_EMAIL = "sadaf.sadeghian@ut.ac.ir"
+RECEIVER_EMAIL = "ys.jafari@ut.ac.ir"
+EMAIL_DATA = "Hi :) It's a test."
 
 DATA_SIZE = 8192
 
@@ -169,6 +172,32 @@ def getLegitimateUsers(usersInfo):
 		userVolume = item["volume"]
 		users[userIP] = int(userVolume)
 
+def sendEmail():
+	emailSocket = socket.socket()
+	emailSocket.connect(("mail.ut.ac.ir", 25))
+	msg = emailSocket.recv(1024)
+	emailSocket.send("HELO ut.ac.ir\r\n")
+	msg = emailSocket.recv(1024)
+	emailSocket.send("MAIL FROM: <" + SENDER_EMAIL + ">\r\n")
+	msg = emailSocket.recv(10000)
+	emailSocket.send("AUTH LOGIN\r\n")
+	username = input("enter username: ").encode("base64")
+	msg = emailSocket.recv(10000)
+	emailSocket.send(username + "\r\n")
+	msg = emailSocket.recv(1024)	
+	password = input("enter password: ").encode("base64")
+	emailSocket.send(password + "\r\n")
+	msg = emailSocket.recv(10000)	
+	emailSocket.send("RCPT TO: <" + RECEIVER_EMAIL + ">\r\n")	
+	msg = emailSocket.recv(10000)	
+	emailSocket.send("DATA")	
+	msg = emailSocket.recv(10000)	
+	emailSocket.send(EMAIL_DATA + "\r\n.\r\n")
+	msg = emailSocket.recv(10000)	
+	emailSocket.send("QUIT\r\n")
+	msg = emailSocket.recv(10000)	
+	emailSocket.close()
+	
 def readConfig():
 	with open(CONFIG_FILE_NAME) as json_file:  
 		data = json.load(json_file)
