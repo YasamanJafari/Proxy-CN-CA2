@@ -50,11 +50,10 @@ def createSocket():
 		while True:
 			con, addr = s.accept()
 			thread = threading.Thread(target = processRequest, args = (con, addr, ))
+			thread.setDaemon(True)
 			thread.start()
 			threads.append(thread)
 	    
-		for thread in threads:
-			thread.join()
 		s.close()
 
 def processRequest(con, addr):
@@ -75,12 +74,12 @@ def processRequest(con, addr):
 
 	if data:
 		socket.close()
+	con.close()
 
 def sendRequest(host, request, con):
 	writeMsgToFile("connect to [" + str(host) + "] from " + HOST + " " + str(portNum))
 	s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)                 
 	
-	print(host)
 	s.connect((socket.gethostbyname(host), 80))
 	s.sendall(request.encode())
 	with con:
@@ -111,8 +110,10 @@ def convertProxyHTTPtoReqHTTP(data):
 		if line == "":
 			header = False
 		if header:
-			if "Proxy-Connection:" in line:
+			if "Proxy-Connection: " in line:
 				continue
+			elif "Connection: " in line:
+				line = "Connection: Close"
 			if "User-Agent:" in line:
 				if isPrivacyNeeded:
 					line = "User-Agent: " + defaultUserAgent 
@@ -123,11 +124,9 @@ def convertProxyHTTPtoReqHTTP(data):
 	request = ""
 	for line in result:
 		request += line
-	print(request)
 	return host, request
 	
 def processStartLine(startLine):
-	print("STARTLINE", startLine)
 	parts= startLine.split(" ")
 	reqType = parts[0]
 	
