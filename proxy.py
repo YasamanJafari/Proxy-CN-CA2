@@ -24,6 +24,11 @@ BIND_PORT_MSG = "Binding socket to port "
 LISTEN_FOR_REQ_MSG = "Listening for incoming requests..."
 ACCEPT_REQ_FROM_CLIENT_MSG = "Accepted a request from client!"
 CLIENT_REQ_MSG = "Client sent request to proxy with headers:"
+OPEN_CONNECTION_SERVER = "Proxy opening connection to server "
+SERVER_CONNECTION_OPENED = "Connection opened."
+PROXY_TO_SERVER_HEADER_MSG = "Proxy sent request to server with headers: "
+PROXY_TO_CLIENT_HEADER_MSG = "Proxy sent response to client with headers: "
+PROXY_TO_CLIENT_REQ_MSG = "Proxy sent request to client with headers: "
 BORDER = "\n----------------------------------------------------------------------\n"
 LINE_DELIMETER = "\n"
 SENDER_EMAIL = "sadaf.sadeghian@ut.ac.ir"
@@ -67,6 +72,7 @@ def createSocket():
 		
 		while True:
 			con, addr = s.accept()
+			writeMsgToFile("connect to [" + str(addr) + "] from " + HOST + " " + str(portNum))
 			thread = threading.Thread(target = processRequest, args = (con, addr, ))
 			thread.setDaemon(True)
 			thread.start()
@@ -110,23 +116,25 @@ def applyHostRestriction(request):
 		return False
 
 def sendRequest(host, request, con, addr, path):
-	writeMsgToFile("connect to [" + str(host) + "] from " + HOST + " " + str(portNum))
+	writeMsgToFile(OPEN_CONNECTION_SERVER + str(addr) + "...")
 	s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)                 
 	
 	with con, s:
 		s.connect((socket.gethostbyname(host), 80))
+		writeMsgToFile(SERVER_CONNECTION_OPENED + " (" + str(addr) + ")")
 		s.sendall(request.encode())
 		while True:
 			response = s.recv(DATA_SIZE)
 			if len(response) > 0:
+				hasBody, header, body = getResponseParts(response)
 				if isInjectionNeeded and path == "":
-					hasBody, header, body = getResponseParts(response)
 					if hasBody:
 						info = header + "\r\n\r\n" + addNavBar(body)
 						response = info.encode()
-				
+				writeMsgToFile(PROXY_TO_SERVER_HEADER_MSG + BORDER + header + BORDER)
 				decreaseVol(addr[0], len(response))
 				con.send(response)
+				writeMsgToFile(PROXY_TO_CLIENT_HEADER_MSG + BORDER + header + BORDER)
 			else:
 				break
 		s.close()
@@ -156,15 +164,13 @@ def getResponseParts(response):
 
 def addNavBar(body):
 	if "<body" in body:
-		print("DAMN")
 		addition = "<!DOCTYPE html>\n<html>\n<head>\n<meta charset=\"UTF-8\">\n</head>\n<body>\n<div style = \"background-color: #134444; color: white; direction: rtl; padding: 5px; padding-right: 10px; margin: 0px;\" />" + str(injectionMessage) + "\n</div>\n</body>\n</html>\n" 
 		newBody = addition + body 
 		return newBody
 	return body
 
 def convertProxyHTTPtoReqHTTP(data):
-	writeMsgToFile(CLIENT_REQ_MSG)
-	writeMsgToFile(BORDER + getRequestHeader(data) + BORDER)
+	writeMsgToFile(CLIENT_REQ_MSG + BORDER + getRequestHeader(data) + BORDER)
 	lines = data.split("\r\n")
 	
 	startLine = lines[0]
@@ -191,6 +197,7 @@ def convertProxyHTTPtoReqHTTP(data):
 	request = ""
 	for line in result:
 		request += line
+	writeMsgToFile(PROXY_TO_CLIENT_REQ_MSG + BORDER + request + BORDER)
 	return host, request, path
 	
 def processStartLine(startLine):
