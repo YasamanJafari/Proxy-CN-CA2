@@ -119,7 +119,7 @@ def sendRequest(host, request, con, addr, path):
 	s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)                 
 	
 	with con, s:
-		cachingResponse = ""
+		cachingResponse = b""
 		s.connect((socket.gethostbyname(host), 80))
 		s.sendall(request.encode())
 		while True:
@@ -131,11 +131,9 @@ def sendRequest(host, request, con, addr, path):
 						info = header + "\r\n\r\n" + addNavBar(body)
 						response = info.encode()
 				
-				decreaseVol(addr[0], len(response))
-				
-				print(getRequestHeader(response.decode()))		
+				decreaseVol(addr[0], len(response))	
 
-				cachingResponse += response.decode()			
+				cachingResponse += response			
 				con.send(response)
 			else:
 				cachable, expireDate = checkCachData(response)
