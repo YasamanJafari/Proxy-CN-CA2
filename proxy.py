@@ -158,14 +158,17 @@ def getResponseParts(response):
 def addNavBar(body):
 	lines = body.split("\n")
 	newBody = ""
+	i = 0
 	for line in lines:
+		i = i + 1
 		if "<body" in line:
-			parts = line.split("<body>", 1)
-			line = parts[0] + "<body" + parts[1] + "<div style = \"background-color: #134444; color: white; direction: rtl; padding: 5px; padding-right: 10px; height: 20px;\" />" + str(injectionMessage) + "</div>"
-			if len(parts) > 2:
-				for i in range(1, len(parts)):
-					line += parts[i]
-		newBody += (line + "\n")
+			parts = line.split("<body", 1)
+			endParts = parts[1].split(">", 1)
+			line = parts[0] + "<body" + endParts[0] + ">\n" + "<div style = \"background-color: #134444; color: white; direction: rtl; padding: 5px; padding-right: 10px; height: 30px;\" />" + str(injectionMessage) + "</div>"
+			if len(endParts) > 1:
+				for i in range(1, len(endParts)):
+					line += endParts[i]
+			newBody += (line) + "\n"
 	return newBody
 	# newBody = "<!DOCTYPE html><html><head><meta charset=\"UTF-8\"></head><body><div style = \"background-color: #134444; color: white; direction: rtl; padding: 5px; padding-right: 10px; height: 20px;\" />" + str(injectionMessage) + "</div></body></html>" + str(body)
 	# return newBody
@@ -297,6 +300,5 @@ if __name__ == "__main__":
 			else:
 				restrictedHosts[target["URL"]] = False
 	getLegitimateUsers(parsedInfo["accounting"]["users"])
-	sendNotificationEmail("Hi Sadaf ... It's a test")
 	createSocket()
 
