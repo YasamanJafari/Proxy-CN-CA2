@@ -99,10 +99,26 @@ def processRequest(con, addr):
 				# if applyHostRestriction(data):
 				# 	break				
 				
-				host, request, path = convertProxyHTTPtoReqHTTP(data)			
-			sendRequest(host, request, con, addr, path)
+				host, request, path = convertProxyHTTPtoReqHTTP(data)
+			if canUseCachedResponse(request):
+				sendCachedResponse(request, con)
+			else:			
+				sendRequest(host, request, con, addr, path)
 
 		con.close()
+
+def canUseCachedResponse(request):
+	if request in cachedResponses:
+		# if isValidation(request):
+		return True
+	else:
+		return False
+
+def sendCachedResponse(request, con):
+	print("USING CACHED DATA")
+	with con:
+		cachedData = cachedResponses.get(request)
+		con.sendall(cachedData[1])
 
 def applyHostRestriction(request):
 	host = getHost(request)
