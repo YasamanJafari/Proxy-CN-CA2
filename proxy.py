@@ -35,6 +35,9 @@ LINE_DELIMETER = "\n"
 SENDER_EMAIL = "sadaf.sadeghian@ut.ac.ir"
 RECEIVER_EMAIL = "ys.jafari@ut.ac.ir"
 
+RESTRICTION_HTML = "<!DOCTYPE html><html><head></head><body style=\"background-color: #134444\"><h1 style=\"text-align: center; direction: rtl; color: white\">دسترسی به این سایت محدود شده است. </h1></body></html>"
+ACCOUNTING_HTML = "<!DOCTYPE html><html><head></head><body style=\"background-color: #134444\"><h1 style=\"text-align: center; direction: rtl; color: white\">حجم قابل استفاده شما تمام شده است. </h1></body></html>"
+
 DATA_SIZE = 8192
 
 
@@ -139,7 +142,7 @@ def sendRequest(host, request, con, addr, path):
 						response = info.encode()
 
 				writeMsgToFile(PROXY_TO_SERVER_HEADER_MSG + BORDER + header + BORDER)
-				
+
 				decreaseVol(addr[0], len(response))
 				cachingResponse += response			
 				con.send(response)
