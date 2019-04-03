@@ -64,7 +64,6 @@ def createSocket():
 		
 		while True:
 			con, addr = s.accept()
-			print("*** " + str(addr) + " ***")
 			thread = threading.Thread(target = processRequest, args = (con, addr, ))
 			thread.setDaemon(True)
 			thread.start()
@@ -100,9 +99,9 @@ def processRequest(con, addr):
 def applyHostRestriction(request):
 	host = getHost(request)
 	if host in restrictedHosts:
-		if restrictedHosts.get(host):
-			print("SENDING EMAIL")
-			sendNotificationEmail(request)
+		# if restrictedHosts.get(host):
+		# 	print("SENDING EMAIL")
+		# 	sendNotificationEmail(request)
 		return True
 	else:
 		return False
@@ -201,31 +200,45 @@ def getLegitimateUsers(usersInfo):
 		users[userIP] = int(userVolume)
 
 def sendNotificationEmail(data):
-	emailSocket = socket.socket()
-	emailSocket.connect((socket.gethostbyname("mail.ut.ac.ir"), 25))
+	print("EMAIL... In function")
+	emailSocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+	print("EMAIL... socket created")
+	emailSocket.connect(("mail.ut.ac.ir", 25))
+	print("EMAIL... socket connected")
 	msg = emailSocket.recv(1024)
-	print("CONNECTED", msg)
-	emailSocket.send("HELO ut.ac.ir\r\n")
+	print("EMAIL... ", msg)
+	emailSocket.send(("HELO ut.ac.ir\r\n").encode())
 	msg = emailSocket.recv(1024)
-	emailSocket.send("MAIL FROM: <" + SENDER_EMAIL + ">\r\n")
+	print("EMAIL... ", msg)
+	emailSocket.send(("MAIL FROM: <" + SENDER_EMAIL + ">\r\n").encode())
 	msg = emailSocket.recv(10000)
-	emailSocket.send("AUTH LOGIN\r\n")
-	username = input("enter username: ").encode("base64")
+	print("EMAIL... ", msg)
+	emailSocket.send(("AUTH LOGIN\r\n").encode())
+	# username = input("enter username: ").encode("base64")
+	username = ""
 	msg = emailSocket.recv(10000)
-	emailSocket.send(username + "\r\n")
+	print("EMAIL... ", msg)
+	emailSocket.send((username + "\r\n").encode())
 	msg = emailSocket.recv(1024)	
-	password = input("enter password: ").encode("base64")
-	emailSocket.send(password + "\r\n")
+	print("EMAIL... ", msg)
+	# password = input("enter password: ").encode("base64")
+	password = ""
+	emailSocket.send((password + "\r\n").encode())
 	msg = emailSocket.recv(10000)	
-	emailSocket.send("RCPT TO: <" + RECEIVER_EMAIL + ">\r\n")	
+	print("EMAIL... ", msg)
+	emailSocket.send(("RCPT TO: <" + RECEIVER_EMAIL + ">\r\n").encode())	
 	msg = emailSocket.recv(10000)	
-	emailSocket.send("DATA")	
+	print("EMAIL... ", msg)
+	emailSocket.send(("DATA").encode())	
 	msg = emailSocket.recv(10000)	
-	emailSocket.send(data + "\r\n.\r\n")
+	print("EMAIL... ", msg)
+	emailSocket.send((data + "\r\n.\r\n").encode())
 	msg = emailSocket.recv(10000)	
+	print("EMAIL... ", msg)
 	print("EMAIL SENT")
-	emailSocket.send("QUIT\r\n")
+	emailSocket.send(("QUIT\r\n").encode())
 	msg = emailSocket.recv(10000)	
+	print("EMAIL... ", msg)
 	emailSocket.close()
 	
 def readConfig():
@@ -251,5 +264,6 @@ if __name__ == "__main__":
 			else:
 				restrictedHosts[target["URL"]] = False
 	getLegitimateUsers(parsedInfo["accounting"]["users"])
+	sendNotificationEmail("Hi Sadaf ... It's a test")
 	createSocket()
 
