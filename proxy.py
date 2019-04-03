@@ -155,11 +155,10 @@ def getResponseParts(response):
 	return (False, parts[0], "")
 
 def addNavBar(body):
-	lines = body.split("\n")
-	for line in lines:
-		if "<body" in line:
-			newBody = "<!DOCTYPE html><html><head><meta charset=\"UTF-8\"></head><body><div style = \"background-color: #134444; color: white; direction: rtl; padding: 5px; padding-right: 10px; height: 30px;\" />" + str(injectionMessage) + "</div></body></html>" + body
-			return newBody
+	if "<!DOCTYPE" in body:
+		newBody = "<!DOCTYPE html>\n<html>\n<head>\n<meta charset=\"UTF-8\">\n</head>\n<body>\n<div style = \"background-color: #134444; color: white; direction: rtl; padding: 5px; padding-right: 10px; height: 30px;\" />" + str(injectionMessage) + "\n</div>\n</body>\n</html>\n" + body
+		writeMsgToFile(" * " + body + "\n * " + newBody)
+		return newBody
 	return body
 
 def convertProxyHTTPtoReqHTTP(data):
