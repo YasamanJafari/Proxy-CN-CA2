@@ -13,6 +13,7 @@ logFileName = ""
 portNum = ""
 restrictedHosts = {}
 users = {}
+cachedResponses = {}
 
 HOST = '127.0.0.1'
 
@@ -84,17 +85,21 @@ def processRequest(con, addr):
 			decreaseVol(addr[0], len(data))
 			if not isLegitimate(addr[0]):
 				break
+
 			data = data.decode("utf-8", "replace")
+			
+			# if applyHostRestriction(data):
+			# 		break
+			
 			if len(data) <= 0:
 				break
 			if isFirstPacket:
 				isFirstPacket = False
 				
-				isAccessRestricted = applyHostRestriction(data)
-				if isAccessRestricted:
-					break				
+				# if applyHostRestriction(data):
+				# 	break				
 				
-				host, request = convertProxyHTTPtoReqHTTP(data)			
+				host, request = convertProxyHTTPtoReqHTTP(data)	
 			sendRequest(host, request, con, addr)
 
 		con.close()
@@ -102,8 +107,8 @@ def processRequest(con, addr):
 def applyHostRestriction(request):
 	host = getHost(request)
 	if host in restrictedHosts:
-		# if restrictedHosts.get(host):
-		# 	print("SENDING EMAIL")
+		if restrictedHosts.get(host):
+			print("SENDING EMAIL")
 		# 	sendNotificationEmail(request)
 		return True
 	else:
@@ -114,6 +119,7 @@ def sendRequest(host, request, con, addr):
 	s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)                 
 	
 	with con, s:
+		cachingResponse = ""
 		s.connect((socket.gethostbyname(host), 80))
 		s.sendall(request.encode())
 		while True:
@@ -126,10 +132,38 @@ def sendRequest(host, request, con, addr):
 						response = info.encode()
 				
 				decreaseVol(addr[0], len(response))
+				
+				print(getRequestHeader(response.decode()))		
+
+				cachingResponse += response.decode()			
 				con.send(response)
 			else:
+				cachable, expireDate = checkCachData(response)
+				if cachable:
+					cache(request, (expireDate, cachingResponse))
 				break
 		s.close()
+
+def checkCachData(response):
+	hasBody, header, body = getResponseParts(response)
+	isCachable = True
+	expireDate = None
+	lines = header.split("\r\n")
+	for line in lines:
+		if "Cache-Control:" in line:
+			if "no-cache" in line:
+				isCachable = False
+		elif "Pragma:" in line:
+			if "no-cache" in line:
+				isCachable = False
+		elif "expires:" in line:
+			parts = line.split(" ")
+			expireDate = parts[1]
+	return isCachable, expireDate
+
+def cache(request, cachingResponse):
+	cachedResponses[request] = cachingResponse
+			
 
 def getHost(request):
 	host = ""
