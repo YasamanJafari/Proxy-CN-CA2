@@ -6,6 +6,8 @@ import signal
 
 isLoggingNeeded = False
 isPrivacyNeeded = False
+isInjectionNeeded = False
+injectionMessage = ""
 defaultUserAgent = ""
 logFileName = ""
 portNum = ""
@@ -28,6 +30,7 @@ RECEIVER_EMAIL = "ys.jafari@ut.ac.ir"
 EMAIL_DATA = "Hi :) It's a test."
 
 DATA_SIZE = 8192
+
 
 def getCurrentTime():
 	now = datetime.datetime.now()
@@ -64,7 +67,6 @@ def createSocket():
 		
 		while True:
 			con, addr = s.accept()
-			print("*** " + str(addr) + " ***")
 			thread = threading.Thread(target = processRequest, args = (con, addr, ))
 			thread.setDaemon(True)
 			thread.start()
@@ -101,6 +103,12 @@ def sendRequest(host, request, con, addr):
 		while True:
 			response = s.recv(DATA_SIZE)
 			if len(response) > 0:
+				if isInjectionNeeded:
+					hasBody, header, body = getResponseParts(response)
+					if hasBody:
+						info = (header + "\r\n\r\n") + addNavBar(body)
+						response = info.encode()
+				
 				decreaseVol(addr[0], len(response))
 				con.send(response)
 			else:
@@ -112,6 +120,29 @@ def getRequestHeader(request):
 	newParts = parts[1].split("\r\n\r\n", 1)
 	header = newParts[0]
 	return header + "\r\n"
+
+def getResponseParts(response):
+	data = response.decode("utf-8", "replace")
+	parts = data.split("\r\n\r\n", 1) 
+	print("PARTS: " + str(len(parts)) + " " + str(parts))
+	if len(parts) > 1:
+		return (True, parts[0], parts[1])
+	return (False, parts[0], "")
+
+def addNavBar(body):
+	lines = body.split("\n")
+	newBody = ""
+	for line in lines:
+		if "<body" in line:
+			parts = line.split("<body>", 1)
+			line = parts[0] + "<body" + parts[1] + "<div style = \"background-color: #134444; color: white; direction: rtl; padding: 5px; padding-right: 10px; height: 20px;\" />" + str(injectionMessage) + "</div>"
+			if len(parts) > 2:
+				for i in range(1, len(parts)):
+					line += parts[i]
+		newBody += (line + "\n")
+	return newBody
+	# newBody = "<!DOCTYPE html><html><head><meta charset=\"UTF-8\"></head><body><div style = \"background-color: #134444; color: white; direction: rtl; padding: 5px; padding-right: 10px; height: 20px;\" />" + str(injectionMessage) + "</div></body></html>" + str(body)
+	# return newBody
 
 def convertProxyHTTPtoReqHTTP(data):
 	writeMsgToFile(CLIENT_REQ_MSG)
@@ -175,7 +206,7 @@ def getLegitimateUsers(usersInfo):
 		users[userIP] = int(userVolume)
 
 def sendEmail():
-	emailSocket = socket.socket()
+	emailSocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 	emailSocket.connect(("mail.ut.ac.ir", 25))
 	msg = emailSocket.recv(1024)
 	emailSocket.send("HELO ut.ac.ir\r\n")
@@ -208,12 +239,14 @@ def readConfig():
 if __name__ == "__main__":
 	writeMsgToFile(PROXY_LAUNCH_MSG)
 	parsedInfo = readConfig()
+	isPrivacyNeeded = parsedInfo["privacy"]["enable"]
 	isLoggingNeeded = parsedInfo["logging"]["enable"]
+	isInjectionNeeded = parsedInfo["HTTPInjection"]["enable"]
+	injectionMessage = parsedInfo["HTTPInjection"]["post"]["body"]
+	portNum = parsedInfo["port"]
 	if(isLoggingNeeded):
 		logFileName = parsedInfo["logging"]["logFile"]
-	isPrivacyNeeded = parsedInfo["privacy"]["enable"]
 	if(isPrivacyNeeded):
-		defaultUserAgent = parsedInfo["privacy"]["userAgent"]
-	portNum = parsedInfo["port"]	
+		defaultUserAgent = parsedInfo["privacy"]["userAgent"]	
 	getLegitimateUsers(parsedInfo["accounting"]["users"])
 	createSocket()
