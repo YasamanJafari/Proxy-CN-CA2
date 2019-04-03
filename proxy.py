@@ -11,6 +11,7 @@ injectionMessage = ""
 defaultUserAgent = ""
 logFileName = ""
 portNum = ""
+restrictedHosts = {}
 users = {}
 
 HOST = '127.0.0.1'
@@ -27,7 +28,6 @@ BORDER = "\n--------------------------------------------------------------------
 LINE_DELIMETER = "\n"
 SENDER_EMAIL = "sadaf.sadeghian@ut.ac.ir"
 RECEIVER_EMAIL = "ys.jafari@ut.ac.ir"
-EMAIL_DATA = "Hi :) It's a test."
 
 DATA_SIZE = 8192
 
@@ -89,9 +89,25 @@ def processRequest(con, addr):
 				break
 			if isFirstPacket:
 				isFirstPacket = False
-				host, request = convertProxyHTTPtoReqHTTP(data)
-				sendRequest(host, request, con, addr)
-		con.close
+				
+				isAccessRestricted = applyHostRestriction(data)
+				if isAccessRestricted:
+					break				
+				
+				host, request = convertProxyHTTPtoReqHTTP(data)			
+			sendRequest(host, request, con, addr)
+
+		con.close()
+
+def applyHostRestriction(request):
+	host = getHost(request)
+	if host in restrictedHosts:
+		# if restrictedHosts.get(host):
+		# 	print("SENDING EMAIL")
+		# 	sendNotificationEmail(request)
+		return True
+	else:
+		return False
 
 def sendRequest(host, request, con, addr):
 	writeMsgToFile("connect to [" + str(host) + "] from " + HOST + " " + str(portNum))
@@ -114,6 +130,16 @@ def sendRequest(host, request, con, addr):
 			else:
 				break
 		s.close()
+
+def getHost(request):
+	host = ""
+	header = getRequestHeader(request)
+	lines = header.split("\r\n")
+	for line in lines:
+		if "Host: " in line:
+			parts = line.split(" ")
+			host = parts[1]
+	return host
 
 def getRequestHeader(request):
 	parts = request.split("\r\n", 1)
@@ -205,30 +231,46 @@ def getLegitimateUsers(usersInfo):
 		userVolume = item["volume"]
 		users[userIP] = int(userVolume)
 
-def sendEmail():
+def sendNotificationEmail(data):
+	print("EMAIL... In function")
 	emailSocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+	print("EMAIL... socket created")
 	emailSocket.connect(("mail.ut.ac.ir", 25))
+	print("EMAIL... socket connected")
 	msg = emailSocket.recv(1024)
-	emailSocket.send("HELO ut.ac.ir\r\n")
+	print("EMAIL... ", msg)
+	emailSocket.send(("HELO ut.ac.ir\r\n").encode())
 	msg = emailSocket.recv(1024)
-	emailSocket.send("MAIL FROM: <" + SENDER_EMAIL + ">\r\n")
+	print("EMAIL... ", msg)
+	emailSocket.send(("MAIL FROM: <" + SENDER_EMAIL + ">\r\n").encode())
 	msg = emailSocket.recv(10000)
-	emailSocket.send("AUTH LOGIN\r\n")
-	username = input("enter username: ").encode("base64")
+	print("EMAIL... ", msg)
+	emailSocket.send(("AUTH LOGIN\r\n").encode())
+	# username = input("enter username: ").encode("base64")
+	username = ""
 	msg = emailSocket.recv(10000)
-	emailSocket.send(username + "\r\n")
+	print("EMAIL... ", msg)
+	emailSocket.send((username + "\r\n").encode())
 	msg = emailSocket.recv(1024)	
-	password = input("enter password: ").encode("base64")
-	emailSocket.send(password + "\r\n")
+	print("EMAIL... ", msg)
+	# password = input("enter password: ").encode("base64")
+	password = ""
+	emailSocket.send((password + "\r\n").encode())
 	msg = emailSocket.recv(10000)	
-	emailSocket.send("RCPT TO: <" + RECEIVER_EMAIL + ">\r\n")	
+	print("EMAIL... ", msg)
+	emailSocket.send(("RCPT TO: <" + RECEIVER_EMAIL + ">\r\n").encode())	
 	msg = emailSocket.recv(10000)	
-	emailSocket.send("DATA")	
+	print("EMAIL... ", msg)
+	emailSocket.send(("DATA").encode())	
 	msg = emailSocket.recv(10000)	
-	emailSocket.send(EMAIL_DATA + "\r\n.\r\n")
+	print("EMAIL... ", msg)
+	emailSocket.send((data + "\r\n.\r\n").encode())
 	msg = emailSocket.recv(10000)	
-	emailSocket.send("QUIT\r\n")
+	print("EMAIL... ", msg)
+	print("EMAIL SENT")
+	emailSocket.send(("QUIT\r\n").encode())
 	msg = emailSocket.recv(10000)	
+	print("EMAIL... ", msg)
 	emailSocket.close()
 	
 def readConfig():
@@ -248,5 +290,13 @@ if __name__ == "__main__":
 		logFileName = parsedInfo["logging"]["logFile"]
 	if(isPrivacyNeeded):
 		defaultUserAgent = parsedInfo["privacy"]["userAgent"]	
+	if(parsedInfo["restriction"]["enable"]):
+		for target in parsedInfo["restriction"]["targets"]:
+			if target["notify"] == "true":
+				restrictedHosts[target["URL"]] = True
+			else:
+				restrictedHosts[target["URL"]] = False
 	getLegitimateUsers(parsedInfo["accounting"]["users"])
+	sendNotificationEmail("Hi Sadaf ... It's a test")
 	createSocket()
+
