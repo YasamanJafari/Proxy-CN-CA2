@@ -1,0 +1,4063 @@
+[02/Apr/2019:18:47:15] Creating server socket...
+[02/Apr/2019:18:47:15] Binding socket to port 8080...
+[02/Apr/2019:18:47:15] Listening for incoming requests...
+[02/Apr/2019:18:47:23] Accepted a request from client!
+[02/Apr/2019:18:47:23] Client sent request to proxy with headers:
+[02/Apr/2019:18:47:23] 
+----------------------------------------------------------------------
+Host: ocsp.pki.goog
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/ocsp-request
+Content-Length: 83
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[02/Apr/2019:18:47:23] Accepted a request from client!
+[02/Apr/2019:18:47:23] Client sent request to proxy with headers:
+[02/Apr/2019:18:47:23] 
+----------------------------------------------------------------------
+Host: ocsp.pki.goog
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/ocsp-request
+Content-Length: 83
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[02/Apr/2019:18:47:27] Accepted a request from client!
+[02/Apr/2019:18:47:27] Client sent request to proxy with headers:
+[02/Apr/2019:18:47:27] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[02/Apr/2019:18:47:27] Accepted a request from client!
+[02/Apr/2019:18:47:27] Client sent request to proxy with headers:
+[02/Apr/2019:18:47:27] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[02/Apr/2019:18:47:27] Accepted a request from client!
+[02/Apr/2019:18:47:27] Client sent request to proxy with headers:
+[02/Apr/2019:18:47:27] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[02/Apr/2019:18:47:27] Accepted a request from client!
+[02/Apr/2019:18:47:27] Client sent request to proxy with headers:
+[02/Apr/2019:18:47:27] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[02/Apr/2019:18:47:27] Accepted a request from client!
+[02/Apr/2019:18:47:27] Client sent request to proxy with headers:
+[02/Apr/2019:18:47:27] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[02/Apr/2019:18:47:27] Accepted a request from client!
+[02/Apr/2019:18:47:27] Client sent request to proxy with headers:
+[02/Apr/2019:18:47:27] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[02/Apr/2019:18:47:27] Accepted a request from client!
+[02/Apr/2019:18:47:27] Client sent request to proxy with headers:
+[02/Apr/2019:18:47:27] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[02/Apr/2019:18:47:27] Accepted a request from client!
+[02/Apr/2019:18:47:27] Client sent request to proxy with headers:
+[02/Apr/2019:18:47:27] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[02/Apr/2019:18:47:27] Accepted a request from client!
+[02/Apr/2019:18:47:27] Client sent request to proxy with headers:
+[02/Apr/2019:18:47:27] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[02/Apr/2019:18:47:27] Accepted a request from client!
+[02/Apr/2019:18:47:27] Client sent request to proxy with headers:
+[02/Apr/2019:18:47:27] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[02/Apr/2019:18:47:27] Accepted a request from client!
+[02/Apr/2019:18:47:27] Client sent request to proxy with headers:
+[02/Apr/2019:18:47:27] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[02/Apr/2019:18:47:27] Accepted a request from client!
+[02/Apr/2019:18:47:27] Client sent request to proxy with headers:
+[02/Apr/2019:18:47:27] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[02/Apr/2019:18:47:27] Accepted a request from client!
+[02/Apr/2019:18:47:27] Client sent request to proxy with headers:
+[02/Apr/2019:18:47:27] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[02/Apr/2019:18:47:27] Accepted a request from client!
+[02/Apr/2019:18:47:27] Client sent request to proxy with headers:
+[02/Apr/2019:18:47:27] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[02/Apr/2019:18:47:27] Accepted a request from client!
+[02/Apr/2019:18:47:27] Client sent request to proxy with headers:
+[02/Apr/2019:18:47:27] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[02/Apr/2019:18:47:27] Accepted a request from client!
+[02/Apr/2019:18:47:27] Client sent request to proxy with headers:
+[02/Apr/2019:18:47:27] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[02/Apr/2019:18:47:27] Accepted a request from client!
+[02/Apr/2019:18:47:27] Client sent request to proxy with headers:
+[02/Apr/2019:18:47:27] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[02/Apr/2019:18:47:27] Accepted a request from client!
+[02/Apr/2019:18:47:27] Client sent request to proxy with headers:
+[02/Apr/2019:18:47:27] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[02/Apr/2019:18:47:27] Accepted a request from client!
+[02/Apr/2019:18:47:27] Client sent request to proxy with headers:
+[02/Apr/2019:18:47:27] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[02/Apr/2019:18:47:27] Accepted a request from client!
+[02/Apr/2019:18:47:27] Client sent request to proxy with headers:
+[02/Apr/2019:18:47:27] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[02/Apr/2019:18:47:27] Accepted a request from client!
+[02/Apr/2019:18:47:27] Client sent request to proxy with headers:
+[02/Apr/2019:18:47:27] 
+----------------------------------------------------------------------
+Host: ocsp.pki.goog
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/ocsp-request
+Content-Length: 83
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[02/Apr/2019:18:49:30] Creating server socket...
+[02/Apr/2019:18:49:30] Binding socket to port 8080...
+[02/Apr/2019:18:49:30] Listening for incoming requests...
+[02/Apr/2019:18:49:32] Accepted a request from client!
+[02/Apr/2019:18:49:32] Client sent request to proxy with headers:
+[02/Apr/2019:18:49:32] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[02/Apr/2019:18:49:32] connect to [www.bdood.ir] from 127.0.0.1 8080
+[02/Apr/2019:18:49:33] Accepted a request from client!
+[02/Apr/2019:18:49:33] Accepted a request from client!
+[02/Apr/2019:18:49:33] Accepted a request from client!
+[02/Apr/2019:18:49:33] Client sent request to proxy with headers:
+[02/Apr/2019:18:49:33] Client sent request to proxy with headers:
+[02/Apr/2019:18:49:33] Client sent request to proxy with headers:
+[02/Apr/2019:18:49:33] Accepted a request from client!
+[02/Apr/2019:18:49:33] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[02/Apr/2019:18:49:33] Accepted a request from client!
+[02/Apr/2019:18:49:33] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[02/Apr/2019:18:49:33] Client sent request to proxy with headers:
+[02/Apr/2019:18:49:33] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[02/Apr/2019:18:49:33] connect to [www.bdood.ir] from 127.0.0.1 8080
+[02/Apr/2019:18:49:33] Accepted a request from client!
+[02/Apr/2019:18:49:33] Accepted a request from client!
+[02/Apr/2019:18:49:33] connect to [www.bdood.ir] from 127.0.0.1 8080
+[02/Apr/2019:18:49:33] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[02/Apr/2019:18:49:33] Client sent request to proxy with headers:
+[02/Apr/2019:18:49:33] connect to [www.bdood.ir] from 127.0.0.1 8080
+[02/Apr/2019:18:49:33] Client sent request to proxy with headers:
+[02/Apr/2019:18:49:33] connect to [www.bdood.ir] from 127.0.0.1 8080
+[02/Apr/2019:18:49:33] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[02/Apr/2019:18:49:33] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[02/Apr/2019:18:49:33] Accepted a request from client!
+[02/Apr/2019:18:49:33] connect to [www.bdood.ir] from 127.0.0.1 8080
+[02/Apr/2019:18:49:33] Client sent request to proxy with headers:
+[02/Apr/2019:18:49:33] connect to [www.bdood.ir] from 127.0.0.1 8080
+[02/Apr/2019:18:49:33] Accepted a request from client!
+[02/Apr/2019:18:49:33] Client sent request to proxy with headers:
+[02/Apr/2019:18:49:33] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[02/Apr/2019:18:49:33] Accepted a request from client!
+[02/Apr/2019:18:49:33] Accepted a request from client!
+[02/Apr/2019:18:49:33] Client sent request to proxy with headers:
+[02/Apr/2019:18:49:33] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[02/Apr/2019:18:49:33] Client sent request to proxy with headers:
+[02/Apr/2019:18:49:34] connect to [www.bdood.ir] from 127.0.0.1 8080
+[02/Apr/2019:18:49:34] connect to [www.bdood.ir] from 127.0.0.1 8080
+[02/Apr/2019:18:49:34] Accepted a request from client!
+[02/Apr/2019:18:49:34] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[02/Apr/2019:18:49:34] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[02/Apr/2019:18:49:34] Accepted a request from client!
+[02/Apr/2019:18:49:34] Accepted a request from client!
+[02/Apr/2019:18:49:34] Client sent request to proxy with headers:
+[02/Apr/2019:18:49:34] connect to [www.bdood.ir] from 127.0.0.1 8080
+[02/Apr/2019:18:49:34] connect to [www.bdood.ir] from 127.0.0.1 8080
+[02/Apr/2019:18:49:34] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[02/Apr/2019:18:49:34] connect to [www.bdood.ir] from 127.0.0.1 8080
+[02/Apr/2019:18:49:35] Client sent request to proxy with headers:
+[02/Apr/2019:18:49:35] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[02/Apr/2019:18:49:35] connect to [www.bdood.ir] from 127.0.0.1 8080
+[02/Apr/2019:18:49:35] Client sent request to proxy with headers:
+[02/Apr/2019:18:49:35] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/css/rtl.css
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[02/Apr/2019:18:49:35] connect to [www.bdood.ir] from 127.0.0.1 8080
+[02/Apr/2019:18:49:36] Client sent request to proxy with headers:
+[02/Apr/2019:18:49:36] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/css/style.css
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[02/Apr/2019:18:49:36] connect to [www.bdood.ir] from 127.0.0.1 8080
+[02/Apr/2019:18:49:36] Accepted a request from client!
+[02/Apr/2019:18:49:36] Client sent request to proxy with headers:
+[02/Apr/2019:18:49:36] 
+----------------------------------------------------------------------
+Host: maxcdn.bootstrapcdn.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/css/style.css
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[02/Apr/2019:18:49:36] connect to [maxcdn.bootstrapcdn.com] from 127.0.0.1 8080
+[02/Apr/2019:18:49:38] Accepted a request from client!
+[02/Apr/2019:18:49:38] Accepted a request from client!
+[02/Apr/2019:18:49:38] Accepted a request from client!
+[02/Apr/2019:18:49:38] Client sent request to proxy with headers:
+[02/Apr/2019:18:49:38] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[02/Apr/2019:18:49:38] Client sent request to proxy with headers:
+[02/Apr/2019:18:49:38] Client sent request to proxy with headers:
+[02/Apr/2019:18:49:38] Accepted a request from client!
+[02/Apr/2019:18:49:38] Accepted a request from client!
+[02/Apr/2019:18:49:38] connect to [www.bdood.ir] from 127.0.0.1 8080
+[02/Apr/2019:18:49:38] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[02/Apr/2019:18:49:38] Accepted a request from client!
+[02/Apr/2019:18:49:38] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[02/Apr/2019:18:49:38] Accepted a request from client!
+[02/Apr/2019:18:49:38] Client sent request to proxy with headers:
+[02/Apr/2019:18:49:38] Client sent request to proxy with headers:
+[02/Apr/2019:18:49:38] Client sent request to proxy with headers:
+[02/Apr/2019:18:49:38] connect to [www.bdood.ir] from 127.0.0.1 8080
+[02/Apr/2019:18:49:38] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[02/Apr/2019:18:49:38] Accepted a request from client!
+[02/Apr/2019:18:49:38] connect to [www.bdood.ir] from 127.0.0.1 8080
+[02/Apr/2019:18:49:38] Client sent request to proxy with headers:
+[02/Apr/2019:18:49:38] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[02/Apr/2019:18:49:38] Accepted a request from client!
+[02/Apr/2019:18:49:38] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[02/Apr/2019:18:49:38] connect to [www.bdood.ir] from 127.0.0.1 8080
+[02/Apr/2019:18:49:38] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[02/Apr/2019:18:49:38] Client sent request to proxy with headers:
+[02/Apr/2019:18:49:38] connect to [www.bdood.ir] from 127.0.0.1 8080
+[02/Apr/2019:18:49:38] connect to [www.bdood.ir] from 127.0.0.1 8080
+[02/Apr/2019:18:49:38] Client sent request to proxy with headers:
+[02/Apr/2019:18:49:38] connect to [www.bdood.ir] from 127.0.0.1 8080
+[02/Apr/2019:18:49:38] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[02/Apr/2019:18:49:38] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[02/Apr/2019:18:49:38] connect to [www.bdood.ir] from 127.0.0.1 8080
+[02/Apr/2019:18:49:38] connect to [www.bdood.ir] from 127.0.0.1 8080
+[02/Apr/2019:18:49:38] Accepted a request from client!
+[02/Apr/2019:18:49:38] Client sent request to proxy with headers:
+[02/Apr/2019:18:49:38] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[02/Apr/2019:18:49:38] connect to [www.bdood.ir] from 127.0.0.1 8080
+[02/Apr/2019:18:49:38] Accepted a request from client!
+[02/Apr/2019:18:49:38] Client sent request to proxy with headers:
+[02/Apr/2019:18:49:38] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[02/Apr/2019:18:49:38] connect to [www.bdood.ir] from 127.0.0.1 8080
+[02/Apr/2019:18:49:38] Accepted a request from client!
+[02/Apr/2019:18:49:38] Client sent request to proxy with headers:
+[02/Apr/2019:18:49:38] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[02/Apr/2019:18:49:38] connect to [www.bdood.ir] from 127.0.0.1 8080
+[02/Apr/2019:18:49:38] Accepted a request from client!
+[02/Apr/2019:18:49:38] Accepted a request from client!
+[02/Apr/2019:18:49:38] Client sent request to proxy with headers:
+[02/Apr/2019:18:49:38] Accepted a request from client!
+[02/Apr/2019:18:49:38] Client sent request to proxy with headers:
+[02/Apr/2019:18:49:38] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[02/Apr/2019:18:49:38] Client sent request to proxy with headers:
+[02/Apr/2019:18:49:38] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[02/Apr/2019:18:49:38] Accepted a request from client!
+[02/Apr/2019:18:49:38] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[02/Apr/2019:18:49:38] connect to [www.bdood.ir] from 127.0.0.1 8080
+[02/Apr/2019:18:49:38] Client sent request to proxy with headers:
+[02/Apr/2019:18:49:38] connect to [www.bdood.ir] from 127.0.0.1 8080
+[02/Apr/2019:18:49:38] connect to [www.bdood.ir] from 127.0.0.1 8080
+[02/Apr/2019:18:49:38] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[02/Apr/2019:18:49:38] Accepted a request from client!
+[02/Apr/2019:18:49:38] connect to [www.bdood.ir] from 127.0.0.1 8080
+[02/Apr/2019:18:49:38] Client sent request to proxy with headers:
+[02/Apr/2019:18:49:38] Accepted a request from client!
+[02/Apr/2019:18:49:38] Accepted a request from client!
+[02/Apr/2019:18:49:38] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[02/Apr/2019:18:49:38] Client sent request to proxy with headers:
+[02/Apr/2019:18:49:38] Client sent request to proxy with headers:
+[02/Apr/2019:18:49:38] Accepted a request from client!
+[02/Apr/2019:18:49:38] connect to [www.bdood.ir] from 127.0.0.1 8080
+[02/Apr/2019:18:49:38] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[02/Apr/2019:18:49:38] Accepted a request from client!
+[02/Apr/2019:18:49:38] connect to [www.bdood.ir] from 127.0.0.1 8080
+[02/Apr/2019:18:49:38] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[02/Apr/2019:18:49:38] Client sent request to proxy with headers:
+[02/Apr/2019:18:49:38] Client sent request to proxy with headers:
+[02/Apr/2019:18:49:38] connect to [www.bdood.ir] from 127.0.0.1 8080
+[02/Apr/2019:18:49:38] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[02/Apr/2019:18:49:38] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[02/Apr/2019:18:49:38] connect to [www.bdood.ir] from 127.0.0.1 8080
+[02/Apr/2019:18:49:38] connect to [www.bdood.ir] from 127.0.0.1 8080
+[02/Apr/2019:18:49:38] Accepted a request from client!
+[02/Apr/2019:18:49:38] Client sent request to proxy with headers:
+[02/Apr/2019:18:49:38] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[02/Apr/2019:18:49:38] connect to [www.bdood.ir] from 127.0.0.1 8080
+[02/Apr/2019:18:49:39] Accepted a request from client!
+[02/Apr/2019:18:49:39] Client sent request to proxy with headers:
+[02/Apr/2019:18:49:39] 
+----------------------------------------------------------------------
+Host: ocsp.pki.goog
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/ocsp-request
+Content-Length: 83
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[02/Apr/2019:18:49:39] connect to [ocsp.pki.goog] from 127.0.0.1 8080
+[02/Apr/2019:18:49:39] Accepted a request from client!
+[02/Apr/2019:18:49:39] Client sent request to proxy with headers:
+[02/Apr/2019:18:49:39] 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[02/Apr/2019:18:49:39] connect to [detectportal.firefox.com] from 127.0.0.1 8080
+[02/Apr/2019:18:49:39] Accepted a request from client!
+[02/Apr/2019:18:49:39] Client sent request to proxy with headers:
+[02/Apr/2019:18:49:39] 
+----------------------------------------------------------------------
+Host: ocsp.int-x3.letsencrypt.org
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/ocsp-request
+Content-Length: 85
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[02/Apr/2019:18:49:39] connect to [ocsp.int-x3.letsencrypt.org] from 127.0.0.1 8080
+[02/Apr/2019:18:49:39] Accepted a request from client!
+[02/Apr/2019:18:49:39] Accepted a request from client!
+[02/Apr/2019:18:49:39] Client sent request to proxy with headers:
+[02/Apr/2019:18:49:39] Client sent request to proxy with headers:
+[02/Apr/2019:18:49:39] Accepted a request from client!
+[02/Apr/2019:18:49:39] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/css/rtl.css
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[02/Apr/2019:18:49:39] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/css/rtl.css
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[02/Apr/2019:18:49:39] Accepted a request from client!
+[02/Apr/2019:18:49:39] Accepted a request from client!
+[02/Apr/2019:18:49:39] connect to [www.bdood.ir] from 127.0.0.1 8080
+[02/Apr/2019:18:49:39] connect to [www.bdood.ir] from 127.0.0.1 8080
+[02/Apr/2019:18:49:39] Client sent request to proxy with headers:
+[02/Apr/2019:18:49:39] Accepted a request from client!
+[02/Apr/2019:18:49:39] Accepted a request from client!
+[02/Apr/2019:18:49:39] Client sent request to proxy with headers:
+[02/Apr/2019:18:49:39] Client sent request to proxy with headers:
+[02/Apr/2019:18:49:39] Client sent request to proxy with headers:
+[02/Apr/2019:18:49:39] Client sent request to proxy with headers:
+[02/Apr/2019:18:49:39] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/css/rtl.css
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[02/Apr/2019:18:49:39] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/css/rtl.css
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[02/Apr/2019:18:49:39] Accepted a request from client!
+[02/Apr/2019:18:49:39] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/css/rtl.css
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[02/Apr/2019:18:49:39] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: application/font-woff2;q=1.0,application/font-woff;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: identity
+Referer: http://www.bdood.ir/css/fontiran.css
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[02/Apr/2019:18:49:39] connect to [www.bdood.ir] from 127.0.0.1 8080
+[02/Apr/2019:18:49:39] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/css/rtl.css
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[02/Apr/2019:18:49:39] Client sent request to proxy with headers:
+[02/Apr/2019:18:49:39] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/css/rtl.css
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[02/Apr/2019:18:49:39] connect to [www.bdood.ir] from 127.0.0.1 8080
+[02/Apr/2019:18:49:39] connect to [www.bdood.ir] from 127.0.0.1 8080
+[02/Apr/2019:18:49:39] connect to [www.bdood.ir] from 127.0.0.1 8080
+[02/Apr/2019:18:49:39] connect to [www.bdood.ir] from 127.0.0.1 8080
+[02/Apr/2019:18:49:39] connect to [www.bdood.ir] from 127.0.0.1 8080
+[02/Apr/2019:18:49:39] Accepted a request from client!
+[02/Apr/2019:18:49:39] Client sent request to proxy with headers:
+[02/Apr/2019:18:49:39] 
+----------------------------------------------------------------------
+Host: maxcdn.bootstrapcdn.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: application/font-woff2;q=1.0,application/font-woff;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: identity
+Referer: http://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css
+Origin: http://www.bdood.ir
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[02/Apr/2019:18:49:39] connect to [maxcdn.bootstrapcdn.com] from 127.0.0.1 8080
+[02/Apr/2019:18:49:39] Accepted a request from client!
+[02/Apr/2019:18:49:39] Client sent request to proxy with headers:
+[02/Apr/2019:18:49:39] 
+----------------------------------------------------------------------
+Host: ocsp.int-x3.letsencrypt.org
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/ocsp-request
+Content-Length: 85
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[02/Apr/2019:18:49:39] connect to [ocsp.int-x3.letsencrypt.org] from 127.0.0.1 8080
+[02/Apr/2019:18:49:40] Accepted a request from client!
+[02/Apr/2019:18:49:40] Client sent request to proxy with headers:
+[02/Apr/2019:18:49:40] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: application/font-woff2;q=1.0,application/font-woff;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: identity
+Referer: http://www.bdood.ir/css/fontiran.css
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[02/Apr/2019:18:49:40] connect to [www.bdood.ir] from 127.0.0.1 8080
+[02/Apr/2019:18:49:40] Accepted a request from client!
+[02/Apr/2019:18:49:40] Client sent request to proxy with headers:
+[02/Apr/2019:18:49:40] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[02/Apr/2019:18:49:40] connect to [www.bdood.ir] from 127.0.0.1 8080
+[02/Apr/2019:18:49:41] Accepted a request from client!
+[02/Apr/2019:18:49:41] Client sent request to proxy with headers:
+[02/Apr/2019:18:49:41] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[02/Apr/2019:18:49:41] connect to [www.bdood.ir] from 127.0.0.1 8080
+[02/Apr/2019:18:49:42] Accepted a request from client!
+[02/Apr/2019:18:49:42] Client sent request to proxy with headers:
+[02/Apr/2019:18:49:42] 
+----------------------------------------------------------------------
+Host: dvcasha2.ocsp-certum.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/ocsp-request
+Content-Length: 83
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[02/Apr/2019:18:49:42] connect to [dvcasha2.ocsp-certum.com] from 127.0.0.1 8080
+[02/Apr/2019:18:49:42] Accepted a request from client!
+[02/Apr/2019:18:49:42] Client sent request to proxy with headers:
+[02/Apr/2019:18:49:42] 
+----------------------------------------------------------------------
+Host: dvcasha2.ocsp-certum.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/ocsp-request
+Content-Length: 83
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[02/Apr/2019:18:49:42] connect to [dvcasha2.ocsp-certum.com] from 127.0.0.1 8080
+[02/Apr/2019:18:49:42] Accepted a request from client!
+[02/Apr/2019:18:49:42] Client sent request to proxy with headers:
+[02/Apr/2019:18:49:42] 
+----------------------------------------------------------------------
+Host: ocsp.pki.goog
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/ocsp-request
+Content-Length: 83
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[02/Apr/2019:18:49:42] connect to [ocsp.pki.goog] from 127.0.0.1 8080
+[02/Apr/2019:18:49:42] Accepted a request from client!
+[02/Apr/2019:18:49:42] Accepted a request from client!
+[02/Apr/2019:18:49:42] Client sent request to proxy with headers:
+[02/Apr/2019:18:49:42] Client sent request to proxy with headers:
+[02/Apr/2019:18:49:42] 
+----------------------------------------------------------------------
+Host: ocsp.pki.goog
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/ocsp-request
+Content-Length: 83
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[02/Apr/2019:18:49:42] 
+----------------------------------------------------------------------
+Host: ocsp.pki.goog
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/ocsp-request
+Content-Length: 83
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[02/Apr/2019:18:49:42] connect to [ocsp.pki.goog] from 127.0.0.1 8080
+[02/Apr/2019:18:49:42] connect to [ocsp.pki.goog] from 127.0.0.1 8080
+[02/Apr/2019:18:49:43] Accepted a request from client!
+[02/Apr/2019:18:49:43] Client sent request to proxy with headers:
+[02/Apr/2019:18:49:43] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[02/Apr/2019:18:49:43] connect to [www.bdood.ir] from 127.0.0.1 8080
+[02/Apr/2019:18:49:43] Accepted a request from client!
+[02/Apr/2019:18:49:43] Client sent request to proxy with headers:
+[02/Apr/2019:18:49:43] 
+----------------------------------------------------------------------
+Host: ocsp.pki.goog
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/ocsp-request
+Content-Length: 83
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[02/Apr/2019:18:49:43] connect to [ocsp.pki.goog] from 127.0.0.1 8080
+[02/Apr/2019:18:49:45] Accepted a request from client!
+[02/Apr/2019:18:49:45] Client sent request to proxy with headers:
+[02/Apr/2019:18:49:45] 
+----------------------------------------------------------------------
+Host: ocsp.pki.goog
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/ocsp-request
+Content-Length: 83
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[02/Apr/2019:18:49:45] connect to [ocsp.pki.goog] from 127.0.0.1 8080
+[02/Apr/2019:18:49:47] Accepted a request from client!
+[02/Apr/2019:18:49:47] Client sent request to proxy with headers:
+[02/Apr/2019:18:49:47] 
+----------------------------------------------------------------------
+Host: ocsp.pki.goog
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/ocsp-request
+Content-Length: 83
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[02/Apr/2019:18:49:47] connect to [ocsp.pki.goog] from 127.0.0.1 8080
+[03/Apr/2019:11:49:51] Creating server socket...
+[03/Apr/2019:11:49:51] Binding socket to port 8080...
+[03/Apr/2019:11:49:51] Listening for incoming requests...
+[03/Apr/2019:11:50:01] Accepted a request from client!
+[03/Apr/2019:11:50:01] Client sent request to proxy with headers:
+[03/Apr/2019:11:50:01] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:50:01] connect to [www.bdood.ir] from 127.0.0.1 8080
+[03/Apr/2019:11:50:02] Accepted a request from client!
+[03/Apr/2019:11:50:02] Accepted a request from client!
+[03/Apr/2019:11:50:02] Client sent request to proxy with headers:
+[03/Apr/2019:11:50:02] Accepted a request from client!
+[03/Apr/2019:11:50:02] Client sent request to proxy with headers:
+[03/Apr/2019:11:50:02] Accepted a request from client!
+[03/Apr/2019:11:50:02] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:50:02] Client sent request to proxy with headers:
+[03/Apr/2019:11:50:02] Accepted a request from client!
+[03/Apr/2019:11:50:02] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:50:02] connect to [www.bdood.ir] from 127.0.0.1 8080
+[03/Apr/2019:11:50:02] Client sent request to proxy with headers:
+[03/Apr/2019:11:50:02] Accepted a request from client!
+[03/Apr/2019:11:50:02] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:50:02] Client sent request to proxy with headers:
+[03/Apr/2019:11:50:02] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:50:02] connect to [www.bdood.ir] from 127.0.0.1 8080
+[03/Apr/2019:11:50:02] Accepted a request from client!
+[03/Apr/2019:11:50:02] Accepted a request from client!
+[03/Apr/2019:11:50:02] Client sent request to proxy with headers:
+[03/Apr/2019:11:50:02] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:50:02] connect to [www.bdood.ir] from 127.0.0.1 8080
+[03/Apr/2019:11:50:02] connect to [www.bdood.ir] from 127.0.0.1 8080
+[03/Apr/2019:11:50:02] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:50:02] Client sent request to proxy with headers:
+[03/Apr/2019:11:50:02] Accepted a request from client!
+[03/Apr/2019:11:50:02] connect to [www.bdood.ir] from 127.0.0.1 8080
+[03/Apr/2019:11:50:02] Client sent request to proxy with headers:
+[03/Apr/2019:11:50:02] Accepted a request from client!
+[03/Apr/2019:11:50:02] Client sent request to proxy with headers:
+[03/Apr/2019:11:50:02] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:50:02] Accepted a request from client!
+[03/Apr/2019:11:50:02] connect to [www.bdood.ir] from 127.0.0.1 8080
+[03/Apr/2019:11:50:02] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:50:02] connect to [www.bdood.ir] from 127.0.0.1 8080
+[03/Apr/2019:11:50:02] Client sent request to proxy with headers:
+[03/Apr/2019:11:50:02] connect to [www.bdood.ir] from 127.0.0.1 8080
+[03/Apr/2019:11:50:02] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:50:02] connect to [www.bdood.ir] from 127.0.0.1 8080
+[03/Apr/2019:11:50:02] Client sent request to proxy with headers:
+[03/Apr/2019:11:50:02] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:50:02] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:50:02] connect to [www.bdood.ir] from 127.0.0.1 8080
+[03/Apr/2019:11:50:02] connect to [www.bdood.ir] from 127.0.0.1 8080
+[03/Apr/2019:11:50:03] Accepted a request from client!
+[03/Apr/2019:11:50:03] Accepted a request from client!
+[03/Apr/2019:11:50:03] Accepted a request from client!
+[03/Apr/2019:11:50:03] Accepted a request from client!
+[03/Apr/2019:11:50:03] Client sent request to proxy with headers:
+[03/Apr/2019:11:50:03] 
+----------------------------------------------------------------------
+Host: ocsp.pki.goog
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/ocsp-request
+Content-Length: 83
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:50:03] connect to [ocsp.pki.goog] from 127.0.0.1 8080
+[03/Apr/2019:11:50:05] Client sent request to proxy with headers:
+[03/Apr/2019:11:50:05] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/css/rtl.css
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:50:05] connect to [www.bdood.ir] from 127.0.0.1 8080
+[03/Apr/2019:11:50:05] Client sent request to proxy with headers:
+[03/Apr/2019:11:50:05] Client sent request to proxy with headers:
+[03/Apr/2019:11:50:05] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/css/style.css
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:50:05] 
+----------------------------------------------------------------------
+Host: maxcdn.bootstrapcdn.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/css/style.css
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:50:05] connect to [www.bdood.ir] from 127.0.0.1 8080
+[03/Apr/2019:11:50:05] connect to [maxcdn.bootstrapcdn.com] from 127.0.0.1 8080
+[03/Apr/2019:11:50:06] Accepted a request from client!
+[03/Apr/2019:11:50:06] Client sent request to proxy with headers:
+[03/Apr/2019:11:50:06] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:50:06] connect to [www.bdood.ir] from 127.0.0.1 8080
+[03/Apr/2019:11:50:08] Accepted a request from client!
+[03/Apr/2019:11:50:08] Accepted a request from client!
+[03/Apr/2019:11:50:08] Accepted a request from client!
+[03/Apr/2019:11:50:08] Accepted a request from client!
+[03/Apr/2019:11:50:08] Client sent request to proxy with headers:
+[03/Apr/2019:11:50:08] Accepted a request from client!
+[03/Apr/2019:11:50:08] Client sent request to proxy with headers:
+[03/Apr/2019:11:50:08] Client sent request to proxy with headers:
+[03/Apr/2019:11:50:08] Accepted a request from client!
+[03/Apr/2019:11:50:08] Client sent request to proxy with headers:
+[03/Apr/2019:11:50:08] Client sent request to proxy with headers:
+[03/Apr/2019:11:50:08] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:50:08] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:50:08] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:50:08] connect to [www.bdood.ir] from 127.0.0.1 8080
+[03/Apr/2019:11:50:08] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:50:08] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:50:08] Accepted a request from client!
+[03/Apr/2019:11:50:08] connect to [www.bdood.ir] from 127.0.0.1 8080
+[03/Apr/2019:11:50:08] Client sent request to proxy with headers:
+[03/Apr/2019:11:50:08] connect to [www.bdood.ir] from 127.0.0.1 8080
+[03/Apr/2019:11:50:08] connect to [www.bdood.ir] from 127.0.0.1 8080
+[03/Apr/2019:11:50:08] connect to [www.bdood.ir] from 127.0.0.1 8080
+[03/Apr/2019:11:50:08] Accepted a request from client!
+[03/Apr/2019:11:50:08] Accepted a request from client!
+[03/Apr/2019:11:50:08] Client sent request to proxy with headers:
+[03/Apr/2019:11:50:08] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:50:08] Client sent request to proxy with headers:
+[03/Apr/2019:11:50:08] Accepted a request from client!
+[03/Apr/2019:11:50:08] connect to [www.bdood.ir] from 127.0.0.1 8080
+[03/Apr/2019:11:50:08] Client sent request to proxy with headers:
+[03/Apr/2019:11:50:08] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:50:08] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:50:08] Client sent request to proxy with headers:
+[03/Apr/2019:11:50:08] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:50:08] connect to [www.bdood.ir] from 127.0.0.1 8080
+[03/Apr/2019:11:50:08] connect to [www.bdood.ir] from 127.0.0.1 8080
+[03/Apr/2019:11:50:08] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:50:08] connect to [www.bdood.ir] from 127.0.0.1 8080
+[03/Apr/2019:11:50:08] connect to [www.bdood.ir] from 127.0.0.1 8080
+[03/Apr/2019:11:50:08] Accepted a request from client!
+[03/Apr/2019:11:50:08] Client sent request to proxy with headers:
+[03/Apr/2019:11:50:08] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:50:08] connect to [www.bdood.ir] from 127.0.0.1 8080
+[03/Apr/2019:11:50:08] Accepted a request from client!
+[03/Apr/2019:11:50:08] Client sent request to proxy with headers:
+[03/Apr/2019:11:50:08] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: image/webp,*/*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:50:08] connect to [www.bdood.ir] from 127.0.0.1 8080
+[03/Apr/2019:11:50:08] Accepted a request from client!
+[03/Apr/2019:11:50:08] Accepted a request from client!
+[03/Apr/2019:11:50:08] Client sent request to proxy with headers:
+[03/Apr/2019:11:50:08] Client sent request to proxy with headers:
+[03/Apr/2019:11:50:08] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:50:08] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:50:08] Accepted a request from client!
+[03/Apr/2019:11:50:08] connect to [www.bdood.ir] from 127.0.0.1 8080
+[03/Apr/2019:11:50:08] connect to [www.bdood.ir] from 127.0.0.1 8080
+[03/Apr/2019:11:50:08] Client sent request to proxy with headers:
+[03/Apr/2019:11:50:08] Accepted a request from client!
+[03/Apr/2019:11:50:08] Client sent request to proxy with headers:
+[03/Apr/2019:11:50:08] Accepted a request from client!
+[03/Apr/2019:11:50:08] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:50:08] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:50:08] Client sent request to proxy with headers:
+[03/Apr/2019:11:50:08] Accepted a request from client!
+[03/Apr/2019:11:50:08] connect to [www.bdood.ir] from 127.0.0.1 8080
+[03/Apr/2019:11:50:08] Accepted a request from client!
+[03/Apr/2019:11:50:08] connect to [www.bdood.ir] from 127.0.0.1 8080
+[03/Apr/2019:11:50:08] Client sent request to proxy with headers:
+[03/Apr/2019:11:50:08] Client sent request to proxy with headers:
+[03/Apr/2019:11:50:08] Accepted a request from client!
+[03/Apr/2019:11:50:08] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:50:08] Accepted a request from client!
+[03/Apr/2019:11:50:08] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:50:08] Client sent request to proxy with headers:
+[03/Apr/2019:11:50:08] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:50:08] connect to [www.bdood.ir] from 127.0.0.1 8080
+[03/Apr/2019:11:50:08] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:50:08] connect to [www.bdood.ir] from 127.0.0.1 8080
+[03/Apr/2019:11:50:08] connect to [www.bdood.ir] from 127.0.0.1 8080
+[03/Apr/2019:11:50:08] connect to [www.bdood.ir] from 127.0.0.1 8080
+[03/Apr/2019:11:50:08] Client sent request to proxy with headers:
+[03/Apr/2019:11:50:08] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:50:08] connect to [www.bdood.ir] from 127.0.0.1 8080
+[03/Apr/2019:11:50:08] Accepted a request from client!
+[03/Apr/2019:11:50:08] Client sent request to proxy with headers:
+[03/Apr/2019:11:50:08] 
+----------------------------------------------------------------------
+Host: www.bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://www.bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:50:08] connect to [www.bdood.ir] from 127.0.0.1 8080
+[03/Apr/2019:11:50:09] Accepted a request from client!
+[03/Apr/2019:11:50:09] Client sent request to proxy with headers:
+[03/Apr/2019:11:50:09] 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:50:09] connect to [detectportal.firefox.com] from 127.0.0.1 8080
+[03/Apr/2019:11:50:09] Accepted a request from client!
+[03/Apr/2019:11:50:09] Client sent request to proxy with headers:
+[03/Apr/2019:11:50:09] 
+----------------------------------------------------------------------
+Host: ocsp.pki.goog
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/ocsp-request
+Content-Length: 83
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:50:09] connect to [ocsp.pki.goog] from 127.0.0.1 8080
+[03/Apr/2019:11:52:32] Creating server socket...
+[03/Apr/2019:11:52:32] Binding socket to port 8080...
+[03/Apr/2019:11:52:32] Listening for incoming requests...
+[03/Apr/2019:11:52:36] Accepted a request from client!
+[03/Apr/2019:11:52:36] Client sent request to proxy with headers:
+[03/Apr/2019:11:52:36] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:52:36] connect to [bdood.ir] from 127.0.0.1 8080
+[03/Apr/2019:11:52:47] Accepted a request from client!
+[03/Apr/2019:11:52:47] Client sent request to proxy with headers:
+[03/Apr/2019:11:52:47] 
+----------------------------------------------------------------------
+Host: ocsp.digicert.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/ocsp-request
+Content-Length: 83
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:52:47] connect to [ocsp.digicert.com] from 127.0.0.1 8080
+[03/Apr/2019:11:52:49] Accepted a request from client!
+[03/Apr/2019:11:52:49] Accepted a request from client!
+[03/Apr/2019:11:52:49] Accepted a request from client!
+[03/Apr/2019:11:52:49] Client sent request to proxy with headers:
+[03/Apr/2019:11:52:49] Accepted a request from client!
+[03/Apr/2019:11:52:49] Client sent request to proxy with headers:
+[03/Apr/2019:11:52:49] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:52:49] Accepted a request from client!
+[03/Apr/2019:11:52:49] Client sent request to proxy with headers:
+[03/Apr/2019:11:52:49] Client sent request to proxy with headers:
+[03/Apr/2019:11:52:49] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:52:49] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:52:49] Accepted a request from client!
+[03/Apr/2019:11:52:49] Accepted a request from client!
+[03/Apr/2019:11:52:49] connect to [bdood.ir] from 127.0.0.1 8080
+[03/Apr/2019:11:52:49] Client sent request to proxy with headers:
+[03/Apr/2019:11:52:49] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:52:49] connect to [bdood.ir] from 127.0.0.1 8080
+[03/Apr/2019:11:52:49] connect to [bdood.ir] from 127.0.0.1 8080
+[03/Apr/2019:11:52:49] connect to [bdood.ir] from 127.0.0.1 8080
+[03/Apr/2019:11:52:49] Client sent request to proxy with headers:
+[03/Apr/2019:11:52:49] Accepted a request from client!
+[03/Apr/2019:11:52:49] Client sent request to proxy with headers:
+[03/Apr/2019:11:52:49] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:52:49] Client sent request to proxy with headers:
+[03/Apr/2019:11:52:49] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:52:49] connect to [bdood.ir] from 127.0.0.1 8080
+[03/Apr/2019:11:52:49] Accepted a request from client!
+[03/Apr/2019:11:52:49] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:52:49] Accepted a request from client!
+[03/Apr/2019:11:52:49] Accepted a request from client!
+[03/Apr/2019:11:52:49] connect to [bdood.ir] from 127.0.0.1 8080
+[03/Apr/2019:11:52:49] connect to [bdood.ir] from 127.0.0.1 8080
+[03/Apr/2019:11:52:49] Client sent request to proxy with headers:
+[03/Apr/2019:11:52:49] Client sent request to proxy with headers:
+[03/Apr/2019:11:52:49] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:52:49] Accepted a request from client!
+[03/Apr/2019:11:52:49] Accepted a request from client!
+[03/Apr/2019:11:52:49] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:52:49] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:52:49] Accepted a request from client!
+[03/Apr/2019:11:52:49] Client sent request to proxy with headers:
+[03/Apr/2019:11:52:49] connect to [bdood.ir] from 127.0.0.1 8080
+[03/Apr/2019:11:52:49] connect to [bdood.ir] from 127.0.0.1 8080
+[03/Apr/2019:11:52:49] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:52:49] connect to [bdood.ir] from 127.0.0.1 8080
+[03/Apr/2019:11:52:49] connect to [bdood.ir] from 127.0.0.1 8080
+[03/Apr/2019:11:52:51] Accepted a request from client!
+[03/Apr/2019:11:52:51] Client sent request to proxy with headers:
+[03/Apr/2019:11:52:51] 
+----------------------------------------------------------------------
+Host: ocsp.digicert.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/ocsp-request
+Content-Length: 83
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:52:51] connect to [ocsp.digicert.com] from 127.0.0.1 8080
+[03/Apr/2019:11:52:58] Accepted a request from client!
+[03/Apr/2019:11:52:58] Client sent request to proxy with headers:
+[03/Apr/2019:11:52:58] 
+----------------------------------------------------------------------
+Host: ocsp.pki.goog
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/ocsp-request
+Content-Length: 83
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:52:58] connect to [ocsp.pki.goog] from 127.0.0.1 8080
+[03/Apr/2019:11:52:58] Accepted a request from client!
+[03/Apr/2019:11:52:58] Client sent request to proxy with headers:
+[03/Apr/2019:11:52:58] 
+----------------------------------------------------------------------
+Host: ocsp.pki.goog
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/ocsp-request
+Content-Length: 83
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:52:58] connect to [ocsp.pki.goog] from 127.0.0.1 8080
+[03/Apr/2019:11:53:01] Accepted a request from client!
+[03/Apr/2019:11:53:01] Client sent request to proxy with headers:
+[03/Apr/2019:11:53:01] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:53:01] connect to [bdood.ir] from 127.0.0.1 8080
+[03/Apr/2019:11:53:03] Accepted a request from client!
+[03/Apr/2019:11:53:03] Client sent request to proxy with headers:
+[03/Apr/2019:11:53:03] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/css/rtl.css
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:53:03] connect to [bdood.ir] from 127.0.0.1 8080
+[03/Apr/2019:11:53:06] Accepted a request from client!
+[03/Apr/2019:11:53:06] Client sent request to proxy with headers:
+[03/Apr/2019:11:53:06] Accepted a request from client!
+[03/Apr/2019:11:53:06] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/css/style.css
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:53:06] Client sent request to proxy with headers:
+[03/Apr/2019:11:53:06] connect to [bdood.ir] from 127.0.0.1 8080
+[03/Apr/2019:11:53:06] 
+----------------------------------------------------------------------
+Host: maxcdn.bootstrapcdn.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/css/style.css
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:53:06] connect to [maxcdn.bootstrapcdn.com] from 127.0.0.1 8080
+[03/Apr/2019:11:53:09] Accepted a request from client!
+[03/Apr/2019:11:53:09] Client sent request to proxy with headers:
+[03/Apr/2019:11:53:09] 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:53:09] connect to [detectportal.firefox.com] from 127.0.0.1 8080
+[03/Apr/2019:11:54:24] Creating server socket...
+[03/Apr/2019:11:54:24] Binding socket to port 8080...
+[03/Apr/2019:11:54:24] Listening for incoming requests...
+[03/Apr/2019:11:54:26] Accepted a request from client!
+[03/Apr/2019:11:54:26] Client sent request to proxy with headers:
+[03/Apr/2019:11:54:26] 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:54:26] connect to [detectportal.firefox.com] from 127.0.0.1 8080
+[03/Apr/2019:11:54:31] Accepted a request from client!
+[03/Apr/2019:11:54:31] Accepted a request from client!
+[03/Apr/2019:11:54:31] Client sent request to proxy with headers:
+[03/Apr/2019:11:54:31] 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:54:31] connect to [detectportal.firefox.com] from 127.0.0.1 8080
+[03/Apr/2019:11:54:36] Accepted a request from client!
+[03/Apr/2019:11:54:36] Client sent request to proxy with headers:
+[03/Apr/2019:11:54:36] 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:54:36] connect to [detectportal.firefox.com] from 127.0.0.1 8080
+[03/Apr/2019:11:54:41] Accepted a request from client!
+[03/Apr/2019:11:54:41] Client sent request to proxy with headers:
+[03/Apr/2019:11:54:41] 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:54:41] connect to [detectportal.firefox.com] from 127.0.0.1 8080
+[03/Apr/2019:11:54:45] Accepted a request from client!
+[03/Apr/2019:11:54:45] Client sent request to proxy with headers:
+[03/Apr/2019:11:54:45] 
+----------------------------------------------------------------------
+Host: ocsp.sca1b.amazontrust.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/ocsp-request
+Content-Length: 83
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:54:45] connect to [ocsp.sca1b.amazontrust.com] from 127.0.0.1 8080
+[03/Apr/2019:11:54:46] Accepted a request from client!
+[03/Apr/2019:11:54:46] Client sent request to proxy with headers:
+[03/Apr/2019:11:54:46] 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:54:46] connect to [detectportal.firefox.com] from 127.0.0.1 8080
+[03/Apr/2019:11:55:26] Accepted a request from client!
+[03/Apr/2019:11:55:26] Client sent request to proxy with headers:
+[03/Apr/2019:11:55:26] 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:55:26] connect to [detectportal.firefox.com] from 127.0.0.1 8080
+[03/Apr/2019:11:55:31] Accepted a request from client!
+[03/Apr/2019:11:55:31] Client sent request to proxy with headers:
+[03/Apr/2019:11:55:31] 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:55:31] connect to [detectportal.firefox.com] from 127.0.0.1 8080
+[03/Apr/2019:11:55:36] Accepted a request from client!
+[03/Apr/2019:11:55:36] Client sent request to proxy with headers:
+[03/Apr/2019:11:55:36] 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:55:36] connect to [detectportal.firefox.com] from 127.0.0.1 8080
+[03/Apr/2019:11:57:08] Creating server socket...
+[03/Apr/2019:11:57:08] Binding socket to port 8080...
+[03/Apr/2019:11:57:08] Listening for incoming requests...
+[03/Apr/2019:11:57:13] Accepted a request from client!
+[03/Apr/2019:11:57:21] Accepted a request from client!
+[03/Apr/2019:11:57:21] Accepted a request from client!
+[03/Apr/2019:11:57:21] Client sent request to proxy with headers:
+[03/Apr/2019:11:57:21] Client sent request to proxy with headers:
+[03/Apr/2019:11:57:21] 
+----------------------------------------------------------------------
+Host: ocsp.pki.goog
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/ocsp-request
+Content-Length: 83
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:57:21] connect to [ocsp.pki.goog] from 127.0.0.1 8080
+[03/Apr/2019:11:57:21] 
+----------------------------------------------------------------------
+Host: ocsp.pki.goog
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/ocsp-request
+Content-Length: 83
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:57:21] connect to [ocsp.pki.goog] from 127.0.0.1 8080
+[03/Apr/2019:11:57:21] Accepted a request from client!
+[03/Apr/2019:11:57:21] Client sent request to proxy with headers:
+[03/Apr/2019:11:57:21] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:57:21] connect to [bdood.ir] from 127.0.0.1 8080
+[03/Apr/2019:11:57:22] Accepted a request from client!
+[03/Apr/2019:11:57:22] Client sent request to proxy with headers:
+[03/Apr/2019:11:57:22] 
+----------------------------------------------------------------------
+Host: ocsp.pki.goog
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/ocsp-request
+Content-Length: 83
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:57:22] connect to [ocsp.pki.goog] from 127.0.0.1 8080
+[03/Apr/2019:11:57:31] Accepted a request from client!
+[03/Apr/2019:11:57:31] Accepted a request from client!
+[03/Apr/2019:11:57:31] Client sent request to proxy with headers:
+[03/Apr/2019:11:57:31] Accepted a request from client!
+[03/Apr/2019:11:57:31] Client sent request to proxy with headers:
+[03/Apr/2019:11:57:31] Accepted a request from client!
+[03/Apr/2019:11:57:31] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:57:31] Accepted a request from client!
+[03/Apr/2019:11:57:31] Client sent request to proxy with headers:
+[03/Apr/2019:11:57:31] Accepted a request from client!
+[03/Apr/2019:11:57:31] connect to [bdood.ir] from 127.0.0.1 8080
+[03/Apr/2019:11:57:31] Client sent request to proxy with headers:
+[03/Apr/2019:11:57:31] Client sent request to proxy with headers:
+[03/Apr/2019:11:57:31] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:57:31] Accepted a request from client!
+[03/Apr/2019:11:57:31] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:57:31] Accepted a request from client!
+[03/Apr/2019:11:57:31] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:57:31] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:57:31] connect to [bdood.ir] from 127.0.0.1 8080
+[03/Apr/2019:11:57:31] Client sent request to proxy with headers:
+[03/Apr/2019:11:57:31] connect to [bdood.ir] from 127.0.0.1 8080
+[03/Apr/2019:11:57:31] connect to [bdood.ir] from 127.0.0.1 8080
+[03/Apr/2019:11:57:31] connect to [bdood.ir] from 127.0.0.1 8080
+[03/Apr/2019:11:57:31] Client sent request to proxy with headers:
+[03/Apr/2019:11:57:31] Accepted a request from client!
+[03/Apr/2019:11:57:31] Accepted a request from client!
+[03/Apr/2019:11:57:31] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:57:31] Client sent request to proxy with headers:
+[03/Apr/2019:11:57:31] Client sent request to proxy with headers:
+[03/Apr/2019:11:57:31] Accepted a request from client!
+[03/Apr/2019:11:57:31] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:57:31] connect to [bdood.ir] from 127.0.0.1 8080
+[03/Apr/2019:11:57:31] Client sent request to proxy with headers:
+[03/Apr/2019:11:57:31] Accepted a request from client!
+[03/Apr/2019:11:57:31] Accepted a request from client!
+[03/Apr/2019:11:57:31] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:57:31] Client sent request to proxy with headers:
+[03/Apr/2019:11:57:31] connect to [bdood.ir] from 127.0.0.1 8080
+[03/Apr/2019:11:57:31] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:57:31] Accepted a request from client!
+[03/Apr/2019:11:57:31] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:57:31] connect to [bdood.ir] from 127.0.0.1 8080
+[03/Apr/2019:11:57:31] connect to [bdood.ir] from 127.0.0.1 8080
+[03/Apr/2019:11:57:31] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:57:31] connect to [bdood.ir] from 127.0.0.1 8080
+[03/Apr/2019:11:57:31] connect to [bdood.ir] from 127.0.0.1 8080
+[03/Apr/2019:11:57:35] Accepted a request from client!
+[03/Apr/2019:11:57:35] Client sent request to proxy with headers:
+[03/Apr/2019:11:57:35] 
+----------------------------------------------------------------------
+Host: ocsp.sca1b.amazontrust.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/ocsp-request
+Content-Length: 83
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:57:35] connect to [ocsp.sca1b.amazontrust.com] from 127.0.0.1 8080
+[03/Apr/2019:11:57:36] Accepted a request from client!
+[03/Apr/2019:11:57:36] Client sent request to proxy with headers:
+[03/Apr/2019:11:57:36] 
+----------------------------------------------------------------------
+Host: ocsp.digicert.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/ocsp-request
+Content-Length: 83
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:57:36] connect to [ocsp.digicert.com] from 127.0.0.1 8080
+[03/Apr/2019:11:58:29] Creating server socket...
+[03/Apr/2019:11:58:29] Binding socket to port 8080...
+[03/Apr/2019:11:58:29] Listening for incoming requests...
+[03/Apr/2019:11:58:35] Accepted a request from client!
+[03/Apr/2019:11:58:38] Accepted a request from client!
+[03/Apr/2019:11:58:38] Client sent request to proxy with headers:
+[03/Apr/2019:11:58:38] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:58:38] connect to [bdood.ir] from 127.0.0.1 8080
+[03/Apr/2019:11:58:47] Accepted a request from client!
+[03/Apr/2019:11:58:47] Client sent request to proxy with headers:
+[03/Apr/2019:11:58:47] Accepted a request from client!
+[03/Apr/2019:11:58:47] 
+----------------------------------------------------------------------
+Host: ocsp.pki.goog
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/ocsp-request
+Content-Length: 83
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:58:47] Client sent request to proxy with headers:
+[03/Apr/2019:11:58:47] connect to [ocsp.pki.goog] from 127.0.0.1 8080
+[03/Apr/2019:11:58:47] 
+----------------------------------------------------------------------
+Host: ocsp.pki.goog
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/ocsp-request
+Content-Length: 83
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:58:47] connect to [ocsp.pki.goog] from 127.0.0.1 8080
+[03/Apr/2019:11:58:47] Accepted a request from client!
+[03/Apr/2019:11:58:47] Client sent request to proxy with headers:
+[03/Apr/2019:11:58:47] 
+----------------------------------------------------------------------
+Host: ocsp.pki.goog
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/ocsp-request
+Content-Length: 83
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:58:47] connect to [ocsp.pki.goog] from 127.0.0.1 8080
+[03/Apr/2019:11:58:47] Accepted a request from client!
+[03/Apr/2019:11:58:47] Client sent request to proxy with headers:
+[03/Apr/2019:11:58:47] 
+----------------------------------------------------------------------
+Host: ocsp.digicert.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/ocsp-request
+Content-Length: 83
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:58:47] connect to [ocsp.digicert.com] from 127.0.0.1 8080
+[03/Apr/2019:11:58:48] Accepted a request from client!
+[03/Apr/2019:11:58:48] Client sent request to proxy with headers:
+[03/Apr/2019:11:58:48] 
+----------------------------------------------------------------------
+Host: ocsp.digicert.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/ocsp-request
+Content-Length: 83
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:58:48] connect to [ocsp.digicert.com] from 127.0.0.1 8080
+[03/Apr/2019:11:58:48] Accepted a request from client!
+[03/Apr/2019:11:58:48] Accepted a request from client!
+[03/Apr/2019:11:58:48] Accepted a request from client!
+[03/Apr/2019:11:58:48] Client sent request to proxy with headers:
+[03/Apr/2019:11:58:48] Accepted a request from client!
+[03/Apr/2019:11:58:48] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:58:48] Client sent request to proxy with headers:
+[03/Apr/2019:11:58:48] Client sent request to proxy with headers:
+[03/Apr/2019:11:58:48] Accepted a request from client!
+[03/Apr/2019:11:58:48] connect to [bdood.ir] from 127.0.0.1 8080
+[03/Apr/2019:11:58:48] Client sent request to proxy with headers:
+[03/Apr/2019:11:58:48] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:58:48] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:58:48] Accepted a request from client!
+[03/Apr/2019:11:58:48] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:58:48] Client sent request to proxy with headers:
+[03/Apr/2019:11:58:48] Accepted a request from client!
+[03/Apr/2019:11:58:48] Client sent request to proxy with headers:
+[03/Apr/2019:11:58:48] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:58:48] Accepted a request from client!
+[03/Apr/2019:11:58:48] Accepted a request from client!
+[03/Apr/2019:11:58:48] connect to [bdood.ir] from 127.0.0.1 8080
+[03/Apr/2019:11:58:48] connect to [bdood.ir] from 127.0.0.1 8080
+[03/Apr/2019:11:58:48] connect to [bdood.ir] from 127.0.0.1 8080
+[03/Apr/2019:11:58:48] Client sent request to proxy with headers:
+[03/Apr/2019:11:58:48] Client sent request to proxy with headers:
+[03/Apr/2019:11:58:48] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:58:48] connect to [bdood.ir] from 127.0.0.1 8080
+[03/Apr/2019:11:58:48] Accepted a request from client!
+[03/Apr/2019:11:58:48] Accepted a request from client!
+[03/Apr/2019:11:58:48] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:58:48] Client sent request to proxy with headers:
+[03/Apr/2019:11:58:48] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:58:48] Client sent request to proxy with headers:
+[03/Apr/2019:11:58:48] Client sent request to proxy with headers:
+[03/Apr/2019:11:58:48] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:58:48] connect to [bdood.ir] from 127.0.0.1 8080
+[03/Apr/2019:11:58:48] connect to [bdood.ir] from 127.0.0.1 8080
+[03/Apr/2019:11:58:48] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:58:48] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:58:48] connect to [bdood.ir] from 127.0.0.1 8080
+[03/Apr/2019:11:58:48] connect to [bdood.ir] from 127.0.0.1 8080
+[03/Apr/2019:11:58:48] Accepted a request from client!
+[03/Apr/2019:11:58:48] connect to [bdood.ir] from 127.0.0.1 8080
+[03/Apr/2019:11:58:48] connect to [bdood.ir] from 127.0.0.1 8080
+[03/Apr/2019:11:58:52] Accepted a request from client!
+[03/Apr/2019:11:58:52] Client sent request to proxy with headers:
+[03/Apr/2019:11:58:52] 
+----------------------------------------------------------------------
+Host: ocsp.digicert.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/ocsp-request
+Content-Length: 83
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:58:52] connect to [ocsp.digicert.com] from 127.0.0.1 8080
+[03/Apr/2019:11:58:55] Accepted a request from client!
+[03/Apr/2019:11:58:55] Client sent request to proxy with headers:
+[03/Apr/2019:11:58:55] 
+----------------------------------------------------------------------
+Host: ocsp.sca1b.amazontrust.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/ocsp-request
+Content-Length: 83
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:58:55] connect to [ocsp.sca1b.amazontrust.com] from 127.0.0.1 8080
+[03/Apr/2019:11:58:59] Accepted a request from client!
+[03/Apr/2019:11:58:59] Client sent request to proxy with headers:
+[03/Apr/2019:11:58:59] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:58:59] connect to [bdood.ir] from 127.0.0.1 8080
+[03/Apr/2019:11:59:01] Accepted a request from client!
+[03/Apr/2019:11:59:01] Client sent request to proxy with headers:
+[03/Apr/2019:11:59:01] 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://bdood.ir/css/rtl.css
+Connection: keep-alive
+Cookie: _ga=GA1.2.55830216.1554031093; _gid=GA1.2.1222798068.1554031093
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:59:01] connect to [bdood.ir] from 127.0.0.1 8080
+[03/Apr/2019:11:59:21] Accepted a request from client!
+[03/Apr/2019:11:59:21] Accepted a request from client!
+[03/Apr/2019:11:59:21] Client sent request to proxy with headers:
+[03/Apr/2019:11:59:21] 
+----------------------------------------------------------------------
+Host: ocsp.pki.goog
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/ocsp-request
+Content-Length: 83
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:59:21] Client sent request to proxy with headers:
+[03/Apr/2019:11:59:21] connect to [ocsp.pki.goog] from 127.0.0.1 8080
+[03/Apr/2019:11:59:21] 
+----------------------------------------------------------------------
+Host: ocsp.pki.goog
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/ocsp-request
+Content-Length: 83
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:11:59:21] connect to [ocsp.pki.goog] from 127.0.0.1 8080
+[03/Apr/2019:11:59:55] Accepted a request from client!
+[03/Apr/2019:12:01:16] Accepted a request from client!
+[03/Apr/2019:12:08:19] Creating server socket...
+[03/Apr/2019:12:08:19] Binding socket to port 8080...
+[03/Apr/2019:12:08:19] Listening for incoming requests...
+[03/Apr/2019:12:08:25] Accepted a request from client!
+[03/Apr/2019:12:08:25] Accepted a request from client!
+[03/Apr/2019:12:08:25] Accepted a request from client!
+[03/Apr/2019:12:08:25] Accepted a request from client!
+[03/Apr/2019:12:08:25] Accepted a request from client!
+[03/Apr/2019:12:08:25] Accepted a request from client!
+[03/Apr/2019:12:08:25] Accepted a request from client!
+[03/Apr/2019:12:08:25] Accepted a request from client!
+[03/Apr/2019:12:08:25] Accepted a request from client!
+[03/Apr/2019:12:08:25] Accepted a request from client!
+[03/Apr/2019:12:08:25] Accepted a request from client!
+[03/Apr/2019:12:08:25] Client sent request to proxy with headers:
+[03/Apr/2019:12:08:25] 
+----------------------------------------------------------------------
+Host: www.sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:12:08:25] connect to [www.sib.ir] from 127.0.0.1 8080
+[03/Apr/2019:12:08:26] Accepted a request from client!
+[03/Apr/2019:12:08:26] Client sent request to proxy with headers:
+[03/Apr/2019:12:08:26] 
+----------------------------------------------------------------------
+Host: ocsp.comodoca.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/ocsp-request
+Content-Length: 83
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:12:08:26] connect to [ocsp.comodoca.com] from 127.0.0.1 8080
+[03/Apr/2019:12:08:29] Accepted a request from client!
+[03/Apr/2019:12:08:29] Accepted a request from client!
+[03/Apr/2019:12:08:29] Client sent request to proxy with headers:
+[03/Apr/2019:12:08:29] Client sent request to proxy with headers:
+[03/Apr/2019:12:08:29] 
+----------------------------------------------------------------------
+Host: ocsp.pki.goog
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/ocsp-request
+Content-Length: 83
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:12:08:29] 
+----------------------------------------------------------------------
+Host: ocsp.pki.goog
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/ocsp-request
+Content-Length: 83
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:12:08:29] connect to [ocsp.pki.goog] from 127.0.0.1 8080
+[03/Apr/2019:12:08:29] connect to [ocsp.pki.goog] from 127.0.0.1 8080
+[03/Apr/2019:12:08:29] Accepted a request from client!
+[03/Apr/2019:12:08:29] Client sent request to proxy with headers:
+[03/Apr/2019:12:08:29] 
+----------------------------------------------------------------------
+Host: ocsp.pki.goog
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/ocsp-request
+Content-Length: 83
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:12:08:29] connect to [ocsp.pki.goog] from 127.0.0.1 8080
+[03/Apr/2019:12:08:32] Accepted a request from client!
+[03/Apr/2019:12:08:32] Client sent request to proxy with headers:
+[03/Apr/2019:12:08:32] 
+----------------------------------------------------------------------
+Host: ocsp.digicert.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/ocsp-request
+Content-Length: 83
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:12:08:32] connect to [ocsp.digicert.com] from 127.0.0.1 8080
+[03/Apr/2019:12:08:32] Accepted a request from client!
+[03/Apr/2019:12:08:32] Client sent request to proxy with headers:
+[03/Apr/2019:12:08:32] 
+----------------------------------------------------------------------
+Host: ocsp.digicert.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/ocsp-request
+Content-Length: 83
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:12:08:32] connect to [ocsp.digicert.com] from 127.0.0.1 8080
+[03/Apr/2019:12:08:33] Accepted a request from client!
+[03/Apr/2019:12:08:33] Accepted a request from client!
+[03/Apr/2019:12:08:33] Accepted a request from client!
+[03/Apr/2019:12:08:33] Accepted a request from client!
+[03/Apr/2019:12:08:33] Accepted a request from client!
+[03/Apr/2019:12:08:33] Accepted a request from client!
+[03/Apr/2019:12:08:33] Accepted a request from client!
+[03/Apr/2019:12:08:33] Accepted a request from client!
+[03/Apr/2019:12:08:33] Accepted a request from client!
+[03/Apr/2019:12:08:33] Accepted a request from client!
+[03/Apr/2019:12:08:36] Accepted a request from client!
+[03/Apr/2019:12:08:36] Client sent request to proxy with headers:
+[03/Apr/2019:12:08:36] 
+----------------------------------------------------------------------
+Host: ocsp.sca1b.amazontrust.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/ocsp-request
+Content-Length: 83
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:12:08:36] connect to [ocsp.sca1b.amazontrust.com] from 127.0.0.1 8080
+[03/Apr/2019:12:09:33] Creating server socket...
+[03/Apr/2019:12:09:33] Binding socket to port 8080...
+[03/Apr/2019:12:09:33] Listening for incoming requests...
+[03/Apr/2019:12:09:38] Accepted a request from client!
+[03/Apr/2019:12:09:44] Accepted a request from client!
+[03/Apr/2019:12:09:44] Client sent request to proxy with headers:
+[03/Apr/2019:12:09:44] Accepted a request from client!
+[03/Apr/2019:12:09:44] 
+----------------------------------------------------------------------
+Host: ocsp.pki.goog
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/ocsp-request
+Content-Length: 83
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:12:09:44] Client sent request to proxy with headers:
+[03/Apr/2019:12:09:44] connect to [ocsp.pki.goog] from 127.0.0.1 8080
+[03/Apr/2019:12:09:44] 
+----------------------------------------------------------------------
+Host: ocsp.pki.goog
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/ocsp-request
+Content-Length: 83
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:12:09:44] connect to [ocsp.pki.goog] from 127.0.0.1 8080
+[03/Apr/2019:12:09:45] Accepted a request from client!
+[03/Apr/2019:12:09:45] Client sent request to proxy with headers:
+[03/Apr/2019:12:09:45] 
+----------------------------------------------------------------------
+Host: ocsp.pki.goog
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/ocsp-request
+Content-Length: 83
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:12:09:45] connect to [ocsp.pki.goog] from 127.0.0.1 8080
+[03/Apr/2019:12:09:46] Accepted a request from client!
+[03/Apr/2019:12:09:46] Client sent request to proxy with headers:
+[03/Apr/2019:12:09:46] 
+----------------------------------------------------------------------
+Host: ocsp.digicert.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/ocsp-request
+Content-Length: 83
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:12:09:46] connect to [ocsp.digicert.com] from 127.0.0.1 8080
+[03/Apr/2019:12:09:51] Accepted a request from client!
+[03/Apr/2019:12:09:51] Client sent request to proxy with headers:
+[03/Apr/2019:12:09:51] 
+----------------------------------------------------------------------
+Host: ocsp.sca1b.amazontrust.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/ocsp-request
+Content-Length: 83
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:12:09:51] connect to [ocsp.sca1b.amazontrust.com] from 127.0.0.1 8080
+[03/Apr/2019:12:12:11] Creating server socket...
+[03/Apr/2019:12:12:11] Binding socket to port 8080...
+[03/Apr/2019:12:12:11] Listening for incoming requests...
+[03/Apr/2019:12:12:17] Accepted a request from client!
+[03/Apr/2019:12:12:24] Accepted a request from client!
+[03/Apr/2019:12:12:24] Client sent request to proxy with headers:
+[03/Apr/2019:12:12:24] 
+----------------------------------------------------------------------
+Host: ocsp.pki.goog
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/ocsp-request
+Content-Length: 83
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:12:12:24] connect to [ocsp.pki.goog] from 127.0.0.1 8080
+[03/Apr/2019:12:12:24] Accepted a request from client!
+[03/Apr/2019:12:12:24] Accepted a request from client!
+[03/Apr/2019:12:12:24] Client sent request to proxy with headers:
+[03/Apr/2019:12:12:24] Client sent request to proxy with headers:
+[03/Apr/2019:12:12:24] 
+----------------------------------------------------------------------
+Host: ocsp.pki.goog
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/ocsp-request
+Content-Length: 83
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:12:12:24] connect to [ocsp.pki.goog] from 127.0.0.1 8080
+[03/Apr/2019:12:12:24] 
+----------------------------------------------------------------------
+Host: ocsp.pki.goog
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/ocsp-request
+Content-Length: 83
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:12:12:24] connect to [ocsp.pki.goog] from 127.0.0.1 8080
+[03/Apr/2019:12:12:25] Accepted a request from client!
+[03/Apr/2019:12:12:25] Client sent request to proxy with headers:
+[03/Apr/2019:12:12:25] 
+----------------------------------------------------------------------
+Host: ocsp.digicert.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/ocsp-request
+Content-Length: 83
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:12:12:25] connect to [ocsp.digicert.com] from 127.0.0.1 8080
+[03/Apr/2019:12:12:29] Accepted a request from client!
+[03/Apr/2019:12:12:29] Client sent request to proxy with headers:
+[03/Apr/2019:12:12:29] 
+----------------------------------------------------------------------
+Host: ocsp.sca1b.amazontrust.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/ocsp-request
+Content-Length: 83
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:12:12:29] connect to [ocsp.sca1b.amazontrust.com] from 127.0.0.1 8080
+[03/Apr/2019:12:19:09] Creating server socket...
+[03/Apr/2019:12:19:09] Binding socket to port 8080...
+[03/Apr/2019:12:19:09] Listening for incoming requests...
+[03/Apr/2019:12:19:13] Accepted a request from client!
+[03/Apr/2019:12:19:13] Client sent request to proxy with headers:
+[03/Apr/2019:12:19:13] 
+----------------------------------------------------------------------
+Host: ocsp.sca1b.amazontrust.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/ocsp-request
+Content-Length: 83
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:12:19:13] connect to [ocsp.sca1b.amazontrust.com] from 127.0.0.1 8080
+[03/Apr/2019:12:19:13] Accepted a request from client!
+[03/Apr/2019:12:19:13] Client sent request to proxy with headers:
+[03/Apr/2019:12:19:13] 
+----------------------------------------------------------------------
+Host: ocsp.pki.goog
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/ocsp-request
+Content-Length: 83
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:12:19:13] connect to [ocsp.pki.goog] from 127.0.0.1 8080
+[03/Apr/2019:12:19:13] Accepted a request from client!
+[03/Apr/2019:12:19:13] Client sent request to proxy with headers:
+[03/Apr/2019:12:19:13] 
+----------------------------------------------------------------------
+Host: ocsp.pki.goog
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/ocsp-request
+Content-Length: 83
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:12:19:13] connect to [ocsp.pki.goog] from 127.0.0.1 8080
+[03/Apr/2019:12:19:13] Accepted a request from client!
+[03/Apr/2019:12:19:13] Client sent request to proxy with headers:
+[03/Apr/2019:12:19:13] 
+----------------------------------------------------------------------
+Host: ocsp.pki.goog
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/ocsp-request
+Content-Length: 83
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:12:19:13] connect to [ocsp.pki.goog] from 127.0.0.1 8080
+[03/Apr/2019:12:19:14] Accepted a request from client!
+[03/Apr/2019:12:19:14] Client sent request to proxy with headers:
+[03/Apr/2019:12:19:14] 
+----------------------------------------------------------------------
+Host: ocsp.pki.goog
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/ocsp-request
+Content-Length: 83
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:12:19:14] connect to [ocsp.pki.goog] from 127.0.0.1 8080
+[03/Apr/2019:12:19:14] Accepted a request from client!
+[03/Apr/2019:12:19:15] Accepted a request from client!
+[03/Apr/2019:12:19:15] Client sent request to proxy with headers:
+[03/Apr/2019:12:19:15] 
+----------------------------------------------------------------------
+Host: ocsp.digicert.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/ocsp-request
+Content-Length: 83
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:12:19:15] connect to [ocsp.digicert.com] from 127.0.0.1 8080
+[03/Apr/2019:12:19:15] Accepted a request from client!
+[03/Apr/2019:12:19:15] Client sent request to proxy with headers:
+[03/Apr/2019:12:19:15] 
+----------------------------------------------------------------------
+Host: ocsp.digicert.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/ocsp-request
+Content-Length: 83
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:12:19:15] connect to [ocsp.digicert.com] from 127.0.0.1 8080
+[03/Apr/2019:12:20:31] Accepted a request from client!
+[03/Apr/2019:12:21:46] Accepted a request from client!
+[03/Apr/2019:12:22:53] Creating server socket...
+[03/Apr/2019:12:22:53] Binding socket to port 8080...
+[03/Apr/2019:12:22:53] Listening for incoming requests...
+[03/Apr/2019:12:22:57] Accepted a request from client!
+[03/Apr/2019:12:22:57] Client sent request to proxy with headers:
+[03/Apr/2019:12:22:57] 
+----------------------------------------------------------------------
+Host: ocsp.sca1b.amazontrust.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/ocsp-request
+Content-Length: 83
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:12:22:57] connect to [ocsp.sca1b.amazontrust.com] from 127.0.0.1 8080
+[03/Apr/2019:12:22:57] Accepted a request from client!
+[03/Apr/2019:12:22:57] Accepted a request from client!
+[03/Apr/2019:12:22:57] Client sent request to proxy with headers:
+[03/Apr/2019:12:22:57] Client sent request to proxy with headers:
+[03/Apr/2019:12:22:57] 
+----------------------------------------------------------------------
+Host: ocsp.pki.goog
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/ocsp-request
+Content-Length: 83
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:12:22:57] connect to [ocsp.pki.goog] from 127.0.0.1 8080
+[03/Apr/2019:12:22:57] 
+----------------------------------------------------------------------
+Host: ocsp.pki.goog
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/ocsp-request
+Content-Length: 83
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:12:22:57] connect to [ocsp.pki.goog] from 127.0.0.1 8080
+[03/Apr/2019:12:22:58] Accepted a request from client!
+[03/Apr/2019:12:22:58] Client sent request to proxy with headers:
+[03/Apr/2019:12:22:58] 
+----------------------------------------------------------------------
+Host: ocsp.pki.goog
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/ocsp-request
+Content-Length: 83
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:12:22:58] connect to [ocsp.pki.goog] from 127.0.0.1 8080
+[03/Apr/2019:12:22:58] Accepted a request from client!
+[03/Apr/2019:12:22:58] Client sent request to proxy with headers:
+[03/Apr/2019:12:22:58] 
+----------------------------------------------------------------------
+Host: ocsp.pki.goog
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/ocsp-request
+Content-Length: 83
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:12:22:58] connect to [ocsp.pki.goog] from 127.0.0.1 8080
+[03/Apr/2019:12:22:59] Accepted a request from client!
+[03/Apr/2019:12:22:59] Accepted a request from client!
+[03/Apr/2019:12:23:00] Accepted a request from client!
+[03/Apr/2019:12:23:00] Accepted a request from client!
+[03/Apr/2019:12:23:00] Accepted a request from client!
+[03/Apr/2019:12:23:00] Accepted a request from client!
+[03/Apr/2019:12:23:00] Accepted a request from client!
+[03/Apr/2019:12:23:00] Accepted a request from client!
+[03/Apr/2019:12:23:00] Accepted a request from client!
+[03/Apr/2019:12:23:00] Accepted a request from client!
+[03/Apr/2019:12:23:00] Accepted a request from client!
+[03/Apr/2019:12:23:00] Client sent request to proxy with headers:
+[03/Apr/2019:12:23:00] 
+----------------------------------------------------------------------
+Host: www.sib.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Cookie: _ga=GA1.2.2076722739.1554031953; _gid=GA1.2.1631896568.1554031953
+Upgrade-Insecure-Requests: 1
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:12:23:00] connect to [www.sib.ir] from 127.0.0.1 8080
+[03/Apr/2019:12:23:00] Accepted a request from client!
+[03/Apr/2019:12:23:00] Client sent request to proxy with headers:
+[03/Apr/2019:12:23:00] 
+----------------------------------------------------------------------
+Host: ocsp.digicert.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/ocsp-request
+Content-Length: 83
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:12:23:00] connect to [ocsp.digicert.com] from 127.0.0.1 8080
+[03/Apr/2019:12:23:00] Accepted a request from client!
+[03/Apr/2019:12:23:00] Accepted a request from client!
+[03/Apr/2019:12:23:00] Accepted a request from client!
+[03/Apr/2019:12:23:00] Accepted a request from client!
+[03/Apr/2019:12:23:00] Accepted a request from client!
+[03/Apr/2019:12:23:00] Accepted a request from client!
+[03/Apr/2019:12:23:00] Client sent request to proxy with headers:
+[03/Apr/2019:12:23:00] 
+----------------------------------------------------------------------
+Host: ocsp.digicert.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/ocsp-request
+Content-Length: 83
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:12:23:00] connect to [ocsp.digicert.com] from 127.0.0.1 8080
+[03/Apr/2019:12:23:00] Accepted a request from client!
+[03/Apr/2019:12:23:00] Accepted a request from client!
+[03/Apr/2019:12:23:00] Accepted a request from client!
+[03/Apr/2019:12:23:00] Accepted a request from client!
+[03/Apr/2019:12:23:00] Accepted a request from client!
+[03/Apr/2019:12:24:06] Creating server socket...
+[03/Apr/2019:12:24:06] Binding socket to port 8080...
+[03/Apr/2019:12:24:06] Listening for incoming requests...
+[03/Apr/2019:12:24:12] Accepted a request from client!
+[03/Apr/2019:12:24:12] Client sent request to proxy with headers:
+[03/Apr/2019:12:24:12] 
+----------------------------------------------------------------------
+Host: ocsp.pki.goog
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/ocsp-request
+Content-Length: 83
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:12:24:12] connect to [ocsp.pki.goog] from 127.0.0.1 8080
+[03/Apr/2019:12:24:14] Accepted a request from client!
+[03/Apr/2019:12:24:14] Accepted a request from client!
+[03/Apr/2019:12:24:14] Accepted a request from client!
+[03/Apr/2019:12:24:14] Accepted a request from client!
+[03/Apr/2019:12:24:14] Accepted a request from client!
+[03/Apr/2019:12:24:14] Accepted a request from client!
+[03/Apr/2019:12:24:14] Accepted a request from client!
+[03/Apr/2019:12:24:14] Accepted a request from client!
+[03/Apr/2019:12:24:14] Accepted a request from client!
+[03/Apr/2019:12:24:14] Accepted a request from client!
+[03/Apr/2019:12:24:14] Accepted a request from client!
+[03/Apr/2019:12:24:14] Accepted a request from client!
+[03/Apr/2019:12:24:14] Accepted a request from client!
+[03/Apr/2019:12:24:14] Accepted a request from client!
+[03/Apr/2019:12:24:14] Accepted a request from client!
+[03/Apr/2019:12:24:14] Accepted a request from client!
+[03/Apr/2019:12:24:14] Accepted a request from client!
+[03/Apr/2019:12:24:14] Client sent request to proxy with headers:
+[03/Apr/2019:12:24:14] 
+----------------------------------------------------------------------
+Host: ocsp.digicert.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/ocsp-request
+Content-Length: 83
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:12:24:14] connect to [ocsp.digicert.com] from 127.0.0.1 8080
+[03/Apr/2019:12:24:15] Accepted a request from client!
+[03/Apr/2019:12:24:15] Accepted a request from client!
+[03/Apr/2019:12:24:15] Accepted a request from client!
+[03/Apr/2019:12:24:15] Accepted a request from client!
+[03/Apr/2019:12:24:15] Accepted a request from client!
+[03/Apr/2019:12:24:15] Client sent request to proxy with headers:
+[03/Apr/2019:12:24:15] 
+----------------------------------------------------------------------
+Host: ocsp.digicert.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/ocsp-request
+Content-Length: 83
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:12:24:15] connect to [ocsp.digicert.com] from 127.0.0.1 8080
+[03/Apr/2019:12:26:24] Creating server socket...
+[03/Apr/2019:12:26:24] Binding socket to port 8080...
+[03/Apr/2019:12:26:24] Listening for incoming requests...
+[03/Apr/2019:12:26:26] Accepted a request from client!
+[03/Apr/2019:12:26:26] Accepted a request from client!
+[03/Apr/2019:12:26:26] Accepted a request from client!
+[03/Apr/2019:12:26:26] Accepted a request from client!
+[03/Apr/2019:12:26:26] Accepted a request from client!
+[03/Apr/2019:12:26:26] Accepted a request from client!
+[03/Apr/2019:12:26:26] Accepted a request from client!
+[03/Apr/2019:12:26:26] Accepted a request from client!
+[03/Apr/2019:12:26:26] Accepted a request from client!
+[03/Apr/2019:12:26:26] Accepted a request from client!
+[03/Apr/2019:12:26:26] Accepted a request from client!
+[03/Apr/2019:12:26:26] Accepted a request from client!
+[03/Apr/2019:12:26:26] Accepted a request from client!
+[03/Apr/2019:12:26:26] Accepted a request from client!
+[03/Apr/2019:12:26:26] Accepted a request from client!
+[03/Apr/2019:12:26:26] Accepted a request from client!
+[03/Apr/2019:12:26:26] Accepted a request from client!
+[03/Apr/2019:12:26:26] Accepted a request from client!
+[03/Apr/2019:12:26:26] Accepted a request from client!
+[03/Apr/2019:12:26:27] Accepted a request from client!
+[03/Apr/2019:12:28:20] Creating server socket...
+[03/Apr/2019:12:28:20] Binding socket to port 8080...
+[03/Apr/2019:12:28:20] Listening for incoming requests...
+[03/Apr/2019:12:28:22] Accepted a request from client!
+[03/Apr/2019:12:28:36] Accepted a request from client!
+[03/Apr/2019:12:28:43] Accepted a request from client!
+[03/Apr/2019:12:29:09] Accepted a request from client!
+[03/Apr/2019:12:29:13] Accepted a request from client!
+[03/Apr/2019:12:36:14] Creating server socket...
+[03/Apr/2019:12:36:14] Binding socket to port 8080...
+[03/Apr/2019:12:36:14] Listening for incoming requests...
+[03/Apr/2019:12:36:17] Accepted a request from client!
+[03/Apr/2019:12:36:17] Client sent request to proxy with headers:
+[03/Apr/2019:12:36:17] 
+----------------------------------------------------------------------
+Host: ocsp.sca1b.amazontrust.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/ocsp-request
+Content-Length: 83
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:12:36:17] connect to [ocsp.sca1b.amazontrust.com] from 127.0.0.1 8080
+[03/Apr/2019:12:36:18] Accepted a request from client!
+[03/Apr/2019:12:36:18] Accepted a request from client!
+[03/Apr/2019:12:36:18] Accepted a request from client!
+[03/Apr/2019:12:36:18] Accepted a request from client!
+[03/Apr/2019:12:36:18] Accepted a request from client!
+[03/Apr/2019:12:36:18] Accepted a request from client!
+[03/Apr/2019:12:36:18] Accepted a request from client!
+[03/Apr/2019:12:36:19] Accepted a request from client!
+[03/Apr/2019:12:36:19] Accepted a request from client!
+[03/Apr/2019:12:36:19] Accepted a request from client!
+[03/Apr/2019:12:36:19] Client sent request to proxy with headers:
+[03/Apr/2019:12:36:19] 
+----------------------------------------------------------------------
+Host: ocsp.digicert.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/ocsp-request
+Content-Length: 83
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:12:36:19] connect to [ocsp.digicert.com] from 127.0.0.1 8080
+[03/Apr/2019:12:36:19] Accepted a request from client!
+[03/Apr/2019:12:36:19] Accepted a request from client!
+[03/Apr/2019:12:36:19] Accepted a request from client!
+[03/Apr/2019:12:36:19] Client sent request to proxy with headers:
+[03/Apr/2019:12:36:19] 
+----------------------------------------------------------------------
+Host: ocsp.digicert.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/ocsp-request
+Content-Length: 83
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:12:36:19] connect to [ocsp.digicert.com] from 127.0.0.1 8080
+[03/Apr/2019:12:36:19] Accepted a request from client!
+[03/Apr/2019:12:36:19] Accepted a request from client!
+[03/Apr/2019:12:36:19] Accepted a request from client!
+[03/Apr/2019:12:36:19] Accepted a request from client!
+[03/Apr/2019:12:36:19] Accepted a request from client!
+[03/Apr/2019:12:36:19] Accepted a request from client!
+[03/Apr/2019:12:36:20] Accepted a request from client!
+[03/Apr/2019:12:36:20] Accepted a request from client!
+[03/Apr/2019:12:36:20] Accepted a request from client!
+[03/Apr/2019:12:37:51] Creating server socket...
+[03/Apr/2019:12:37:51] Binding socket to port 8080...
+[03/Apr/2019:12:37:51] Listening for incoming requests...
+[03/Apr/2019:12:37:53] Accepted a request from client!
+[03/Apr/2019:12:37:53] Accepted a request from client!
+[03/Apr/2019:12:37:54] Accepted a request from client!
+[03/Apr/2019:12:37:54] Accepted a request from client!
+[03/Apr/2019:12:37:54] Accepted a request from client!
+[03/Apr/2019:12:37:54] Accepted a request from client!
+[03/Apr/2019:12:37:54] Accepted a request from client!
+[03/Apr/2019:12:37:54] Accepted a request from client!
+[03/Apr/2019:12:37:54] Accepted a request from client!
+[03/Apr/2019:12:37:54] Accepted a request from client!
+[03/Apr/2019:12:37:54] Accepted a request from client!
+[03/Apr/2019:12:37:54] Accepted a request from client!
+[03/Apr/2019:12:37:54] Accepted a request from client!
+[03/Apr/2019:12:37:54] Accepted a request from client!
+[03/Apr/2019:12:37:54] Accepted a request from client!
+[03/Apr/2019:12:37:54] Accepted a request from client!
+[03/Apr/2019:12:37:54] Accepted a request from client!
+[03/Apr/2019:12:37:54] Accepted a request from client!
+[03/Apr/2019:12:37:54] Accepted a request from client!
+[03/Apr/2019:12:37:54] Accepted a request from client!
+[03/Apr/2019:12:39:49] Creating server socket...
+[03/Apr/2019:12:39:49] Binding socket to port 8080...
+[03/Apr/2019:12:39:49] Listening for incoming requests...
+[03/Apr/2019:12:39:51] Accepted a request from client!
+[03/Apr/2019:12:39:51] Accepted a request from client!
+[03/Apr/2019:12:39:51] Accepted a request from client!
+[03/Apr/2019:12:39:51] Accepted a request from client!
+[03/Apr/2019:12:39:51] Accepted a request from client!
+[03/Apr/2019:12:39:51] Accepted a request from client!
+[03/Apr/2019:12:39:51] Accepted a request from client!
+[03/Apr/2019:12:39:51] Accepted a request from client!
+[03/Apr/2019:12:39:51] Accepted a request from client!
+[03/Apr/2019:12:39:51] Accepted a request from client!
+[03/Apr/2019:12:39:52] Accepted a request from client!
+[03/Apr/2019:12:39:52] Accepted a request from client!
+[03/Apr/2019:12:39:52] Accepted a request from client!
+[03/Apr/2019:12:39:52] Accepted a request from client!
+[03/Apr/2019:12:39:52] Accepted a request from client!
+[03/Apr/2019:12:39:52] Accepted a request from client!
+[03/Apr/2019:12:39:52] Accepted a request from client!
+[03/Apr/2019:12:39:52] Accepted a request from client!
+[03/Apr/2019:12:39:52] Accepted a request from client!
+[03/Apr/2019:12:39:52] Accepted a request from client!
+[03/Apr/2019:12:44:08] Creating server socket...
+[03/Apr/2019:12:44:08] Binding socket to port 8080...
+[03/Apr/2019:12:44:08] Listening for incoming requests...
+[03/Apr/2019:12:44:11] Accepted a request from client!
+[03/Apr/2019:12:44:11] Accepted a request from client!
+[03/Apr/2019:12:44:11] Accepted a request from client!
+[03/Apr/2019:12:44:11] Accepted a request from client!
+[03/Apr/2019:12:44:11] Accepted a request from client!
+[03/Apr/2019:12:44:11] Accepted a request from client!
+[03/Apr/2019:12:44:11] Accepted a request from client!
+[03/Apr/2019:12:44:11] Accepted a request from client!
+[03/Apr/2019:12:44:11] Accepted a request from client!
+[03/Apr/2019:12:44:11] Accepted a request from client!
+[03/Apr/2019:12:44:12] Accepted a request from client!
+[03/Apr/2019:12:44:12] Accepted a request from client!
+[03/Apr/2019:12:44:12] Accepted a request from client!
+[03/Apr/2019:12:44:12] Accepted a request from client!
+[03/Apr/2019:12:44:12] Accepted a request from client!
+[03/Apr/2019:12:44:12] Accepted a request from client!
+[03/Apr/2019:12:44:12] Accepted a request from client!
+[03/Apr/2019:12:44:12] Accepted a request from client!
+[03/Apr/2019:12:44:12] Accepted a request from client!
+[03/Apr/2019:12:44:12] Accepted a request from client!
+[03/Apr/2019:14:54:59] Creating server socket...
+[03/Apr/2019:14:54:59] Binding socket to port 8080...
+[03/Apr/2019:14:54:59] Listening for incoming requests...
+[03/Apr/2019:14:56:02] Creating server socket...
+[03/Apr/2019:14:56:02] Binding socket to port 8080...
+[03/Apr/2019:14:56:02] Listening for incoming requests...
+[03/Apr/2019:14:56:27] Creating server socket...
+[03/Apr/2019:14:56:27] Binding socket to port 8080...
+[03/Apr/2019:14:56:27] Listening for incoming requests...
+[03/Apr/2019:14:56:34] Accepted a request from client!
+[03/Apr/2019:14:56:34] Client sent request to proxy with headers:
+[03/Apr/2019:14:56:34] 
+----------------------------------------------------------------------
+Host: ocsp.digicert.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/ocsp-request
+Content-Length: 83
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:14:56:34] connect to [ocsp.digicert.com] from 127.0.0.1 8080
+[03/Apr/2019:14:58:45] Creating server socket...
+[03/Apr/2019:14:58:45] Binding socket to port 8080...
+[03/Apr/2019:14:58:45] Listening for incoming requests...
+[03/Apr/2019:15:02:34] Creating server socket...
+[03/Apr/2019:15:02:34] Binding socket to port 8080...
+[03/Apr/2019:15:02:34] Listening for incoming requests...
+[03/Apr/2019:15:03:41] Creating server socket...
+[03/Apr/2019:15:03:41] Binding socket to port 8080...
+[03/Apr/2019:15:03:41] Listening for incoming requests...
+[03/Apr/2019:15:04:43] Accepted a request from client!
+[03/Apr/2019:15:04:43] Client sent request to proxy with headers:
+[03/Apr/2019:15:04:43] 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:15:04:43] connect to [detectportal.firefox.com] from 127.0.0.1 8080
+[03/Apr/2019:15:09:43] Accepted a request from client!
+[03/Apr/2019:15:09:43] Client sent request to proxy with headers:
+[03/Apr/2019:15:09:43] 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[03/Apr/2019:15:09:43] connect to [detectportal.firefox.com] from 127.0.0.1 8080
+[03/Apr/2019:15:13:13] Creating server socket...
+[03/Apr/2019:15:13:13] Binding socket to port 8080...
+[03/Apr/2019:15:13:13] Listening for incoming requests...
+[03/Apr/2019:15:17:17] Creating server socket...
+[03/Apr/2019:15:17:17] Binding socket to port 8080...
+[03/Apr/2019:15:17:17] Listening for incoming requests...
+[03/Apr/2019:15:17:43] Creating server socket...
+[03/Apr/2019:15:17:43] Binding socket to port 8080...
+[03/Apr/2019:15:17:43] Listening for incoming requests...
