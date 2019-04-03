@@ -150,28 +150,17 @@ def getRequestHeader(request):
 def getResponseParts(response):
 	data = response.decode("utf-8", "replace")
 	parts = data.split("\r\n\r\n", 1) 
-	print("PARTS: " + str(len(parts)) + " " + str(parts))
 	if len(parts) > 1:
 		return (True, parts[0], parts[1])
 	return (False, parts[0], "")
 
 def addNavBar(body):
 	lines = body.split("\n")
-	newBody = ""
-	i = 0
 	for line in lines:
-		i = i + 1
 		if "<body" in line:
-			parts = line.split("<body", 1)
-			endParts = parts[1].split(">", 1)
-			line = parts[0] + "<body" + endParts[0] + ">\n" + "<div style = \"background-color: #134444; color: white; direction: rtl; padding: 5px; padding-right: 10px; height: 30px;\" />" + str(injectionMessage) + "</div>"
-			if len(endParts) > 1:
-				for i in range(1, len(endParts)):
-					line += endParts[i]
-			newBody += (line) + "\n"
-	return newBody
-	# newBody = "<!DOCTYPE html><html><head><meta charset=\"UTF-8\"></head><body><div style = \"background-color: #134444; color: white; direction: rtl; padding: 5px; padding-right: 10px; height: 20px;\" />" + str(injectionMessage) + "</div></body></html>" + str(body)
-	# return newBody
+			newBody = "<!DOCTYPE html><html><head><meta charset=\"UTF-8\"></head><body><div style = \"background-color: #134444; color: white; direction: rtl; padding: 5px; padding-right: 10px; height: 30px;\" />" + str(injectionMessage) + "</div></body></html>" + body
+			return newBody
+	return body
 
 def convertProxyHTTPtoReqHTTP(data):
 	writeMsgToFile(CLIENT_REQ_MSG)
