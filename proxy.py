@@ -99,8 +99,8 @@ def processRequest(con, addr):
 				# if applyHostRestriction(data):
 				# 	break				
 				
-				host, request = convertProxyHTTPtoReqHTTP(data)	
-			sendRequest(host, request, con, addr)
+				host, request, path = convertProxyHTTPtoReqHTTP(data)			
+			sendRequest(host, request, con, addr, path)
 
 		con.close()
 
@@ -114,7 +114,7 @@ def applyHostRestriction(request):
 	else:
 		return False
 
-def sendRequest(host, request, con, addr):
+def sendRequest(host, request, con, addr, path):
 	writeMsgToFile("connect to [" + str(host) + "] from " + HOST + " " + str(portNum))
 	s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)                 
 	
@@ -125,10 +125,10 @@ def sendRequest(host, request, con, addr):
 		while True:
 			response = s.recv(DATA_SIZE)
 			if len(response) > 0:
-				if isInjectionNeeded:
+				if isInjectionNeeded and path == "":
 					hasBody, header, body = getResponseParts(response)
 					if hasBody:
-						info = (header + "\r\n\r\n") + addNavBar(body)
+						info = header + "\r\n\r\n" + addNavBar(body)
 						response = info.encode()
 				
 				decreaseVol(addr[0], len(response))
@@ -182,30 +182,19 @@ def getRequestHeader(request):
 	return header + "\r\n"
 
 def getResponseParts(response):
-	data = response.decode("utf-8", "replace")
+	data = response.decode("utf-8", "ignore")
 	parts = data.split("\r\n\r\n", 1) 
-	print("PARTS: " + str(len(parts)) + " " + str(parts))
 	if len(parts) > 1:
 		return (True, parts[0], parts[1])
 	return (False, parts[0], "")
 
 def addNavBar(body):
-	lines = body.split("\n")
-	newBody = ""
-	i = 0
-	for line in lines:
-		i = i + 1
-		if "<body" in line:
-			parts = line.split("<body", 1)
-			endParts = parts[1].split(">", 1)
-			line = parts[0] + "<body" + endParts[0] + ">\n" + "<div style = \"background-color: #134444; color: white; direction: rtl; padding: 5px; padding-right: 10px; height: 30px;\" />" + str(injectionMessage) + "</div>"
-			if len(endParts) > 1:
-				for i in range(1, len(endParts)):
-					line += endParts[i]
-			newBody += (line) + "\n"
-	return newBody
-	# newBody = "<!DOCTYPE html><html><head><meta charset=\"UTF-8\"></head><body><div style = \"background-color: #134444; color: white; direction: rtl; padding: 5px; padding-right: 10px; height: 20px;\" />" + str(injectionMessage) + "</div></body></html>" + str(body)
-	# return newBody
+	if "<body" in body:
+		print("DAMN")
+		addition = "<!DOCTYPE html>\n<html>\n<head>\n<meta charset=\"UTF-8\">\n</head>\n<body>\n<div style = \"background-color: #134444; color: white; direction: rtl; padding: 5px; padding-right: 10px; margin: 0px;\" />" + str(injectionMessage) + "\n</div>\n</body>\n</html>\n" 
+		newBody = addition + body 
+		return newBody
+	return body
 
 def convertProxyHTTPtoReqHTTP(data):
 	writeMsgToFile(CLIENT_REQ_MSG)
@@ -213,7 +202,7 @@ def convertProxyHTTPtoReqHTTP(data):
 	lines = data.split("\r\n")
 	
 	startLine = lines[0]
-	host, startLine = processStartLine(startLine)
+	host, startLine, path = processStartLine(startLine)
 	result = [startLine]
 
 	lines = lines[1:]
@@ -236,7 +225,7 @@ def convertProxyHTTPtoReqHTTP(data):
 	request = ""
 	for line in result:
 		request += line
-	return host, request
+	return host, request, path
 	
 def processStartLine(startLine):
 	parts= startLine.split(" ")
@@ -260,7 +249,7 @@ def processStartLine(startLine):
 		path = ""
 	
 	result = reqType + " /" + path + " HTTP/1.0" + "\r\n"
-	return host, result
+	return host, result, path
 
 def getLegitimateUsers(usersInfo):
 	for item in usersInfo:
