@@ -132,27 +132,24 @@ def processRequest(con, addr):
 					break				
 				
 				host, request, path = convertProxyHTTPtoReqHTTP(data)
-			if canUseCachedResponse(request):
-				writeMsgToFile(CACHED_DATA_USED + BORDER + getStartLine(request) + getRequestHeader(request) + BORDER)
-				sendCachedResponse(request, con)
+			
+			if request in cachedResponses:
+				if isValid(request):
+					writeMsgToFile(CACHED_DATA_USED + BORDER + getStartLine(request) + getRequestHeader(request) + BORDER)
+					sendCachedResponse(request, con)
+				else:
+					sendAfterCheckIfModified(host, request, con, addr, path)	
 			else:			
-				sendRequest(host, request, con, addr, path)
+				sendRequest(host, request, con, addr, path, False)
 			break
 
 		con.close()
 
-def canUseCachedResponse(request):
-	if request in cachedResponses:
-		cachedData = cachedResponses.get(request)
-		expiryDate = cachedData[0]
-		if not (expiryDate == ""):
-			return isValidate(expiryDate)
-		else:
-			return checkIfModified(request, expiryDate)
-	else:
-		return False
+def sendAfterCheckIfModified(host, request, con, addr, path):
+	cachedData = cachedResponses.get(request)
+	expiryDate = cachedData[0]
+	lastModDate = cachedData[2]
 
-def checkIfModified(request, expiryDate):
 	startLine = getStartLine(request)
 	hostLine = ""
 	header = getRequestHeader(request)
@@ -161,23 +158,29 @@ def checkIfModified(request, expiryDate):
 		if "Host:" in line:
 			hostLine = line
 	
-	ifModReq = startLine + NEW_LINE_DELIM + hostLine + NEW_LINE_DELIM + IF_MOD_HEADER + expiryDate
-	# print("IF-MOD REQ", ifModReq)
-
-	#TODO:
-	#create socket and send req
+	dateInReq = ""
+	if (expiryDate == ""):
+		dateInReq = lastModDate
+	else:
+		dateInReq = expiryDate
 	
+	ifModReq = startLine + NEW_LINE_DELIM + hostLine + NEW_LINE_DELIM + IF_MOD_HEADER + dateInReq + NEW_LINE_DELIM + NEW_LINE_DELIM
+	sendRequest(host, ifModReq, con, addr, path, True)	
 
-
-
-def isValidate(expiryDate):
-	now = datetime.datetime.now()
-	expire = datetime.datetime.strptime(expiryDate, '%a, %d %b %Y %H:%M:%S GMT')
-	return(expire >= now)
+def isValid(request):
+	cachedData = cachedResponses.get(request)
+	expiryDate = cachedData[0]
+	if (expiryDate == ""):
+		return False
+	else:
+		now = datetime.datetime.now()
+		expire = datetime.datetime.strptime(expiryDate, '%a, %d %b %Y %H:%M:%S GMT')
+		return(expire >= now)
 
 def sendCachedResponse(request, con):
 	with con:
 		cachedData = cachedResponses.get(request)
+		print("###", cachedData[1])
 		con.sendall(cachedData[1])
 
 def applyHostRestriction(request):
@@ -204,7 +207,7 @@ def sendErrorToClient(con, msg):
 	with con:
 		con.send(msg.encode())
 
-def sendRequest(host, request, con, addr, path):
+def sendRequest(host, request, con, addr, path, checkingIfMod):
 	writeMsgToFile(OPEN_CONNECTION_SERVER + str(addr) + "...")
 	s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)                 
 	
@@ -219,6 +222,12 @@ def sendRequest(host, request, con, addr, path):
 			if len(response) > 0:
 				if isFirstPacket:
 					hasBody, header, body = getResponseParts(response)
+					if checkingIfMod and (not isModified(response)):
+						writeMsgToFile("#####" + CACHED_DATA_USED + BORDER + getStartLine(request) + getRequestHeader(request) + BORDER)
+						sendCachedResponse(request, con)
+						#TODO:
+						#update date
+						break
 					if isInjectionNeeded and path == "":
 						if hasBody:
 							info = header + "\r\n\r\n" + addNavBar(body)
@@ -231,20 +240,28 @@ def sendRequest(host, request, con, addr, path):
 				con.send(response)
 				if isFirstPacket:
 					writeMsgToFile(PROXY_TO_CLIENT_HEADER_MSG + BORDER + header + BORDER)
-				isFirstPacket = False
+					isFirstPacket = False
 			else:
-				cachable, expiryDate = checkCacheData(cachingResponse)
+				cachable, expiryDate, lastModDate = checkCacheData(cachingResponse)
 				if cachable:
-					cache(request, (expiryDate, cachingResponse))
+					cache(request, (expiryDate, cachingResponse, lastModDate))
 				break
 			response = ""
 		s.close()
+
+def isModified(response):
+	response = response.decode("utf-8", "replace")
+	parts = response.split(NEW_LINE_DELIM)
+	firstLine = parts[0]
+	
+	return( "200" in firstLine)
 
 def checkCacheData(response):
 	hasBody, header, body = getResponseParts(response)
 	isCachable = True
 	needValidation = False
 	expiryDate = ""
+	lastModDate = ""
 	lines = header.split(NEW_LINE_DELIM)
 	for line in lines:
 		if "Cache-Control:" in line:
@@ -258,12 +275,17 @@ def checkCacheData(response):
 		elif "Expires:" in line:
 			parts = line.split(" ", 1)
 			expiryDate = parts[1]
+		elif "Last-Modified:" in line:
+			parts = line.split(" ", 1)
+			lastModDate = parts[1]
 	if needValidation:
 		expiryDate = ""
-	return isCachable, expiryDate
+	return isCachable, expiryDate, lastModDate
 
 def cache(request, cachingResponse):
 	writeMsgToFile(RESPONSE_IS_CACHED_MSG + BORDER + getStartLine(request) + getRequestHeader(request) + BORDER)
+	if not (len(cachedResponses)==3):
+		print("^^^ " + str(len(cachingResponse)))
 	cachedResponses[request] = cachingResponse
 
 def getHost(request):
