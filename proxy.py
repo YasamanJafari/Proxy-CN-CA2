@@ -113,7 +113,8 @@ def processRequest(con, addr):
 	isFirstPacket = True
 	with con:
 		while True:
-			data = con.recv(DATA_SIZE)
+			while not data:
+				data = con.recv(DATA_SIZE)
 			# decreaseVol(addr[0], len(data))
 			if not isLegitimate(addr[0]):
 				sendErrorToClient(con, getNotAllowedMsg())
@@ -136,6 +137,7 @@ def processRequest(con, addr):
 				sendCachedResponse(request, con)
 			else:			
 				sendRequest(host, request, con, addr, path)
+			break
 
 		con.close()
 
@@ -211,26 +213,31 @@ def sendRequest(host, request, con, addr, path):
 		s.connect((socket.gethostbyname(host), 80))
 		writeMsgToFile(SERVER_CONNECTION_OPENED + " (" + str(addr) + ")")
 		s.sendall(request.encode())
+		isFirstPacket = True
 		while True:
 			response = s.recv(DATA_SIZE)
 			if len(response) > 0:
-				hasBody, header, body = getResponseParts(response)
-				if isInjectionNeeded and path == "":
-					if hasBody:
-						info = header + "\r\n\r\n" + addNavBar(body)
-						response = info.encode()
+				if isFirstPacket:
+					hasBody, header, body = getResponseParts(response)
+					if isInjectionNeeded and path == "":
+						if hasBody:
+							info = header + "\r\n\r\n" + addNavBar(body)
+							response = info.encode()
 
-				writeMsgToFile(PROXY_TO_SERVER_HEADER_MSG + BORDER + header + BORDER)
+					writeMsgToFile(PROXY_TO_SERVER_HEADER_MSG + BORDER + header + BORDER)
 
 				decreaseVol(addr[0], len(response))
 				cachingResponse += response			
 				con.send(response)
-				writeMsgToFile(PROXY_TO_CLIENT_HEADER_MSG + BORDER + header + BORDER)
+				if isFirstPacket:
+					writeMsgToFile(PROXY_TO_CLIENT_HEADER_MSG + BORDER + header + BORDER)
+				isFirstPacket = False
 			else:
 				cachable, expiryDate = checkCacheData(cachingResponse)
 				if cachable:
 					cache(request, (expiryDate, cachingResponse))
 				break
+			response = ""
 		s.close()
 
 def checkCacheData(response):
@@ -286,12 +293,10 @@ def getResponseParts(response):
 	return (False, parts[0], "")
 
 def addNavBar(body):
-	if "<body" in body:
-		writeMsgToFile(PROXY_ADDED_INJECTION_MSG)
-		addition = "<!DOCTYPE html>\n<html>\n<head>\n<meta charset=\"UTF-8\">\n</head>\n<body>\n<div style = \"background-color: #134444; color: white; direction: rtl; padding: 5px; padding-right: 10px; margin: 0px;\" />" + str(injectionMessage) + "\n</div>\n</body>\n</html>\n" 
-		newBody = addition + body 
-		return newBody
-	return body
+	writeMsgToFile(PROXY_ADDED_INJECTION_MSG)
+	addition = "<!DOCTYPE html>\n<html>\n<head>\n<meta charset=\"UTF-8\">\n</head>\n<body>\n<div style = \"background-color: #134444; color: white; direction: rtl; padding: 5px; padding-right: 10px; margin: 0px;\" />" + str(injectionMessage) + "\n</div>\n</body>\n</html>\n" 
+	newBody = addition + body 
+	return newBody
 
 def convertProxyHTTPtoReqHTTP(data):
 	writeMsgToFile(CLIENT_REQ_MSG + BORDER + getRequestHeader(data) + BORDER)
