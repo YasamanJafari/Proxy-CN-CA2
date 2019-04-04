@@ -128,7 +128,7 @@ def processRequest(con, addr):
 def canUseCachedResponse(request):
 	if request in cachedResponses:
 		cachedData = cachedResponses.get(request)
-		expiryDate = cachedData[1]
+		expiryDate = cachedData[0]
 		if not (expiryDate == ""):
 			if isValidate(expiryDate):
 				return True
@@ -141,7 +141,6 @@ def canUseCachedResponse(request):
 		return False
 
 def isValidate(expiryDate):
-	print("CHECK VALIDATION")
 	now = datetime.datetime.now()
 	expire = datetime.datetime.strptime(expiryDate, '%a, %d %b %Y %H:%M:%S GMT')
 	return(expire >= now)
