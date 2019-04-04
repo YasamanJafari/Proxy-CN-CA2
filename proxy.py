@@ -20,6 +20,8 @@ HOST = '127.0.0.1'
 
 CONFIG_FILE_NAME = "config.json"
 
+NEW_LINE_DELIM = "\r\n"
+
 PROXY_LAUNCH_MSG = "Proxy launched"
 SOCKET_CREATION_MSG = "Creating server socket..."
 BIND_PORT_MSG = "Binding socket to port "
@@ -40,11 +42,23 @@ EMAIL_SENT_SUCCESSFULLY = "Notification mail sent."
 PROXY_ADDED_INJECTION_MSG = "Proxy injected a message in the index page."
 REMANING_TRAFFIC_MSG = "Proxy reduced the volume for user and remaining traffic is "
 LINE_DELIMETER = "\n"
+
+MAIL_SERVER = "mail.ut.ac.ir"
+HELO_EMAIL_MSG = "HELO ut.ac.ir\r\n"
+MAIL_FROM_MSG = "MAIL FROM: <"
+END_OF_EMAIL = ">\r\n"
+AUTH_EMAIL_MSG = "AUTH LOGIN\r\n"
+RCP_TO_MSG = "RCPT TO: <"
+DATA_EMAIL_MSG = "DATA\r\n"
+END_DATA_MSG = "\r\n.\r\n"
+QUIT_EMAIL_MSG = "QUIT\r\n"
 SENDER_EMAIL = "sadaf.sadeghian@ut.ac.ir"
 RECEIVER_EMAIL = "ys.jafari@ut.ac.ir"
 
 RESTRICTION_HTML = "<!DOCTYPE html><html><head>\n<meta charset=\"UTF-8\">\n</head><body style=\"background-color: #134444\"><h1 style=\"text-align: center; direction: rtl; color: white\">دسترسی به این سایت محدود شده است. </h1></body></html>"
 ACCOUNTING_HTML = "<!DOCTYPE html><html><head>\n<meta charset=\"UTF-8\">\n</head><body style=\"background-color: #134444\"><h1 style=\"text-align: center; direction: rtl; color: white\">حجم قابل استفاده شما تمام شده است. </h1></body></html>"
+
+IF_MOD_HEADER = "If-Modified-Since: "
 
 DATA_SIZE = 8192
 
@@ -130,15 +144,29 @@ def canUseCachedResponse(request):
 		cachedData = cachedResponses.get(request)
 		expiryDate = cachedData[0]
 		if not (expiryDate == ""):
-			if isValidate(expiryDate):
-				return True
-			else:
-				return False
+			return isValidate(expiryDate)
 		else:
-			#checkIfModified()
-			print("CHECK IF-MODIFIED")
+			return checkIfModified(request, expiryDate)
 	else:
 		return False
+
+def checkIfModified(request, expiryDate):
+	startLine = getStartLine(request)
+	hostLine = ""
+	header = getRequestHeader(request)
+	lines = header.split(NEW_LINE_DELIM)
+	for line in lines:
+		if "Host:" in line:
+			hostLine = line
+	
+	ifModReq = startLine + NEW_LINE_DELIM + hostLine + NEW_LINE_DELIM + IF_MOD_HEADER + expiryDate
+	# print("IF-MOD REQ", ifModReq)
+
+	#TODO:
+	#create socket and send req
+	
+
+
 
 def isValidate(expiryDate):
 	now = datetime.datetime.now()
@@ -210,7 +238,7 @@ def checkCacheData(response):
 	isCachable = True
 	needValidation = False
 	expiryDate = ""
-	lines = header.split("\r\n")
+	lines = header.split(NEW_LINE_DELIM)
 	for line in lines:
 		if "Cache-Control:" in line:
 			if "no-store" in line:
@@ -234,7 +262,7 @@ def cache(request, cachingResponse):
 def getHost(request):
 	host = ""
 	header = getRequestHeader(request)
-	lines = header.split("\r\n")
+	lines = header.split(NEW_LINE_DELIM)
 	for line in lines:
 		if "Host: " in line:
 			parts = line.split(" ")
@@ -242,13 +270,13 @@ def getHost(request):
 	return host
 
 def getRequestHeader(request):
-	parts = request.split("\r\n", 1)
+	parts = request.split(NEW_LINE_DELIM, 1)
 	newParts = parts[1].split("\r\n\r\n", 1)
 	header = newParts[0]
-	return header + "\r\n"
+	return header + NEW_LINE_DELIM
 
 def getStartLine(request):
-	return (request.split("\r\n", 1))[0]
+	return (request.split(NEW_LINE_DELIM, 1))[0]
 
 def getResponseParts(response):
 	data = response.decode("utf-8", "ignore")
@@ -267,7 +295,7 @@ def addNavBar(body):
 
 def convertProxyHTTPtoReqHTTP(data):
 	writeMsgToFile(CLIENT_REQ_MSG + BORDER + getRequestHeader(data) + BORDER)
-	lines = data.split("\r\n")
+	lines = data.split(NEW_LINE_DELIM)
 	
 	startLine = lines[0]
 	host, startLine, path = processStartLine(startLine)
@@ -289,7 +317,7 @@ def convertProxyHTTPtoReqHTTP(data):
 					line = "User-Agent: " + defaultUserAgent 
 			if "Accept-Encoding: " in line:
 				line = "Accept-Encoding: identify"
-		result.append(line + "\r\n")
+		result.append(line + NEW_LINE_DELIM)
 	
 	request = ""
 	for line in result:
@@ -318,7 +346,7 @@ def processStartLine(startLine):
 		host = url
 		path = ""
 	
-	result = reqType + " /" + path + " HTTP/1.0" + "\r\n"
+	result = reqType + " /" + path + " HTTP/1.0" + NEW_LINE_DELIM
 	return host, result, path
 
 def setLegitimateUsers(usersInfo):
@@ -329,29 +357,29 @@ def setLegitimateUsers(usersInfo):
 
 def sendNotificationEmail(data):
 	emailSocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-	emailSocket.connect(("mail.ut.ac.ir", 25))
-	msg = emailSocket.recv(1024)
-	emailSocket.send(("HELO ut.ac.ir\r\n").encode())
-	msg = emailSocket.recv(1024)
-	emailSocket.send(("MAIL FROM: <" + SENDER_EMAIL + ">\r\n").encode())
-	msg = emailSocket.recv(10000)
-	emailSocket.send(("AUTH LOGIN\r\n").encode())
+	emailSocket.connect((MAIL_SERVER, 25))
+	emailSocket.recv(1024)
+	emailSocket.send((HELO_EMAIL_MSG).encode())
+	emailSocket.recv(1024)
+	emailSocket.send((MAIL_FROM_MSG + SENDER_EMAIL + END_OF_EMAIL).encode())
+	emailSocket.recv(10000)
+	emailSocket.send((AUTH_EMAIL_MSG).encode())
 	username = "" #SET USERNAME
-	msg = emailSocket.recv(10000)
-	emailSocket.send((username + "\r\n").encode())
-	msg = emailSocket.recv(1024)	
+	emailSocket.recv(10000)
+	emailSocket.send((username + NEW_LINE_DELIM).encode())
+	emailSocket.recv(1024)	
 	password = "" #SET PASSWORD
-	emailSocket.send((password + "\r\n").encode())
-	msg = emailSocket.recv(10000)	
-	emailSocket.send(("RCPT TO: <" + RECEIVER_EMAIL + ">\r\n").encode())	
-	msg = emailSocket.recv(10000)	
-	emailSocket.send(("DATA\r\n").encode())	
-	msg = emailSocket.recv(10000)	
-	emailSocket.send((data + "\r\n.\r\n").encode())
-	msg = emailSocket.recv(10000)	
+	emailSocket.send((password + NEW_LINE_DELIM).encode())
+	emailSocket.recv(10000)	
+	emailSocket.send((RCP_TO_MSG + RECEIVER_EMAIL + END_OF_EMAIL).encode())	
+	emailSocket.recv(10000)	
+	emailSocket.send((DATA_EMAIL_MSG).encode())	
+	emailSocket.recv(10000)	
+	emailSocket.send((data + END_DATA_MSG).encode())
+	emailSocket.recv(10000)	
 	writeMsgToFile(EMAIL_SENT_SUCCESSFULLY)
-	emailSocket.send(("QUIT\r\n").encode())
-	msg = emailSocket.recv(10000)	
+	emailSocket.send((QUIT_EMAIL_MSG).encode())
+	emailSocket.recv(10000)	
 	emailSocket.close()
 	
 def readConfig():
