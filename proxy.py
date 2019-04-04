@@ -177,28 +177,33 @@ def sendRequest(host, request, con, addr, path):
 				con.send(response)
 				writeMsgToFile(PROXY_TO_CLIENT_HEADER_MSG + BORDER + header + BORDER)
 			else:
-				cachable, expireDate = checkCachData(response)
+				cachable, expireDate = checkCacheData(response)
 				if cachable:
 					cache(request, (expireDate, cachingResponse))
 				break
 		s.close()
 
-def checkCachData(response):
+def checkCacheData(response):
 	hasBody, header, body = getResponseParts(response)
 	isCachable = True
-	expireDate = None
+	needValidation = False
+	expireDate = ""
 	lines = header.split("\r\n")
 	for line in lines:
 		if "Cache-Control:" in line:
-			if "no-cache" in line:
+			if "no-store" in line:
 				isCachable = False
+			if "no-cache:" in line:
+				needValidation = True
 		elif "Pragma:" in line:
 			if "no-cache" in line:
 				isCachable = False
-		if "Expires:" in line:
-			print("EXPIRE!")
+		elif "Expires:" in line:
 			parts = line.split(" ")
 			expireDate = parts[1]
+			print("HEREEE", expireDate)
+	if needValidation:
+		expireDate = ""
 	return isCachable, expireDate
 
 def cache(request, cachingResponse):
