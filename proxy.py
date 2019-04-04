@@ -35,8 +35,8 @@ LINE_DELIMETER = "\n"
 SENDER_EMAIL = "sadaf.sadeghian@ut.ac.ir"
 RECEIVER_EMAIL = "ys.jafari@ut.ac.ir"
 
-RESTRICTION_HTML = "<!DOCTYPE html><html><head></head><body style=\"background-color: #134444\"><h1 style=\"text-align: center; direction: rtl; color: white\">دسترسی به این سایت محدود شده است. </h1></body></html>"
-ACCOUNTING_HTML = "<!DOCTYPE html><html><head></head><body style=\"background-color: #134444\"><h1 style=\"text-align: center; direction: rtl; color: white\">حجم قابل استفاده شما تمام شده است. </h1></body></html>"
+RESTRICTION_HTML = "<!DOCTYPE html><html><head>\n<meta charset=\"UTF-8\">\n</head><body style=\"background-color: #134444\"><h1 style=\"text-align: center; direction: rtl; color: white\">دسترسی به این سایت محدود شده است. </h1></body></html>"
+ACCOUNTING_HTML = "<!DOCTYPE html><html><head>\n<meta charset=\"UTF-8\">\n</head><body style=\"background-color: #134444\"><h1 style=\"text-align: center; direction: rtl; color: white\">حجم قابل استفاده شما تمام شده است. </h1></body></html>"
 
 DATA_SIZE = 8192
 
@@ -97,16 +97,14 @@ def processRequest(con, addr):
 
 			data = data.decode("utf-8", "replace")
 			
-			# if applyHostRestriction(data):
-			# 		break
-			
 			if len(data) <= 0:
 				break
 			if isFirstPacket:
 				isFirstPacket = False
-				
-				# if applyHostRestriction(data):
-				# 	break				
+
+				if applyHostRestriction(data):
+					sendErrorToClient(con)
+					break				
 				
 				host, request, path = convertProxyHTTPtoReqHTTP(data)
 			if canUseCachedResponse(request):
@@ -134,10 +132,19 @@ def applyHostRestriction(request):
 	if host in restrictedHosts:
 		if restrictedHosts.get(host):
 			print("SENDING EMAIL")
-		# 	sendNotificationEmail(request)
+			sendNotificationEmail(request)
 		return True
 	else:
 		return False
+
+def getForbiddenMsg():
+	header = "HTTP/1.1 403 Forbidden\nContent-Type: text/html\nConnection: close\nAccept-Ranges: bytes\nCache-Control: no-cache"
+	msg = header + "\r\n\r\n" + RESTRICTION_HTML
+	return msg
+
+def sendErrorToClient(con):
+	with con:
+		con.send(getForbiddenMsg().encode())
 
 def sendRequest(host, request, con, addr, path):
 	writeMsgToFile(OPEN_CONNECTION_SERVER + str(addr) + "...")
@@ -249,7 +256,7 @@ def convertProxyHTTPtoReqHTTP(data):
 	request = ""
 	for line in result:
 		request += line
-	writeMsgToFile(PROXY_TO_CLIENT_REQ_MSG + BORDER + request + BORDER)
+	writeMsgToFile(PROXY_TO_CLIENT_REQ_MSG + BORDER + getRequestHeader(request) + BORDER)
 	return host, request, path
 	
 def processStartLine(startLine):
