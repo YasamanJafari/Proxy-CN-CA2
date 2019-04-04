@@ -3,7 +3,7 @@ import json
 import socket
 import threading
 import signal
-
+import base64
 
 isLoggingNeeded = False
 isPrivacyNeeded = False
@@ -54,6 +54,9 @@ END_DATA_MSG = "\r\n.\r\n"
 QUIT_EMAIL_MSG = "QUIT\r\n"
 SENDER_EMAIL = "sadaf.sadeghian@ut.ac.ir"
 RECEIVER_EMAIL = "ys.jafari@ut.ac.ir"
+
+SENDER_USERNAME = ""
+SENDER_PASS = ""
 
 RESTRICTION_HTML = "<!DOCTYPE html><html><head>\n<meta charset=\"UTF-8\">\n</head><body style=\"background-color: #134444\"><h1 style=\"text-align: center; direction: rtl; color: white\">دسترسی به این سایت محدود شده است. </h1></body></html>"
 ACCOUNTING_HTML = "<!DOCTYPE html><html><head>\n<meta charset=\"UTF-8\">\n</head><body style=\"background-color: #134444\"><h1 style=\"text-align: center; direction: rtl; color: white\">حجم قابل استفاده شما تمام شده است. </h1></body></html>"
@@ -360,6 +363,9 @@ def setLegitimateUsers(usersInfo):
 		userVolume = item["volume"]
 		users[userIP] = int(userVolume)
 
+def getBase64(data):
+	return base64.b64encode(data.encode()).decode() 
+
 def sendNotificationEmail(data):
 	emailSocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 	emailSocket.connect((MAIL_SERVER, 25))
@@ -369,11 +375,11 @@ def sendNotificationEmail(data):
 	emailSocket.send((MAIL_FROM_MSG + SENDER_EMAIL + END_OF_EMAIL).encode())
 	emailSocket.recv(10000)
 	emailSocket.send((AUTH_EMAIL_MSG).encode())
-	username = "" #SET USERNAME
+	username = getBase64(SENDER_USERNAME) 
 	emailSocket.recv(10000)
 	emailSocket.send((username + NEW_LINE_DELIM).encode())
 	emailSocket.recv(1024)	
-	password = "" #SET PASSWORD
+	password = getBase64(SENDER_PASS) 
 	emailSocket.send((password + NEW_LINE_DELIM).encode())
 	emailSocket.recv(10000)	
 	emailSocket.send((RCP_TO_MSG + RECEIVER_EMAIL + END_OF_EMAIL).encode())	
