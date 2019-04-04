@@ -143,13 +143,13 @@ def processRequest(con, addr):
 				else:
 					sendAfterCheckIfModified(host, request, con, addr, path)	
 			else:			
-				sendRequest(host, request, con, addr, path, False)
+				sendRequest(host, request, con, addr, path, False, None)
 			break
 
 		con.close()
 
 def sendAfterCheckIfModified(host, request, con, addr, path):
-	cachedData = cachedResponses.get(request)
+	cachedData = cachedResponses[request]
 	expiryDate = cachedData[0]
 	lastModDate = cachedData[2]
 
@@ -168,10 +168,10 @@ def sendAfterCheckIfModified(host, request, con, addr, path):
 		dateInReq = expiryDate
 	
 	ifModReq = startLine + NEW_LINE_DELIM + hostLine + NEW_LINE_DELIM + IF_MOD_HEADER + dateInReq + NEW_LINE_DELIM + NEW_LINE_DELIM
-	sendRequest(host, ifModReq, con, addr, path, True)	
+	sendRequest(host, ifModReq, con, addr, path, True, request)	
 
 def isValid(request):
-	cachedData = cachedResponses.get(request)
+	cachedData = cachedResponses[request]
 	expiryDate = cachedData[0]
 	if (expiryDate == ""):
 		return False
@@ -182,15 +182,14 @@ def isValid(request):
 
 def sendCachedResponse(request, con):
 	with con:
-		cachedData = cachedResponses.get(request)
-		print("###", cachedData[1])
+		cachedData = cachedResponses[request]
 		con.sendall(cachedData[1])
 
 def applyHostRestriction(request, con):
 	host = getHost(request)
 	if host in restrictedHosts:
 		sendErrorToClient(con, getForbiddenMsg())
-		if restrictedHosts.get(host):
+		if restrictedHosts[host]:
 			writeMsgToFile(PROXY_SENT_NOTIFICATION_MAIL + RECEIVER_EMAIL + "(for host: " + str(host) + ")")
 			sendNotificationEmail(request)
 		return True
@@ -211,7 +210,7 @@ def sendErrorToClient(con, msg):
 	with con:
 		con.send(msg.encode())
 
-def sendRequest(host, request, con, addr, path, checkingIfMod):
+def sendRequest(host, request, con, addr, path, checkingIfMod, sourceReq):
 	writeMsgToFile(OPEN_CONNECTION_SERVER + str(addr) + "...")
 	s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)                 
 	
@@ -227,8 +226,8 @@ def sendRequest(host, request, con, addr, path, checkingIfMod):
 				if isFirstPacket:
 					hasBody, header, body = getResponseParts(response)
 					if checkingIfMod and (not isModified(response)):
-						writeMsgToFile("#####" + CACHED_DATA_USED + BORDER + getStartLine(request) + getRequestHeader(request) + BORDER)
-						sendCachedResponse(request, con)
+						writeMsgToFile(CACHED_DATA_USED + BORDER + getStartLine(request) + getRequestHeader(request) + BORDER)
+						sendCachedResponse(sourceReq, con)
 						#TODO:
 						#update date
 						break
@@ -247,8 +246,10 @@ def sendRequest(host, request, con, addr, path, checkingIfMod):
 			else:
 				decreaseVol(addr[0], len(cachingResponse))
 				cachable, expiryDate, lastModDate = checkCacheData(cachingResponse)
-				if cachable:
+				if cachable and (not checkingIfMod):
 					cache(request, (expiryDate, cachingResponse, lastModDate))
+				if cachable and checkingIfMod:
+					cache(sourceReq, (expiryDate, cachingResponse, lastModDate))
 				break
 			response = ""
 		s.close()
@@ -288,8 +289,8 @@ def checkCacheData(response):
 
 def cache(request, cachingResponse):
 	writeMsgToFile(RESPONSE_IS_CACHED_MSG + BORDER + getStartLine(request) + getRequestHeader(request) + BORDER)
-	if not (len(cachedResponses)==3):
-		print("^^^ " + str(len(cachingResponse)))
+	if cachingResponse[1] is None:
+		print("NONE###")
 	cachedResponses[request] = cachingResponse
 
 def getHost(request):
