@@ -226,13 +226,13 @@ def sendRequest(host, request, con, addr, path):
 
 					writeMsgToFile(PROXY_TO_SERVER_HEADER_MSG + BORDER + header + BORDER)
 
-				decreaseVol(addr[0], len(response))
 				cachingResponse += response			
 				con.send(response)
 				if isFirstPacket:
 					writeMsgToFile(PROXY_TO_CLIENT_HEADER_MSG + BORDER + header + BORDER)
 				isFirstPacket = False
 			else:
+				decreaseVol(addr[0], len(cachingResponse))
 				cachable, expiryDate = checkCacheData(cachingResponse)
 				if cachable:
 					cache(request, (expiryDate, cachingResponse))
