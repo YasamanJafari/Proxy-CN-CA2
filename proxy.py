@@ -223,7 +223,7 @@ def sendRequest(host, request, con, addr, path):
 			if len(response) > 0:
 				if isFirstPacket:
 					hasBody, header, body = getResponseParts(response)
-					if isInjectionNeeded and path == "":
+					if isInjectionNeeded and path == "" and "Content-Type: text/html" in header:
 						if hasBody:
 							info = header + "\r\n\r\n" + addNavBar(body)
 							response = info.encode()
