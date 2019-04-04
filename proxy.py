@@ -31,6 +31,13 @@ PROXY_TO_SERVER_HEADER_MSG = "Proxy sent request to server with headers: "
 PROXY_TO_CLIENT_HEADER_MSG = "Proxy sent response to client with headers: "
 PROXY_TO_CLIENT_REQ_MSG = "Proxy sent request to client with headers: "
 BORDER = "\n----------------------------------------------------------------------\n"
+CACHED_DATA_USED = "Valid response was found in cache for request with header: "
+RESPONSE_IS_CACHED_MSG = "Proxy cached the response for request with header: "
+PROXY_CHANGED_USER_AGENT = "Proxy changed client's user-agent to add privacy."
+PROXY_SENT_NOTIFICATION_MAIL = "Proxy found a restriction to notify the proxy manager: "
+EMAIL_SENT_SUCCESSFULLY = "Notification mail sent."
+PROXY_ADDED_INJECTION_MSG = "Proxy injected a message in the index page."
+REMANING_TRAFFIC_MSG = "Proxy reduced the volume for user and remaining traffic is "
 LINE_DELIMETER = "\n"
 SENDER_EMAIL = "sadaf.sadeghian@ut.ac.ir"
 RECEIVER_EMAIL = "ys.jafari@ut.ac.ir"
@@ -62,6 +69,7 @@ def isLegitimate(addrIP):
 	return False
 
 def decreaseVol(addrIP, amount):
+	writeMsgToFile(REMANING_TRAFFIC_MSG + str(users[addrIP]) + " - " + str(amount) + " = " + str(users[addrIP] - amount) + " (for user with IP: " + addrIP + ")")
 	users[addrIP] = users[addrIP] - amount
 
 def createSocket():
@@ -109,6 +117,7 @@ def processRequest(con, addr):
 				
 				host, request, path = convertProxyHTTPtoReqHTTP(data)
 			if canUseCachedResponse(request):
+				writeMsgToFile(CACHED_DATA_USED + BORDER + getStartLine(request) + getRequestHeader(request) + BORDER)
 				sendCachedResponse(request, con)
 			else:			
 				sendRequest(host, request, con, addr, path)
@@ -123,7 +132,6 @@ def canUseCachedResponse(request):
 		return False
 
 def sendCachedResponse(request, con):
-	print("USING CACHED DATA")
 	with con:
 		cachedData = cachedResponses.get(request)
 		con.sendall(cachedData[1])
@@ -132,7 +140,7 @@ def applyHostRestriction(request):
 	host = getHost(request)
 	if host in restrictedHosts:
 		if restrictedHosts.get(host):
-			print("SENDING EMAIL")
+			writeMsgToFile(PROXY_SENT_NOTIFICATION_MAIL + RECEIVER_EMAIL + "(for host: " + str(host) + ")")
 			sendNotificationEmail(request)
 		return True
 	else:
@@ -201,14 +209,13 @@ def checkCacheData(response):
 		elif "Expires:" in line:
 			parts = line.split(" ")
 			expireDate = parts[1]
-			print("HEREEE", expireDate)
 	if needValidation:
 		expireDate = ""
 	return isCachable, expireDate
 
 def cache(request, cachingResponse):
+	writeMsgToFile(RESPONSE_IS_CACHED_MSG + BORDER + getStartLine(request) + getRequestHeader(request) + BORDER)
 	cachedResponses[request] = cachingResponse
-			
 
 def getHost(request):
 	host = ""
@@ -226,6 +233,9 @@ def getRequestHeader(request):
 	header = newParts[0]
 	return header + "\r\n"
 
+def getStartLine(request):
+	return (request.split("\r\n", 1))[0]
+
 def getResponseParts(response):
 	data = response.decode("utf-8", "ignore")
 	parts = data.split("\r\n\r\n", 1) 
@@ -235,6 +245,7 @@ def getResponseParts(response):
 
 def addNavBar(body):
 	if "<body" in body:
+		writeMsgToFile(PROXY_ADDED_INJECTION_MSG)
 		addition = "<!DOCTYPE html>\n<html>\n<head>\n<meta charset=\"UTF-8\">\n</head>\n<body>\n<div style = \"background-color: #134444; color: white; direction: rtl; padding: 5px; padding-right: 10px; margin: 0px;\" />" + str(injectionMessage) + "\n</div>\n</body>\n</html>\n" 
 		newBody = addition + body 
 		return newBody
@@ -260,6 +271,7 @@ def convertProxyHTTPtoReqHTTP(data):
 				line = "Connection: Close"
 			if "User-Agent:" in line:
 				if isPrivacyNeeded:
+					writeMsgToFile(PROXY_CHANGED_USER_AGENT)
 					line = "User-Agent: " + defaultUserAgent 
 			if "Accept-Encoding: " in line:
 				line = "Accept-Encoding: identify"
@@ -295,7 +307,7 @@ def processStartLine(startLine):
 	result = reqType + " /" + path + " HTTP/1.0" + "\r\n"
 	return host, result, path
 
-def getLegitimateUsers(usersInfo):
+def setLegitimateUsers(usersInfo):
 	for item in usersInfo:
 		userIP = item["IP"]
 		userVolume = item["volume"]
@@ -323,8 +335,7 @@ def sendNotificationEmail(data):
 	msg = emailSocket.recv(10000)	
 	emailSocket.send((data + "\r\n.\r\n").encode())
 	msg = emailSocket.recv(10000)	
-	print("EMAIL... ", msg)
-	print("EMAIL SENT")
+	writeMsgToFile(EMAIL_SENT_SUCCESSFULLY)
 	emailSocket.send(("QUIT\r\n").encode())
 	msg = emailSocket.recv(10000)	
 	emailSocket.close()
@@ -352,6 +363,6 @@ if __name__ == "__main__":
 				restrictedHosts[target["URL"]] = True
 			else:
 				restrictedHosts[target["URL"]] = False
-	getLegitimateUsers(parsedInfo["accounting"]["users"])
+	setLegitimateUsers(parsedInfo["accounting"]["users"])
 	createSocket()
 
