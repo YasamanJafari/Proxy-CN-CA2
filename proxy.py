@@ -38,7 +38,8 @@ CACHED_DATA_USED = "Valid response was found in cache for request with header: "
 RESPONSE_IS_CACHED_MSG = "Proxy cached the response for request with header: "
 PROXY_CHANGED_USER_AGENT = "Proxy changed client's user-agent to add privacy."
 PROXY_SENT_NOTIFICATION_MAIL = "Proxy found a restriction to notify the proxy manager: "
-EMAIL_SENT_SUCCESSFULLY = "Notification mail sent."
+EMAIL_SENT_SUCCESSFULLY = "Notification mail successfully sent."
+EMAIL_FAILURE = "Failed to send notification mail."
 PROXY_ADDED_INJECTION_MSG = "Proxy injected a message in the index page."
 REMANING_TRAFFIC_MSG = "Proxy reduced the volume for user and remaining traffic is "
 LINE_DELIMETER = "\n"
@@ -55,8 +56,8 @@ QUIT_EMAIL_MSG = "QUIT\r\n"
 SENDER_EMAIL = "sadaf.sadeghian@ut.ac.ir"
 RECEIVER_EMAIL = "ys.jafari@ut.ac.ir"
 
-SENDER_USERNAME = ""
-SENDER_PASS = ""
+SENDER_USERNAME = "" #SET USERNAME
+SENDER_PASS = ""	#SET PASSWORD
 
 RESTRICTION_HTML = "<!DOCTYPE html><html><head>\n<meta charset=\"UTF-8\">\n</head><body style=\"background-color: #134444\"><h1 style=\"text-align: center; direction: rtl; color: white\">دسترسی به این سایت محدود شده است. </h1></body></html>"
 ACCOUNTING_HTML = "<!DOCTYPE html><html><head>\n<meta charset=\"UTF-8\">\n</head><body style=\"background-color: #134444\"><h1 style=\"text-align: center; direction: rtl; color: white\">حجم قابل استفاده شما تمام شده است. </h1></body></html>"
@@ -130,8 +131,7 @@ def processRequest(con, addr):
 			if isFirstPacket:
 				isFirstPacket = False
 
-				if applyHostRestriction(data):
-					sendErrorToClient(con, getForbiddenMsg())
+				if applyHostRestriction(data, con):
 					break				
 				
 				host, request, path = convertProxyHTTPtoReqHTTP(data)
@@ -183,9 +183,10 @@ def sendCachedResponse(request, con):
 		cachedData = cachedResponses.get(request)
 		con.sendall(cachedData[1])
 
-def applyHostRestriction(request):
+def applyHostRestriction(request, con):
 	host = getHost(request)
 	if host in restrictedHosts:
+		sendErrorToClient(con, getForbiddenMsg())
 		if restrictedHosts.get(host):
 			writeMsgToFile(PROXY_SENT_NOTIFICATION_MAIL + RECEIVER_EMAIL + "(for host: " + str(host) + ")")
 			sendNotificationEmail(request)
@@ -381,7 +382,11 @@ def sendNotificationEmail(data):
 	emailSocket.recv(1024)	
 	password = getBase64(SENDER_PASS) 
 	emailSocket.send((password + NEW_LINE_DELIM).encode())
-	emailSocket.recv(10000)	
+	msg = emailSocket.recv(10000).decode()
+	if "authentication failed" in msg:
+		writeMsgToFile(EMAIL_FAILURE)
+		emailSocket.close()	
+		return
 	emailSocket.send((RCP_TO_MSG + RECEIVER_EMAIL + END_OF_EMAIL).encode())	
 	emailSocket.recv(10000)	
 	emailSocket.send((DATA_EMAIL_MSG).encode())	
