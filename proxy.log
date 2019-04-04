@@ -1,503 +1,639 @@
-[04/Apr/2019:11:19:36] Creating server socket...
-[04/Apr/2019:11:19:36] Binding socket to port 8080...
-[04/Apr/2019:11:19:36] Listening for incoming requests...
-[04/Apr/2019:11:19:39] connect to [('127.0.0.1', 53752)] from 127.0.0.1 8080
-[04/Apr/2019:11:19:39] Accepted a request from client!
-[04/Apr/2019:11:19:39] Client sent request to proxy with headers:
+[04/Apr/2019:12:59:20] Creating server socket...
+[04/Apr/2019:12:59:20] Binding socket to port 8080...
+[04/Apr/2019:12:59:20] Listening for incoming requests...
+[04/Apr/2019:12:59:23] connect to [('127.0.0.1', 52349)] from 127.0.0.1 8080
+[04/Apr/2019:12:59:23] Accepted a request from client!
+[04/Apr/2019:12:59:23] Client sent request to proxy with headers:
 ----------------------------------------------------------------------
-Host: ocsp.pki.goog
+Host: bdood.ir
 User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
-Accept: */*
+Accept: application/font-woff2;q=1.0,application/font-woff;q=0.9,*/*;q=0.8
 Accept-Language: en-US,en;q=0.5
-Accept-Encoding: gzip, deflate
-Content-Type: application/ocsp-request
-Content-Length: 83
+Accept-Encoding: identity
+Referer: http://bdood.ir/css/fontiran.css
 Connection: keep-alive
+Cookie: _ga=GA1.2.1703443151.1554360320; _gid=GA1.2.1455217034.1554360320
 
 ----------------------------------------------------------------------
 
-[04/Apr/2019:11:19:39] Proxy sent request to client with headers: 
+[04/Apr/2019:12:59:23] Proxy changed client's user-agent to add privacy.
+[04/Apr/2019:12:59:23] Proxy sent request to client with headers: 
 ----------------------------------------------------------------------
-Host: ocsp.pki.goog
+Host: bdood.ir
 User-Agent: CN Proxy Server (v1.0.0)
-Accept: */*
+Accept: application/font-woff2;q=1.0,application/font-woff;q=0.9,*/*;q=0.8
 Accept-Language: en-US,en;q=0.5
 Accept-Encoding: identify
-Content-Type: application/ocsp-request
-Content-Length: 83
+Referer: http://bdood.ir/css/fontiran.css
 Connection: Close
+Cookie: _ga=GA1.2.1703443151.1554360320; _gid=GA1.2.1455217034.1554360320
 
 ----------------------------------------------------------------------
 
-[04/Apr/2019:11:19:39] Proxy opening connection to server ('127.0.0.1', 53752)...
-[04/Apr/2019:11:19:40] Connection opened. (('127.0.0.1', 53752))
-[04/Apr/2019:11:19:40] Proxy sent request to server with headers: 
+[04/Apr/2019:12:59:23] Proxy opening connection to server ('127.0.0.1', 52349)...
+[04/Apr/2019:12:59:23] Connection opened. (('127.0.0.1', 52349))
+[04/Apr/2019:12:59:23] Proxy sent request to server with headers: 
 ----------------------------------------------------------------------
-HTTP/1.0 200 OK
-Content-Type: application/ocsp-response
-Cache-Control: public, max-age=300
-Date: Thu, 04 Apr 2019 06:49:40 GMT
-Server: ocsp_responder
-Content-Length: 5
-X-XSS-Protection: 1; mode=block
-X-Frame-Options: SAMEORIGIN
-----------------------------------------------------------------------
-
-[04/Apr/2019:11:19:40] Proxy sent response to client with headers: 
-----------------------------------------------------------------------
-HTTP/1.0 200 OK
-Content-Type: application/ocsp-response
-Cache-Control: public, max-age=300
-Date: Thu, 04 Apr 2019 06:49:40 GMT
-Server: ocsp_responder
-Content-Length: 5
-X-XSS-Protection: 1; mode=block
-X-Frame-Options: SAMEORIGIN
-----------------------------------------------------------------------
-
-[04/Apr/2019:11:19:41] connect to [('127.0.0.1', 53762)] from 127.0.0.1 8080
-[04/Apr/2019:11:19:41] Accepted a request from client!
-[04/Apr/2019:11:19:41] Client sent request to proxy with headers:
-----------------------------------------------------------------------
-Host: ocsp.sca1b.amazontrust.com
-User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
-Accept: */*
-Accept-Language: en-US,en;q=0.5
-Accept-Encoding: gzip, deflate
-Content-Type: application/ocsp-request
-Content-Length: 83
-Connection: keep-alive
-
-----------------------------------------------------------------------
-
-[04/Apr/2019:11:19:41] Proxy sent request to client with headers: 
-----------------------------------------------------------------------
-Host: ocsp.sca1b.amazontrust.com
-User-Agent: CN Proxy Server (v1.0.0)
-Accept: */*
-Accept-Language: en-US,en;q=0.5
-Accept-Encoding: identify
-Content-Type: application/ocsp-request
-Content-Length: 83
-Connection: Close
-
-----------------------------------------------------------------------
-
-[04/Apr/2019:11:19:41] Proxy opening connection to server ('127.0.0.1', 53762)...
-[04/Apr/2019:11:19:41] Connection opened. (('127.0.0.1', 53762))
-[04/Apr/2019:11:19:41] connect to [('127.0.0.1', 53766)] from 127.0.0.1 8080
-[04/Apr/2019:11:19:41] Accepted a request from client!
-[04/Apr/2019:11:19:41] connect to [('127.0.0.1', 53767)] from 127.0.0.1 8080
-[04/Apr/2019:11:19:41] Accepted a request from client!
-[04/Apr/2019:11:19:41] connect to [('127.0.0.1', 53768)] from 127.0.0.1 8080
-[04/Apr/2019:11:19:41] Accepted a request from client!
-[04/Apr/2019:11:19:41] connect to [('127.0.0.1', 53769)] from 127.0.0.1 8080
-[04/Apr/2019:11:19:41] Accepted a request from client!
-[04/Apr/2019:11:19:41] connect to [('127.0.0.1', 53770)] from 127.0.0.1 8080
-[04/Apr/2019:11:19:41] Accepted a request from client!
-[04/Apr/2019:11:19:41] connect to [('127.0.0.1', 53771)] from 127.0.0.1 8080
-[04/Apr/2019:11:19:41] Accepted a request from client!
-[04/Apr/2019:11:19:41] connect to [('127.0.0.1', 53772)] from 127.0.0.1 8080
-[04/Apr/2019:11:19:41] Accepted a request from client!
-[04/Apr/2019:11:19:41] connect to [('127.0.0.1', 53773)] from 127.0.0.1 8080
-[04/Apr/2019:11:19:41] Accepted a request from client!
-[04/Apr/2019:11:19:41] connect to [('127.0.0.1', 53774)] from 127.0.0.1 8080
-[04/Apr/2019:11:19:41] Accepted a request from client!
-[04/Apr/2019:11:19:41] connect to [('127.0.0.1', 53775)] from 127.0.0.1 8080
-[04/Apr/2019:11:19:41] Accepted a request from client!
-[04/Apr/2019:11:19:41] connect to [('127.0.0.1', 53776)] from 127.0.0.1 8080
-[04/Apr/2019:11:19:41] Accepted a request from client!
-[04/Apr/2019:11:19:41] Client sent request to proxy with headers:
-----------------------------------------------------------------------
-Host: www.sib.ir
-User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
-Accept-Language: en-US,en;q=0.5
-Accept-Encoding: gzip, deflate
-Connection: keep-alive
-Upgrade-Insecure-Requests: 1
-
-----------------------------------------------------------------------
-
-[04/Apr/2019:11:19:41] Proxy sent request to client with headers: 
-----------------------------------------------------------------------
-Host: www.sib.ir
-User-Agent: CN Proxy Server (v1.0.0)
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
-Accept-Language: en-US,en;q=0.5
-Accept-Encoding: identify
-Connection: Close
-Upgrade-Insecure-Requests: 1
-
-----------------------------------------------------------------------
-
-[04/Apr/2019:11:19:41] Proxy opening connection to server ('127.0.0.1', 53776)...
-[04/Apr/2019:11:19:41] Connection opened. (('127.0.0.1', 53776))
-[04/Apr/2019:11:19:42] Proxy sent request to server with headers: 
-----------------------------------------------------------------------
-HTTP/1.1 200 OK
+HTTP/1.1 404 Not Found
 Content-Type: text/html
-Content-Length: 46
+Server: Microsoft-IIS/8.5
+Date: Thu, 04 Apr 2019 08:30:12 GMT
 Connection: close
-Accept-Ranges: bytes
-Cache-Control: no-cache
-Date: Thu, 04 Apr 2019 06:49:42 GMT
-Etag: "496ec931-2e"
-Expires: Sat, 17 Jan 2009 05:27:13 GMT
-Last-Modified: Thu, 15 Jan 2009 05:27:13 GMT
-Server: ECS (phd/FD62)
-X-Cache: Miss from cloudfront
-Via: 1.1 5d54f7d67ab3f1ccb26ae4de736754e1.cloudfront.net (CloudFront)
-X-Amz-Cf-Id: bI8_dIgQWBMEuDE9yJqXfBUzgJRTm7eIONJY97GYcFTZn2A0Ja3M1A==
+Content-Length: 1245
 ----------------------------------------------------------------------
 
-[04/Apr/2019:11:19:42] Proxy sent response to client with headers: 
+[04/Apr/2019:12:59:23] connect to [('127.0.0.1', 52377)] from 127.0.0.1 8080
+[04/Apr/2019:12:59:23] Accepted a request from client!
+[04/Apr/2019:12:59:23] Client sent request to proxy with headers:
 ----------------------------------------------------------------------
-HTTP/1.1 200 OK
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: application/font-woff2;q=1.0,application/font-woff;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: identity
+Referer: http://bdood.ir/css/fontiran.css
+Connection: keep-alive
+Cookie: _ga=GA1.2.1703443151.1554360320; _gid=GA1.2.1455217034.1554360320
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:23] Proxy changed client's user-agent to add privacy.
+[04/Apr/2019:12:59:23] Proxy sent request to client with headers: 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: application/font-woff2;q=1.0,application/font-woff;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: identify
+Referer: http://bdood.ir/css/fontiran.css
+Connection: Close
+Cookie: _ga=GA1.2.1703443151.1554360320; _gid=GA1.2.1455217034.1554360320
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:23] Proxy opening connection to server ('127.0.0.1', 52377)...
+[04/Apr/2019:12:59:23] Connection opened. (('127.0.0.1', 52377))
+[04/Apr/2019:12:59:24] connect to [('127.0.0.1', 52381)] from 127.0.0.1 8080
+[04/Apr/2019:12:59:24] Accepted a request from client!
+[04/Apr/2019:12:59:24] Client sent request to proxy with headers:
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:24] Proxy changed client's user-agent to add privacy.
+[04/Apr/2019:12:59:24] Proxy sent request to client with headers: 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: identify
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: Close
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:24] Proxy opening connection to server ('127.0.0.1', 52381)...
+[04/Apr/2019:12:59:24] Connection opened. (('127.0.0.1', 52381))
+[04/Apr/2019:12:59:24] Proxy sent request to server with headers: 
+----------------------------------------------------------------------
+HTTP/1.1 404 Not Found
 Content-Type: text/html
-Content-Length: 46
+Server: Microsoft-IIS/8.5
+Date: Thu, 04 Apr 2019 08:30:12 GMT
 Connection: close
+Content-Length: 1245
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:24] connect to [('127.0.0.1', 52385)] from 127.0.0.1 8080
+[04/Apr/2019:12:59:24] Accepted a request from client!
+[04/Apr/2019:12:59:24] Client sent request to proxy with headers:
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: application/font-woff2;q=1.0,application/font-woff;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: identity
+Referer: http://bdood.ir/css/fontiran.css
+Connection: keep-alive
+Cookie: _ga=GA1.2.1703443151.1554360320; _gid=GA1.2.1455217034.1554360320
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:24] Proxy changed client's user-agent to add privacy.
+[04/Apr/2019:12:59:24] Proxy sent request to client with headers: 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: application/font-woff2;q=1.0,application/font-woff;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: identify
+Referer: http://bdood.ir/css/fontiran.css
+Connection: Close
+Cookie: _ga=GA1.2.1703443151.1554360320; _gid=GA1.2.1455217034.1554360320
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:24] Proxy opening connection to server ('127.0.0.1', 52385)...
+[04/Apr/2019:12:59:24] Connection opened. (('127.0.0.1', 52385))
+[04/Apr/2019:12:59:25] Proxy sent request to server with headers: 
+----------------------------------------------------------------------
+HTTP/1.0 200 OK
+Content-Type: text/plain
+Content-Length: 8
+Last-Modified: Mon, 15 May 2017 18:04:40 GMT
+ETag: "ae780585f49b94ce1444eb7d28906123"
 Accept-Ranges: bytes
+Server: AmazonS3
+X-Amz-Cf-Id: QP4jRwxtKPm94qFDeRC666Gdyl2HXMQzg5bj-hv-hArp2acJueCbAw==
+Cache-Control: no-cache, no-store, must-revalidate
+Date: Thu, 04 Apr 2019 08:29:24 GMT
+Connection: close
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:25] connect to [('127.0.0.1', 52389)] from 127.0.0.1 8080
+[04/Apr/2019:12:59:25] Accepted a request from client!
+[04/Apr/2019:12:59:25] Client sent request to proxy with headers:
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
 Cache-Control: no-cache
-Date: Thu, 04 Apr 2019 06:49:42 GMT
-Etag: "496ec931-2e"
-Expires: Sat, 17 Jan 2009 05:27:13 GMT
-Last-Modified: Thu, 15 Jan 2009 05:27:13 GMT
-Server: ECS (phd/FD62)
-X-Cache: Miss from cloudfront
-Via: 1.1 5d54f7d67ab3f1ccb26ae4de736754e1.cloudfront.net (CloudFront)
-X-Amz-Cf-Id: bI8_dIgQWBMEuDE9yJqXfBUzgJRTm7eIONJY97GYcFTZn2A0Ja3M1A==
-----------------------------------------------------------------------
-
-[04/Apr/2019:11:19:42] Proxy sent request to server with headers: 
-----------------------------------------------------------------------
-HTTP/1.1 301 Moved Permanently
-Date: Thu, 04 Apr 2019 06:49:41 GMT
-Server: Apache
-Location: http://sib.ir/
-Cache-Control: max-age=2592000
-Expires: Sat, 04 May 2019 06:49:41 GMT
-Content-Length: 222
-Connection: close
-Content-Type: text/html; charset=iso-8859-1
-----------------------------------------------------------------------
-
-[04/Apr/2019:11:19:42] Proxy sent response to client with headers: 
-----------------------------------------------------------------------
-HTTP/1.1 301 Moved Permanently
-Date: Thu, 04 Apr 2019 06:49:41 GMT
-Server: Apache
-Location: http://sib.ir/
-Cache-Control: max-age=2592000
-Expires: Sat, 04 May 2019 06:49:41 GMT
-Content-Length: 222
-Connection: close
-Content-Type: text/html; charset=iso-8859-1
-----------------------------------------------------------------------
-
-[04/Apr/2019:11:19:42] connect to [('127.0.0.1', 53780)] from 127.0.0.1 8080
-[04/Apr/2019:11:19:42] Accepted a request from client!
-[04/Apr/2019:11:19:42] connect to [('127.0.0.1', 53781)] from 127.0.0.1 8080
-[04/Apr/2019:11:19:42] Accepted a request from client!
-[04/Apr/2019:11:19:42] connect to [('127.0.0.1', 53782)] from 127.0.0.1 8080
-[04/Apr/2019:11:19:42] Accepted a request from client!
-[04/Apr/2019:11:19:42] connect to [('127.0.0.1', 53783)] from 127.0.0.1 8080
-[04/Apr/2019:11:19:42] Accepted a request from client!
-[04/Apr/2019:11:19:42] connect to [('127.0.0.1', 53784)] from 127.0.0.1 8080
-[04/Apr/2019:11:19:42] Accepted a request from client!
-[04/Apr/2019:11:19:42] connect to [('127.0.0.1', 53785)] from 127.0.0.1 8080
-[04/Apr/2019:11:19:42] Accepted a request from client!
-[04/Apr/2019:11:19:42] connect to [('127.0.0.1', 53786)] from 127.0.0.1 8080
-[04/Apr/2019:11:19:42] Accepted a request from client!
-[04/Apr/2019:11:19:42] connect to [('127.0.0.1', 53787)] from 127.0.0.1 8080
-[04/Apr/2019:11:19:42] Accepted a request from client!
-[04/Apr/2019:11:19:42] connect to [('127.0.0.1', 53788)] from 127.0.0.1 8080
-[04/Apr/2019:11:19:42] Accepted a request from client!
-[04/Apr/2019:11:19:42] connect to [('127.0.0.1', 53789)] from 127.0.0.1 8080
-[04/Apr/2019:11:19:42] Accepted a request from client!
-[04/Apr/2019:11:20:20] connect to [('127.0.0.1', 54318)] from 127.0.0.1 8080
-[04/Apr/2019:11:20:20] Accepted a request from client!
-[04/Apr/2019:11:20:20] Client sent request to proxy with headers:
-----------------------------------------------------------------------
-Host: ocsp.pki.goog
-User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
-Accept: */*
-Accept-Language: en-US,en;q=0.5
-Accept-Encoding: gzip, deflate
-Content-Type: application/ocsp-request
-Content-Length: 83
+Pragma: no-cache
 Connection: keep-alive
 
 ----------------------------------------------------------------------
 
-[04/Apr/2019:11:20:20] Proxy sent request to client with headers: 
+[04/Apr/2019:12:59:25] Proxy changed client's user-agent to add privacy.
+[04/Apr/2019:12:59:25] Proxy sent request to client with headers: 
 ----------------------------------------------------------------------
-Host: ocsp.pki.goog
+Host: detectportal.firefox.com
 User-Agent: CN Proxy Server (v1.0.0)
 Accept: */*
 Accept-Language: en-US,en;q=0.5
 Accept-Encoding: identify
-Content-Type: application/ocsp-request
-Content-Length: 83
+Cache-Control: no-cache
+Pragma: no-cache
 Connection: Close
 
 ----------------------------------------------------------------------
 
-[04/Apr/2019:11:20:25] connect to [('127.0.0.1', 54395)] from 127.0.0.1 8080
-[04/Apr/2019:11:20:25] Accepted a request from client!
-[04/Apr/2019:11:20:25] Client sent request to proxy with headers:
-----------------------------------------------------------------------
-Host: ocsp.pki.goog
-User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
-Accept: */*
-Accept-Language: en-US,en;q=0.5
-Accept-Encoding: gzip, deflate
-Content-Type: application/ocsp-request
-Content-Length: 83
-Connection: keep-alive
-
-----------------------------------------------------------------------
-
-[04/Apr/2019:11:20:25] Proxy sent request to client with headers: 
-----------------------------------------------------------------------
-Host: ocsp.pki.goog
-User-Agent: CN Proxy Server (v1.0.0)
-Accept: */*
-Accept-Language: en-US,en;q=0.5
-Accept-Encoding: identify
-Content-Type: application/ocsp-request
-Content-Length: 83
-Connection: Close
-
-----------------------------------------------------------------------
-
-[04/Apr/2019:11:20:25] Proxy opening connection to server ('127.0.0.1', 54395)...
-[04/Apr/2019:11:20:25] Connection opened. (('127.0.0.1', 54395))
-[04/Apr/2019:11:20:26] connect to [('127.0.0.1', 54399)] from 127.0.0.1 8080
-[04/Apr/2019:11:20:26] Accepted a request from client!
-[04/Apr/2019:11:20:26] Client sent request to proxy with headers:
-----------------------------------------------------------------------
-Host: ocsp.pki.goog
-User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
-Accept: */*
-Accept-Language: en-US,en;q=0.5
-Accept-Encoding: gzip, deflate
-Content-Type: application/ocsp-request
-Content-Length: 83
-Connection: keep-alive
-
-----------------------------------------------------------------------
-
-[04/Apr/2019:11:20:26] Proxy sent request to client with headers: 
-----------------------------------------------------------------------
-Host: ocsp.pki.goog
-User-Agent: CN Proxy Server (v1.0.0)
-Accept: */*
-Accept-Language: en-US,en;q=0.5
-Accept-Encoding: identify
-Content-Type: application/ocsp-request
-Content-Length: 83
-Connection: Close
-
-----------------------------------------------------------------------
-
-[04/Apr/2019:11:20:26] Proxy opening connection to server ('127.0.0.1', 54399)...
-[04/Apr/2019:11:20:26] Connection opened. (('127.0.0.1', 54399))
-[04/Apr/2019:11:20:26] connect to [('127.0.0.1', 54403)] from 127.0.0.1 8080
-[04/Apr/2019:11:20:26] connect to [('127.0.0.1', 54404)] from 127.0.0.1 8080
-[04/Apr/2019:11:20:26] Accepted a request from client!
-[04/Apr/2019:11:20:26] Client sent request to proxy with headers:
-----------------------------------------------------------------------
-Host: ocsp.digicert.com
-User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
-Accept: */*
-Accept-Language: en-US,en;q=0.5
-Accept-Encoding: gzip, deflate
-Content-Type: application/ocsp-request
-Content-Length: 83
-Connection: keep-alive
-
-----------------------------------------------------------------------
-
-[04/Apr/2019:11:20:26] Accepted a request from client!
-[04/Apr/2019:11:20:26] Proxy sent request to client with headers: 
-----------------------------------------------------------------------
-Host: ocsp.digicert.com
-User-Agent: CN Proxy Server (v1.0.0)
-Accept: */*
-Accept-Language: en-US,en;q=0.5
-Accept-Encoding: identify
-Content-Type: application/ocsp-request
-Content-Length: 83
-Connection: Close
-
-----------------------------------------------------------------------
-
-[04/Apr/2019:11:20:26] Client sent request to proxy with headers:
-----------------------------------------------------------------------
-Host: ocsp.pki.goog
-User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
-Accept: */*
-Accept-Language: en-US,en;q=0.5
-Accept-Encoding: gzip, deflate
-Content-Type: application/ocsp-request
-Content-Length: 83
-Connection: keep-alive
-
-----------------------------------------------------------------------
-
-[04/Apr/2019:11:20:26] Proxy opening connection to server ('127.0.0.1', 54403)...
-[04/Apr/2019:11:20:26] Proxy sent request to client with headers: 
-----------------------------------------------------------------------
-Host: ocsp.pki.goog
-User-Agent: CN Proxy Server (v1.0.0)
-Accept: */*
-Accept-Language: en-US,en;q=0.5
-Accept-Encoding: identify
-Content-Type: application/ocsp-request
-Content-Length: 83
-Connection: Close
-
-----------------------------------------------------------------------
-
-[04/Apr/2019:11:20:26] Proxy opening connection to server ('127.0.0.1', 54404)...
-[04/Apr/2019:11:20:26] Connection opened. (('127.0.0.1', 54404))
-[04/Apr/2019:11:20:26] Proxy sent request to server with headers: 
+[04/Apr/2019:12:59:25] Proxy opening connection to server ('127.0.0.1', 52389)...
+[04/Apr/2019:12:59:25] Connection opened. (('127.0.0.1', 52389))
+[04/Apr/2019:12:59:25] Proxy sent request to server with headers: 
 ----------------------------------------------------------------------
 HTTP/1.0 200 OK
-Content-Type: application/ocsp-response
-Cache-Control: public, max-age=300
-Date: Thu, 04 Apr 2019 06:50:26 GMT
-Server: ocsp_responder
-Content-Length: 5
-X-XSS-Protection: 1; mode=block
-X-Frame-Options: SAMEORIGIN
-----------------------------------------------------------------------
-
-[04/Apr/2019:11:20:26] Proxy sent response to client with headers: 
-----------------------------------------------------------------------
-HTTP/1.0 200 OK
-Content-Type: application/ocsp-response
-Cache-Control: public, max-age=300
-Date: Thu, 04 Apr 2019 06:50:26 GMT
-Server: ocsp_responder
-Content-Length: 5
-X-XSS-Protection: 1; mode=block
-X-Frame-Options: SAMEORIGIN
-----------------------------------------------------------------------
-
-[04/Apr/2019:11:20:26] Connection opened. (('127.0.0.1', 54403))
-[04/Apr/2019:11:20:26] Proxy sent request to server with headers: 
-----------------------------------------------------------------------
-HTTP/1.0 200 OK
-Content-Type: application/ocsp-response
-Cache-Control: public, max-age=300
-Date: Thu, 04 Apr 2019 06:50:26 GMT
-Server: ocsp_responder
-Content-Length: 5
-X-XSS-Protection: 1; mode=block
-X-Frame-Options: SAMEORIGIN
-----------------------------------------------------------------------
-
-[04/Apr/2019:11:20:26] Proxy sent response to client with headers: 
-----------------------------------------------------------------------
-HTTP/1.0 200 OK
-Content-Type: application/ocsp-response
-Cache-Control: public, max-age=300
-Date: Thu, 04 Apr 2019 06:50:26 GMT
-Server: ocsp_responder
-Content-Length: 5
-X-XSS-Protection: 1; mode=block
-X-Frame-Options: SAMEORIGIN
-----------------------------------------------------------------------
-
-[04/Apr/2019:11:20:26] Proxy sent request to server with headers: 
-----------------------------------------------------------------------
-HTTP/1.0 200 OK
-Content-Type: application/ocsp-response
-Cache-Control: public, max-age=300
-Date: Thu, 04 Apr 2019 06:50:26 GMT
-Server: ocsp_responder
-Content-Length: 5
-X-XSS-Protection: 1; mode=block
-X-Frame-Options: SAMEORIGIN
-----------------------------------------------------------------------
-
-[04/Apr/2019:11:20:26] Proxy sent response to client with headers: 
-----------------------------------------------------------------------
-HTTP/1.0 200 OK
-Content-Type: application/ocsp-response
-Cache-Control: public, max-age=300
-Date: Thu, 04 Apr 2019 06:50:26 GMT
-Server: ocsp_responder
-Content-Length: 5
-X-XSS-Protection: 1; mode=block
-X-Frame-Options: SAMEORIGIN
-----------------------------------------------------------------------
-
-[04/Apr/2019:11:20:26] connect to [('127.0.0.1', 54417)] from 127.0.0.1 8080
-[04/Apr/2019:11:20:26] Accepted a request from client!
-[04/Apr/2019:11:20:26] Client sent request to proxy with headers:
-----------------------------------------------------------------------
-Host: ocsp.pki.goog
-User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
-Accept: */*
-Accept-Language: en-US,en;q=0.5
-Accept-Encoding: gzip, deflate
-Content-Type: application/ocsp-request
-Content-Length: 83
-Connection: keep-alive
-
-----------------------------------------------------------------------
-
-[04/Apr/2019:11:20:26] Proxy sent request to client with headers: 
-----------------------------------------------------------------------
-Host: ocsp.pki.goog
-User-Agent: CN Proxy Server (v1.0.0)
-Accept: */*
-Accept-Language: en-US,en;q=0.5
-Accept-Encoding: identify
-Content-Type: application/ocsp-request
-Content-Length: 83
-Connection: Close
-
-----------------------------------------------------------------------
-
-[04/Apr/2019:11:20:26] Proxy sent request to server with headers: 
-----------------------------------------------------------------------
-HTTP/1.0 200 OK
+Content-Type: text/plain
+Content-Length: 8
+Last-Modified: Mon, 15 May 2017 18:04:40 GMT
+ETag: "ae780585f49b94ce1444eb7d28906123"
 Accept-Ranges: bytes
+Server: AmazonS3
+X-Amz-Cf-Id: QP4jRwxtKPm94qFDeRC666Gdyl2HXMQzg5bj-hv-hArp2acJueCbAw==
+Cache-Control: no-cache, no-store, must-revalidate
+Date: Thu, 04 Apr 2019 08:29:25 GMT
+Connection: close
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:25] connect to [('127.0.0.1', 52393)] from 127.0.0.1 8080
+[04/Apr/2019:12:59:25] Accepted a request from client!
+[04/Apr/2019:12:59:25] Client sent request to proxy with headers:
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
 Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:25] Proxy changed client's user-agent to add privacy.
+[04/Apr/2019:12:59:25] Proxy sent request to client with headers: 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: identify
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: Close
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:25] Proxy opening connection to server ('127.0.0.1', 52393)...
+[04/Apr/2019:12:59:25] Connection opened. (('127.0.0.1', 52393))
+[04/Apr/2019:12:59:25] Proxy sent request to server with headers: 
+----------------------------------------------------------------------
+HTTP/1.1 404 Not Found
 Content-Type: text/html
-Date: Thu, 04 Apr 2019 06:50:26 GMT
-Etag: "496ec931-2e"
-Expires: Sat, 17 Jan 2009 05:27:13 GMT
-Last-Modified: Thu, 15 Jan 2009 05:27:13 GMT
-Server: ECS (ord/4C84)
-X-Cache: HIT
-Content-Length: 45
+Server: Microsoft-IIS/8.5
+Date: Thu, 04 Apr 2019 08:30:14 GMT
 Connection: close
+Content-Length: 1245
 ----------------------------------------------------------------------
 
-[04/Apr/2019:11:20:26] Proxy sent response to client with headers: 
+[04/Apr/2019:12:59:25] connect to [('127.0.0.1', 52397)] from 127.0.0.1 8080
+[04/Apr/2019:12:59:25] Accepted a request from client!
+[04/Apr/2019:12:59:25] Client sent request to proxy with headers:
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: application/font-woff2;q=1.0,application/font-woff;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: identity
+Referer: http://bdood.ir/css/fontiran.css
+Connection: keep-alive
+Cookie: _ga=GA1.2.1703443151.1554360320; _gid=GA1.2.1455217034.1554360320
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:25] Proxy changed client's user-agent to add privacy.
+[04/Apr/2019:12:59:25] Proxy sent request to client with headers: 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: application/font-woff2;q=1.0,application/font-woff;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: identify
+Referer: http://bdood.ir/css/fontiran.css
+Connection: Close
+Cookie: _ga=GA1.2.1703443151.1554360320; _gid=GA1.2.1455217034.1554360320
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:25] Proxy opening connection to server ('127.0.0.1', 52397)...
+[04/Apr/2019:12:59:25] Connection opened. (('127.0.0.1', 52397))
+[04/Apr/2019:12:59:26] Proxy sent request to server with headers: 
 ----------------------------------------------------------------------
 HTTP/1.0 200 OK
+Content-Type: text/plain
+Content-Length: 8
+Last-Modified: Mon, 15 May 2017 18:04:40 GMT
+ETag: "ae780585f49b94ce1444eb7d28906123"
 Accept-Ranges: bytes
-Cache-Control: no-cache
-Content-Type: text/html
-Date: Thu, 04 Apr 2019 06:50:26 GMT
-Etag: "496ec931-2e"
-Expires: Sat, 17 Jan 2009 05:27:13 GMT
-Last-Modified: Thu, 15 Jan 2009 05:27:13 GMT
-Server: ECS (ord/4C84)
-X-Cache: HIT
-Content-Length: 45
+Server: AmazonS3
+X-Amz-Cf-Id: QP4jRwxtKPm94qFDeRC666Gdyl2HXMQzg5bj-hv-hArp2acJueCbAw==
+Cache-Control: no-cache, no-store, must-revalidate
+Date: Thu, 04 Apr 2019 08:29:26 GMT
 Connection: close
 ----------------------------------------------------------------------
 
-[04/Apr/2019:11:20:27] connect to [('127.0.0.1', 54418)] from 127.0.0.1 8080
-[04/Apr/2019:11:20:27] Accepted a request from client!
-[04/Apr/2019:11:20:27] Client sent request to proxy with headers:
+[04/Apr/2019:12:59:26] connect to [('127.0.0.1', 52401)] from 127.0.0.1 8080
+[04/Apr/2019:12:59:26] Accepted a request from client!
+[04/Apr/2019:12:59:26] Client sent request to proxy with headers:
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:26] Proxy changed client's user-agent to add privacy.
+[04/Apr/2019:12:59:26] Proxy sent request to client with headers: 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: identify
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: Close
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:26] Proxy opening connection to server ('127.0.0.1', 52401)...
+[04/Apr/2019:12:59:26] Connection opened. (('127.0.0.1', 52401))
+[04/Apr/2019:12:59:26] Proxy sent request to server with headers: 
+----------------------------------------------------------------------
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Server: Microsoft-IIS/8.5
+Date: Thu, 04 Apr 2019 08:30:14 GMT
+Connection: close
+Content-Length: 1245
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:26] connect to [('127.0.0.1', 52405)] from 127.0.0.1 8080
+[04/Apr/2019:12:59:26] Accepted a request from client!
+[04/Apr/2019:12:59:26] Client sent request to proxy with headers:
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: application/font-woff2;q=1.0,application/font-woff;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: identity
+Referer: http://bdood.ir/css/fontiran.css
+Connection: keep-alive
+Cookie: _ga=GA1.2.1703443151.1554360320; _gid=GA1.2.1455217034.1554360320
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:26] Proxy changed client's user-agent to add privacy.
+[04/Apr/2019:12:59:26] Proxy sent request to client with headers: 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: application/font-woff2;q=1.0,application/font-woff;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: identify
+Referer: http://bdood.ir/css/fontiran.css
+Connection: Close
+Cookie: _ga=GA1.2.1703443151.1554360320; _gid=GA1.2.1455217034.1554360320
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:26] Proxy opening connection to server ('127.0.0.1', 52405)...
+[04/Apr/2019:12:59:26] Connection opened. (('127.0.0.1', 52405))
+[04/Apr/2019:12:59:26] Proxy sent request to server with headers: 
+----------------------------------------------------------------------
+HTTP/1.0 200 OK
+Content-Type: text/plain
+Content-Length: 8
+Last-Modified: Mon, 15 May 2017 18:04:40 GMT
+ETag: "ae780585f49b94ce1444eb7d28906123"
+Accept-Ranges: bytes
+Server: AmazonS3
+X-Amz-Cf-Id: QP4jRwxtKPm94qFDeRC666Gdyl2HXMQzg5bj-hv-hArp2acJueCbAw==
+Cache-Control: no-cache, no-store, must-revalidate
+Date: Thu, 04 Apr 2019 08:29:26 GMT
+Connection: close
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:26] connect to [('127.0.0.1', 52412)] from 127.0.0.1 8080
+[04/Apr/2019:12:59:26] Accepted a request from client!
+[04/Apr/2019:12:59:26] Client sent request to proxy with headers:
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:26] Proxy changed client's user-agent to add privacy.
+[04/Apr/2019:12:59:26] Proxy sent request to client with headers: 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: identify
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: Close
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:26] Proxy opening connection to server ('127.0.0.1', 52412)...
+[04/Apr/2019:12:59:26] Connection opened. (('127.0.0.1', 52412))
+[04/Apr/2019:12:59:27] Proxy sent request to server with headers: 
+----------------------------------------------------------------------
+HTTP/1.0 200 OK
+Content-Type: text/plain
+Content-Length: 8
+Last-Modified: Mon, 15 May 2017 18:04:40 GMT
+ETag: "ae780585f49b94ce1444eb7d28906123"
+Accept-Ranges: bytes
+Server: AmazonS3
+X-Amz-Cf-Id: QP4jRwxtKPm94qFDeRC666Gdyl2HXMQzg5bj-hv-hArp2acJueCbAw==
+Cache-Control: no-cache, no-store, must-revalidate
+Date: Thu, 04 Apr 2019 08:29:27 GMT
+Connection: close
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:27] connect to [('127.0.0.1', 52416)] from 127.0.0.1 8080
+[04/Apr/2019:12:59:27] Accepted a request from client!
+[04/Apr/2019:12:59:27] Client sent request to proxy with headers:
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:27] Proxy changed client's user-agent to add privacy.
+[04/Apr/2019:12:59:27] Proxy sent request to client with headers: 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: identify
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: Close
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:27] Proxy opening connection to server ('127.0.0.1', 52416)...
+[04/Apr/2019:12:59:27] Connection opened. (('127.0.0.1', 52416))
+[04/Apr/2019:12:59:27] Proxy sent request to server with headers: 
+----------------------------------------------------------------------
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Server: Microsoft-IIS/8.5
+Date: Thu, 04 Apr 2019 08:30:16 GMT
+Connection: close
+Content-Length: 1245
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:27] connect to [('127.0.0.1', 52420)] from 127.0.0.1 8080
+[04/Apr/2019:12:59:27] Accepted a request from client!
+[04/Apr/2019:12:59:27] Client sent request to proxy with headers:
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: application/font-woff2;q=1.0,application/font-woff;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: identity
+Referer: http://bdood.ir/css/fontiran.css
+Connection: keep-alive
+Cookie: _ga=GA1.2.1703443151.1554360320; _gid=GA1.2.1455217034.1554360320
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:27] Proxy changed client's user-agent to add privacy.
+[04/Apr/2019:12:59:27] Proxy sent request to client with headers: 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: application/font-woff2;q=1.0,application/font-woff;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: identify
+Referer: http://bdood.ir/css/fontiran.css
+Connection: Close
+Cookie: _ga=GA1.2.1703443151.1554360320; _gid=GA1.2.1455217034.1554360320
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:27] Proxy opening connection to server ('127.0.0.1', 52420)...
+[04/Apr/2019:12:59:27] Connection opened. (('127.0.0.1', 52420))
+[04/Apr/2019:12:59:28] Proxy sent request to server with headers: 
+----------------------------------------------------------------------
+HTTP/1.0 200 OK
+Content-Type: text/plain
+Content-Length: 8
+Last-Modified: Mon, 15 May 2017 18:04:40 GMT
+ETag: "ae780585f49b94ce1444eb7d28906123"
+Accept-Ranges: bytes
+Server: AmazonS3
+X-Amz-Cf-Id: QP4jRwxtKPm94qFDeRC666Gdyl2HXMQzg5bj-hv-hArp2acJueCbAw==
+Cache-Control: no-cache, no-store, must-revalidate
+Date: Thu, 04 Apr 2019 08:29:27 GMT
+Connection: close
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:28] connect to [('127.0.0.1', 52424)] from 127.0.0.1 8080
+[04/Apr/2019:12:59:28] Accepted a request from client!
+[04/Apr/2019:12:59:28] Client sent request to proxy with headers:
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:28] Proxy changed client's user-agent to add privacy.
+[04/Apr/2019:12:59:28] Proxy sent request to client with headers: 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: identify
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: Close
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:28] Proxy opening connection to server ('127.0.0.1', 52424)...
+[04/Apr/2019:12:59:28] Connection opened. (('127.0.0.1', 52424))
+[04/Apr/2019:12:59:28] Proxy sent request to server with headers: 
+----------------------------------------------------------------------
+HTTP/1.0 200 OK
+Content-Type: text/plain
+Content-Length: 8
+Last-Modified: Mon, 15 May 2017 18:04:40 GMT
+ETag: "ae780585f49b94ce1444eb7d28906123"
+Accept-Ranges: bytes
+Server: AmazonS3
+X-Amz-Cf-Id: QP4jRwxtKPm94qFDeRC666Gdyl2HXMQzg5bj-hv-hArp2acJueCbAw==
+Cache-Control: no-cache, no-store, must-revalidate
+Date: Thu, 04 Apr 2019 08:29:28 GMT
+Connection: close
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:28] connect to [('127.0.0.1', 52432)] from 127.0.0.1 8080
+[04/Apr/2019:12:59:28] Accepted a request from client!
+[04/Apr/2019:12:59:28] Client sent request to proxy with headers:
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:28] Proxy changed client's user-agent to add privacy.
+[04/Apr/2019:12:59:28] Proxy sent request to client with headers: 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: identify
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: Close
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:28] Proxy opening connection to server ('127.0.0.1', 52432)...
+[04/Apr/2019:12:59:28] Connection opened. (('127.0.0.1', 52432))
+[04/Apr/2019:12:59:28] Proxy sent request to server with headers: 
+----------------------------------------------------------------------
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Server: Microsoft-IIS/8.5
+Date: Thu, 04 Apr 2019 08:30:17 GMT
+Connection: close
+Content-Length: 1245
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:28] connect to [('127.0.0.1', 52436)] from 127.0.0.1 8080
+[04/Apr/2019:12:59:28] Accepted a request from client!
+[04/Apr/2019:12:59:28] Client sent request to proxy with headers:
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: application/font-woff2;q=1.0,application/font-woff;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: identity
+Referer: http://bdood.ir/css/fontiran.css
+Connection: keep-alive
+Cookie: _ga=GA1.2.1703443151.1554360320; _gid=GA1.2.1455217034.1554360320
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:28] Proxy changed client's user-agent to add privacy.
+[04/Apr/2019:12:59:28] Proxy sent request to client with headers: 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: application/font-woff2;q=1.0,application/font-woff;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: identify
+Referer: http://bdood.ir/css/fontiran.css
+Connection: Close
+Cookie: _ga=GA1.2.1703443151.1554360320; _gid=GA1.2.1455217034.1554360320
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:28] Proxy opening connection to server ('127.0.0.1', 52436)...
+[04/Apr/2019:12:59:28] Connection opened. (('127.0.0.1', 52436))
+[04/Apr/2019:12:59:28] connect to [('127.0.0.1', 52440)] from 127.0.0.1 8080
+[04/Apr/2019:12:59:28] Accepted a request from client!
+[04/Apr/2019:12:59:28] Client sent request to proxy with headers:
 ----------------------------------------------------------------------
 Host: ocsp.pki.goog
 User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
@@ -510,7 +646,8 @@ Connection: keep-alive
 
 ----------------------------------------------------------------------
 
-[04/Apr/2019:11:20:27] Proxy sent request to client with headers: 
+[04/Apr/2019:12:59:28] Proxy changed client's user-agent to add privacy.
+[04/Apr/2019:12:59:28] Proxy sent request to client with headers: 
 ----------------------------------------------------------------------
 Host: ocsp.pki.goog
 User-Agent: CN Proxy Server (v1.0.0)
@@ -523,129 +660,2248 @@ Connection: Close
 
 ----------------------------------------------------------------------
 
-[04/Apr/2019:11:20:28] connect to [('127.0.0.1', 54425)] from 127.0.0.1 8080
-[04/Apr/2019:11:20:28] Accepted a request from client!
-[04/Apr/2019:11:20:28] Client sent request to proxy with headers:
+[04/Apr/2019:12:59:28] Proxy opening connection to server ('127.0.0.1', 52440)...
+[04/Apr/2019:12:59:29] Connection opened. (('127.0.0.1', 52440))
+[04/Apr/2019:12:59:29] Proxy sent request to server with headers: 
 ----------------------------------------------------------------------
-Host: ocsp.sca1b.amazontrust.com
+HTTP/1.0 200 OK
+Content-Type: text/plain
+Content-Length: 8
+Last-Modified: Mon, 15 May 2017 18:04:40 GMT
+ETag: "ae780585f49b94ce1444eb7d28906123"
+Accept-Ranges: bytes
+Server: AmazonS3
+X-Amz-Cf-Id: QP4jRwxtKPm94qFDeRC666Gdyl2HXMQzg5bj-hv-hArp2acJueCbAw==
+Cache-Control: no-cache, no-store, must-revalidate
+Date: Thu, 04 Apr 2019 08:29:29 GMT
+Connection: close
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:29] connect to [('127.0.0.1', 52444)] from 127.0.0.1 8080
+[04/Apr/2019:12:59:29] Accepted a request from client!
+[04/Apr/2019:12:59:29] Client sent request to proxy with headers:
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
 User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
 Accept: */*
 Accept-Language: en-US,en;q=0.5
 Accept-Encoding: gzip, deflate
-Content-Type: application/ocsp-request
-Content-Length: 83
+Cache-Control: no-cache
+Pragma: no-cache
 Connection: keep-alive
 
 ----------------------------------------------------------------------
 
-[04/Apr/2019:11:20:28] Proxy sent request to client with headers: 
+[04/Apr/2019:12:59:29] Proxy changed client's user-agent to add privacy.
+[04/Apr/2019:12:59:29] Proxy sent request to client with headers: 
 ----------------------------------------------------------------------
-Host: ocsp.sca1b.amazontrust.com
+Host: detectportal.firefox.com
 User-Agent: CN Proxy Server (v1.0.0)
 Accept: */*
 Accept-Language: en-US,en;q=0.5
 Accept-Encoding: identify
-Content-Type: application/ocsp-request
-Content-Length: 83
+Cache-Control: no-cache
+Pragma: no-cache
 Connection: Close
 
 ----------------------------------------------------------------------
 
-[04/Apr/2019:11:20:28] Proxy opening connection to server ('127.0.0.1', 54425)...
-[04/Apr/2019:11:20:28] Connection opened. (('127.0.0.1', 54425))
-[04/Apr/2019:11:20:28] Proxy sent request to server with headers: 
+[04/Apr/2019:12:59:29] Proxy opening connection to server ('127.0.0.1', 52444)...
+[04/Apr/2019:12:59:29] Connection opened. (('127.0.0.1', 52444))
+[04/Apr/2019:12:59:29] connect to [('127.0.0.1', 52448)] from 127.0.0.1 8080
+[04/Apr/2019:12:59:29] Accepted a request from client!
+[04/Apr/2019:12:59:29] Client sent request to proxy with headers:
 ----------------------------------------------------------------------
-HTTP/1.1 200 OK
-Content-Type: text/html
-Content-Length: 46
-Connection: close
-Accept-Ranges: bytes
-Cache-Control: no-cache
-Date: Thu, 04 Apr 2019 06:50:28 GMT
-Etag: "496ec931-2e"
-Expires: Sat, 17 Jan 2009 05:27:13 GMT
-Last-Modified: Thu, 15 Jan 2009 05:27:13 GMT
-Server: ECS (phd/FD6F)
-X-Cache: Miss from cloudfront
-Via: 1.1 c58036c793b4693c3fe1da8fd362b785.cloudfront.net (CloudFront)
-X-Amz-Cf-Id: 5IzzVvajnbjVhMvRvV5iM9E-Lek8vP3K3edeLJnp95gwmbV3pIfErw==
-----------------------------------------------------------------------
-
-[04/Apr/2019:11:20:28] Proxy sent response to client with headers: 
-----------------------------------------------------------------------
-HTTP/1.1 200 OK
-Content-Type: text/html
-Content-Length: 46
-Connection: close
-Accept-Ranges: bytes
-Cache-Control: no-cache
-Date: Thu, 04 Apr 2019 06:50:28 GMT
-Etag: "496ec931-2e"
-Expires: Sat, 17 Jan 2009 05:27:13 GMT
-Last-Modified: Thu, 15 Jan 2009 05:27:13 GMT
-Server: ECS (phd/FD6F)
-X-Cache: Miss from cloudfront
-Via: 1.1 c58036c793b4693c3fe1da8fd362b785.cloudfront.net (CloudFront)
-X-Amz-Cf-Id: 5IzzVvajnbjVhMvRvV5iM9E-Lek8vP3K3edeLJnp95gwmbV3pIfErw==
-----------------------------------------------------------------------
-
-[04/Apr/2019:11:20:29] connect to [('127.0.0.1', 54433)] from 127.0.0.1 8080
-[04/Apr/2019:11:20:29] Accepted a request from client!
-[04/Apr/2019:11:20:29] Client sent request to proxy with headers:
-----------------------------------------------------------------------
-Host: ocsp.pki.goog
+Host: detectportal.firefox.com
 User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
 Accept: */*
 Accept-Language: en-US,en;q=0.5
 Accept-Encoding: gzip, deflate
-Content-Type: application/ocsp-request
-Content-Length: 83
+Cache-Control: no-cache
+Pragma: no-cache
 Connection: keep-alive
 
 ----------------------------------------------------------------------
 
-[04/Apr/2019:11:20:29] Proxy sent request to client with headers: 
+[04/Apr/2019:12:59:29] Proxy changed client's user-agent to add privacy.
+[04/Apr/2019:12:59:29] Proxy sent request to client with headers: 
 ----------------------------------------------------------------------
-Host: ocsp.pki.goog
+Host: detectportal.firefox.com
 User-Agent: CN Proxy Server (v1.0.0)
 Accept: */*
 Accept-Language: en-US,en;q=0.5
 Accept-Encoding: identify
-Content-Type: application/ocsp-request
-Content-Length: 83
+Cache-Control: no-cache
+Pragma: no-cache
 Connection: Close
 
 ----------------------------------------------------------------------
 
-[04/Apr/2019:11:20:29] Proxy opening connection to server ('127.0.0.1', 54433)...
-[04/Apr/2019:11:20:29] Connection opened. (('127.0.0.1', 54433))
-[04/Apr/2019:11:20:29] Proxy sent request to server with headers: 
+[04/Apr/2019:12:59:29] Proxy opening connection to server ('127.0.0.1', 52448)...
+[04/Apr/2019:12:59:29] Connection opened. (('127.0.0.1', 52448))
+[04/Apr/2019:12:59:29] Proxy sent request to server with headers: 
 ----------------------------------------------------------------------
 HTTP/1.0 200 OK
 Content-Type: application/ocsp-response
 Cache-Control: public, max-age=300
-Date: Thu, 04 Apr 2019 06:50:29 GMT
+Date: Thu, 04 Apr 2019 08:29:29 GMT
 Server: ocsp_responder
 Content-Length: 5
 X-XSS-Protection: 1; mode=block
 X-Frame-Options: SAMEORIGIN
 ----------------------------------------------------------------------
 
-[04/Apr/2019:11:20:29] Proxy sent response to client with headers: 
+[04/Apr/2019:12:59:29] Proxy sent request to server with headers: 
 ----------------------------------------------------------------------
 HTTP/1.0 200 OK
-Content-Type: application/ocsp-response
-Cache-Control: public, max-age=300
-Date: Thu, 04 Apr 2019 06:50:29 GMT
-Server: ocsp_responder
-Content-Length: 5
-X-XSS-Protection: 1; mode=block
-X-Frame-Options: SAMEORIGIN
+Content-Type: text/plain
+Content-Length: 8
+Last-Modified: Mon, 15 May 2017 18:04:40 GMT
+ETag: "ae780585f49b94ce1444eb7d28906123"
+Accept-Ranges: bytes
+Server: AmazonS3
+X-Amz-Cf-Id: QP4jRwxtKPm94qFDeRC666Gdyl2HXMQzg5bj-hv-hArp2acJueCbAw==
+Cache-Control: no-cache, no-store, must-revalidate
+Date: Thu, 04 Apr 2019 08:29:29 GMT
+Connection: close
 ----------------------------------------------------------------------
 
-[04/Apr/2019:11:20:33] connect to [('127.0.0.1', 54463)] from 127.0.0.1 8080
-[04/Apr/2019:11:20:33] Accepted a request from client!
-[04/Apr/2019:11:20:33] Client sent request to proxy with headers:
+[04/Apr/2019:12:59:29] Proxy sent request to server with headers: 
+----------------------------------------------------------------------
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Server: Microsoft-IIS/8.5
+Date: Thu, 04 Apr 2019 08:30:17 GMT
+Connection: close
+Content-Length: 1245
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:29] connect to [('127.0.0.1', 52452)] from 127.0.0.1 8080
+[04/Apr/2019:12:59:29] Accepted a request from client!
+[04/Apr/2019:12:59:29] Client sent request to proxy with headers:
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: application/font-woff2;q=1.0,application/font-woff;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: identity
+Referer: http://bdood.ir/css/fontiran.css
+Connection: keep-alive
+Cookie: _ga=GA1.2.1703443151.1554360320; _gid=GA1.2.1455217034.1554360320
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:29] Proxy changed client's user-agent to add privacy.
+[04/Apr/2019:12:59:29] Proxy sent request to client with headers: 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: application/font-woff2;q=1.0,application/font-woff;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: identify
+Referer: http://bdood.ir/css/fontiran.css
+Connection: Close
+Cookie: _ga=GA1.2.1703443151.1554360320; _gid=GA1.2.1455217034.1554360320
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:29] Proxy opening connection to server ('127.0.0.1', 52452)...
+[04/Apr/2019:12:59:29] Connection opened. (('127.0.0.1', 52452))
+[04/Apr/2019:12:59:29] Proxy sent request to server with headers: 
+----------------------------------------------------------------------
+HTTP/1.0 200 OK
+Content-Type: text/plain
+Content-Length: 8
+Last-Modified: Mon, 15 May 2017 18:04:40 GMT
+ETag: "ae780585f49b94ce1444eb7d28906123"
+Accept-Ranges: bytes
+Server: AmazonS3
+X-Amz-Cf-Id: QP4jRwxtKPm94qFDeRC666Gdyl2HXMQzg5bj-hv-hArp2acJueCbAw==
+Cache-Control: no-cache, no-store, must-revalidate
+Date: Thu, 04 Apr 2019 08:29:29 GMT
+Connection: close
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:29] connect to [('127.0.0.1', 52456)] from 127.0.0.1 8080
+[04/Apr/2019:12:59:29] Accepted a request from client!
+[04/Apr/2019:12:59:29] Client sent request to proxy with headers:
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:29] Proxy changed client's user-agent to add privacy.
+[04/Apr/2019:12:59:29] Proxy sent request to client with headers: 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: identify
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: Close
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:29] Proxy opening connection to server ('127.0.0.1', 52456)...
+[04/Apr/2019:12:59:29] Connection opened. (('127.0.0.1', 52456))
+[04/Apr/2019:12:59:30] Proxy sent request to server with headers: 
+----------------------------------------------------------------------
+HTTP/1.0 200 OK
+Content-Type: text/plain
+Content-Length: 8
+Last-Modified: Mon, 15 May 2017 18:04:40 GMT
+ETag: "ae780585f49b94ce1444eb7d28906123"
+Accept-Ranges: bytes
+Server: AmazonS3
+X-Amz-Cf-Id: QP4jRwxtKPm94qFDeRC666Gdyl2HXMQzg5bj-hv-hArp2acJueCbAw==
+Cache-Control: no-cache, no-store, must-revalidate
+Date: Thu, 04 Apr 2019 08:29:30 GMT
+Connection: close
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:30] connect to [('127.0.0.1', 52463)] from 127.0.0.1 8080
+[04/Apr/2019:12:59:30] Accepted a request from client!
+[04/Apr/2019:12:59:30] Client sent request to proxy with headers:
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:30] Proxy changed client's user-agent to add privacy.
+[04/Apr/2019:12:59:30] Proxy sent request to client with headers: 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: identify
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: Close
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:30] Proxy opening connection to server ('127.0.0.1', 52463)...
+[04/Apr/2019:12:59:30] Connection opened. (('127.0.0.1', 52463))
+[04/Apr/2019:12:59:30] Proxy sent request to server with headers: 
+----------------------------------------------------------------------
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Server: Microsoft-IIS/8.5
+Date: Thu, 04 Apr 2019 08:30:19 GMT
+Connection: close
+Content-Length: 1245
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:30] connect to [('127.0.0.1', 52467)] from 127.0.0.1 8080
+[04/Apr/2019:12:59:30] Accepted a request from client!
+[04/Apr/2019:12:59:30] Client sent request to proxy with headers:
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: application/font-woff2;q=1.0,application/font-woff;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: identity
+Referer: http://bdood.ir/css/fontiran.css
+Connection: keep-alive
+Cookie: _ga=GA1.2.1703443151.1554360320; _gid=GA1.2.1455217034.1554360320
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:30] Proxy changed client's user-agent to add privacy.
+[04/Apr/2019:12:59:30] Proxy sent request to client with headers: 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: application/font-woff2;q=1.0,application/font-woff;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: identify
+Referer: http://bdood.ir/css/fontiran.css
+Connection: Close
+Cookie: _ga=GA1.2.1703443151.1554360320; _gid=GA1.2.1455217034.1554360320
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:30] Proxy opening connection to server ('127.0.0.1', 52467)...
+[04/Apr/2019:12:59:30] Connection opened. (('127.0.0.1', 52467))
+[04/Apr/2019:12:59:30] Proxy sent request to server with headers: 
+----------------------------------------------------------------------
+HTTP/1.0 200 OK
+Content-Type: text/plain
+Content-Length: 8
+Last-Modified: Mon, 15 May 2017 18:04:40 GMT
+ETag: "ae780585f49b94ce1444eb7d28906123"
+Accept-Ranges: bytes
+Server: AmazonS3
+X-Amz-Cf-Id: QP4jRwxtKPm94qFDeRC666Gdyl2HXMQzg5bj-hv-hArp2acJueCbAw==
+Cache-Control: no-cache, no-store, must-revalidate
+Date: Thu, 04 Apr 2019 08:29:30 GMT
+Connection: close
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:30] connect to [('127.0.0.1', 52471)] from 127.0.0.1 8080
+[04/Apr/2019:12:59:30] Accepted a request from client!
+[04/Apr/2019:12:59:30] Client sent request to proxy with headers:
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:30] Proxy changed client's user-agent to add privacy.
+[04/Apr/2019:12:59:30] Proxy sent request to client with headers: 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: identify
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: Close
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:30] Proxy opening connection to server ('127.0.0.1', 52471)...
+[04/Apr/2019:12:59:30] Connection opened. (('127.0.0.1', 52471))
+[04/Apr/2019:12:59:31] Proxy sent request to server with headers: 
+----------------------------------------------------------------------
+HTTP/1.0 200 OK
+Content-Type: text/plain
+Content-Length: 8
+Last-Modified: Mon, 15 May 2017 18:04:40 GMT
+ETag: "ae780585f49b94ce1444eb7d28906123"
+Accept-Ranges: bytes
+Server: AmazonS3
+X-Amz-Cf-Id: QP4jRwxtKPm94qFDeRC666Gdyl2HXMQzg5bj-hv-hArp2acJueCbAw==
+Cache-Control: no-cache, no-store, must-revalidate
+Date: Thu, 04 Apr 2019 08:29:31 GMT
+Connection: close
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:31] Proxy sent request to server with headers: 
+----------------------------------------------------------------------
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Server: Microsoft-IIS/8.5
+Date: Thu, 04 Apr 2019 08:30:20 GMT
+Connection: close
+Content-Length: 1245
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:31] connect to [('127.0.0.1', 52475)] from 127.0.0.1 8080
+[04/Apr/2019:12:59:31] Accepted a request from client!
+[04/Apr/2019:12:59:31] Client sent request to proxy with headers:
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:31] Proxy changed client's user-agent to add privacy.
+[04/Apr/2019:12:59:31] connect to [('127.0.0.1', 52476)] from 127.0.0.1 8080
+[04/Apr/2019:12:59:31] Proxy sent request to client with headers: 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: identify
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: Close
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:31] Accepted a request from client!
+[04/Apr/2019:12:59:31] Proxy opening connection to server ('127.0.0.1', 52475)...
+[04/Apr/2019:12:59:31] Client sent request to proxy with headers:
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: application/font-woff2;q=1.0,application/font-woff;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: identity
+Referer: http://bdood.ir/css/fontiran.css
+Connection: keep-alive
+Cookie: _ga=GA1.2.1703443151.1554360320; _gid=GA1.2.1455217034.1554360320
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:31] Proxy changed client's user-agent to add privacy.
+[04/Apr/2019:12:59:31] Proxy sent request to client with headers: 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: application/font-woff2;q=1.0,application/font-woff;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: identify
+Referer: http://bdood.ir/css/fontiran.css
+Connection: Close
+Cookie: _ga=GA1.2.1703443151.1554360320; _gid=GA1.2.1455217034.1554360320
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:31] Proxy opening connection to server ('127.0.0.1', 52476)...
+[04/Apr/2019:12:59:31] Connection opened. (('127.0.0.1', 52475))
+[04/Apr/2019:12:59:31] Connection opened. (('127.0.0.1', 52476))
+[04/Apr/2019:12:59:32] Proxy sent request to server with headers: 
+----------------------------------------------------------------------
+HTTP/1.0 200 OK
+Content-Type: text/plain
+Content-Length: 8
+Last-Modified: Mon, 15 May 2017 18:04:40 GMT
+ETag: "ae780585f49b94ce1444eb7d28906123"
+Accept-Ranges: bytes
+Server: AmazonS3
+X-Amz-Cf-Id: QP4jRwxtKPm94qFDeRC666Gdyl2HXMQzg5bj-hv-hArp2acJueCbAw==
+Cache-Control: no-cache, no-store, must-revalidate
+Date: Thu, 04 Apr 2019 08:29:32 GMT
+Connection: close
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:32] connect to [('127.0.0.1', 52483)] from 127.0.0.1 8080
+[04/Apr/2019:12:59:32] Accepted a request from client!
+[04/Apr/2019:12:59:32] Client sent request to proxy with headers:
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:32] Proxy changed client's user-agent to add privacy.
+[04/Apr/2019:12:59:32] Proxy sent request to client with headers: 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: identify
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: Close
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:32] Proxy opening connection to server ('127.0.0.1', 52483)...
+[04/Apr/2019:12:59:32] Connection opened. (('127.0.0.1', 52483))
+[04/Apr/2019:12:59:32] Proxy sent request to server with headers: 
+----------------------------------------------------------------------
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Server: Microsoft-IIS/8.5
+Date: Thu, 04 Apr 2019 08:30:21 GMT
+Connection: close
+Content-Length: 1245
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:32] connect to [('127.0.0.1', 52487)] from 127.0.0.1 8080
+[04/Apr/2019:12:59:32] Accepted a request from client!
+[04/Apr/2019:12:59:33] Proxy sent request to server with headers: 
+----------------------------------------------------------------------
+HTTP/1.0 200 OK
+Content-Type: text/plain
+Content-Length: 8
+Last-Modified: Mon, 15 May 2017 18:04:40 GMT
+ETag: "ae780585f49b94ce1444eb7d28906123"
+Accept-Ranges: bytes
+Server: AmazonS3
+X-Amz-Cf-Id: QP4jRwxtKPm94qFDeRC666Gdyl2HXMQzg5bj-hv-hArp2acJueCbAw==
+Cache-Control: no-cache, no-store, must-revalidate
+Date: Thu, 04 Apr 2019 08:29:32 GMT
+Connection: close
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:33] connect to [('127.0.0.1', 52490)] from 127.0.0.1 8080
+[04/Apr/2019:12:59:33] Accepted a request from client!
+[04/Apr/2019:12:59:33] Client sent request to proxy with headers:
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:33] Proxy changed client's user-agent to add privacy.
+[04/Apr/2019:12:59:33] Proxy sent request to client with headers: 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: identify
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: Close
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:33] Proxy opening connection to server ('127.0.0.1', 52490)...
+[04/Apr/2019:12:59:33] Connection opened. (('127.0.0.1', 52490))
+[04/Apr/2019:12:59:33] Proxy sent request to server with headers: 
+----------------------------------------------------------------------
+HTTP/1.0 200 OK
+Content-Type: text/plain
+Content-Length: 8
+Last-Modified: Mon, 15 May 2017 18:04:40 GMT
+ETag: "ae780585f49b94ce1444eb7d28906123"
+Accept-Ranges: bytes
+Server: AmazonS3
+X-Amz-Cf-Id: QP4jRwxtKPm94qFDeRC666Gdyl2HXMQzg5bj-hv-hArp2acJueCbAw==
+Cache-Control: no-cache, no-store, must-revalidate
+Date: Thu, 04 Apr 2019 08:29:33 GMT
+Connection: close
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:33] connect to [('127.0.0.1', 52501)] from 127.0.0.1 8080
+[04/Apr/2019:12:59:33] Accepted a request from client!
+[04/Apr/2019:12:59:33] Client sent request to proxy with headers:
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:33] Proxy changed client's user-agent to add privacy.
+[04/Apr/2019:12:59:33] Proxy sent request to client with headers: 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: identify
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: Close
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:33] Proxy opening connection to server ('127.0.0.1', 52501)...
+[04/Apr/2019:12:59:33] Connection opened. (('127.0.0.1', 52501))
+[04/Apr/2019:12:59:34] connect to [('127.0.0.1', 52505)] from 127.0.0.1 8080
+[04/Apr/2019:12:59:34] Accepted a request from client!
+[04/Apr/2019:12:59:34] Client sent request to proxy with headers:
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:34] Proxy changed client's user-agent to add privacy.
+[04/Apr/2019:12:59:34] Proxy sent request to client with headers: 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: identify
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: Close
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:34] Proxy opening connection to server ('127.0.0.1', 52505)...
+[04/Apr/2019:12:59:34] Connection opened. (('127.0.0.1', 52505))
+[04/Apr/2019:12:59:34] Proxy sent request to server with headers: 
+----------------------------------------------------------------------
+HTTP/1.0 200 OK
+Content-Type: text/plain
+Content-Length: 8
+Last-Modified: Mon, 15 May 2017 18:04:40 GMT
+ETag: "ae780585f49b94ce1444eb7d28906123"
+Accept-Ranges: bytes
+Server: AmazonS3
+X-Amz-Cf-Id: QP4jRwxtKPm94qFDeRC666Gdyl2HXMQzg5bj-hv-hArp2acJueCbAw==
+Cache-Control: no-cache, no-store, must-revalidate
+Date: Thu, 04 Apr 2019 08:29:34 GMT
+Connection: close
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:34] Proxy sent request to server with headers: 
+----------------------------------------------------------------------
+HTTP/1.0 200 OK
+Content-Type: text/plain
+Content-Length: 8
+Last-Modified: Mon, 15 May 2017 18:04:40 GMT
+ETag: "ae780585f49b94ce1444eb7d28906123"
+Accept-Ranges: bytes
+Server: AmazonS3
+X-Amz-Cf-Id: QP4jRwxtKPm94qFDeRC666Gdyl2HXMQzg5bj-hv-hArp2acJueCbAw==
+Cache-Control: no-cache, no-store, must-revalidate
+Date: Thu, 04 Apr 2019 08:29:34 GMT
+Connection: close
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:34] connect to [('127.0.0.1', 52509)] from 127.0.0.1 8080
+[04/Apr/2019:12:59:34] Accepted a request from client!
+[04/Apr/2019:12:59:34] Client sent request to proxy with headers:
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:34] Proxy changed client's user-agent to add privacy.
+[04/Apr/2019:12:59:34] Proxy sent request to client with headers: 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: identify
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: Close
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:34] Proxy opening connection to server ('127.0.0.1', 52509)...
+[04/Apr/2019:12:59:34] Connection opened. (('127.0.0.1', 52509))
+[04/Apr/2019:12:59:35] Proxy sent request to server with headers: 
+----------------------------------------------------------------------
+HTTP/1.0 200 OK
+Content-Type: text/plain
+Content-Length: 8
+Last-Modified: Mon, 15 May 2017 18:04:40 GMT
+ETag: "ae780585f49b94ce1444eb7d28906123"
+Accept-Ranges: bytes
+Server: AmazonS3
+X-Amz-Cf-Id: QP4jRwxtKPm94qFDeRC666Gdyl2HXMQzg5bj-hv-hArp2acJueCbAw==
+Cache-Control: no-cache, no-store, must-revalidate
+Date: Thu, 04 Apr 2019 08:29:35 GMT
+Connection: close
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:35] connect to [('127.0.0.1', 52516)] from 127.0.0.1 8080
+[04/Apr/2019:12:59:35] Accepted a request from client!
+[04/Apr/2019:12:59:35] Client sent request to proxy with headers:
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:35] Proxy changed client's user-agent to add privacy.
+[04/Apr/2019:12:59:35] Proxy sent request to client with headers: 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: identify
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: Close
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:35] Proxy opening connection to server ('127.0.0.1', 52516)...
+[04/Apr/2019:12:59:35] Connection opened. (('127.0.0.1', 52516))
+[04/Apr/2019:12:59:36] Proxy sent request to server with headers: 
+----------------------------------------------------------------------
+HTTP/1.0 200 OK
+Content-Type: text/plain
+Content-Length: 8
+Last-Modified: Mon, 15 May 2017 18:04:40 GMT
+ETag: "ae780585f49b94ce1444eb7d28906123"
+Accept-Ranges: bytes
+Server: AmazonS3
+X-Amz-Cf-Id: QP4jRwxtKPm94qFDeRC666Gdyl2HXMQzg5bj-hv-hArp2acJueCbAw==
+Cache-Control: no-cache, no-store, must-revalidate
+Date: Thu, 04 Apr 2019 08:29:36 GMT
+Connection: close
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:36] connect to [('127.0.0.1', 52520)] from 127.0.0.1 8080
+[04/Apr/2019:12:59:36] Accepted a request from client!
+[04/Apr/2019:12:59:36] Client sent request to proxy with headers:
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:36] Proxy changed client's user-agent to add privacy.
+[04/Apr/2019:12:59:36] Proxy sent request to client with headers: 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: identify
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: Close
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:36] Proxy opening connection to server ('127.0.0.1', 52520)...
+[04/Apr/2019:12:59:36] Connection opened. (('127.0.0.1', 52520))
+[04/Apr/2019:12:59:36] Proxy sent request to server with headers: 
+----------------------------------------------------------------------
+HTTP/1.0 200 OK
+Content-Type: text/plain
+Content-Length: 8
+Last-Modified: Mon, 15 May 2017 18:04:40 GMT
+ETag: "ae780585f49b94ce1444eb7d28906123"
+Accept-Ranges: bytes
+Server: AmazonS3
+X-Amz-Cf-Id: QP4jRwxtKPm94qFDeRC666Gdyl2HXMQzg5bj-hv-hArp2acJueCbAw==
+Cache-Control: no-cache, no-store, must-revalidate
+Date: Thu, 04 Apr 2019 08:29:36 GMT
+Connection: close
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:36] connect to [('127.0.0.1', 52527)] from 127.0.0.1 8080
+[04/Apr/2019:12:59:36] Accepted a request from client!
+[04/Apr/2019:12:59:36] Client sent request to proxy with headers:
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:36] Proxy changed client's user-agent to add privacy.
+[04/Apr/2019:12:59:36] Proxy sent request to client with headers: 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: identify
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: Close
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:36] Proxy opening connection to server ('127.0.0.1', 52527)...
+[04/Apr/2019:12:59:36] Connection opened. (('127.0.0.1', 52527))
+[04/Apr/2019:12:59:37] Proxy sent request to server with headers: 
+----------------------------------------------------------------------
+HTTP/1.0 200 OK
+Content-Type: text/plain
+Content-Length: 8
+Last-Modified: Mon, 15 May 2017 18:04:40 GMT
+ETag: "ae780585f49b94ce1444eb7d28906123"
+Accept-Ranges: bytes
+Server: AmazonS3
+X-Amz-Cf-Id: QP4jRwxtKPm94qFDeRC666Gdyl2HXMQzg5bj-hv-hArp2acJueCbAw==
+Cache-Control: no-cache, no-store, must-revalidate
+Date: Thu, 04 Apr 2019 08:29:37 GMT
+Connection: close
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:37] connect to [('127.0.0.1', 52531)] from 127.0.0.1 8080
+[04/Apr/2019:12:59:37] Accepted a request from client!
+[04/Apr/2019:12:59:37] Client sent request to proxy with headers:
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:37] Proxy changed client's user-agent to add privacy.
+[04/Apr/2019:12:59:37] Proxy sent request to client with headers: 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: identify
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: Close
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:37] Proxy opening connection to server ('127.0.0.1', 52531)...
+[04/Apr/2019:12:59:37] Connection opened. (('127.0.0.1', 52531))
+[04/Apr/2019:12:59:38] Proxy sent request to server with headers: 
+----------------------------------------------------------------------
+HTTP/1.0 200 OK
+Content-Type: text/plain
+Content-Length: 8
+Last-Modified: Mon, 15 May 2017 18:04:40 GMT
+ETag: "ae780585f49b94ce1444eb7d28906123"
+Accept-Ranges: bytes
+Server: AmazonS3
+X-Amz-Cf-Id: QP4jRwxtKPm94qFDeRC666Gdyl2HXMQzg5bj-hv-hArp2acJueCbAw==
+Cache-Control: no-cache, no-store, must-revalidate
+Date: Thu, 04 Apr 2019 08:29:37 GMT
+Connection: close
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:38] connect to [('127.0.0.1', 52535)] from 127.0.0.1 8080
+[04/Apr/2019:12:59:38] Accepted a request from client!
+[04/Apr/2019:12:59:38] Client sent request to proxy with headers:
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:38] Proxy changed client's user-agent to add privacy.
+[04/Apr/2019:12:59:38] Proxy sent request to client with headers: 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: identify
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: Close
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:38] Proxy opening connection to server ('127.0.0.1', 52535)...
+[04/Apr/2019:12:59:38] Connection opened. (('127.0.0.1', 52535))
+[04/Apr/2019:12:59:38] Proxy sent request to server with headers: 
+----------------------------------------------------------------------
+HTTP/1.0 200 OK
+Content-Type: text/plain
+Content-Length: 8
+Last-Modified: Mon, 15 May 2017 18:04:40 GMT
+ETag: "ae780585f49b94ce1444eb7d28906123"
+Accept-Ranges: bytes
+Server: AmazonS3
+X-Amz-Cf-Id: QP4jRwxtKPm94qFDeRC666Gdyl2HXMQzg5bj-hv-hArp2acJueCbAw==
+Cache-Control: no-cache, no-store, must-revalidate
+Date: Thu, 04 Apr 2019 08:29:38 GMT
+Connection: close
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:38] connect to [('127.0.0.1', 52539)] from 127.0.0.1 8080
+[04/Apr/2019:12:59:38] Accepted a request from client!
+[04/Apr/2019:12:59:38] Client sent request to proxy with headers:
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:38] Proxy changed client's user-agent to add privacy.
+[04/Apr/2019:12:59:38] Proxy sent request to client with headers: 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: identify
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: Close
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:38] Proxy opening connection to server ('127.0.0.1', 52539)...
+[04/Apr/2019:12:59:38] Connection opened. (('127.0.0.1', 52539))
+[04/Apr/2019:12:59:39] Proxy sent request to server with headers: 
+----------------------------------------------------------------------
+HTTP/1.0 200 OK
+Content-Type: text/plain
+Content-Length: 8
+Last-Modified: Mon, 15 May 2017 18:04:40 GMT
+ETag: "ae780585f49b94ce1444eb7d28906123"
+Accept-Ranges: bytes
+Server: AmazonS3
+X-Amz-Cf-Id: QP4jRwxtKPm94qFDeRC666Gdyl2HXMQzg5bj-hv-hArp2acJueCbAw==
+Cache-Control: no-cache, no-store, must-revalidate
+Date: Thu, 04 Apr 2019 08:29:38 GMT
+Connection: close
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:39] connect to [('127.0.0.1', 52543)] from 127.0.0.1 8080
+[04/Apr/2019:12:59:39] Accepted a request from client!
+[04/Apr/2019:12:59:39] Client sent request to proxy with headers:
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:39] Proxy changed client's user-agent to add privacy.
+[04/Apr/2019:12:59:39] Proxy sent request to client with headers: 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: identify
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: Close
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:39] Proxy opening connection to server ('127.0.0.1', 52543)...
+[04/Apr/2019:12:59:39] Connection opened. (('127.0.0.1', 52543))
+[04/Apr/2019:12:59:39] connect to [('127.0.0.1', 52547)] from 127.0.0.1 8080
+[04/Apr/2019:12:59:39] Accepted a request from client!
+[04/Apr/2019:12:59:39] Client sent request to proxy with headers:
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:39] Proxy changed client's user-agent to add privacy.
+[04/Apr/2019:12:59:39] Proxy sent request to client with headers: 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: identify
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: Close
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:39] Proxy opening connection to server ('127.0.0.1', 52547)...
+[04/Apr/2019:12:59:39] Connection opened. (('127.0.0.1', 52547))
+[04/Apr/2019:12:59:39] Proxy sent request to server with headers: 
+----------------------------------------------------------------------
+HTTP/1.0 200 OK
+Content-Type: text/plain
+Content-Length: 8
+Last-Modified: Mon, 15 May 2017 18:04:40 GMT
+ETag: "ae780585f49b94ce1444eb7d28906123"
+Accept-Ranges: bytes
+Server: AmazonS3
+X-Amz-Cf-Id: QP4jRwxtKPm94qFDeRC666Gdyl2HXMQzg5bj-hv-hArp2acJueCbAw==
+Cache-Control: no-cache, no-store, must-revalidate
+Date: Thu, 04 Apr 2019 08:29:39 GMT
+Connection: close
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:39] Proxy sent request to server with headers: 
+----------------------------------------------------------------------
+HTTP/1.0 200 OK
+Content-Type: text/plain
+Content-Length: 8
+Last-Modified: Mon, 15 May 2017 18:04:40 GMT
+ETag: "ae780585f49b94ce1444eb7d28906123"
+Accept-Ranges: bytes
+Server: AmazonS3
+X-Amz-Cf-Id: QP4jRwxtKPm94qFDeRC666Gdyl2HXMQzg5bj-hv-hArp2acJueCbAw==
+Cache-Control: no-cache, no-store, must-revalidate
+Date: Thu, 04 Apr 2019 08:29:39 GMT
+Connection: close
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:39] connect to [('127.0.0.1', 52551)] from 127.0.0.1 8080
+[04/Apr/2019:12:59:39] Accepted a request from client!
+[04/Apr/2019:12:59:39] Client sent request to proxy with headers:
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:39] Proxy changed client's user-agent to add privacy.
+[04/Apr/2019:12:59:39] Proxy sent request to client with headers: 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: identify
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: Close
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:39] Proxy opening connection to server ('127.0.0.1', 52551)...
+[04/Apr/2019:12:59:39] Connection opened. (('127.0.0.1', 52551))
+[04/Apr/2019:12:59:40] Proxy sent request to server with headers: 
+----------------------------------------------------------------------
+HTTP/1.0 200 OK
+Content-Type: text/plain
+Content-Length: 8
+Last-Modified: Mon, 15 May 2017 18:04:40 GMT
+ETag: "ae780585f49b94ce1444eb7d28906123"
+Accept-Ranges: bytes
+Server: AmazonS3
+X-Amz-Cf-Id: QP4jRwxtKPm94qFDeRC666Gdyl2HXMQzg5bj-hv-hArp2acJueCbAw==
+Cache-Control: no-cache, no-store, must-revalidate
+Date: Thu, 04 Apr 2019 08:29:40 GMT
+Connection: close
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:40] connect to [('127.0.0.1', 52555)] from 127.0.0.1 8080
+[04/Apr/2019:12:59:40] Accepted a request from client!
+[04/Apr/2019:12:59:40] Client sent request to proxy with headers:
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:40] Proxy changed client's user-agent to add privacy.
+[04/Apr/2019:12:59:40] Proxy sent request to client with headers: 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: identify
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: Close
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:40] Proxy opening connection to server ('127.0.0.1', 52555)...
+[04/Apr/2019:12:59:40] Connection opened. (('127.0.0.1', 52555))
+[04/Apr/2019:12:59:41] Proxy sent request to server with headers: 
+----------------------------------------------------------------------
+HTTP/1.0 200 OK
+Content-Type: text/plain
+Content-Length: 8
+Last-Modified: Mon, 15 May 2017 18:04:40 GMT
+ETag: "ae780585f49b94ce1444eb7d28906123"
+Accept-Ranges: bytes
+Server: AmazonS3
+X-Amz-Cf-Id: QP4jRwxtKPm94qFDeRC666Gdyl2HXMQzg5bj-hv-hArp2acJueCbAw==
+Cache-Control: no-cache, no-store, must-revalidate
+Date: Thu, 04 Apr 2019 08:29:40 GMT
+Connection: close
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:41] connect to [('127.0.0.1', 52559)] from 127.0.0.1 8080
+[04/Apr/2019:12:59:41] Accepted a request from client!
+[04/Apr/2019:12:59:41] Client sent request to proxy with headers:
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:41] Proxy changed client's user-agent to add privacy.
+[04/Apr/2019:12:59:41] Proxy sent request to client with headers: 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: identify
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: Close
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:41] Proxy opening connection to server ('127.0.0.1', 52559)...
+[04/Apr/2019:12:59:41] Connection opened. (('127.0.0.1', 52559))
+[04/Apr/2019:12:59:41] Proxy sent request to server with headers: 
+----------------------------------------------------------------------
+HTTP/1.0 200 OK
+Content-Type: text/plain
+Content-Length: 8
+Last-Modified: Mon, 15 May 2017 18:04:40 GMT
+ETag: "ae780585f49b94ce1444eb7d28906123"
+Accept-Ranges: bytes
+Server: AmazonS3
+X-Amz-Cf-Id: QP4jRwxtKPm94qFDeRC666Gdyl2HXMQzg5bj-hv-hArp2acJueCbAw==
+Cache-Control: no-cache, no-store, must-revalidate
+Date: Thu, 04 Apr 2019 08:29:41 GMT
+Connection: close
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:41] connect to [('127.0.0.1', 52563)] from 127.0.0.1 8080
+[04/Apr/2019:12:59:41] Accepted a request from client!
+[04/Apr/2019:12:59:41] Client sent request to proxy with headers:
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:41] Proxy changed client's user-agent to add privacy.
+[04/Apr/2019:12:59:41] Proxy sent request to client with headers: 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: identify
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: Close
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:41] Proxy opening connection to server ('127.0.0.1', 52563)...
+[04/Apr/2019:12:59:41] Connection opened. (('127.0.0.1', 52563))
+[04/Apr/2019:12:59:42] Proxy sent request to server with headers: 
+----------------------------------------------------------------------
+HTTP/1.0 200 OK
+Content-Type: text/plain
+Content-Length: 8
+Last-Modified: Mon, 15 May 2017 18:04:40 GMT
+ETag: "ae780585f49b94ce1444eb7d28906123"
+Accept-Ranges: bytes
+Server: AmazonS3
+X-Amz-Cf-Id: QP4jRwxtKPm94qFDeRC666Gdyl2HXMQzg5bj-hv-hArp2acJueCbAw==
+Cache-Control: no-cache, no-store, must-revalidate
+Date: Thu, 04 Apr 2019 08:29:42 GMT
+Connection: close
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:42] connect to [('127.0.0.1', 52567)] from 127.0.0.1 8080
+[04/Apr/2019:12:59:42] Accepted a request from client!
+[04/Apr/2019:12:59:42] Client sent request to proxy with headers:
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:42] Proxy changed client's user-agent to add privacy.
+[04/Apr/2019:12:59:42] Proxy sent request to client with headers: 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: identify
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: Close
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:42] Proxy opening connection to server ('127.0.0.1', 52567)...
+[04/Apr/2019:12:59:42] Connection opened. (('127.0.0.1', 52567))
+[04/Apr/2019:12:59:43] Proxy sent request to server with headers: 
+----------------------------------------------------------------------
+HTTP/1.0 200 OK
+Content-Type: text/plain
+Content-Length: 8
+Last-Modified: Mon, 15 May 2017 18:04:40 GMT
+ETag: "ae780585f49b94ce1444eb7d28906123"
+Accept-Ranges: bytes
+Server: AmazonS3
+X-Amz-Cf-Id: QP4jRwxtKPm94qFDeRC666Gdyl2HXMQzg5bj-hv-hArp2acJueCbAw==
+Cache-Control: no-cache, no-store, must-revalidate
+Date: Thu, 04 Apr 2019 08:29:42 GMT
+Connection: close
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:43] connect to [('127.0.0.1', 52571)] from 127.0.0.1 8080
+[04/Apr/2019:12:59:43] Accepted a request from client!
+[04/Apr/2019:12:59:43] Client sent request to proxy with headers:
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:43] Proxy changed client's user-agent to add privacy.
+[04/Apr/2019:12:59:43] Proxy sent request to client with headers: 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: identify
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: Close
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:43] Proxy opening connection to server ('127.0.0.1', 52571)...
+[04/Apr/2019:12:59:43] Connection opened. (('127.0.0.1', 52571))
+[04/Apr/2019:12:59:43] Proxy sent request to server with headers: 
+----------------------------------------------------------------------
+HTTP/1.0 200 OK
+Content-Type: text/plain
+Content-Length: 8
+Last-Modified: Mon, 15 May 2017 18:04:40 GMT
+ETag: "ae780585f49b94ce1444eb7d28906123"
+Accept-Ranges: bytes
+Server: AmazonS3
+X-Amz-Cf-Id: QP4jRwxtKPm94qFDeRC666Gdyl2HXMQzg5bj-hv-hArp2acJueCbAw==
+Cache-Control: no-cache, no-store, must-revalidate
+Date: Thu, 04 Apr 2019 08:29:43 GMT
+Connection: close
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:43] connect to [('127.0.0.1', 52575)] from 127.0.0.1 8080
+[04/Apr/2019:12:59:43] Accepted a request from client!
+[04/Apr/2019:12:59:43] Client sent request to proxy with headers:
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:43] Proxy changed client's user-agent to add privacy.
+[04/Apr/2019:12:59:43] Proxy sent request to client with headers: 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: identify
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: Close
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:43] Proxy opening connection to server ('127.0.0.1', 52575)...
+[04/Apr/2019:12:59:43] Connection opened. (('127.0.0.1', 52575))
+[04/Apr/2019:12:59:44] connect to [('127.0.0.1', 52579)] from 127.0.0.1 8080
+[04/Apr/2019:12:59:44] Accepted a request from client!
+[04/Apr/2019:12:59:44] Client sent request to proxy with headers:
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:44] Proxy changed client's user-agent to add privacy.
+[04/Apr/2019:12:59:44] Proxy sent request to client with headers: 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: identify
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: Close
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:44] Proxy opening connection to server ('127.0.0.1', 52579)...
+[04/Apr/2019:12:59:44] Connection opened. (('127.0.0.1', 52579))
+[04/Apr/2019:12:59:44] Proxy sent request to server with headers: 
+----------------------------------------------------------------------
+HTTP/1.0 200 OK
+Content-Type: text/plain
+Content-Length: 8
+Last-Modified: Mon, 15 May 2017 18:04:40 GMT
+ETag: "ae780585f49b94ce1444eb7d28906123"
+Accept-Ranges: bytes
+Server: AmazonS3
+X-Amz-Cf-Id: QP4jRwxtKPm94qFDeRC666Gdyl2HXMQzg5bj-hv-hArp2acJueCbAw==
+Cache-Control: no-cache, no-store, must-revalidate
+Date: Thu, 04 Apr 2019 08:29:44 GMT
+Connection: close
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:44] Proxy sent request to server with headers: 
+----------------------------------------------------------------------
+HTTP/1.0 200 OK
+Content-Type: text/plain
+Content-Length: 8
+Last-Modified: Mon, 15 May 2017 18:04:40 GMT
+ETag: "ae780585f49b94ce1444eb7d28906123"
+Accept-Ranges: bytes
+Server: AmazonS3
+X-Amz-Cf-Id: QP4jRwxtKPm94qFDeRC666Gdyl2HXMQzg5bj-hv-hArp2acJueCbAw==
+Cache-Control: no-cache, no-store, must-revalidate
+Date: Thu, 04 Apr 2019 08:29:44 GMT
+Connection: close
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:44] connect to [('127.0.0.1', 52583)] from 127.0.0.1 8080
+[04/Apr/2019:12:59:44] Accepted a request from client!
+[04/Apr/2019:12:59:44] Client sent request to proxy with headers:
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:44] Proxy changed client's user-agent to add privacy.
+[04/Apr/2019:12:59:44] Proxy sent request to client with headers: 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: identify
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: Close
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:44] Proxy opening connection to server ('127.0.0.1', 52583)...
+[04/Apr/2019:12:59:45] Connection opened. (('127.0.0.1', 52583))
+[04/Apr/2019:12:59:45] Proxy sent request to server with headers: 
+----------------------------------------------------------------------
+HTTP/1.0 200 OK
+Content-Type: text/plain
+Content-Length: 8
+Last-Modified: Mon, 15 May 2017 18:04:40 GMT
+ETag: "ae780585f49b94ce1444eb7d28906123"
+Accept-Ranges: bytes
+Server: AmazonS3
+X-Amz-Cf-Id: QP4jRwxtKPm94qFDeRC666Gdyl2HXMQzg5bj-hv-hArp2acJueCbAw==
+Cache-Control: no-cache, no-store, must-revalidate
+Date: Thu, 04 Apr 2019 08:29:45 GMT
+Connection: close
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:45] connect to [('127.0.0.1', 52587)] from 127.0.0.1 8080
+[04/Apr/2019:12:59:45] Accepted a request from client!
+[04/Apr/2019:12:59:45] Client sent request to proxy with headers:
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:45] Proxy changed client's user-agent to add privacy.
+[04/Apr/2019:12:59:45] Proxy sent request to client with headers: 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: identify
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: Close
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:45] Proxy opening connection to server ('127.0.0.1', 52587)...
+[04/Apr/2019:12:59:45] Connection opened. (('127.0.0.1', 52587))
+[04/Apr/2019:12:59:46] Proxy sent request to server with headers: 
+----------------------------------------------------------------------
+HTTP/1.0 200 OK
+Content-Type: text/plain
+Content-Length: 8
+Last-Modified: Mon, 15 May 2017 18:04:40 GMT
+ETag: "ae780585f49b94ce1444eb7d28906123"
+Accept-Ranges: bytes
+Server: AmazonS3
+X-Amz-Cf-Id: QP4jRwxtKPm94qFDeRC666Gdyl2HXMQzg5bj-hv-hArp2acJueCbAw==
+Cache-Control: no-cache, no-store, must-revalidate
+Date: Thu, 04 Apr 2019 08:29:46 GMT
+Connection: close
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:46] connect to [('127.0.0.1', 52591)] from 127.0.0.1 8080
+[04/Apr/2019:12:59:46] Accepted a request from client!
+[04/Apr/2019:12:59:46] Client sent request to proxy with headers:
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:46] Proxy changed client's user-agent to add privacy.
+[04/Apr/2019:12:59:46] Proxy sent request to client with headers: 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: identify
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: Close
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:46] Proxy opening connection to server ('127.0.0.1', 52591)...
+[04/Apr/2019:12:59:46] Connection opened. (('127.0.0.1', 52591))
+[04/Apr/2019:12:59:47] Proxy sent request to server with headers: 
+----------------------------------------------------------------------
+HTTP/1.0 200 OK
+Content-Type: text/plain
+Content-Length: 8
+Last-Modified: Mon, 15 May 2017 18:04:40 GMT
+ETag: "ae780585f49b94ce1444eb7d28906123"
+Accept-Ranges: bytes
+Server: AmazonS3
+X-Amz-Cf-Id: QP4jRwxtKPm94qFDeRC666Gdyl2HXMQzg5bj-hv-hArp2acJueCbAw==
+Cache-Control: no-cache, no-store, must-revalidate
+Date: Thu, 04 Apr 2019 08:29:47 GMT
+Connection: close
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:47] connect to [('127.0.0.1', 52595)] from 127.0.0.1 8080
+[04/Apr/2019:12:59:47] Accepted a request from client!
+[04/Apr/2019:12:59:47] Client sent request to proxy with headers:
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:47] Proxy changed client's user-agent to add privacy.
+[04/Apr/2019:12:59:47] Proxy sent request to client with headers: 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: identify
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: Close
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:47] Proxy opening connection to server ('127.0.0.1', 52595)...
+[04/Apr/2019:12:59:47] Connection opened. (('127.0.0.1', 52595))
+[04/Apr/2019:12:59:48] Proxy sent request to server with headers: 
+----------------------------------------------------------------------
+HTTP/1.0 200 OK
+Content-Type: text/plain
+Content-Length: 8
+Last-Modified: Mon, 15 May 2017 18:04:40 GMT
+ETag: "ae780585f49b94ce1444eb7d28906123"
+Accept-Ranges: bytes
+Server: AmazonS3
+X-Amz-Cf-Id: QP4jRwxtKPm94qFDeRC666Gdyl2HXMQzg5bj-hv-hArp2acJueCbAw==
+Cache-Control: no-cache, no-store, must-revalidate
+Date: Thu, 04 Apr 2019 08:29:47 GMT
+Connection: close
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:48] connect to [('127.0.0.1', 52602)] from 127.0.0.1 8080
+[04/Apr/2019:12:59:48] Accepted a request from client!
+[04/Apr/2019:12:59:48] Client sent request to proxy with headers:
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:48] Proxy changed client's user-agent to add privacy.
+[04/Apr/2019:12:59:48] Proxy sent request to client with headers: 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: identify
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: Close
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:48] Proxy opening connection to server ('127.0.0.1', 52602)...
+[04/Apr/2019:12:59:48] Connection opened. (('127.0.0.1', 52602))
+[04/Apr/2019:12:59:48] Proxy sent request to server with headers: 
+----------------------------------------------------------------------
+HTTP/1.0 200 OK
+Content-Type: text/plain
+Content-Length: 8
+Last-Modified: Mon, 15 May 2017 18:04:40 GMT
+ETag: "ae780585f49b94ce1444eb7d28906123"
+Accept-Ranges: bytes
+Server: AmazonS3
+X-Amz-Cf-Id: QP4jRwxtKPm94qFDeRC666Gdyl2HXMQzg5bj-hv-hArp2acJueCbAw==
+Cache-Control: no-cache, no-store, must-revalidate
+Date: Thu, 04 Apr 2019 08:29:48 GMT
+Connection: close
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:48] connect to [('127.0.0.1', 52606)] from 127.0.0.1 8080
+[04/Apr/2019:12:59:48] Accepted a request from client!
+[04/Apr/2019:12:59:48] Client sent request to proxy with headers:
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:48] Proxy changed client's user-agent to add privacy.
+[04/Apr/2019:12:59:48] Proxy sent request to client with headers: 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: identify
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: Close
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:48] Proxy opening connection to server ('127.0.0.1', 52606)...
+[04/Apr/2019:12:59:48] Connection opened. (('127.0.0.1', 52606))
+[04/Apr/2019:12:59:49] connect to [('127.0.0.1', 52610)] from 127.0.0.1 8080
+[04/Apr/2019:12:59:49] Accepted a request from client!
+[04/Apr/2019:12:59:49] Client sent request to proxy with headers:
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:49] Proxy changed client's user-agent to add privacy.
+[04/Apr/2019:12:59:49] Proxy sent request to client with headers: 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: identify
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: Close
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:49] Proxy opening connection to server ('127.0.0.1', 52610)...
+[04/Apr/2019:12:59:49] Connection opened. (('127.0.0.1', 52610))
+[04/Apr/2019:12:59:49] Proxy sent request to server with headers: 
+----------------------------------------------------------------------
+HTTP/1.0 200 OK
+Content-Type: text/plain
+Content-Length: 8
+Last-Modified: Mon, 15 May 2017 18:04:40 GMT
+ETag: "ae780585f49b94ce1444eb7d28906123"
+Accept-Ranges: bytes
+Server: AmazonS3
+X-Amz-Cf-Id: QP4jRwxtKPm94qFDeRC666Gdyl2HXMQzg5bj-hv-hArp2acJueCbAw==
+Cache-Control: no-cache, no-store, must-revalidate
+Date: Thu, 04 Apr 2019 08:29:49 GMT
+Connection: close
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:49] Proxy sent request to server with headers: 
+----------------------------------------------------------------------
+HTTP/1.0 200 OK
+Content-Type: text/plain
+Content-Length: 8
+Last-Modified: Mon, 15 May 2017 18:04:40 GMT
+ETag: "ae780585f49b94ce1444eb7d28906123"
+Accept-Ranges: bytes
+Server: AmazonS3
+X-Amz-Cf-Id: QP4jRwxtKPm94qFDeRC666Gdyl2HXMQzg5bj-hv-hArp2acJueCbAw==
+Cache-Control: no-cache, no-store, must-revalidate
+Date: Thu, 04 Apr 2019 08:29:49 GMT
+Connection: close
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:49] connect to [('127.0.0.1', 52614)] from 127.0.0.1 8080
+[04/Apr/2019:12:59:49] Accepted a request from client!
+[04/Apr/2019:12:59:49] Client sent request to proxy with headers:
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:49] Proxy changed client's user-agent to add privacy.
+[04/Apr/2019:12:59:49] Proxy sent request to client with headers: 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: identify
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: Close
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:49] Proxy opening connection to server ('127.0.0.1', 52614)...
+[04/Apr/2019:12:59:49] Connection opened. (('127.0.0.1', 52614))
+[04/Apr/2019:12:59:50] Proxy sent request to server with headers: 
+----------------------------------------------------------------------
+HTTP/1.0 200 OK
+Content-Type: text/plain
+Content-Length: 8
+Last-Modified: Mon, 15 May 2017 18:04:40 GMT
+ETag: "ae780585f49b94ce1444eb7d28906123"
+Accept-Ranges: bytes
+Server: AmazonS3
+X-Amz-Cf-Id: QP4jRwxtKPm94qFDeRC666Gdyl2HXMQzg5bj-hv-hArp2acJueCbAw==
+Cache-Control: no-cache, no-store, must-revalidate
+Date: Thu, 04 Apr 2019 08:29:50 GMT
+Connection: close
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:50] connect to [('127.0.0.1', 52618)] from 127.0.0.1 8080
+[04/Apr/2019:12:59:50] Accepted a request from client!
+[04/Apr/2019:12:59:50] Client sent request to proxy with headers:
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:50] Proxy changed client's user-agent to add privacy.
+[04/Apr/2019:12:59:50] Proxy sent request to client with headers: 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: identify
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: Close
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:50] Proxy opening connection to server ('127.0.0.1', 52618)...
+[04/Apr/2019:12:59:50] Connection opened. (('127.0.0.1', 52618))
+[04/Apr/2019:12:59:51] Proxy sent request to server with headers: 
+----------------------------------------------------------------------
+HTTP/1.0 200 OK
+Content-Type: text/plain
+Content-Length: 8
+Last-Modified: Mon, 15 May 2017 18:04:40 GMT
+ETag: "ae780585f49b94ce1444eb7d28906123"
+Accept-Ranges: bytes
+Server: AmazonS3
+X-Amz-Cf-Id: QP4jRwxtKPm94qFDeRC666Gdyl2HXMQzg5bj-hv-hArp2acJueCbAw==
+Cache-Control: no-cache, no-store, must-revalidate
+Date: Thu, 04 Apr 2019 08:29:50 GMT
+Connection: close
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:51] connect to [('127.0.0.1', 52622)] from 127.0.0.1 8080
+[04/Apr/2019:12:59:51] Accepted a request from client!
+[04/Apr/2019:12:59:51] Client sent request to proxy with headers:
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:51] Proxy changed client's user-agent to add privacy.
+[04/Apr/2019:12:59:51] Proxy sent request to client with headers: 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: identify
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: Close
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:51] Proxy opening connection to server ('127.0.0.1', 52622)...
+[04/Apr/2019:12:59:51] Connection opened. (('127.0.0.1', 52622))
+[04/Apr/2019:12:59:51] Proxy sent request to server with headers: 
+----------------------------------------------------------------------
+HTTP/1.0 200 OK
+Content-Type: text/plain
+Content-Length: 8
+Last-Modified: Mon, 15 May 2017 18:04:40 GMT
+ETag: "ae780585f49b94ce1444eb7d28906123"
+Accept-Ranges: bytes
+Server: AmazonS3
+X-Amz-Cf-Id: QP4jRwxtKPm94qFDeRC666Gdyl2HXMQzg5bj-hv-hArp2acJueCbAw==
+Cache-Control: no-cache, no-store, must-revalidate
+Date: Thu, 04 Apr 2019 08:29:51 GMT
+Connection: close
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:51] connect to [('127.0.0.1', 52629)] from 127.0.0.1 8080
+[04/Apr/2019:12:59:51] Accepted a request from client!
+[04/Apr/2019:12:59:51] Client sent request to proxy with headers:
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:51] Proxy changed client's user-agent to add privacy.
+[04/Apr/2019:12:59:51] Proxy sent request to client with headers: 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: identify
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: Close
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:51] Proxy opening connection to server ('127.0.0.1', 52629)...
+[04/Apr/2019:12:59:51] Connection opened. (('127.0.0.1', 52629))
+[04/Apr/2019:12:59:52] Proxy sent request to server with headers: 
+----------------------------------------------------------------------
+HTTP/1.0 200 OK
+Content-Type: text/plain
+Content-Length: 8
+Last-Modified: Mon, 15 May 2017 18:04:40 GMT
+ETag: "ae780585f49b94ce1444eb7d28906123"
+Accept-Ranges: bytes
+Server: AmazonS3
+X-Amz-Cf-Id: QP4jRwxtKPm94qFDeRC666Gdyl2HXMQzg5bj-hv-hArp2acJueCbAw==
+Cache-Control: no-cache, no-store, must-revalidate
+Date: Thu, 04 Apr 2019 08:29:52 GMT
+Connection: close
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:52] connect to [('127.0.0.1', 52633)] from 127.0.0.1 8080
+[04/Apr/2019:12:59:52] Accepted a request from client!
+[04/Apr/2019:12:59:52] Client sent request to proxy with headers:
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:52] Proxy changed client's user-agent to add privacy.
+[04/Apr/2019:12:59:52] Proxy sent request to client with headers: 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: identify
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: Close
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:52] Proxy opening connection to server ('127.0.0.1', 52633)...
+[04/Apr/2019:12:59:52] Connection opened. (('127.0.0.1', 52633))
+[04/Apr/2019:12:59:52] Proxy sent request to server with headers: 
+----------------------------------------------------------------------
+HTTP/1.0 200 OK
+Content-Type: text/plain
+Content-Length: 8
+Last-Modified: Mon, 15 May 2017 18:04:40 GMT
+ETag: "ae780585f49b94ce1444eb7d28906123"
+Accept-Ranges: bytes
+Server: AmazonS3
+X-Amz-Cf-Id: QP4jRwxtKPm94qFDeRC666Gdyl2HXMQzg5bj-hv-hArp2acJueCbAw==
+Cache-Control: no-cache, no-store, must-revalidate
+Date: Thu, 04 Apr 2019 08:29:52 GMT
+Connection: close
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:52] connect to [('127.0.0.1', 52638)] from 127.0.0.1 8080
+[04/Apr/2019:12:59:52] Accepted a request from client!
+[04/Apr/2019:12:59:52] Client sent request to proxy with headers:
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:52] Proxy changed client's user-agent to add privacy.
+[04/Apr/2019:12:59:52] Proxy sent request to client with headers: 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: identify
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: Close
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:52] Proxy opening connection to server ('127.0.0.1', 52638)...
+[04/Apr/2019:12:59:52] Connection opened. (('127.0.0.1', 52638))
+[04/Apr/2019:12:59:53] Proxy sent request to server with headers: 
+----------------------------------------------------------------------
+HTTP/1.0 200 OK
+Content-Type: text/plain
+Content-Length: 8
+Last-Modified: Mon, 15 May 2017 18:04:40 GMT
+ETag: "ae780585f49b94ce1444eb7d28906123"
+Accept-Ranges: bytes
+Server: AmazonS3
+X-Amz-Cf-Id: QP4jRwxtKPm94qFDeRC666Gdyl2HXMQzg5bj-hv-hArp2acJueCbAw==
+Cache-Control: no-cache, no-store, must-revalidate
+Date: Thu, 04 Apr 2019 08:29:53 GMT
+Connection: close
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:53] connect to [('127.0.0.1', 52659)] from 127.0.0.1 8080
+[04/Apr/2019:12:59:53] Accepted a request from client!
+[04/Apr/2019:12:59:53] Client sent request to proxy with headers:
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:53] Proxy changed client's user-agent to add privacy.
+[04/Apr/2019:12:59:53] Proxy sent request to client with headers: 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: identify
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: Close
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:53] Proxy opening connection to server ('127.0.0.1', 52659)...
+[04/Apr/2019:12:59:53] Connection opened. (('127.0.0.1', 52659))
+[04/Apr/2019:12:59:53] Proxy sent request to server with headers: 
+----------------------------------------------------------------------
+HTTP/1.0 200 OK
+Content-Type: text/plain
+Content-Length: 8
+Last-Modified: Mon, 15 May 2017 18:04:40 GMT
+ETag: "ae780585f49b94ce1444eb7d28906123"
+Accept-Ranges: bytes
+Server: AmazonS3
+X-Amz-Cf-Id: QP4jRwxtKPm94qFDeRC666Gdyl2HXMQzg5bj-hv-hArp2acJueCbAw==
+Cache-Control: no-cache, no-store, must-revalidate
+Date: Thu, 04 Apr 2019 08:29:53 GMT
+Connection: close
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:53] connect to [('127.0.0.1', 52666)] from 127.0.0.1 8080
+[04/Apr/2019:12:59:53] Accepted a request from client!
+[04/Apr/2019:12:59:53] Client sent request to proxy with headers:
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:53] Proxy changed client's user-agent to add privacy.
+[04/Apr/2019:12:59:53] Proxy sent request to client with headers: 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: identify
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: Close
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:12:59:53] Proxy opening connection to server ('127.0.0.1', 52666)...
+[04/Apr/2019:12:59:53] Connection opened. (('127.0.0.1', 52666))
+[04/Apr/2019:12:59:54] Proxy sent request to server with headers: 
+----------------------------------------------------------------------
+HTTP/1.0 200 OK
+Content-Type: text/plain
+Content-Length: 8
+Last-Modified: Mon, 15 May 2017 18:04:40 GMT
+ETag: "ae780585f49b94ce1444eb7d28906123"
+Accept-Ranges: bytes
+Server: AmazonS3
+X-Amz-Cf-Id: QP4jRwxtKPm94qFDeRC666Gdyl2HXMQzg5bj-hv-hArp2acJueCbAw==
+Cache-Control: no-cache, no-store, must-revalidate
+Date: Thu, 04 Apr 2019 08:29:54 GMT
+Connection: close
+----------------------------------------------------------------------
+
+[04/Apr/2019:13:00:43] Creating server socket...
+[04/Apr/2019:13:00:43] Binding socket to port 8080...
+[04/Apr/2019:13:00:43] Listening for incoming requests...
+[04/Apr/2019:13:00:45] connect to [('127.0.0.1', 52696)] from 127.0.0.1 8080
+[04/Apr/2019:13:00:45] Accepted a request from client!
+[04/Apr/2019:13:00:45] Client sent request to proxy with headers:
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: application/font-woff2;q=1.0,application/font-woff;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: identity
+Referer: http://bdood.ir/css/fontiran.css
+Connection: keep-alive
+Cookie: _ga=GA1.2.1703443151.1554360320; _gid=GA1.2.1455217034.1554360320
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:13:00:45] Proxy changed client's user-agent to add privacy.
+[04/Apr/2019:13:00:45] Proxy sent request to client with headers: 
+----------------------------------------------------------------------
+Host: bdood.ir
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: application/font-woff2;q=1.0,application/font-woff;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: identify
+Referer: http://bdood.ir/css/fontiran.css
+Connection: Close
+Cookie: _ga=GA1.2.1703443151.1554360320; _gid=GA1.2.1455217034.1554360320
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:13:00:45] Proxy opening connection to server ('127.0.0.1', 52696)...
+[04/Apr/2019:13:00:45] Connection opened. (('127.0.0.1', 52696))
+[04/Apr/2019:13:00:46] connect to [('127.0.0.1', 52711)] from 127.0.0.1 8080
+[04/Apr/2019:13:00:46] Accepted a request from client!
+[04/Apr/2019:13:00:46] Client sent request to proxy with headers:
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: keep-alive
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:13:00:46] Proxy changed client's user-agent to add privacy.
+[04/Apr/2019:13:00:46] Proxy sent request to client with headers: 
+----------------------------------------------------------------------
+Host: detectportal.firefox.com
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: identify
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: Close
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:13:00:46] Proxy opening connection to server ('127.0.0.1', 52711)...
+[04/Apr/2019:13:00:46] Proxy sent request to server with headers: 
+----------------------------------------------------------------------
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Server: Microsoft-IIS/8.5
+Date: Thu, 04 Apr 2019 08:31:35 GMT
+Connection: close
+Content-Length: 1245
+----------------------------------------------------------------------
+
+[04/Apr/2019:13:00:46] Proxy reduced the volume for user and remaining traffic is 80000000 - 1401 = 79998599 (for user with IP: 127.0.0.1)
+[04/Apr/2019:13:00:46] Proxy sent response to client with headers: 
+----------------------------------------------------------------------
+HTTP/1.1 404 Not Found
+Content-Type: text/html
+Server: Microsoft-IIS/8.5
+Date: Thu, 04 Apr 2019 08:31:35 GMT
+Connection: close
+Content-Length: 1245
+----------------------------------------------------------------------
+
+[04/Apr/2019:13:00:46] Connection opened. (('127.0.0.1', 52711))
+[04/Apr/2019:13:00:46] Proxy cached the response for request with header: 
+----------------------------------------------------------------------
+GET /fonts/iranYekan/woff2/iranyekanwebregular.woff2 HTTP/1.0Host: bdood.ir
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: application/font-woff2;q=1.0,application/font-woff;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: identify
+Referer: http://bdood.ir/css/fontiran.css
+Connection: Close
+Cookie: _ga=GA1.2.1703443151.1554360320; _gid=GA1.2.1455217034.1554360320
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:13:00:46] Proxy sent request to server with headers: 
+----------------------------------------------------------------------
+HTTP/1.0 200 OK
+Content-Type: text/plain
+Content-Length: 8
+Last-Modified: Mon, 15 May 2017 18:04:40 GMT
+ETag: "ae780585f49b94ce1444eb7d28906123"
+Accept-Ranges: bytes
+Server: AmazonS3
+X-Amz-Cf-Id: QP4jRwxtKPm94qFDeRC666Gdyl2HXMQzg5bj-hv-hArp2acJueCbAw==
+Cache-Control: no-cache, no-store, must-revalidate
+Date: Thu, 04 Apr 2019 08:30:46 GMT
+Connection: close
+----------------------------------------------------------------------
+
+[04/Apr/2019:13:00:46] Proxy reduced the volume for user and remaining traffic is 79998599 - 379 = 79998220 (for user with IP: 127.0.0.1)
+[04/Apr/2019:13:00:46] Proxy sent response to client with headers: 
+----------------------------------------------------------------------
+HTTP/1.0 200 OK
+Content-Type: text/plain
+Content-Length: 8
+Last-Modified: Mon, 15 May 2017 18:04:40 GMT
+ETag: "ae780585f49b94ce1444eb7d28906123"
+Accept-Ranges: bytes
+Server: AmazonS3
+X-Amz-Cf-Id: QP4jRwxtKPm94qFDeRC666Gdyl2HXMQzg5bj-hv-hArp2acJueCbAw==
+Cache-Control: no-cache, no-store, must-revalidate
+Date: Thu, 04 Apr 2019 08:30:46 GMT
+Connection: close
+----------------------------------------------------------------------
+
+[04/Apr/2019:13:00:47] Proxy cached the response for request with header: 
+----------------------------------------------------------------------
+GET /success.txt HTTP/1.0Host: detectportal.firefox.com
+User-Agent: CN Proxy Server (v1.0.0)
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: identify
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: Close
+
+----------------------------------------------------------------------
+
+[04/Apr/2019:13:00:49] connect to [('127.0.0.1', 52721)] from 127.0.0.1 8080
+[04/Apr/2019:13:00:49] Accepted a request from client!
+[04/Apr/2019:13:00:49] Client sent request to proxy with headers:
 ----------------------------------------------------------------------
 Host: ocsp.pki.goog
 User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
@@ -658,7 +2914,8 @@ Connection: keep-alive
 
 ----------------------------------------------------------------------
 
-[04/Apr/2019:11:20:33] Proxy sent request to client with headers: 
+[04/Apr/2019:13:00:49] Proxy changed client's user-agent to add privacy.
+[04/Apr/2019:13:00:49] Proxy sent request to client with headers: 
 ----------------------------------------------------------------------
 Host: ocsp.pki.goog
 User-Agent: CN Proxy Server (v1.0.0)
@@ -671,76 +2928,36 @@ Connection: Close
 
 ----------------------------------------------------------------------
 
-[04/Apr/2019:11:20:33] Proxy opening connection to server ('127.0.0.1', 54463)...
-[04/Apr/2019:11:20:33] Connection opened. (('127.0.0.1', 54463))
-[04/Apr/2019:11:20:34] Proxy sent request to server with headers: 
+[04/Apr/2019:13:00:49] Proxy opening connection to server ('127.0.0.1', 52721)...
+[04/Apr/2019:13:00:49] Connection opened. (('127.0.0.1', 52721))
+[04/Apr/2019:13:00:50] Proxy sent request to server with headers: 
 ----------------------------------------------------------------------
 HTTP/1.0 200 OK
 Content-Type: application/ocsp-response
 Cache-Control: public, max-age=300
-Date: Thu, 04 Apr 2019 06:50:34 GMT
+Date: Thu, 04 Apr 2019 08:30:50 GMT
 Server: ocsp_responder
 Content-Length: 5
 X-XSS-Protection: 1; mode=block
 X-Frame-Options: SAMEORIGIN
 ----------------------------------------------------------------------
 
-[04/Apr/2019:11:20:34] Proxy sent response to client with headers: 
+[04/Apr/2019:13:00:50] Proxy reduced the volume for user and remaining traffic is 79998220 - 243 = 79997977 (for user with IP: 127.0.0.1)
+[04/Apr/2019:13:00:50] Proxy sent response to client with headers: 
 ----------------------------------------------------------------------
 HTTP/1.0 200 OK
 Content-Type: application/ocsp-response
 Cache-Control: public, max-age=300
-Date: Thu, 04 Apr 2019 06:50:34 GMT
+Date: Thu, 04 Apr 2019 08:30:50 GMT
 Server: ocsp_responder
 Content-Length: 5
 X-XSS-Protection: 1; mode=block
 X-Frame-Options: SAMEORIGIN
 ----------------------------------------------------------------------
 
-[04/Apr/2019:11:24:36] connect to [('127.0.0.1', 54562)] from 127.0.0.1 8080
-[04/Apr/2019:11:24:36] Accepted a request from client!
-[04/Apr/2019:11:24:36] Client sent request to proxy with headers:
+[04/Apr/2019:13:00:50] Proxy cached the response for request with header: 
 ----------------------------------------------------------------------
-User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
-Proxy-Connection: keep-alive
-Connection: keep-alive
-Host: push.services.mozilla.com:443
-
-----------------------------------------------------------------------
-
-[04/Apr/2019:11:24:36] Proxy sent request to client with headers: 
-----------------------------------------------------------------------
-User-Agent: CN Proxy Server (v1.0.0)
-Connection: Close
-Host: push.services.mozilla.com:443
-
-----------------------------------------------------------------------
-
-[04/Apr/2019:11:24:36] Proxy opening connection to server ('127.0.0.1', 54562)...
-[04/Apr/2019:11:26:26] Creating server socket...
-[04/Apr/2019:11:26:26] Binding socket to port 8080...
-[04/Apr/2019:11:26:26] Listening for incoming requests...
-[04/Apr/2019:11:28:51] Creating server socket...
-[04/Apr/2019:11:28:51] Binding socket to port 8080...
-[04/Apr/2019:11:28:51] Listening for incoming requests...
-[04/Apr/2019:11:28:56] connect to [('127.0.0.1', 54704)] from 127.0.0.1 8080
-[04/Apr/2019:11:28:56] Accepted a request from client!
-[04/Apr/2019:11:28:56] Client sent request to proxy with headers:
-----------------------------------------------------------------------
-Host: ocsp.sca1b.amazontrust.com
-User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
-Accept: */*
-Accept-Language: en-US,en;q=0.5
-Accept-Encoding: gzip, deflate
-Content-Type: application/ocsp-request
-Content-Length: 83
-Connection: keep-alive
-
-----------------------------------------------------------------------
-
-[04/Apr/2019:11:28:56] Proxy sent request to client with headers: 
-----------------------------------------------------------------------
-Host: ocsp.sca1b.amazontrust.com
+POST /GTSGIAG3 HTTP/1.0Host: ocsp.pki.goog
 User-Agent: CN Proxy Server (v1.0.0)
 Accept: */*
 Accept-Language: en-US,en;q=0.5
@@ -751,200 +2968,3 @@ Connection: Close
 
 ----------------------------------------------------------------------
 
-[04/Apr/2019:11:28:56] Proxy opening connection to server ('127.0.0.1', 54704)...
-[04/Apr/2019:11:28:56] Connection opened. (('127.0.0.1', 54704))
-[04/Apr/2019:11:28:56] connect to [('127.0.0.1', 54708)] from 127.0.0.1 8080
-[04/Apr/2019:11:28:56] Accepted a request from client!
-[04/Apr/2019:11:28:56] connect to [('127.0.0.1', 54709)] from 127.0.0.1 8080
-[04/Apr/2019:11:28:56] Accepted a request from client!
-[04/Apr/2019:11:28:56] connect to [('127.0.0.1', 54710)] from 127.0.0.1 8080
-[04/Apr/2019:11:28:56] Accepted a request from client!
-[04/Apr/2019:11:28:56] connect to [('127.0.0.1', 54711)] from 127.0.0.1 8080
-[04/Apr/2019:11:28:56] Accepted a request from client!
-[04/Apr/2019:11:28:56] connect to [('127.0.0.1', 54712)] from 127.0.0.1 8080
-[04/Apr/2019:11:28:56] Accepted a request from client!
-[04/Apr/2019:11:28:56] connect to [('127.0.0.1', 54713)] from 127.0.0.1 8080
-[04/Apr/2019:11:28:56] Accepted a request from client!
-[04/Apr/2019:11:28:56] connect to [('127.0.0.1', 54714)] from 127.0.0.1 8080
-[04/Apr/2019:11:28:56] Accepted a request from client!
-[04/Apr/2019:11:28:56] connect to [('127.0.0.1', 54715)] from 127.0.0.1 8080
-[04/Apr/2019:11:28:56] Accepted a request from client!
-[04/Apr/2019:11:28:56] connect to [('127.0.0.1', 54716)] from 127.0.0.1 8080
-[04/Apr/2019:11:28:56] Accepted a request from client!
-[04/Apr/2019:11:28:56] connect to [('127.0.0.1', 54717)] from 127.0.0.1 8080
-[04/Apr/2019:11:28:56] Accepted a request from client!
-[04/Apr/2019:11:28:56] connect to [('127.0.0.1', 54718)] from 127.0.0.1 8080
-[04/Apr/2019:11:28:56] Accepted a request from client!
-[04/Apr/2019:11:28:56] connect to [('127.0.0.1', 54719)] from 127.0.0.1 8080
-[04/Apr/2019:11:28:56] Accepted a request from client!
-[04/Apr/2019:11:28:56] connect to [('127.0.0.1', 54720)] from 127.0.0.1 8080
-[04/Apr/2019:11:28:56] Accepted a request from client!
-[04/Apr/2019:11:28:56] connect to [('127.0.0.1', 54721)] from 127.0.0.1 8080
-[04/Apr/2019:11:28:56] Accepted a request from client!
-[04/Apr/2019:11:28:56] connect to [('127.0.0.1', 54722)] from 127.0.0.1 8080
-[04/Apr/2019:11:28:56] Accepted a request from client!
-[04/Apr/2019:11:28:56] connect to [('127.0.0.1', 54723)] from 127.0.0.1 8080
-[04/Apr/2019:11:28:56] Accepted a request from client!
-[04/Apr/2019:11:28:56] connect to [('127.0.0.1', 54724)] from 127.0.0.1 8080
-[04/Apr/2019:11:28:56] Accepted a request from client!
-[04/Apr/2019:11:28:56] connect to [('127.0.0.1', 54725)] from 127.0.0.1 8080
-[04/Apr/2019:11:28:56] Accepted a request from client!
-[04/Apr/2019:11:28:56] connect to [('127.0.0.1', 54726)] from 127.0.0.1 8080
-[04/Apr/2019:11:28:56] Accepted a request from client!
-[04/Apr/2019:11:28:56] connect to [('127.0.0.1', 54727)] from 127.0.0.1 8080
-[04/Apr/2019:11:28:56] Accepted a request from client!
-[04/Apr/2019:11:28:57] Proxy sent request to server with headers: 
-----------------------------------------------------------------------
-HTTP/1.1 200 OK
-Content-Type: text/html
-Content-Length: 46
-Connection: close
-Accept-Ranges: bytes
-Cache-Control: no-cache
-Date: Thu, 04 Apr 2019 06:58:56 GMT
-Etag: "496ec931-2e"
-Expires: Sat, 17 Jan 2009 05:27:13 GMT
-Last-Modified: Thu, 15 Jan 2009 05:27:13 GMT
-Server: ECS (phd/FD6F)
-X-Cache: Miss from cloudfront
-Via: 1.1 06bbe553b2d53615f37475e7902d8c22.cloudfront.net (CloudFront)
-X-Amz-Cf-Id: eH1Y5xl97C3uGSBwZuHupK4nO7a-IvfUBMpu8s_jOiLwXlcmM0HrOg==
-----------------------------------------------------------------------
-
-[04/Apr/2019:11:28:57] Proxy sent response to client with headers: 
-----------------------------------------------------------------------
-HTTP/1.1 200 OK
-Content-Type: text/html
-Content-Length: 46
-Connection: close
-Accept-Ranges: bytes
-Cache-Control: no-cache
-Date: Thu, 04 Apr 2019 06:58:56 GMT
-Etag: "496ec931-2e"
-Expires: Sat, 17 Jan 2009 05:27:13 GMT
-Last-Modified: Thu, 15 Jan 2009 05:27:13 GMT
-Server: ECS (phd/FD6F)
-X-Cache: Miss from cloudfront
-Via: 1.1 06bbe553b2d53615f37475e7902d8c22.cloudfront.net (CloudFront)
-X-Amz-Cf-Id: eH1Y5xl97C3uGSBwZuHupK4nO7a-IvfUBMpu8s_jOiLwXlcmM0HrOg==
-----------------------------------------------------------------------
-
-[04/Apr/2019:11:29:29] Creating server socket...
-[04/Apr/2019:11:29:29] Binding socket to port 8080...
-[04/Apr/2019:11:29:29] Listening for incoming requests...
-[04/Apr/2019:11:29:32] connect to [('127.0.0.1', 54735)] from 127.0.0.1 8080
-[04/Apr/2019:11:29:32] Accepted a request from client!
-[04/Apr/2019:11:29:32] connect to [('127.0.0.1', 54736)] from 127.0.0.1 8080
-[04/Apr/2019:11:29:32] Accepted a request from client!
-[04/Apr/2019:11:30:28] Creating server socket...
-[04/Apr/2019:11:30:28] Binding socket to port 8080...
-[04/Apr/2019:11:30:35] Creating server socket...
-[04/Apr/2019:11:30:35] Binding socket to port 8080...
-[04/Apr/2019:11:30:42] Creating server socket...
-[04/Apr/2019:11:30:42] Binding socket to port 8080...
-[04/Apr/2019:11:30:42] Listening for incoming requests...
-[04/Apr/2019:11:30:47] connect to [('127.0.0.1', 54757)] from 127.0.0.1 8080
-[04/Apr/2019:11:30:47] Accepted a request from client!
-[04/Apr/2019:11:32:12] Creating server socket...
-[04/Apr/2019:11:32:12] Binding socket to port 8080...
-[04/Apr/2019:11:32:12] Listening for incoming requests...
-[04/Apr/2019:11:32:15] connect to [('127.0.0.1', 54788)] from 127.0.0.1 8080
-[04/Apr/2019:11:32:15] Accepted a request from client!
-[04/Apr/2019:11:32:55] Creating server socket...
-[04/Apr/2019:11:32:55] Binding socket to port 8080...
-[04/Apr/2019:11:32:55] Listening for incoming requests...
-[04/Apr/2019:11:34:34] connect to [('127.0.0.1', 54824)] from 127.0.0.1 8080
-[04/Apr/2019:11:34:34] Accepted a request from client!
-[04/Apr/2019:11:34:34] Client sent request to proxy with headers:
-----------------------------------------------------------------------
-Host: ocsp.digicert.com
-User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
-Accept: */*
-Accept-Language: en-US,en;q=0.5
-Accept-Encoding: gzip, deflate
-Content-Type: application/ocsp-request
-Content-Length: 83
-Connection: keep-alive
-
-----------------------------------------------------------------------
-
-[04/Apr/2019:11:34:34] Proxy sent request to client with headers: 
-----------------------------------------------------------------------
-Host: ocsp.digicert.com
-User-Agent: CN Proxy Server (v1.0.0)
-Accept: */*
-Accept-Language: en-US,en;q=0.5
-Accept-Encoding: identify
-Content-Type: application/ocsp-request
-Content-Length: 83
-Connection: Close
-
-----------------------------------------------------------------------
-
-[04/Apr/2019:11:34:34] Proxy opening connection to server ('127.0.0.1', 54824)...
-[04/Apr/2019:11:34:34] Connection opened. (('127.0.0.1', 54824))
-[04/Apr/2019:11:34:35] Proxy sent request to server with headers: 
-----------------------------------------------------------------------
-HTTP/1.0 200 OK
-Accept-Ranges: bytes
-Cache-Control: no-cache
-Content-Type: text/html
-Date: Thu, 04 Apr 2019 07:04:35 GMT
-Etag: "496ec931-2e"
-Expires: Sat, 17 Jan 2009 05:27:13 GMT
-Last-Modified: Thu, 15 Jan 2009 05:27:13 GMT
-Server: ECS (ord/573D)
-X-Cache: HIT
-Content-Length: 46
-Connection: close
-----------------------------------------------------------------------
-
-[04/Apr/2019:11:34:35] Proxy sent response to client with headers: 
-----------------------------------------------------------------------
-HTTP/1.0 200 OK
-Accept-Ranges: bytes
-Cache-Control: no-cache
-Content-Type: text/html
-Date: Thu, 04 Apr 2019 07:04:35 GMT
-Etag: "496ec931-2e"
-Expires: Sat, 17 Jan 2009 05:27:13 GMT
-Last-Modified: Thu, 15 Jan 2009 05:27:13 GMT
-Server: ECS (ord/573D)
-X-Cache: HIT
-Content-Length: 46
-Connection: close
-----------------------------------------------------------------------
-
-[04/Apr/2019:11:35:18] connect to [('127.0.0.1', 54842)] from 127.0.0.1 8080
-[04/Apr/2019:11:35:18] Accepted a request from client!
-[04/Apr/2019:11:35:18] Client sent request to proxy with headers:
-----------------------------------------------------------------------
-User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0
-Proxy-Connection: keep-alive
-Connection: keep-alive
-Host: push.services.mozilla.com:443
-
-----------------------------------------------------------------------
-
-[04/Apr/2019:11:35:18] Proxy sent request to client with headers: 
-----------------------------------------------------------------------
-User-Agent: CN Proxy Server (v1.0.0)
-Connection: Close
-Host: push.services.mozilla.com:443
-
-----------------------------------------------------------------------
-
-[04/Apr/2019:11:35:18] Proxy opening connection to server ('127.0.0.1', 54842)...
-[04/Apr/2019:11:35:21] Creating server socket...
-[04/Apr/2019:11:35:21] Binding socket to port 8080...
-[04/Apr/2019:11:35:21] Listening for incoming requests...
-[04/Apr/2019:11:35:25] connect to [('127.0.0.1', 54843)] from 127.0.0.1 8080
-[04/Apr/2019:11:35:25] Accepted a request from client!
-[04/Apr/2019:11:39:25] Creating server socket...
-[04/Apr/2019:11:39:25] Binding socket to port 8080...
-[04/Apr/2019:11:39:25] Listening for incoming requests...
-[04/Apr/2019:11:39:32] connect to [('127.0.0.1', 54913)] from 127.0.0.1 8080
-[04/Apr/2019:11:39:32] Accepted a request from client!
-[04/Apr/2019:11:42:30] Creating server socket...
-[04/Apr/2019:11:42:30] Binding socket to port 8080...
-[04/Apr/2019:11:42:30] Listening for incoming requests...
