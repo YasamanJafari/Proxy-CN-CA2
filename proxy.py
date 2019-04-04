@@ -91,8 +91,9 @@ def processRequest(con, addr):
 	with con:
 		while True:
 			data = con.recv(DATA_SIZE)
-			decreaseVol(addr[0], len(data))
+			# decreaseVol(addr[0], len(data))
 			if not isLegitimate(addr[0]):
+				sendErrorToClient(con, getNotAllowedMsg())
 				break
 
 			data = data.decode("utf-8", "replace")
@@ -103,7 +104,7 @@ def processRequest(con, addr):
 				isFirstPacket = False
 
 				if applyHostRestriction(data):
-					sendErrorToClient(con)
+					sendErrorToClient(con, getForbiddenMsg())
 					break				
 				
 				host, request, path = convertProxyHTTPtoReqHTTP(data)
@@ -142,9 +143,14 @@ def getForbiddenMsg():
 	msg = header + "\r\n\r\n" + RESTRICTION_HTML
 	return msg
 
-def sendErrorToClient(con):
+def getNotAllowedMsg():
+	header = "HTTP/1.1 	406 Not Acceptable\nContent-Type: text/html\nConnection: close\nAccept-Ranges: bytes\nCache-Control: no-cache"
+	msg = header + "\r\n\r\n" + ACCOUNTING_HTML
+	return msg
+
+def sendErrorToClient(con, msg):
 	with con:
-		con.send(getForbiddenMsg().encode())
+		con.send(msg.encode())
 
 def sendRequest(host, request, con, addr, path):
 	writeMsgToFile(OPEN_CONNECTION_SERVER + str(addr) + "...")
@@ -189,7 +195,8 @@ def checkCachData(response):
 		elif "Pragma:" in line:
 			if "no-cache" in line:
 				isCachable = False
-		elif "expires:" in line:
+		if "Expires:" in line:
+			print("EXPIRE!")
 			parts = line.split(" ")
 			expireDate = parts[1]
 	return isCachable, expireDate
