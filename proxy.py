@@ -302,7 +302,7 @@ def sendNotificationEmail(data):
 	msg = emailSocket.recv(10000)
 	emailSocket.send((username + "\r\n").encode())
 	msg = emailSocket.recv(1024)	
-	password = "" #SET USERNAME
+	password = "" #SET PASSWORD
 	emailSocket.send((password + "\r\n").encode())
 	msg = emailSocket.recv(10000)	
 	emailSocket.send(("RCPT TO: <" + RECEIVER_EMAIL + ">\r\n").encode())	
