@@ -136,7 +136,7 @@ def processRequest(con, addr):
 				
 				host, request, path = convertProxyHTTPtoReqHTTP(data)
 			
-			if request in cachedResponses:
+			if getHostAndStart(request) in cachedResponses:
 				if isValid(request):
 					writeMsgToFile(CACHED_DATA_USED + BORDER + getStartLine(request) + getRequestHeader(request) + BORDER)
 					sendCachedResponse(request, con)
@@ -148,8 +148,16 @@ def processRequest(con, addr):
 
 		con.close()
 
+def getHostAndStart(request):
+	startLine = getStartLine(request)
+	header = getRequestHeader(request)
+	lines = header.split(NEW_LINE_DELIM)
+	for line in lines:
+		if "Host:" in line:
+			return startLine + NEW_LINE_DELIM + line
+
 def sendAfterCheckIfModified(host, request, con, addr, path):
-	cachedData = cachedResponses[request]
+	cachedData = cachedResponses[getHostAndStart(request)]
 	expiryDate = cachedData[0]
 	lastModDate = cachedData[2]
 
@@ -167,11 +175,11 @@ def sendAfterCheckIfModified(host, request, con, addr, path):
 	else:
 		dateInReq = expiryDate
 	
-	ifModReq = startLine + NEW_LINE_DELIM + hostLine + NEW_LINE_DELIM + IF_MOD_HEADER + dateInReq + NEW_LINE_DELIM + NEW_LINE_DELIM
+	ifModReq = getHostAndStart(request) + NEW_LINE_DELIM + IF_MOD_HEADER + dateInReq + NEW_LINE_DELIM + NEW_LINE_DELIM
 	sendRequest(host, ifModReq, con, addr, path, True, request)	
 
 def isValid(request):
-	cachedData = cachedResponses[request]
+	cachedData = cachedResponses[getHostAndStart(request)]
 	expiryDate = cachedData[0]
 	if (expiryDate == ""):
 		return False
@@ -182,7 +190,7 @@ def isValid(request):
 
 def sendCachedResponse(request, con):
 	with con:
-		cachedData = cachedResponses[request]
+		cachedData = cachedResponses[getHostAndStart(request)]
 		con.sendall(cachedData[1])
 
 def applyHostRestriction(request, con):
@@ -289,9 +297,7 @@ def checkCacheData(response):
 
 def cache(request, cachingResponse):
 	writeMsgToFile(RESPONSE_IS_CACHED_MSG + BORDER + getStartLine(request) + getRequestHeader(request) + BORDER)
-	if cachingResponse[1] is None:
-		print("NONE###")
-	cachedResponses[request] = cachingResponse
+	cachedResponses[getHostAndStart(request)] = cachingResponse
 
 def getHost(request):
 	host = ""
