@@ -231,7 +231,7 @@ def sendRequest(host, request, con, addr, path, checkingIfMod, sourceReq):
 						#TODO:
 						#update date
 						break
-					if isInjectionNeeded and path == "":
+					if isInjectionNeeded and path == "" and "Content-Type: text/html" in header:
 						if hasBody:
 							info = header + "\r\n\r\n" + addNavBar(body)
 							response = info.encode()
