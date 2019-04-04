@@ -4,6 +4,7 @@ import socket
 import threading
 import signal
 
+
 isLoggingNeeded = False
 isPrivacyNeeded = False
 isInjectionNeeded = False
@@ -116,10 +117,24 @@ def processRequest(con, addr):
 
 def canUseCachedResponse(request):
 	if request in cachedResponses:
-		# if isValidation(request):
-		return True
+		cachedData = cachedResponses.get(request)
+		expiryDate = cachedData[1]
+		if not (expiryDate == ""):
+			if isValidate(expiryDate):
+				return True
+			else:
+				return False
+		else:
+			#checkIfModified()
+			print("CHECK IF-MODIFIED")
 	else:
 		return False
+
+def isValidate(expiryDate):
+	print("CHECK VALIDATION")
+	now = datetime.datetime.now()
+	expire = datetime.datetime.strptime(expiryDate, '%a, %d %b %Y %H:%M:%S GMT')
+	return(expire >= now)
 
 def sendCachedResponse(request, con):
 	print("USING CACHED DATA")
@@ -171,9 +186,9 @@ def sendRequest(host, request, con, addr, path):
 				con.send(response)
 				writeMsgToFile(PROXY_TO_CLIENT_HEADER_MSG + BORDER + header + BORDER)
 			else:
-				cachable, expireDate = checkCacheData(response)
+				cachable, expiryDate = checkCacheData(cachingResponse)
 				if cachable:
-					cache(request, (expireDate, cachingResponse))
+					cache(request, (expiryDate, cachingResponse))
 				break
 		s.close()
 
@@ -181,7 +196,7 @@ def checkCacheData(response):
 	hasBody, header, body = getResponseParts(response)
 	isCachable = True
 	needValidation = False
-	expireDate = ""
+	expiryDate = ""
 	lines = header.split("\r\n")
 	for line in lines:
 		if "Cache-Control:" in line:
@@ -193,12 +208,11 @@ def checkCacheData(response):
 			if "no-cache" in line:
 				isCachable = False
 		elif "Expires:" in line:
-			parts = line.split(" ")
-			expireDate = parts[1]
-			print("HEREEE", expireDate)
+			parts = line.split(" ", 1)
+			expiryDate = parts[1]
 	if needValidation:
-		expireDate = ""
-	return isCachable, expireDate
+		expiryDate = ""
+	return isCachable, expiryDate
 
 def cache(request, cachingResponse):
 	cachedResponses[request] = cachingResponse
