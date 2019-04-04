@@ -224,7 +224,16 @@ def sendRequest(host, request, con, addr, path, checkingIfMod, sourceReq):
 	
 	with con, s:
 		cachingResponse = b""
-		s.connect((socket.gethostbyname(host), 80))
+
+		hostAddr = ""
+		if ":" in host:
+			parts = host.split(":")
+			hostName = parts[0]
+			port = int(parts[1])
+			hostAddr = (socket.gethostbyname(hostName), port)
+		else:
+			hostAddr = (socket.gethostbyname(host), 80)
+		s.connect(hostAddr)
 		writeMsgToFile(SERVER_CONNECTION_OPENED + " (" + str(addr) + ")")
 		s.sendall(request.encode())
 		isFirstPacket = True
@@ -236,8 +245,7 @@ def sendRequest(host, request, con, addr, path, checkingIfMod, sourceReq):
 					if checkingIfMod and (not isModified(response)):
 						writeMsgToFile(CACHED_DATA_USED + BORDER + getStartLine(request) + getRequestHeader(request) + BORDER)
 						sendCachedResponse(sourceReq, con)
-						#TODO:
-						#update date
+			
 						break
 					if isInjectionNeeded and path == "" and "Content-Type: text/html" in header:
 						if hasBody:
