@@ -99,7 +99,8 @@ def processRequest(con, addr):
 	isFirstPacket = True
 	with con:
 		while True:
-			data = con.recv(DATA_SIZE)
+			while not data:
+				data = con.recv(DATA_SIZE)
 			# decreaseVol(addr[0], len(data))
 			if not isLegitimate(addr[0]):
 				sendErrorToClient(con, getNotAllowedMsg())
@@ -122,6 +123,7 @@ def processRequest(con, addr):
 				sendCachedResponse(request, con)
 			else:			
 				sendRequest(host, request, con, addr, path)
+			break
 
 		con.close()
 
@@ -203,6 +205,7 @@ def sendRequest(host, request, con, addr, path):
 				if cachable:
 					cache(request, (expiryDate, cachingResponse))
 				break
+			response = ""
 		s.close()
 
 def checkCacheData(response):
